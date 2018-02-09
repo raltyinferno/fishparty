@@ -1,0 +1,18 @@
+void functionName()
+{
+}
+
+int main(int argc, char** argv)
+{
+	int small;
+	int large_name;
+
+	functionName();
+
+	for(int i = 0; i < 5; i++)
+	{
+		//Stuff
+	}
+
+	return 0;
+}

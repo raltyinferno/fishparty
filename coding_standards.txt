@@ -1,0 +1,8 @@
+-Opening brackets on newlines
+
+-functions at most 2 words, comment right before on any additional necessary info
+(parameters and such)
+
+-no leaving off brackets for single line if,for,etc.
+
+-think what Chappell would say.

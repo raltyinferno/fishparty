@@ -1,0 +1,20 @@
+﻿<Application
+    x:Class="fishparty.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:fishparty"
+    RequestedTheme="Dark">
+    
+
+
+
+
+    <!--Application Resources-->
+    <Application.Resources>
+        <ImageBrush x:Key="splash_image" ImageSource="Images/splash_image.jpg" Opacity=".1" Stretch="UniformToFill" />
+        <ImageBrush x:Key="down_arrow" ImageSource="Assets/down.png" Opacity="1" />
+    </Application.Resources>
+
+</Application>
+
+
