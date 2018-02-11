@@ -27,6 +27,10 @@
 
 
         </RelativePanel>
+        <RelativePanel x:Name="contentPanel" VerticalAlignment="Bottom" HorizontalAlignment="Left">
+            <Button Flyout="{StaticResource guided_tour_nav}" Content="Jump to Section" FontSize="20"/>
+
+        </RelativePanel>
 
     </Grid>
 </Page>

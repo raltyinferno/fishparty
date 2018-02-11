@@ -16,7 +16,7 @@
             </Flyout>
         </FlyoutBase.AttachedFlyout>
 
-        <RelativePanel HorizontalAlignment="Stretch" VerticalAlignment="Top">
+        <RelativePanel HorizontalAlignment="Stretch" VerticalAlignment="Top" >
             <TextBlock TextAlignment="Center"  FontSize="108"  Margin="106,0,-106.667,0">
                      <Span FontSize="140">Welcome</Span> <LineBreak></LineBreak> Ruth Burnett Sports Fish Hatchery
 
@@ -34,58 +34,11 @@
         <!--<Image Source="Assets/floor_overlook.jpg"/>
         <Button x:Name="start_tour_button" Content="Start Tour" HorizontalAlignment="Center" VerticalAlignment="Bottom"  Margin="0,0,0,0" Height="83" Click="start_tour_button_Click"/>-->
 
+        
+
+
         <RelativePanel x:Name="contentPanel" VerticalAlignment="Bottom" HorizontalAlignment="Left">
-            <Hub Header="Jump to Section">
-                <HubSection >
-                    <DataTemplate>
-                        <Grid>
-                            <Button x:Name="water"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="The Water Enters"/>
-                        </Grid>
-                    </DataTemplate>
-                </HubSection>
-                <HubSection >
-                    <DataTemplate>
-                        <Grid>
-                            <Button x:Name="eggs"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Eggs Arrive"/>
-                        </Grid>
-                    </DataTemplate>
-                </HubSection>
-                <HubSection>
-                    <DataTemplate>
-                        <Grid>
-                            <Button x:Name="pre_hatch"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Pre-Hatching"/>
-                        </Grid>
-                    </DataTemplate>
-                </HubSection>
-                <HubSection>
-                    <DataTemplate>
-                        <Grid>
-                            <Button x:Name="tanks"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="The Tanks"/>
-                        </Grid>
-                    </DataTemplate>
-                </HubSection>
-                <HubSection>
-                    <DataTemplate>
-                        <Grid>
-                            <Button x:Name="life_support"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Life Support"/>
-                        </Grid>
-                    </DataTemplate>
-                </HubSection>
-                <HubSection>
-                    <DataTemplate>
-                        <Grid>
-                            <Button x:Name="waste"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Filtering Waste"/>
-                        </Grid>
-                    </DataTemplate>
-                </HubSection>
-                <HubSection>
-                    <DataTemplate>
-                        <Grid>
-                            <Button x:Name="release"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="The Release"/>
-                        </Grid>
-                    </DataTemplate>
-                </HubSection>
-            </Hub>
+            <Button Flyout="{StaticResource guided_tour_nav}" Content="Jump to Section" FontSize="20"/>
 
         </RelativePanel>
 

@@ -13,6 +13,17 @@
     <Application.Resources>
         <ImageBrush x:Key="splash_image" ImageSource="Images/splash_image.jpg" Opacity=".1" Stretch="UniformToFill" />
         <ImageBrush x:Key="down_arrow" ImageSource="Assets/down.png" Opacity="1" />
+        <Flyout x:Key="guided_tour_nav">
+            <StackPanel>
+                <Button x:Name="water"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="The Water Enters"/>
+                <Button x:Name="eggs"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Eggs Arrive"/>
+                <Button x:Name="pre_hatch"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Pre-Hatching"/>
+                <Button x:Name="tanks"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="The Tanks"/>
+                <Button x:Name="life_support"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Life Support"/>
+                <Button x:Name="waste"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Filtering Waste"/>
+                <Button x:Name="release"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="The Release"/>
+            </StackPanel>
+        </Flyout>
     </Application.Resources>
 
 </Application>
