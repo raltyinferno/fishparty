@@ -37,3 +37,9 @@ void fishparty::MainPage::explore_button_Click(Platform::Object^ sender, Windows
 {
 
 }
+
+
+void fishparty::MainPage::Button_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+
+}

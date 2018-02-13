@@ -15,6 +15,7 @@
         <ImageBrush x:Key="down_arrow" ImageSource="Assets/down.png" Opacity="1" />
         <Flyout x:Key="guided_tour_nav">
             <StackPanel>
+                <Button x:Name="home"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Return to Home" />
                 <Button x:Name="water"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="The Water Enters"/>
                 <Button x:Name="eggs"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Eggs Arrive"/>
                 <Button x:Name="pre_hatch"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Pre-Hatching"/>

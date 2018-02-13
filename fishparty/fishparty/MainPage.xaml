@@ -5,16 +5,12 @@
     xmlns:local="using:fishparty"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:fishparty"
     mc:Ignorable="d" Width="1920" Height="1080">
 
 
 
     <Grid Background ="{StaticResource splash_image}">
-        <FlyoutBase.AttachedFlyout>
-            <Flyout>
-                <Grid Height="100" Width="100"/>
-            </Flyout>
-        </FlyoutBase.AttachedFlyout>
 
         <RelativePanel HorizontalAlignment="Stretch" VerticalAlignment="Top" >
             <TextBlock TextAlignment="Center"  FontSize="108"  Margin="106,0,-106.667,0">
@@ -31,14 +27,16 @@
 
 
 
-        <!--<Image Source="Assets/floor_overlook.jpg"/>
-        <Button x:Name="start_tour_button" Content="Start Tour" HorizontalAlignment="Center" VerticalAlignment="Bottom"  Margin="0,0,0,0" Height="83" Click="start_tour_button_Click"/>-->
 
         
 
 
         <RelativePanel x:Name="contentPanel" VerticalAlignment="Bottom" HorizontalAlignment="Left">
-            <Button Flyout="{StaticResource guided_tour_nav}" Content="Jump to Section" FontSize="20"/>
+            <Button Content="Jump to Section" FontSize="20">
+                <Button.Flyout>
+                    <controls:guided_tour_nav />
+                </Button.Flyout>
+            </Button>
 
         </RelativePanel>
 

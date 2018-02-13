@@ -5,6 +5,7 @@
     xmlns:local="using:fishparty"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:fishparty"
     mc:Ignorable="d" Width="1920" Height="1080">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
@@ -28,7 +29,11 @@
 
         </RelativePanel>
         <RelativePanel x:Name="contentPanel" VerticalAlignment="Bottom" HorizontalAlignment="Left">
-            <Button Flyout="{StaticResource guided_tour_nav}" Content="Jump to Section" FontSize="20"/>
+            <Button Content="Jump to Section" FontSize="20">
+                <Button.Flyout>
+                    <controls:guided_tour_nav />
+                </Button.Flyout>
+            </Button>
 
         </RelativePanel>
 
