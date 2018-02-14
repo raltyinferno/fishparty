@@ -8,6 +8,7 @@ fishparty/Debug/*
 fishparty/x64/*
 fishparty/ARM/*
 fishparty/fishparty/Assets/*
+/Images/*
 
 # Compiled source #
 ###################
