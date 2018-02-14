@@ -11,9 +11,9 @@
 
     <!--Application Resources-->
     <Application.Resources>
-        <ImageBrush x:Key="splash_image" ImageSource="Images/splash_image.jpg" Opacity=".1" Stretch="UniformToFill" />
-        <ImageBrush x:Key="hatchery_map" ImageSource="Assets/hatchery_map.jpg" Opacity=".1" Stretch="UniformToFill" />
-        <ImageBrush x:Key="down_arrow" ImageSource="Assets/down.png" Opacity="1" />
+        <ImageBrush x:Key="splash_image" ImageSource="/Images/splash_image.jpg" Opacity=".1" Stretch="UniformToFill" />
+        <ImageBrush x:Key="hatchery_map" ImageSource="/Images/hatchery_map.jpg" Opacity="1" Stretch="UniformToFill" />
+        <ImageBrush x:Key="down_arrow" ImageSource="Images/down.png" Opacity="1" />
         <Flyout x:Key="guided_tour_nav">
             <StackPanel>
                 <Button x:Name="home"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Return to Home" />

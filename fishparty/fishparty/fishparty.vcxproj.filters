@@ -18,13 +18,30 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\LockScreenLogo.scale-200.png" />
-    <Image Include="Assets\SplashScreen.scale-200.png" />
-    <Image Include="Assets\Square150x150Logo.scale-200.png" />
-    <Image Include="Assets\Square44x44Logo.scale-200.png" />
-    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
-    <Image Include="Assets\StoreLogo.png" />
-    <Image Include="Assets\Wide310x150Logo.scale-200.png" />
-    <Image Include="Images\splash_image.jpg" />
+    <Image Include="Images\splash_image.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Images\hatchery_map.jpg">
+      <Filter>images</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest" />
@@ -37,5 +54,10 @@
     <Page Include="tour_page_1.xaml" />
     <Page Include="guided_tour_nav.xaml" />
     <Page Include="hatchery_map.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="images">
+      <UniqueIdentifier>{7d580b69-2d93-4e8e-9176-265f93ee0eaa}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>
