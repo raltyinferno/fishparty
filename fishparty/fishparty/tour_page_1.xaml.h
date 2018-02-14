@@ -20,5 +20,7 @@ namespace fishparty
 		tour_page_1();
 	private:
 		void home_button_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
+		void show_sidebar_Click(Platform::Object ^ sender, Windows::UI::Xaml::RoutedEventArgs ^ e);
+		void hide_sidebar_Click(Platform::Object ^ sender, Windows::UI::Xaml::RoutedEventArgs ^ e);
 	};
 }
