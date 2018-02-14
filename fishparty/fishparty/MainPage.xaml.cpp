@@ -35,7 +35,7 @@ void fishparty::MainPage::start_tour_button_Click(Platform::Object^ sender, Wind
 
 void fishparty::MainPage::explore_button_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-
+	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(hatchery_map::typeid));
 }
 
 

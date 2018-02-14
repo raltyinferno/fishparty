@@ -14,6 +14,7 @@
     <ClInclude Include="App.xaml.h" />
     <ClInclude Include="MainPage.xaml.h" />
     <ClInclude Include="tour_page_1.xaml.h" />
+    <ClInclude Include="directory.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\LockScreenLogo.scale-200.png" />
@@ -35,5 +36,6 @@
     <Page Include="MainPage.xaml" />
     <Page Include="tour_page_1.xaml" />
     <Page Include="guided_tour_nav.xaml" />
+    <Page Include="hatchery_map.xaml" />
   </ItemGroup>
 </Project>

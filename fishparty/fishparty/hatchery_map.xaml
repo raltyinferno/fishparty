@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="fishparty.hatchery_map"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:fishparty"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:fishparty"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource hatchery_map}">
+        <RelativePanel x:Name="contentPanel" VerticalAlignment="Bottom" HorizontalAlignment="Left">
+            <Button Content="Jump to Section" FontSize="20">
+                <Button.Flyout>
+                    <controls:guided_tour_nav />
+                </Button.Flyout>
+            </Button>
+
+        </RelativePanel>
+    </Grid>
+</Page>

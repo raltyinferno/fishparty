@@ -6,7 +6,7 @@
 #pragma once
 
 #include "MainPage.g.h"
-#include "tour_page_1.xaml.h"
+#include "directory.h"
 
 namespace fishparty
 {
