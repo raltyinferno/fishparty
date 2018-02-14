@@ -6,6 +6,7 @@
 #pragma once
 
 #include "App.g.h"
+#include "MainPage.xaml.h"
 
 namespace fishparty
 {
@@ -23,5 +24,6 @@ namespace fishparty
 	private:
 		void OnSuspending(Platform::Object^ sender, Windows::ApplicationModel::SuspendingEventArgs^ e);
 		void OnNavigationFailed(Platform::Object ^sender, Windows::UI::Xaml::Navigation::NavigationFailedEventArgs ^e);
+		
 	};
 }

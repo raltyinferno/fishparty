@@ -1,0 +1,20 @@
+﻿<Flyout
+    x:Class="fishparty.guided_tour_nav"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:fishparty"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+   >
+    <StackPanel>
+        <Button x:Name="home"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Return to Home" Click="home_button_Click"/>
+        <Button x:Name="water"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="The Water Enters"/>
+        <Button x:Name="eggs"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Eggs Arrive"/>
+        <Button x:Name="pre_hatch"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Pre-Hatching"/>
+        <Button x:Name="tanks"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="The Tanks"/>
+        <Button x:Name="life_support"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Life Support"/>
+        <Button x:Name="waste"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Filtering Waste"/>
+        <Button x:Name="release"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="The Release"/>
+    </StackPanel>
+</Flyout>
