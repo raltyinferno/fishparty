@@ -5,6 +5,9 @@
     <ClCompile Include="MainPage.xaml.cpp" />
     <ClCompile Include="pch.cpp" />
     <ClCompile Include="tour_page_1.xaml.cpp" />
+    <ClCompile Include="guided_tour_nav.xaml.cpp" />
+    <ClCompile Include="hatchery_map.xaml.cpp" />
+    <ClCompile Include="water_treatment.xaml.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
@@ -14,6 +17,9 @@
     <ClInclude Include="directory.h">
       <Filter>global resources</Filter>
     </ClInclude>
+    <ClInclude Include="guided_tour_nav.xaml.h" />
+    <ClInclude Include="hatchery_map.xaml.h" />
+    <ClInclude Include="water_treatment.xaml.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Images\splash_image.jpg">
