@@ -6,6 +6,7 @@
 #pragma once
 
 #include "guided_tour_nav.g.h"
+#include "directory.h"
 
 namespace fishparty
 {
@@ -14,6 +15,9 @@ namespace fishparty
 	{
 	public:
 		guided_tour_nav();
+
+	private:
 		void home_button_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
+		void water_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 	};
 }

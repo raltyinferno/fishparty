@@ -1,9 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ApplicationDefinition Include="App.xaml" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="App.xaml.cpp" />
     <ClCompile Include="MainPage.xaml.cpp" />
     <ClCompile Include="pch.cpp" />
@@ -14,10 +11,11 @@
     <ClInclude Include="App.xaml.h" />
     <ClInclude Include="MainPage.xaml.h" />
     <ClInclude Include="tour_page_1.xaml.h" />
-    <ClInclude Include="directory.h" />
+    <ClInclude Include="directory.h">
+      <Filter>global resources</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="Assets\LockScreenLogo.scale-200.png" />
     <Image Include="Images\splash_image.jpg">
       <Filter>images</Filter>
     </Image>
@@ -42,6 +40,9 @@
     <Image Include="Images\hatchery_map.jpg">
       <Filter>images</Filter>
     </Image>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>images</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest" />
@@ -52,12 +53,28 @@
   <ItemGroup>
     <Page Include="MainPage.xaml" />
     <Page Include="tour_page_1.xaml" />
-    <Page Include="guided_tour_nav.xaml" />
     <Page Include="hatchery_map.xaml" />
+    <Page Include="water_treatment.xaml">
+      <Filter>tour pages</Filter>
+    </Page>
+    <Page Include="guided_tour_nav.xaml">
+      <Filter>global resources</Filter>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="images">
       <UniqueIdentifier>{7d580b69-2d93-4e8e-9176-265f93ee0eaa}</UniqueIdentifier>
     </Filter>
+    <Filter Include="tour pages">
+      <UniqueIdentifier>{0880312c-8577-4e15-9606-3b825fa38c2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="global resources">
+      <UniqueIdentifier>{9266ecd1-a0c9-40a3-9b41-d2be0630f476}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Filter>global resources</Filter>
+    </ApplicationDefinition>
   </ItemGroup>
 </Project>
