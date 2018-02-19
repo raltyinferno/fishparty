@@ -136,6 +136,9 @@
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="fivetanks.xaml.h">
+      <DependentUpon>fivetanks.xaml</DependentUpon>
+    </ClInclude>
     <ClInclude Include="directory.h" />
     <ClInclude Include="guided_tour_nav.xaml.h">
       <DependentUpon>guided_tour_nav.xaml</DependentUpon>
@@ -164,6 +167,9 @@
     <ApplicationDefinition Include="App.xaml">
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="fivetanks.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="guided_tour_nav.xaml" />
     <Page Include="hatchery_map.xaml">
       <SubType>Designer</SubType>
@@ -202,6 +208,9 @@
     <Image Include="Assets\Wide310x150Logo.scale-200.png" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="fivetanks.xaml.cpp">
+      <DependentUpon>fivetanks.xaml</DependentUpon>
+    </ClCompile>
     <ClCompile Include="App.xaml.cpp">
       <DependentUpon>App.xaml</DependentUpon>
     </ClCompile>

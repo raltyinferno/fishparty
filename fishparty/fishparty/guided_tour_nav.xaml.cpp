@@ -45,3 +45,10 @@ void fishparty::guided_tour_nav::eggs_Click(Platform::Object^ sender, Windows::U
 	auto rootFrame = dynamic_cast<Frame^>(Window::Current->Content);
 	rootFrame->Navigate(Windows::UI::Xaml::Interop::TypeName(incubation::typeid));
 }
+
+
+void fishparty::guided_tour_nav::five_tanks_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	auto rootFrame = dynamic_cast<Frame^>(Window::Current->Content);
+	rootFrame->Navigate(Windows::UI::Xaml::Interop::TypeName(fivetanks::typeid));
+}

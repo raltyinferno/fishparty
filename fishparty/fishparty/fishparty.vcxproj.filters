@@ -78,6 +78,9 @@
     <Page Include="incubation.xaml">
       <Filter>Guided tour pages</Filter>
     </Page>
+    <Page Include="fivetanks.xaml">
+      <Filter>Guided tour pages</Filter>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="images">

@@ -21,5 +21,6 @@ namespace fishparty
 		void home_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void water_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void eggs_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
+		void five_tanks_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 	};
 }
