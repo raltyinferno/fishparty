@@ -143,6 +143,9 @@
     <ClInclude Include="hatchery_map.xaml.h">
       <DependentUpon>hatchery_map.xaml</DependentUpon>
     </ClInclude>
+    <ClInclude Include="incubation.xaml.h">
+      <DependentUpon>incubation.xaml</DependentUpon>
+    </ClInclude>
     <ClInclude Include="pch.h" />
     <ClInclude Include="App.xaml.h">
       <DependentUpon>App.xaml</DependentUpon>
@@ -165,6 +168,9 @@
     <Page Include="hatchery_map.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="incubation.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="MainPage.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -182,7 +188,9 @@
     <None Include="fishparty_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="Assets\boiler_room.jpg" />
     <Image Include="Assets\down.png" />
+    <Image Include="Assets\egg_intake.jpg" />
     <Image Include="Assets\hatchery_map.jpg" />
     <Image Include="Assets\LockScreenLogo.scale-200.png" />
     <Image Include="Assets\SplashScreen.scale-200.png" />
@@ -202,6 +210,9 @@
     </ClCompile>
     <ClCompile Include="hatchery_map.xaml.cpp">
       <DependentUpon>hatchery_map.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="incubation.xaml.cpp">
+      <DependentUpon>incubation.xaml</DependentUpon>
     </ClCompile>
     <ClCompile Include="MainPage.xaml.cpp">
       <DependentUpon>MainPage.xaml</DependentUpon>

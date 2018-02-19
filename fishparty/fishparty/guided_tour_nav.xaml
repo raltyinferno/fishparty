@@ -9,9 +9,9 @@
     mc:Ignorable="d"
    >
     <StackPanel>
-        <Button x:Name="home"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Return to Home" Click="home_button_Click"/>
+        <Button x:Name="home"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Return to Home" Click="home_Click"/>
         <Button x:Name="water"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="The Water Enters" Click="water_Click"/>
-        <Button x:Name="eggs"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Eggs Arrive"/>
+        <Button x:Name="eggs"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Eggs Arrive" Click="eggs_Click"/>
         <Button x:Name="pre_hatch"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Pre-Hatching"/>
         <Button x:Name="tanks"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="The Tanks"/>
         <Button x:Name="life_support"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Life Support"/>

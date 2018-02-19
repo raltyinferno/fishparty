@@ -20,9 +20,6 @@
     <ClInclude Include="directory.h">
       <Filter>Global Resources</Filter>
     </ClInclude>
-    <ClInclude Include="guided_tour_nav.xaml.h" />
-    <ClInclude Include="hatchery_map.xaml.h" />
-    <ClInclude Include="water_treatment.xaml.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\SplashScreen.scale-200.png">
@@ -55,6 +52,12 @@
     <Image Include="Assets\down.png">
       <Filter>images</Filter>
     </Image>
+    <Image Include="Assets\egg_intake.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\boiler_room.jpg">
+      <Filter>images</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest" />
@@ -70,6 +73,9 @@
       <Filter>Global Resources</Filter>
     </Page>
     <Page Include="water_treatment.xaml">
+      <Filter>Guided tour pages</Filter>
+    </Page>
+    <Page Include="incubation.xaml">
       <Filter>Guided tour pages</Filter>
     </Page>
   </ItemGroup>

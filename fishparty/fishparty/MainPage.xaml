@@ -27,18 +27,6 @@
         </RelativePanel>
 
 
-        <Button x:Name="button" HorizontalAlignment="Right" Width="65">
-            <Button.Flyout>
-                <Flyout>
-                    <Button Click="explore_button_Click" />
-
-                </Flyout>
-            </Button.Flyout>
-        </Button>
-
-
-
-
         <RelativePanel x:Name="contentPanel" VerticalAlignment="Bottom" HorizontalAlignment="Left">
             
             <Button Content="Jump to Section" FontSize="20">

@@ -15,10 +15,11 @@ namespace fishparty
 	{
 	public:
 		guided_tour_nav();
-		void home_button_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
-		void water_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
+		
 
 	private:
-		
+		void home_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
+		void water_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
+		void eggs_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 	};
 }
