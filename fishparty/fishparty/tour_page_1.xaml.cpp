@@ -35,9 +35,9 @@ tour_page_1::tour_page_1()
 void fishparty::tour_page_1::start_Timer()
 {
 	TimeSpan period;
-	int time_seconds =  30*5; // Pull from file for adjustable timeout
 
-	period.Duration = time_seconds * 10000000; // 10,000,000 ticks per second
+
+	period.Duration = 60 * 10000000; // 10,000,000 ticks per second
 
 
 	canceled = false;
@@ -80,8 +80,16 @@ void fishparty::tour_page_1::start_Timer()
 			if (!canceled)
 			{
 				// Timer completed.
-
-				this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(MainPage::typeid));
+				if (minutes_passed >= num_minutes - 1)
+				{
+					this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(MainPage::typeid));
+				}
+				else
+				{
+					minutes_passed++;
+					start_Timer();
+				}
+				
 			}
 			else
 			{
@@ -104,6 +112,7 @@ void fishparty::tour_page_1::home_button_Click(Platform::Object^ sender, Windows
 
 void fishparty::tour_page_1::Page_Loaded(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
+	minutes_passed = 0;
 	start_Timer();
 }
 
