@@ -18,7 +18,16 @@ namespace fishparty
 	{
 	public:
 		tour_page_1();
+		void start_Timer();
 	private:
+		bool canceled;
+
 		void home_button_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
+
+		void Page_Loaded(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
+		void timer_button_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 	};
+
+
+
 }

@@ -20,6 +20,9 @@
     <ClInclude Include="directory.h">
       <Filter>Global Resources</Filter>
     </ClInclude>
+    <ClInclude Include="guided_tour_nav.xaml.h" />
+    <ClInclude Include="hatchery_map.xaml.h" />
+    <ClInclude Include="water_treatment.xaml.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\SplashScreen.scale-200.png">
