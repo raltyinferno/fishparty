@@ -3,14 +3,15 @@
   <ItemGroup>
     <ClCompile Include="App.xaml.cpp" />
     <ClCompile Include="MainPage.xaml.cpp" />
-    <ClCompile Include="pch.cpp" />
     <ClCompile Include="tour_page_1.xaml.cpp" />
     <ClCompile Include="guided_tour_nav.xaml.cpp" />
     <ClCompile Include="hatchery_map.xaml.cpp" />
     <ClCompile Include="water_treatment.xaml.cpp" />
+    <ClCompile Include="pch.cpp">
+      <Filter>generated files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="pch.h" />
     <ClInclude Include="App.xaml.h" />
     <ClInclude Include="MainPage.xaml.h" />
     <ClInclude Include="tour_page_1.xaml.h" />
@@ -19,6 +20,9 @@
     <ClInclude Include="water_treatment.xaml.h" />
     <ClInclude Include="directory.h">
       <Filter>Global Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>generated files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -60,12 +64,6 @@
     </Image>
   </ItemGroup>
   <ItemGroup>
-    <AppxManifest Include="Package.appxmanifest" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="fishparty_TemporaryKey.pfx" />
-  </ItemGroup>
-  <ItemGroup>
     <Page Include="MainPage.xaml" />
     <Page Include="tour_page_1.xaml" />
     <Page Include="hatchery_map.xaml" />
@@ -92,10 +90,23 @@
     <Filter Include="Global Resources">
       <UniqueIdentifier>{838ffa95-d41e-4441-92c8-24a37eb11479}</UniqueIdentifier>
     </Filter>
+    <Filter Include="generated files">
+      <UniqueIdentifier>{211cf85c-d35e-4dd8-91f4-dfdb6b0b4bac}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
       <Filter>Global Resources</Filter>
     </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <Filter>generated files</Filter>
+    </AppxManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fishparty_TemporaryKey.pfx">
+      <Filter>generated files</Filter>
+    </None>
   </ItemGroup>
 </Project>

@@ -35,7 +35,7 @@ tour_page_1::tour_page_1()
 void fishparty::tour_page_1::start_Timer()
 {
 	TimeSpan period;
-	int time_seconds = 60 * 5; // Pull from file for adjustable timeout
+	int time_seconds =  30*5; // Pull from file for adjustable timeout
 
 	period.Duration = time_seconds * 10000000; // 10,000,000 ticks per second
 
