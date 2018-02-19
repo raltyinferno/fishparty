@@ -6,7 +6,8 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:controls="using:fishparty"
-    mc:Ignorable="d" Width="1920" Height="1080">
+    mc:Ignorable="d" Width="1920" Height="1080"
+    Loaded="Page_Loaded">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
@@ -15,6 +16,12 @@
             <Button x:Name="home_button"  HorizontalAlignment="Center"  VerticalAlignment="Top" Click="home_button_Click" >
                 <Grid>
                     <TextBlock x:Name="textBlock" HorizontalAlignment="Center"  TextWrapping="Wrap" Text="PAGE 2 HELL YEAH" VerticalAlignment="Bottom"/>
+                    <Image Height="50" Width="50" Source="Assets/down.png"/>
+                </Grid>
+            </Button>
+            <Button x:Name="timer_button"  HorizontalAlignment="Center"  VerticalAlignment="Top" Click="timer_button_Click" >
+                <Grid>
+                    <TextBlock x:Name="textBlock1" HorizontalAlignment="Center"  TextWrapping="Wrap" Text="Cancel Timeout" VerticalAlignment="Bottom"/>
                     <Image Height="50" Width="50" Source="Assets/down.png"/>
                 </Grid>
             </Button>
