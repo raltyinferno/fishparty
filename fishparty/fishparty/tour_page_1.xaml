@@ -23,7 +23,7 @@
 
         <RelativePanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
             
-            <Image Height="250" Width="500"  Stretch="UniformToFill" Source="/Images/splash_image.jpg" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <Image Height="250" Width="500"  Stretch="UniformToFill" Source="/Assets/splash_image.jpg" VerticalAlignment="Center" HorizontalAlignment="Center"/>
 
 
 
@@ -34,7 +34,6 @@
                     <controls:guided_tour_nav />
                 </Button.Flyout>
             </Button>
-
         </RelativePanel>
 
     </Grid>

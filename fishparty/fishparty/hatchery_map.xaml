@@ -10,7 +10,7 @@
 
     <Grid Background="{StaticResource hatchery_map}">
         <RelativePanel x:Name="contentPanel" VerticalAlignment="Bottom" HorizontalAlignment="Left">
-            <Button Content="Jump to Section" FontSize="20">
+            <Button Content="Jump to Section" FontSize="20" RequestedTheme="Light">
                 <Button.Flyout>
                     <controls:guided_tour_nav />
                 </Button.Flyout>

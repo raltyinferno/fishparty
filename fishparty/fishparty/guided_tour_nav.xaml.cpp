@@ -25,30 +25,24 @@ guided_tour_nav::guided_tour_nav()
 {
 	InitializeComponent();
 }
-
 void fishparty::guided_tour_nav::home_button_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
 	auto nav_Frame = ref new Frame();
-	if (Window::Current->Content != nav_Frame)
-	{
-		nav_Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(MainPage::typeid));
-		Window::Current->Content = nav_Frame;
-		Window::Current->Activate();
-	}
+	nav_Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(MainPage::typeid));
+	Window::Current->Content = nav_Frame;
+	Window::Current->Activate();
 }
 
 
 void fishparty::guided_tour_nav::water_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
 	auto nav_Frame = ref new Frame();
-	if (Window::Current->Content != nav_Frame)
-	{
-		nav_Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(water_treatment::typeid));
-		Window::Current->Content = nav_Frame;
-		Window::Current->Activate();
-	}
-	
+	nav_Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(water_treatment::typeid));
+	Window::Current->Content = nav_Frame;
+	Window::Current->Activate();
 
-	VisualTreeHelper^ getter;
-	//auto flyout = getter->GetParent(*button_stack);
+	DependencyObject^ b = (DependencyObject^)sender;
+	VisualTreeHelper^ t;;
+	auto fly = t->GetParent(t->GetParent(b));
+	//fly->GetValue()->Hide();
 }

@@ -8,8 +8,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
    >
-    <Grid x:Name="button_stack">
-        <StackPanel>
+    <StackPanel>
         <Button x:Name="home"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Return to Home" Click="home_button_Click"/>
         <Button x:Name="water"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="The Water Enters" Click="water_Click"/>
         <Button x:Name="eggs"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Eggs Arrive"/>
@@ -19,5 +18,4 @@
         <Button x:Name="waste"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Filtering Waste"/>
         <Button x:Name="release"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="The Release"/>
     </StackPanel>
-    </Grid>
 </Flyout>
