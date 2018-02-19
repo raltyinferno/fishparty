@@ -25,24 +25,16 @@ guided_tour_nav::guided_tour_nav()
 {
 	InitializeComponent();
 }
+
 void fishparty::guided_tour_nav::home_button_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	auto nav_Frame = ref new Frame();
-	nav_Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(MainPage::typeid));
-	Window::Current->Content = nav_Frame;
-	Window::Current->Activate();
+	auto rootFrame = dynamic_cast<Frame^>(Window::Current->Content);
+	rootFrame->Navigate(Windows::UI::Xaml::Interop::TypeName(MainPage::typeid));
 }
 
 
 void fishparty::guided_tour_nav::water_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	auto nav_Frame = ref new Frame();
-	nav_Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(water_treatment::typeid));
-	Window::Current->Content = nav_Frame;
-	Window::Current->Activate();
-
-	DependencyObject^ b = (DependencyObject^)sender;
-	VisualTreeHelper^ t;;
-	auto fly = t->GetParent(t->GetParent(b));
-	//fly->GetValue()->Hide();
+	auto rootFrame = dynamic_cast<Frame^>(Window::Current->Content);
+	rootFrame->Navigate(Windows::UI::Xaml::Interop::TypeName(water_treatment::typeid));
 }

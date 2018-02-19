@@ -21,17 +21,26 @@
             <Button x:Name="tour_button" Content="Start Tour" Click="start_tour_button_Click" HorizontalAlignment="Center" Height="78" FontSize="24" Margin="887,481,887,521" Width="146"/>
 
             <Button x:Name="explore_button" Content="Explore" Click="explore_button_Click"  HorizontalAlignment="Center" Width="146" Height="78" FontSize="24" Margin="887,676,887,326"/>
+            
 
 
         </RelativePanel>
 
 
+        <Button x:Name="button" HorizontalAlignment="Right" Width="65">
+            <Button.Flyout>
+                <Flyout>
+                    <Button Click="explore_button_Click" />
+
+                </Flyout>
+            </Button.Flyout>
+        </Button>
 
 
-        
 
 
         <RelativePanel x:Name="contentPanel" VerticalAlignment="Bottom" HorizontalAlignment="Left">
+            
             <Button Content="Jump to Section" FontSize="20">
                 <Button.Flyout>
                     <controls:guided_tour_nav />
