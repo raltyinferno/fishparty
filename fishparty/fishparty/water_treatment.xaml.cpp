@@ -25,3 +25,12 @@ water_treatment::water_treatment()
 {
 	InitializeComponent();
 }
+
+
+
+
+
+void fishparty::water_treatment::next_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(incubation::typeid));
+}

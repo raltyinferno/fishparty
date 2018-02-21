@@ -10,6 +10,8 @@
     <ClCompile Include="pch.cpp">
       <Filter>generated files</Filter>
     </ClCompile>
+    <ClCompile Include="fivetanks.xaml.cpp" />
+    <ClCompile Include="incubation.xaml.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="App.xaml.h" />
@@ -24,6 +26,8 @@
     <ClInclude Include="pch.h">
       <Filter>generated files</Filter>
     </ClInclude>
+    <ClInclude Include="fivetanks.xaml.h" />
+    <ClInclude Include="incubation.xaml.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\SplashScreen.scale-200.png">

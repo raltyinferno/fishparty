@@ -52,3 +52,4 @@ void fishparty::guided_tour_nav::five_tanks_Click(Platform::Object^ sender, Wind
 	auto rootFrame = dynamic_cast<Frame^>(Window::Current->Content);
 	rootFrame->Navigate(Windows::UI::Xaml::Interop::TypeName(fivetanks::typeid));
 }
+

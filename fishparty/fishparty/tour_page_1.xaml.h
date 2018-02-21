@@ -21,7 +21,7 @@ namespace fishparty
 		void start_Timer();
 	private:
 		bool canceled;
-		int num_minutes = 5; // Pull from file for adjustable timeout
+		int num_minutes = 1; // Pull from file for adjustable timeout
 		int minutes_passed;
 
 		void home_button_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);

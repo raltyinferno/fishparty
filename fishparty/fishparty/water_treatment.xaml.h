@@ -17,5 +17,7 @@ namespace fishparty
 	{
 	public:
 		water_treatment();
+	private:
+		void next_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 	};
 }
