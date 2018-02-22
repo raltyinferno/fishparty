@@ -195,10 +195,12 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\boiler_room.jpg" />
+    <Image Include="Assets\boiler_room2.jpg" />
     <Image Include="Assets\down.png" />
     <Image Include="Assets\egg_intake.jpg" />
     <Image Include="Assets\hatchery_map.jpg" />
     <Image Include="Assets\LockScreenLogo.scale-200.png" />
+    <Image Include="Assets\salmon.gif" />
     <Image Include="Assets\SplashScreen.scale-200.png" />
     <Image Include="Assets\splash_image.jpg" />
     <Image Include="Assets\Square150x150Logo.scale-200.png" />

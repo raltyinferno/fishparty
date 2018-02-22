@@ -13,10 +13,14 @@
 
         <StackPanel x:Name="Page_Title" HorizontalAlignment="Center" VerticalAlignment="Bottom">
             
-            <Button x:Name="home_button"  HorizontalAlignment="Center"  VerticalAlignment="Top" Click="home_button_Click" >
+            <Button x:Name="home_button"  HorizontalAlignment="Center"  VerticalAlignment="Top" Click="home_button_Click" Height="Auto">
                 <Grid>
-                    <TextBlock x:Name="textBlock" HorizontalAlignment="Center"  TextWrapping="Wrap" Text="PAGE 2 HELL YEAH" VerticalAlignment="Bottom"/>
-                    <Image Height="50" Width="50" Source="Assets/down.png"/>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock x:Name="textBlock" HorizontalAlignment="Center"  TextWrapping="Wrap" Text="PAGE 2 HELL YEAH" VerticalAlignment="Bottom" Grid.Row="1"/>
+                    <Image Height="50" Width="50" Source="Assets/down.png" Grid.Row="2"/>
                 </Grid>
             </Button>
             <Button x:Name="timer_button"  HorizontalAlignment="Center"  VerticalAlignment="Top" Click="timer_button_Click" >
@@ -29,9 +33,9 @@
 
 
         <RelativePanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
-            
-            <Image Height="250" Width="500"  Stretch="UniformToFill" Source="/Assets/splash_image.jpg" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-
+            <Button>
+                <Image Height="100" Width="200"  Stretch="UniformToFill" Source="/Assets/salmon.gif" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </Button>
 
 
         </RelativePanel>

@@ -8,7 +8,7 @@
     xmlns:controls="using:fishparty"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Background="{StaticResource boiler_room}">
         <RelativePanel x:Name="contentPanel" VerticalAlignment="Bottom" HorizontalAlignment="Left">
             <Button Content="Jump to Section" FontSize="20">
                 <Button.Flyout>
@@ -16,7 +16,7 @@
                 </Button.Flyout>
             </Button>
         </RelativePanel>
-        <Image x:Name="image" HorizontalAlignment="Left" Height="500" Source="/Assets/boiler_room.jpg" Margin="769,290,0,0" VerticalAlignment="Top" />
+        <!--<Image x:Name="image" HorizontalAlignment="Left" Height="500" Source="/Assets/boiler_room.jpg" Margin="769,290,0,0" VerticalAlignment="Top" />-->
         <Button x:Name="button" Content="Go to eggs" HorizontalAlignment="Left" Margin="911,885,0,0" VerticalAlignment="Top" Click="next_page_Click"/>
     </Grid>
 </Page>

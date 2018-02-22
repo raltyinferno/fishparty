@@ -9,6 +9,11 @@
     mc:Ignorable="d"
    >
     <StackPanel>
+        <StackPanel.Resources>
+            <Style TargetType="Button">
+                <Setter Property="Margin" Value="0,0,0,20"/>
+            </Style>
+        </StackPanel.Resources>
         <Button x:Name="home"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Return to Home" Click="home_Click"/>
         <Button x:Name="water"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="The Water Enters" Click="water_Click"/>
         <Button x:Name="eggs"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Eggs Arrive" Click="eggs_Click"/>
