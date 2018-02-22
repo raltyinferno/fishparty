@@ -7,6 +7,20 @@
 // to a number of minutes defined by num_minutes in Hometimer.h
 // Upon completion without interruption, timer returns the program
 // to the main page.
+fishparty::Hometimer::Hometimer()
+{
+	this->start_Timer();
+}
+
+fishparty::Hometimer::~Hometimer()
+{
+	if (!canceled)
+	{
+		this->cancel_Timer();
+	}
+}
+
+
 void fishparty::Hometimer::start_Timer()
 {
 	TimeSpan period;

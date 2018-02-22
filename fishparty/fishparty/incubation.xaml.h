@@ -6,6 +6,7 @@
 #pragma once
 
 #include "incubation.g.h"
+#include "directory.h"
 
 namespace fishparty
 {

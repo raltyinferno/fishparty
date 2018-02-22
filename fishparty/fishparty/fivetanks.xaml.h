@@ -6,6 +6,7 @@
 #pragma once
 
 #include "fivetanks.g.h"
+#include "directory.h"
 
 namespace fishparty
 {

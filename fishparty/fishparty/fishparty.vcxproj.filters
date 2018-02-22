@@ -1,9 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ApplicationDefinition Include="App.xaml" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="fivetanks.xaml.cpp" />
     <ClCompile Include="App.xaml.cpp" />
     <ClCompile Include="guided_tour_nav.xaml.cpp" />
@@ -13,10 +10,12 @@
     <ClCompile Include="pch.cpp" />
     <ClCompile Include="tour_page_1.xaml.cpp" />
     <ClCompile Include="water_treatment.xaml.cpp" />
+    <ClCompile Include="Hometimer.cpp">
+      <Filter>global resources</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="fivetanks.xaml.h" />
-    <ClInclude Include="directory.h" />
     <ClInclude Include="guided_tour_nav.xaml.h" />
     <ClInclude Include="hatchery_map.xaml.h" />
     <ClInclude Include="incubation.xaml.h" />
@@ -33,9 +32,39 @@
     </ClInclude>
     <ClInclude Include="fivetanks.xaml.h" />
     <ClInclude Include="incubation.xaml.h" />
+    <ClInclude Include="Hometimer.h">
+      <Filter>global resources</Filter>
+    </ClInclude>
+    <ClInclude Include="directory.h">
+      <Filter>global resources</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <Image Include="Assets\boiler_room.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\boiler_room2.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\down.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\egg_intake.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\hatchery_map.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\splash_image.jpg">
+      <Filter>images</Filter>
+    </Image>
     <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\salmon.gif">
       <Filter>images</Filter>
     </Image>
     <Image Include="Assets\Square44x44Logo.scale-200.png">
@@ -53,31 +82,16 @@
     <Image Include="Assets\Wide310x150Logo.scale-200.png">
       <Filter>images</Filter>
     </Image>
-    <Image Include="Assets\LockScreenLogo.scale-200.png">
+    <Image Include="Assets\test_header.png">
       <Filter>images</Filter>
     </Image>
-    <Image Include="Assets\hatchery_map.jpg">
-      <Filter>images</Filter>
-    </Image>
-    <Image Include="Assets\splash_image.jpg">
-      <Filter>images</Filter>
-    </Image>
-    <Image Include="Assets\down.png">
-      <Filter>images</Filter>
-    </Image>
-    <Image Include="Assets\egg_intake.jpg">
-      <Filter>images</Filter>
-    </Image>
-    <Image Include="Assets\boiler_room.jpg">
-      <Filter>images</Filter>
-    </Image>
-    <Image Include="Assets\boiler_room2.jpg">
-      <Filter>images</Filter>
-    </Image>
-    <Image Include="Assets\salmon.gif">
+    <Image Include="Assets\test_header2.png">
       <Filter>images</Filter>
     </Image>
     <Image Include="Assets\fishparty_bubble.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\filter.gif">
       <Filter>images</Filter>
     </Image>
     <Image Include="Assets\fishparty_splash_background.png">
@@ -88,17 +102,17 @@
     <Page Include="MainPage.xaml" />
     <Page Include="tour_page_1.xaml" />
     <Page Include="hatchery_map.xaml" />
-    <Page Include="guided_tour_nav.xaml">
-      <Filter>Global Resources</Filter>
-    </Page>
-    <Page Include="water_treatment.xaml">
-      <Filter>Guided tour pages</Filter>
+    <Page Include="fivetanks.xaml">
+      <Filter>guided tour pages</Filter>
     </Page>
     <Page Include="incubation.xaml">
-      <Filter>Guided tour pages</Filter>
+      <Filter>guided tour pages</Filter>
     </Page>
-    <Page Include="fivetanks.xaml">
-      <Filter>Guided tour pages</Filter>
+    <Page Include="water_treatment.xaml">
+      <Filter>guided tour pages</Filter>
+    </Page>
+    <Page Include="guided_tour_nav.xaml">
+      <Filter>global resources</Filter>
     </Page>
   </ItemGroup>
   <ItemGroup>
@@ -106,7 +120,6 @@
     <Image Include="Assets\boiler_room2.jpg" />
     <Image Include="Assets\down.png" />
     <Image Include="Assets\egg_intake.jpg" />
-    <Image Include="Assets\filter.gif" />
     <Image Include="Assets\fishparty_bubble.png" />
     <Image Include="Assets\fishparty_splash_background.png" />
     <Image Include="Assets\hatchery_map.jpg" />
@@ -118,9 +131,7 @@
     <Image Include="Assets\Square44x44Logo.scale-200.png" />
     <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
     <Image Include="Assets\StoreLogo.png" />
-    <Image Include="Assets\test_header.png" />
     <Image Include="Assets\Wide310x150Logo.scale-200.png" />
-    <Image Include="Assets\test_header2.png" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest" />
@@ -136,5 +147,21 @@
     <Page Include="MainPage.xaml" />
     <Page Include="tour_page_1.xaml" />
     <Page Include="water_treatment.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="images">
+      <UniqueIdentifier>{5526f43e-2e24-4915-ad89-129814ac0536}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="guided tour pages">
+      <UniqueIdentifier>{445dc536-6ea4-48e0-b157-53fab2ba2884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="global resources">
+      <UniqueIdentifier>{73306c8b-304a-493d-8c9e-a80b563fbf4f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Filter>global resources</Filter>
+    </ApplicationDefinition>
   </ItemGroup>
 </Project>

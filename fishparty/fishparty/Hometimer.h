@@ -19,12 +19,15 @@ using namespace Windows::UI::Core;
 namespace fishparty
 {
 	
-	public ref class Hometimer sealed
+	class Hometimer
 	{
 	public:
 		void start_Timer();
 		void reset_Timer();
 		void cancel_Timer();
+		Hometimer();
+		~Hometimer();
+		//virtual ~Hometimer();
 	private:
 		ThreadPoolTimer ^ home_timer;
 		bool canceled;
