@@ -43,6 +43,7 @@ void fishparty::water_treatment::iron_display_Click(Platform::Object^ sender, Wi
 	auto uri = ref new Windows::Foundation::Uri("ms-appx:///Assets/test_header.png");
 	bitmapImage->UriSource = uri;
 	display_header_image->Source = bitmapImage;
+	timeout.reset_Timer();
 }
 
 
@@ -52,4 +53,5 @@ void fishparty::water_treatment::heat_display_Click(Platform::Object^ sender, Wi
 	auto uri = ref new Windows::Foundation::Uri("ms-appx:///Assets/test_header2.png");
 	bitmapImage->UriSource = uri;
 	display_header_image->Source = bitmapImage;
+	timeout.reset_Timer();
 }

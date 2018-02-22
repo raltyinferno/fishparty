@@ -46,9 +46,6 @@
     <Image Include="Assets\boiler_room2.jpg">
       <Filter>images</Filter>
     </Image>
-    <Image Include="Assets\down.png">
-      <Filter>images</Filter>
-    </Image>
     <Image Include="Assets\egg_intake.jpg">
       <Filter>images</Filter>
     </Image>
@@ -97,6 +94,42 @@
     <Image Include="Assets\fishparty_splash_background.png">
       <Filter>images</Filter>
     </Image>
+    <Image Include="Assets\test walkthrough\walkthrough1.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\test walkthrough\walkthrough2.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\test walkthrough\walkthrough3.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\test walkthrough\walkthrough4.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\test walkthrough\walkthrough5.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\test walkthrough\walkthrough6.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\test walkthrough\walkthrough7.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\test walkthrough\walkthrough8.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\up_arrow.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\down_arrow.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\left_arrow.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\right_arrow.png">
+      <Filter>images</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <Page Include="MainPage.xaml" />
@@ -114,6 +147,9 @@
     <Page Include="guided_tour_nav.xaml">
       <Filter>global resources</Filter>
     </Page>
+    <Page Include="test_walkthrough1.xaml" />
+    <Page Include="test_walkthrough2.xaml" />
+    <Page Include="test_walkthrough3.xaml" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\boiler_room.jpg" />

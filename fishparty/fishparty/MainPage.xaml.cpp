@@ -47,7 +47,7 @@ void fishparty::MainPage::anim_Completed(Platform::Object ^ sender, Windows::UI:
 
 void fishparty::MainPage::start_tour_button_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(tour_page_1::typeid));
+	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(water_treatment::typeid));
 }
 
 
@@ -68,4 +68,16 @@ void fishparty::MainPage::Page_Loaded(Platform::Object^ sender, Windows::UI::Xam
 	bubble_Animation_4->Begin();
 
 	//bubble_Animation_Auto->Completed += ref new EventHandler(this, &MainPage::anim_Completed);
+}
+
+
+void fishparty::MainPage::test_button_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(tour_page_1::typeid));
+}
+
+
+void fishparty::MainPage::test_walkthrough_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(test_walkthrough1::typeid));
 }

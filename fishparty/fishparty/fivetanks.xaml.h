@@ -18,5 +18,7 @@ namespace fishparty
 	{
 	public:
 		fivetanks();
+	private:
+		Hometimer timeout;
 	};
 }

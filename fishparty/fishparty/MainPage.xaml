@@ -74,7 +74,7 @@
 
 
 
-        <RelativePanel HorizontalAlignment="Stretch" VerticalAlignment="Top" >
+        <Grid HorizontalAlignment="Stretch" VerticalAlignment="Top" >
             <TextBlock TextAlignment="Center"  FontSize="108"  Margin="106,0,-106.667,0">
                      <Span FontSize="140">Welcome</Span> <LineBreak></LineBreak> Ruth Burnett Sports Fish Hatchery
 
@@ -83,10 +83,12 @@
             <Button x:Name="tour_button" Content="Start Tour" Click="start_tour_button_Click" HorizontalAlignment="Center" Height="78" FontSize="24" Margin="887,481,887,521" Width="146"/>
 
             <Button x:Name="explore_button" Content="Explore" Click="explore_button_Click"  HorizontalAlignment="Center" Width="146" Height="78" FontSize="24" Margin="887,676,887,326"/>
+            <Button x:Name="test_page_button" Content="Button" HorizontalAlignment="Left" Margin="1815,993,0,0" VerticalAlignment="Top" Click="test_button_Click"/>
+            <Button x:Name="test_walkthorugh_button" Content="Button" HorizontalAlignment="Left" Margin="1624,993,0,0" VerticalAlignment="Top" Click="test_walkthrough_Click"/>
 
 
 
-        </RelativePanel>
+        </Grid>
 
 
         <RelativePanel x:Name="contentPanel" VerticalAlignment="Bottom" HorizontalAlignment="Left">

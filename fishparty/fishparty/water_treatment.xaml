@@ -8,14 +8,22 @@
     xmlns:controls="using:fishparty"
     mc:Ignorable="d">
     <Page.Resources>
-        <Flyout x:Key="display" Placement="Full">
-            <StackPanel HorizontalAlignment="Center">
-                <Image x:Name="display_header_image" Source="Assets/test_header.png" VerticalAlignment="Top" HorizontalAlignment="Center"/>
-                <Image Source="Assets/salmon.gif" Height="250" Width="500" HorizontalAlignment="Center"/>   
-            </StackPanel>
+        <Flyout x:Key="display" Placement="Top" >
+            <Flyout.FlyoutPresenterStyle>
+                <Style TargetType="FlyoutPresenter">
+                    <Setter Property="MinWidth" Value="800"/>
+                </Style>
+            </Flyout.FlyoutPresenterStyle>
+            <Grid HorizontalAlignment="Center">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Image x:Name="display_header_image" VerticalAlignment="Top" HorizontalAlignment="Center" Grid.Row="0"/>
+                <Image Source="Assets/salmon.gif" Height="250" Width="500" HorizontalAlignment="Center" Grid.Row="1"/>
+            </Grid>
         </Flyout>
     </Page.Resources>
-    
 
     <Grid Background="{StaticResource boiler_room}" x:Name="page_grid">
         <Grid>
@@ -32,15 +40,30 @@
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="14*"/>
             </Grid.RowDefinitions>
-            <Button Grid.Row="3" Grid.Column="0" Content="Heating" x:Name="heating_button" HorizontalAlignment="Center" Flyout="{StaticResource display}" Click="heat_display_Click"></Button>
-            <Button Grid.Row="1" Grid.Column="1"  x:Name="iron_button" HorizontalAlignment="Center" BorderThickness="0" Padding="0" Background="{x:Null}" Flyout="{StaticResource display}" Click="iron_display_Click">
+            <Button Grid.Row="3" Grid.Column="0" x:Name="heating_button" HorizontalAlignment="Center" BorderThickness="0" Padding="0" Background="{x:Null}" Flyout="{StaticResource display}" Click="heat_display_Click">
+                <StackPanel>
+                    <Image Source="Assets/filter.gif" Height="70" Width="70" Stretch="UniformToFill"/>
+                    <TextBlock HorizontalAlignment="Center">Heating</TextBlock>
+                </StackPanel>
+            </Button>
+            <Button Grid.Row="1" Grid.Column="1"  x:Name="iron_button" HorizontalAlignment="Center" BorderThickness="0" Padding="0" Background="{x:Null}" Flyout="{StaticResource display}" Click="iron_display_Click" VerticalAlignment="Top">
                 <StackPanel>
                     <Image Source="Assets/filter.gif" Height="70" Width="70" Stretch="UniformToFill"/>
                     <TextBlock>Iron Filtering</TextBlock>
                 </StackPanel>
             </Button>
-            <Button Grid.Row="1" Grid.Column="2" Content="Manganese Removal" x:Name="manganese_button" HorizontalAlignment="Center" Flyout="{StaticResource display}"></Button>
-            <Button Grid.Row="3" Grid.Column="3" Content="Degassing" x:Name="degassing_button" HorizontalAlignment="Center" Flyout="{StaticResource display}"></Button>
+            <Button Grid.Row="1" Grid.Column="2"  x:Name="manganese_button" HorizontalAlignment="Center" BorderThickness="0" Padding="0" Background="{x:Null}" Flyout="{StaticResource display}">
+                <StackPanel>
+                    <Image Source="Assets/filter.gif" Height="70" Width="70" Stretch="UniformToFill"/>
+                    <TextBlock TextWrapping="Wrap" Width="80" TextAlignment="Center">Manganese Filtering</TextBlock>
+                </StackPanel>
+            </Button>
+            <Button Grid.Row="3" Grid.Column="3" x:Name="degassing_button" HorizontalAlignment="Center" BorderThickness="0" Padding="0" Background="{x:Null}" Flyout="{StaticResource display}">
+                <StackPanel>
+                    <Image Source="Assets/filter.gif" Height="70" Width="70" Stretch="UniformToFill"/>
+                    <TextBlock>Degassing</TextBlock>
+                </StackPanel>
+            </Button>
         </Grid>
         <Grid x:Name="contentPanel" VerticalAlignment="Bottom" HorizontalAlignment="Left">
             <Button Content="Jump to Section" FontSize="20">
@@ -50,7 +73,7 @@
             </Button>
         </Grid>
         <RelativePanel x:Name="furtherInfo">
-            <Button Height="72" Margin="939,998,-980,-1058" Width="61" RenderTransformOrigin="4.46,2.563">
+            <Button Height="72" Margin="943,1008,-984,-1068" Width="61" RenderTransformOrigin="4.46,2.563">
                 <Button.Flyout>
                     <Flyout>
                         <!--<ContentPresenter ContentTemplate="{StaticResource more_info}" />-->
