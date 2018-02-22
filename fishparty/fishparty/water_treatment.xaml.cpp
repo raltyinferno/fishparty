@@ -44,3 +44,12 @@ void fishparty::water_treatment::iron_display_Click(Platform::Object^ sender, Wi
 	bitmapImage->UriSource = uri;
 	display_header_image->Source = bitmapImage;
 }
+
+
+void fishparty::water_treatment::heat_display_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	auto bitmapImage = ref new Windows::UI::Xaml::Media::Imaging::BitmapImage();
+	auto uri = ref new Windows::Foundation::Uri("ms-appx:///Assets/test_header2.png");
+	bitmapImage->UriSource = uri;
+	display_header_image->Source = bitmapImage;
+}

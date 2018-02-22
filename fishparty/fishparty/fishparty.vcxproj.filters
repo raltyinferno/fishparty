@@ -1,128 +1,65 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="App.xaml.cpp" />
-    <ClCompile Include="MainPage.xaml.cpp" />
-    <ClCompile Include="tour_page_1.xaml.cpp" />
-    <ClCompile Include="guided_tour_nav.xaml.cpp" />
-    <ClCompile Include="hatchery_map.xaml.cpp" />
-    <ClCompile Include="water_treatment.xaml.cpp" />
-    <ClCompile Include="pch.cpp">
-      <Filter>generated files</Filter>
-    </ClCompile>
-    <ClCompile Include="fivetanks.xaml.cpp" />
-    <ClCompile Include="incubation.xaml.cpp" />
+    <ApplicationDefinition Include="App.xaml" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="fivetanks.xaml.cpp" />
+    <ClCompile Include="App.xaml.cpp" />
+    <ClCompile Include="guided_tour_nav.xaml.cpp" />
+    <ClCompile Include="hatchery_map.xaml.cpp" />
+    <ClCompile Include="incubation.xaml.cpp" />
+    <ClCompile Include="MainPage.xaml.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="tour_page_1.xaml.cpp" />
+    <ClCompile Include="water_treatment.xaml.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="fivetanks.xaml.h" />
+    <ClInclude Include="directory.h" />
+    <ClInclude Include="guided_tour_nav.xaml.h" />
+    <ClInclude Include="hatchery_map.xaml.h" />
+    <ClInclude Include="incubation.xaml.h" />
+    <ClInclude Include="pch.h" />
     <ClInclude Include="App.xaml.h" />
     <ClInclude Include="MainPage.xaml.h" />
     <ClInclude Include="tour_page_1.xaml.h" />
-    <ClInclude Include="guided_tour_nav.xaml.h" />
-    <ClInclude Include="hatchery_map.xaml.h" />
     <ClInclude Include="water_treatment.xaml.h" />
-    <ClInclude Include="directory.h">
-      <Filter>Global Resources</Filter>
-    </ClInclude>
-    <ClInclude Include="pch.h">
-      <Filter>generated files</Filter>
-    </ClInclude>
-    <ClInclude Include="fivetanks.xaml.h" />
-    <ClInclude Include="incubation.xaml.h" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="Assets\SplashScreen.scale-200.png">
-      <Filter>images</Filter>
-    </Image>
-    <Image Include="Assets\Square44x44Logo.scale-200.png">
-      <Filter>images</Filter>
-    </Image>
-    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
-      <Filter>images</Filter>
-    </Image>
-    <Image Include="Assets\Square150x150Logo.scale-200.png">
-      <Filter>images</Filter>
-    </Image>
-    <Image Include="Assets\StoreLogo.png">
-      <Filter>images</Filter>
-    </Image>
-    <Image Include="Assets\Wide310x150Logo.scale-200.png">
-      <Filter>images</Filter>
-    </Image>
-    <Image Include="Assets\LockScreenLogo.scale-200.png">
-      <Filter>images</Filter>
-    </Image>
-    <Image Include="Assets\hatchery_map.jpg">
-      <Filter>images</Filter>
-    </Image>
-    <Image Include="Assets\splash_image.jpg">
-      <Filter>images</Filter>
-    </Image>
-    <Image Include="Assets\down.png">
-      <Filter>images</Filter>
-    </Image>
-    <Image Include="Assets\egg_intake.jpg">
-      <Filter>images</Filter>
-    </Image>
-    <Image Include="Assets\boiler_room.jpg">
-      <Filter>images</Filter>
-    </Image>
-    <Image Include="Assets\boiler_room2.jpg">
-      <Filter>images</Filter>
-    </Image>
-    <Image Include="Assets\salmon.gif">
-      <Filter>images</Filter>
-    </Image>
-    <Image Include="Assets\filter.gif">
-      <Filter>images</Filter>
-    </Image>
-    <Image Include="Assets\test_header.png">
-      <Filter>images</Filter>
-    </Image>
+    <Image Include="Assets\boiler_room.jpg" />
+    <Image Include="Assets\boiler_room2.jpg" />
+    <Image Include="Assets\down.png" />
+    <Image Include="Assets\egg_intake.jpg" />
+    <Image Include="Assets\filter.gif" />
+    <Image Include="Assets\fishparty_bubble.png" />
+    <Image Include="Assets\fishparty_splash_background.png" />
+    <Image Include="Assets\hatchery_map.jpg" />
+    <Image Include="Assets\LockScreenLogo.scale-200.png" />
+    <Image Include="Assets\salmon.gif" />
+    <Image Include="Assets\SplashScreen.scale-200.png" />
+    <Image Include="Assets\splash_image.jpg" />
+    <Image Include="Assets\Square150x150Logo.scale-200.png" />
+    <Image Include="Assets\Square44x44Logo.scale-200.png" />
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Image Include="Assets\StoreLogo.png" />
+    <Image Include="Assets\test_header.png" />
+    <Image Include="Assets\Wide310x150Logo.scale-200.png" />
+    <Image Include="Assets\test_header2.png" />
   </ItemGroup>
   <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fishparty_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="fivetanks.xaml" />
+    <Page Include="guided_tour_nav.xaml" />
+    <Page Include="hatchery_map.xaml" />
+    <Page Include="incubation.xaml" />
     <Page Include="MainPage.xaml" />
     <Page Include="tour_page_1.xaml" />
-    <Page Include="hatchery_map.xaml" />
-    <Page Include="guided_tour_nav.xaml">
-      <Filter>Global Resources</Filter>
-    </Page>
-    <Page Include="water_treatment.xaml">
-      <Filter>Guided tour pages</Filter>
-    </Page>
-    <Page Include="incubation.xaml">
-      <Filter>Guided tour pages</Filter>
-    </Page>
-    <Page Include="fivetanks.xaml">
-      <Filter>Guided tour pages</Filter>
-    </Page>
-  </ItemGroup>
-  <ItemGroup>
-    <Filter Include="images">
-      <UniqueIdentifier>{7d580b69-2d93-4e8e-9176-265f93ee0eaa}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Guided tour pages">
-      <UniqueIdentifier>{417144f4-927f-493a-a9e7-f20bfaab0756}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Global Resources">
-      <UniqueIdentifier>{838ffa95-d41e-4441-92c8-24a37eb11479}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="generated files">
-      <UniqueIdentifier>{211cf85c-d35e-4dd8-91f4-dfdb6b0b4bac}</UniqueIdentifier>
-    </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ApplicationDefinition Include="App.xaml">
-      <Filter>Global Resources</Filter>
-    </ApplicationDefinition>
-  </ItemGroup>
-  <ItemGroup>
-    <AppxManifest Include="Package.appxmanifest">
-      <Filter>generated files</Filter>
-    </AppxManifest>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="fishparty_TemporaryKey.pfx">
-      <Filter>generated files</Filter>
-    </None>
+    <Page Include="water_treatment.xaml" />
   </ItemGroup>
 </Project>

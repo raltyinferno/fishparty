@@ -20,5 +20,6 @@ namespace fishparty
 	private:
 		void next_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void iron_display_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
+		void heat_display_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 	};
 }
