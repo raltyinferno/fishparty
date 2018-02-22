@@ -72,6 +72,12 @@
     <Image Include="Assets\salmon.gif">
       <Filter>images</Filter>
     </Image>
+    <Image Include="Assets\filter.gif">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\test_header.png">
+      <Filter>images</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <Page Include="MainPage.xaml" />

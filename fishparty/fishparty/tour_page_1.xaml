@@ -33,7 +33,7 @@
 
 
         <RelativePanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
-            <Button>
+            <Button Background="{x:Null}" BorderThickness="0" Padding="0">
                 <Image Height="100" Width="200"  Stretch="UniformToFill" Source="/Assets/salmon.gif" VerticalAlignment="Center" HorizontalAlignment="Center"/>
             </Button>
 

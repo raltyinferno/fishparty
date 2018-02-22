@@ -34,3 +34,13 @@ void fishparty::water_treatment::next_page_Click(Platform::Object^ sender, Windo
 {
 	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(incubation::typeid));
 }
+
+
+void fishparty::water_treatment::iron_display_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	
+	auto bitmapImage = ref new Windows::UI::Xaml::Media::Imaging::BitmapImage();
+	auto uri = ref new Windows::Foundation::Uri("ms-appx:///Assets/test_header.png");
+	bitmapImage->UriSource = uri;
+	display_header_image->Source = bitmapImage;
+}

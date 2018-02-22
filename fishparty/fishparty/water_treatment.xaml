@@ -7,8 +7,38 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:controls="using:fishparty"
     mc:Ignorable="d">
+    <Page.Resources>
+        <Flyout x:Key="display" Placement="Full">
+            <Image x:Name="display_header_image" Source="Assets/test_header.png" VerticalAlignment="Top"/>
+        </Flyout>
+    </Page.Resources>
+    
 
-    <Grid Background="{StaticResource boiler_room}">
+    <Grid Background="{StaticResource boiler_room}" x:Name="page_grid">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="14*"/>
+            </Grid.RowDefinitions>
+            <Button Grid.Row="3" Grid.Column="0" Content="Heating" x:Name="heating_button" HorizontalAlignment="Center" Flyout="{StaticResource display}"></Button>
+            <Button Grid.Row="1" Grid.Column="1"  x:Name="iron_button" HorizontalAlignment="Center" BorderThickness="0" Padding="0" Background="{x:Null}" Flyout="{StaticResource display}" Click="iron_display_Click">
+                <StackPanel>
+                    <Image Source="Assets/filter.gif" Height="70" Width="70" Stretch="UniformToFill"/>
+                    <TextBlock>Iron Filtering</TextBlock>
+                </StackPanel>
+            </Button>
+            <Button Grid.Row="1" Grid.Column="2" Content="Manganese Removal" x:Name="manganese_button" HorizontalAlignment="Center"></Button>
+            <Button Grid.Row="3" Grid.Column="3" Content="Degassing" x:Name="degassing_button" HorizontalAlignment="Center"></Button>
+        </Grid>
         <RelativePanel x:Name="contentPanel" VerticalAlignment="Bottom" HorizontalAlignment="Left">
             <Button Content="Jump to Section" FontSize="20">
                 <Button.Flyout>
@@ -16,7 +46,7 @@
                 </Button.Flyout>
             </Button>
         </RelativePanel>
-        <!--<Image x:Name="image" HorizontalAlignment="Left" Height="500" Source="/Assets/boiler_room.jpg" Margin="769,290,0,0" VerticalAlignment="Top" />-->
-        <Button x:Name="button" Content="Go to eggs" HorizontalAlignment="Left" Margin="911,885,0,0" VerticalAlignment="Top" Click="next_page_Click"/>
+        
+        <Button x:Name="button" Content="Next: Incubation" HorizontalAlignment="Left" Margin="1376,981,0,0" VerticalAlignment="Top" Click="next_page_Click"/>
     </Grid>
 </Page>
