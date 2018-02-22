@@ -16,7 +16,21 @@
                 </Button.Flyout>
             </Button>
         </RelativePanel>
+        <RelativePanel x:Name="furtherInfo">
+            <Button Height="72" Margin="507,522,-548,-582" Width="61" RenderTransformOrigin="4.46,2.563">
+                <Button.Flyout>
+                    <Flyout>
+                        <!--<ContentPresenter ContentTemplate="{StaticResource more_info}" />-->
+                        <StackPanel>
+                            <Image Source="/Assets/Salmon.gif"/>
+                            <TextBlock FontSize="24">Info here</TextBlock>
+                        </StackPanel>
+                    </Flyout>
+                </Button.Flyout>
+            </Button>
+        </RelativePanel>
         <!--<Image x:Name="image" HorizontalAlignment="Left" Height="500" Source="/Assets/boiler_room.jpg" Margin="769,290,0,0" VerticalAlignment="Top" />-->
         <Button x:Name="button" Content="Go to eggs" HorizontalAlignment="Left" Margin="911,885,0,0" VerticalAlignment="Top" Click="next_page_Click"/>
     </Grid>
+
 </Page>
