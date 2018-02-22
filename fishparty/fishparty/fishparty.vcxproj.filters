@@ -25,6 +25,81 @@
     <ClInclude Include="MainPage.xaml.h" />
     <ClInclude Include="tour_page_1.xaml.h" />
     <ClInclude Include="water_treatment.xaml.h" />
+    <ClInclude Include="directory.h">
+      <Filter>Global Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>generated files</Filter>
+    </ClInclude>
+    <ClInclude Include="fivetanks.xaml.h" />
+    <ClInclude Include="incubation.xaml.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\hatchery_map.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\splash_image.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\down.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\egg_intake.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\boiler_room.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\boiler_room2.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\salmon.gif">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\fishparty_bubble.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\fishparty_splash_background.png">
+      <Filter>images</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="MainPage.xaml" />
+    <Page Include="tour_page_1.xaml" />
+    <Page Include="hatchery_map.xaml" />
+    <Page Include="guided_tour_nav.xaml">
+      <Filter>Global Resources</Filter>
+    </Page>
+    <Page Include="water_treatment.xaml">
+      <Filter>Guided tour pages</Filter>
+    </Page>
+    <Page Include="incubation.xaml">
+      <Filter>Guided tour pages</Filter>
+    </Page>
+    <Page Include="fivetanks.xaml">
+      <Filter>Guided tour pages</Filter>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\boiler_room.jpg" />
