@@ -198,6 +198,8 @@
     <Image Include="Assets\boiler_room2.jpg" />
     <Image Include="Assets\down.png" />
     <Image Include="Assets\egg_intake.jpg" />
+    <Image Include="Assets\fishparty_bubble.png" />
+    <Image Include="Assets\fishparty_splash_background.png" />
     <Image Include="Assets\hatchery_map.jpg" />
     <Image Include="Assets\LockScreenLogo.scale-200.png" />
     <Image Include="Assets\salmon.gif" />
