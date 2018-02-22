@@ -8,6 +8,8 @@
 #include "tour_page_1.g.h"
 #include "directory.h"
 
+#include "Hometimer.h"
+
 namespace fishparty
 {
 	/// <summary>
@@ -18,12 +20,8 @@ namespace fishparty
 	{
 	public:
 		tour_page_1();
-		void start_Timer();
 	private:
-		bool canceled;
-		int num_minutes = 1; // Pull from file for adjustable timeout
-		int minutes_passed;
-
+		Hometimer new_timer;
 		void home_button_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 
 		void Page_Loaded(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);

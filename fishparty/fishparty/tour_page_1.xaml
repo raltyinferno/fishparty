@@ -19,7 +19,7 @@
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="Auto"/>
                     </Grid.RowDefinitions>
-                    <TextBlock x:Name="textBlock" HorizontalAlignment="Center"  TextWrapping="Wrap" Text="PAGE 2 HELL YEAH" VerticalAlignment="Bottom" Grid.Row="1"/>
+                    <TextBlock x:Name="textBlock" HorizontalAlignment="Center"  TextWrapping="Wrap" Text="Return to Page One" VerticalAlignment="Bottom" Grid.Row="1"/>
                     <Image Height="50" Width="50" Source="Assets/down.png" Grid.Row="2"/>
                 </Grid>
             </Button>

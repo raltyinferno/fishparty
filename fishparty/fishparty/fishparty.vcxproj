@@ -146,6 +146,7 @@
     <ClInclude Include="hatchery_map.xaml.h">
       <DependentUpon>hatchery_map.xaml</DependentUpon>
     </ClInclude>
+    <ClInclude Include="Hometimer.h" />
     <ClInclude Include="incubation.xaml.h">
       <DependentUpon>incubation.xaml</DependentUpon>
     </ClInclude>
@@ -227,6 +228,7 @@
     <ClCompile Include="hatchery_map.xaml.cpp">
       <DependentUpon>hatchery_map.xaml</DependentUpon>
     </ClCompile>
+    <ClCompile Include="Hometimer.cpp" />
     <ClCompile Include="incubation.xaml.cpp">
       <DependentUpon>incubation.xaml</DependentUpon>
     </ClCompile>
