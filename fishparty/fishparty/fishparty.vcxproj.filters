@@ -185,6 +185,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="fishparty_TemporaryKey.pfx" />
+    <None Include="Iron_content_display.htm">
+      <Filter>guided tour pages</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Page Include="fivetanks.xaml" />

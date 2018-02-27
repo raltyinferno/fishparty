@@ -211,6 +211,9 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <None Include="fishparty_TemporaryKey.pfx" />
+    <None Include="Iron_content_display.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\boiler_room.jpg" />
