@@ -23,4 +23,5 @@ namespace fishparty
 		void eggs_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void five_tanks_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 	};
+	void nav_to_page(Windows::UI::Xaml::Interop::TypeName sourcePageType);
 }

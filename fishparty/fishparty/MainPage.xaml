@@ -75,8 +75,8 @@
 
 
         <Grid HorizontalAlignment="Stretch" VerticalAlignment="Top" >
-            <TextBlock TextAlignment="Center"  FontSize="108"  Margin="106,0,-106.667,0">
-                     <Span FontSize="140">Welcome</Span> <LineBreak></LineBreak> Ruth Burnett Sports Fish Hatchery
+            <TextBlock TextAlignment="Center"  FontSize="108">
+                     <Span FontSize="140">Welcome</Span> <LineBreak/> Ruth Burnett Sport Fish Hatchery
 
             </TextBlock>
 
