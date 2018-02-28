@@ -12,7 +12,7 @@
         <ImageBrush ImageSource="Assets/test walkthrough/walkthrough1.jpg" x:Key="walk1" Opacity="1" Stretch="UniformToFill"/>
     </Page.Resources>
 
-    <Grid Background="{StaticResource walk1}">
+    <Grid Background="{StaticResource walk1}" x:Name="page_grid">
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition/>
@@ -23,7 +23,7 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Grid Grid.Row="2" Grid.Column="1">
+        <Grid Grid.Row="2" Grid.Column="1" x:Name="button_grid">
             <Grid.RowDefinitions>
                 <RowDefinition/>
                 <RowDefinition/>

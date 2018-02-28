@@ -31,3 +31,35 @@ void fishparty::test_walkthrough1::forward_Click(Platform::Object^ sender, Windo
 {
 	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(test_walkthrough2::typeid));
 }
+
+fishparty::walkthrough_page::walkthrough_page(walkthrough_page^  forward, walkthrough_page^  back,
+											  walkthrough_page^  left, walkthrough_page^  right): 
+											  forward(forward), back(back), left(left), right(right)
+{
+	
+}
+
+void fishparty::walkthrough_page::open()
+{
+
+}
+
+void fishparty::walkthrough_page::walk_forward()
+{
+	forward->open();
+}
+
+void fishparty::walkthrough_page::walk_back()
+{
+	back->open();
+}
+
+void fishparty::walkthrough_page::walk_left()
+{
+	left->open();
+}
+
+void fishparty::walkthrough_page::walk_right()
+{
+	right->open();
+}
