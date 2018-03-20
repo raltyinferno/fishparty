@@ -169,6 +169,9 @@
     <ClInclude Include="tour_page_1.xaml.h">
       <DependentUpon>tour_page_1.xaml</DependentUpon>
     </ClInclude>
+    <ClInclude Include="walkthrough_start1.xaml.h">
+      <DependentUpon>walkthrough_start1.xaml</DependentUpon>
+    </ClInclude>
     <ClInclude Include="water_treatment.xaml.h">
       <DependentUpon>water_treatment.xaml</DependentUpon>
     </ClInclude>
@@ -200,6 +203,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="tour_page_1.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="walkthrough_start1.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Include="water_treatment.xaml">
@@ -286,6 +292,9 @@
     </ClCompile>
     <ClCompile Include="tour_page_1.xaml.cpp">
       <DependentUpon>tour_page_1.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="walkthrough_start1.xaml.cpp">
+      <DependentUpon>walkthrough_start1.xaml</DependentUpon>
     </ClCompile>
     <ClCompile Include="water_treatment.xaml.cpp">
       <DependentUpon>water_treatment.xaml</DependentUpon>

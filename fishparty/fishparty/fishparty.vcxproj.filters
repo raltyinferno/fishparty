@@ -162,6 +162,9 @@
     <Page Include="test_walkthrough3.xaml">
       <Filter>test walkthrough</Filter>
     </Page>
+    <Page Include="walkthrough_start1.xaml">
+      <Filter>walkthrough</Filter>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\boiler_room.jpg" />
@@ -210,6 +213,9 @@
     </Filter>
     <Filter Include="test walkthrough">
       <UniqueIdentifier>{cf36bcc6-8160-4d97-9102-173d3470223d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="walkthrough">
+      <UniqueIdentifier>{4ccd6926-45b8-4e1a-9cf0-4307af12a026}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
