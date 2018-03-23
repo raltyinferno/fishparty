@@ -10,7 +10,7 @@
     >
     
     <Page.Resources>
-        <ImageBrush ImageSource="Assets/test walkthrough/walkthrough1.jpg" x:Key="walk" Opacity="1" Stretch="UniformToFill"/>
+        <ImageBrush ImageSource="Assets/walkthrough/walkthrough_start1.jpg" x:Key="walk" Opacity="1" Stretch="UniformToFill"/>
     </Page.Resources>
 
 
