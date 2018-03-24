@@ -251,6 +251,7 @@
     <Image Include="Assets\test_header.png" />
     <Image Include="Assets\test_header2.png" />
     <Image Include="Assets\up_arrow.png" />
+    <Image Include="Assets\walkthrough\walkthrough_start1.jpg" />
     <Image Include="Assets\Wide310x150Logo.scale-200.png" />
   </ItemGroup>
   <ItemGroup>

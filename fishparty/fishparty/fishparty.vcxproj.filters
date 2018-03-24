@@ -16,6 +16,7 @@
     <ClCompile Include="test_walkthrough1.xaml.cpp" />
     <ClCompile Include="test_walkthrough2.xaml.cpp" />
     <ClCompile Include="test_walkthrough3.xaml.cpp" />
+    <ClCompile Include="walkthrough_start1.xaml.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="fivetanks.xaml.h" />
@@ -44,6 +45,7 @@
     <ClInclude Include="test_walkthrough1.xaml.h" />
     <ClInclude Include="test_walkthrough2.xaml.h" />
     <ClInclude Include="test_walkthrough3.xaml.h" />
+    <ClInclude Include="walkthrough_start1.xaml.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\boiler_room.jpg">
@@ -134,6 +136,9 @@
       <Filter>images</Filter>
     </Image>
     <Image Include="Assets\right_arrow.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough\walkthrough_start1.jpg">
       <Filter>images</Filter>
     </Image>
   </ItemGroup>

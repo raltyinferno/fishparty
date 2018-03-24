@@ -8,12 +8,53 @@
     xmlns:controls="using:fishparty"
     mc:Ignorable="d">
     <Page.Resources>
-        <Flyout x:Key="display" Placement="Top" >
-            <Flyout.FlyoutPresenterStyle>
+        <Style x:Key="CenteredFlyoutPresenterStyle" TargetType="FlyoutPresenter">
+            <Setter Property="Background" Value="{ThemeResource SystemControlBackgroundChromeMediumLowBrush}" />
+            <Setter Property="BorderBrush" Value="{ThemeResource SystemControlForegroundChromeHighBrush}" />
+            <Setter Property="BorderThickness" Value="{ThemeResource FlyoutBorderThemeThickness}" />
+            <Setter Property="Padding" Value="{ThemeResource MenuFlyoutPresenterThemePadding}" />
+            <Setter Property="ScrollViewer.HorizontalScrollMode" Value="Disabled" />
+            <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Disabled" />
+            <Setter Property="ScrollViewer.VerticalScrollMode" Value="Auto" />
+            <Setter Property="ScrollViewer.VerticalScrollBarVisibility" Value="Auto" />
+            <Setter Property="ScrollViewer.IsHorizontalRailEnabled" Value="False" />
+            <Setter Property="ScrollViewer.IsVerticalRailEnabled" Value="False" />
+            <Setter Property="ScrollViewer.ZoomMode" Value="Disabled" />
+            <Setter Property="MinWidth" Value="{ThemeResource FlyoutThemeMinWidth}" />
+            <Setter Property="MaxWidth" Value="{ThemeResource FlyoutThemeMaxWidth}" />
+            <Setter Property="MinHeight" Value="{ThemeResource MenuFlyoutThemeMinHeight}" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="FlyoutPresenter">
+                        <Grid Background="{TemplateBinding Background}" HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <ScrollViewer x:Name="FlyoutPresenterScrollViewer" 
+                                          AutomationProperties.AccessibilityView="Raw" 
+                                          HorizontalScrollMode="{TemplateBinding ScrollViewer.HorizontalScrollMode}" 
+                                          HorizontalScrollBarVisibility="{TemplateBinding ScrollViewer.HorizontalScrollBarVisibility}" 
+                                          IsHorizontalRailEnabled="{TemplateBinding ScrollViewer.IsHorizontalRailEnabled}" 
+                                          IsVerticalRailEnabled="{TemplateBinding ScrollViewer.IsVerticalRailEnabled}" 
+                                          Margin="{TemplateBinding BorderThickness}" 
+                                          Padding="{TemplateBinding Padding}" 
+                                          VerticalScrollBarVisibility="{TemplateBinding ScrollViewer.VerticalScrollBarVisibility}" 
+                                          VerticalScrollMode="{TemplateBinding ScrollViewer.VerticalScrollMode}" 
+                                          ZoomMode="{TemplateBinding ScrollViewer.ZoomMode}">
+                                <ItemsPresenter />
+                            </ScrollViewer>
+                            <Border x:Name="FlyoutPresenterBorder" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" />
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Flyout x:Key="display" Placement="Full" FlyoutPresenterStyle="{StaticResource CenteredFlyoutPresenterStyle}">
+            <!--<Flyout.FlyoutPresenterStyle>
                 <Style TargetType="FlyoutPresenter">
                     <Setter Property="MinWidth" Value="800"/>
+                    <Setter Property="ScrollViewer.HorizontalScrollMode" Value="Disabled" />
+                    <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Disabled" />
                 </Style>
-            </Flyout.FlyoutPresenterStyle>
+            </Flyout.FlyoutPresenterStyle>-->
             <Grid HorizontalAlignment="Center">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
@@ -22,7 +63,7 @@
                 </Grid.RowDefinitions>
                 <Image x:Name="display_header_image" VerticalAlignment="Top" HorizontalAlignment="Center" Grid.Row="0"/>
                 <Image Source="Assets/salmon.gif" Height="250" Width="500" HorizontalAlignment="Center" Grid.Row="1"/>
-                <WebView />
+                <WebView x:Name="content" Source="ms-appx-web:///iron_content_display.htm" Grid.Row="2" />
             </Grid>
         </Flyout>
     </Page.Resources>
@@ -78,6 +119,12 @@
                 <Button.Flyout>
                     <Flyout>
                         <!--<ContentPresenter ContentTemplate="{StaticResource more_info}" />-->
+                        <Flyout.FlyoutPresenterStyle>
+                            <Style TargetType="FlyoutPresenter">
+                                <Setter Property="ScrollViewer.HorizontalScrollMode" Value="Disabled" />
+                                <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Disabled" />
+                            </Style>
+                        </Flyout.FlyoutPresenterStyle>
                         <StackPanel>
                             <Image Source="/Assets/Salmon.gif"/>
                             <TextBlock FontSize="24">Info here</TextBlock>
