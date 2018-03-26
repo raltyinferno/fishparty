@@ -59,6 +59,7 @@ void fishparty::guided_tour_nav::air_click(Platform::Object^ sender, Windows::UI
 void fishparty::nav_to_page(Windows::UI::Xaml::Interop::TypeName sourcePageType)
 {
 	auto rootFrame = dynamic_cast<Frame^>(Window::Current->Content);
+
 	rootFrame->Navigate(sourcePageType);
 }
 

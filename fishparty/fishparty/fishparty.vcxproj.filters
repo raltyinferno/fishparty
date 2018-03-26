@@ -144,15 +144,30 @@
     <Image Include="Assets\air_background.jpg">
       <Filter>images</Filter>
     </Image>
+    <Image Include="Assets\Egg Room Guided Tour\egg_001.jpg">
+      <Filter>images\Egg Room Guided Tour</Filter>
+    </Image>
+    <Image Include="Assets\Egg Room Guided Tour\egg_002.jpg">
+      <Filter>images\Egg Room Guided Tour</Filter>
+    </Image>
+    <Image Include="Assets\fishparty_highlight.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\Egg Room Guided Tour\egg_002_01.jpg">
+      <Filter>images\Egg Room Guided Tour</Filter>
+    </Image>
+    <Image Include="Assets\Egg Room Guided Tour\egg_002_02.jpg">
+      <Filter>images\Egg Room Guided Tour</Filter>
+    </Image>
+    <Image Include="Assets\Egg Room Guided Tour\egg_002_03.jpg">
+      <Filter>images\Egg Room Guided Tour</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <Page Include="MainPage.xaml" />
     <Page Include="tour_page_1.xaml" />
     <Page Include="hatchery_map.xaml" />
     <Page Include="fivetanks.xaml">
-      <Filter>guided tour pages</Filter>
-    </Page>
-    <Page Include="incubation.xaml">
       <Filter>guided tour pages</Filter>
     </Page>
     <Page Include="water_treatment.xaml">
@@ -175,6 +190,11 @@
     </Page>
     <Page Include="air.xaml">
       <Filter>guided tour pages</Filter>
+    <Page Include="incubation.xaml">
+      <Filter>guided tour pages\Egg Room</Filter>
+    </Page>
+    <Page Include="incubation_2.xaml">
+      <Filter>guided tour pages\Egg Room</Filter>
     </Page>
   </ItemGroup>
   <ItemGroup>
@@ -227,6 +247,12 @@
     </Filter>
     <Filter Include="walkthrough">
       <UniqueIdentifier>{4ccd6926-45b8-4e1a-9cf0-4307af12a026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="images\Egg Room Guided Tour">
+      <UniqueIdentifier>{9048c3fe-70ec-4d38-a5e3-68b630e7b3e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="guided tour pages\Egg Room">
+      <UniqueIdentifier>{5359eb90-91b3-4a0a-b83d-c4cc94ad725c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

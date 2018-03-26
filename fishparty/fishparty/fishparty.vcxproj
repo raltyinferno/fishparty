@@ -153,6 +153,9 @@
     <ClInclude Include="incubation.xaml.h">
       <DependentUpon>incubation.xaml</DependentUpon>
     </ClInclude>
+    <ClInclude Include="incubation_2.xaml.h">
+      <DependentUpon>incubation_2.xaml</DependentUpon>
+    </ClInclude>
     <ClInclude Include="pch.h" />
     <ClInclude Include="App.xaml.h">
       <DependentUpon>App.xaml</DependentUpon>
@@ -196,6 +199,9 @@
     <Page Include="incubation.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="incubation_2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="MainPage.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -232,9 +238,15 @@
     <Image Include="Assets\boiler_room.jpg" />
     <Image Include="Assets\boiler_room2.jpg" />
     <Image Include="Assets\down_arrow.png" />
+    <Image Include="Assets\Egg Room Guided Tour\egg_001.jpg" />
+    <Image Include="Assets\Egg Room Guided Tour\egg_002.jpg" />
+    <Image Include="Assets\Egg Room Guided Tour\egg_002_01.jpg" />
+    <Image Include="Assets\Egg Room Guided Tour\egg_002_02.jpg" />
+    <Image Include="Assets\Egg Room Guided Tour\egg_002_03.jpg" />
     <Image Include="Assets\egg_intake.jpg" />
     <Image Include="Assets\filter.gif" />
     <Image Include="Assets\fishparty_bubble.png" />
+    <Image Include="Assets\fishparty_highlight.png" />
     <Image Include="Assets\fishparty_splash_background.png" />
     <Image Include="Assets\hatchery_map.jpg" />
     <Image Include="Assets\left_arrow.png" />
@@ -280,6 +292,9 @@
     <ClCompile Include="Hometimer.cpp" />
     <ClCompile Include="incubation.xaml.cpp">
       <DependentUpon>incubation.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="incubation_2.xaml.cpp">
+      <DependentUpon>incubation_2.xaml</DependentUpon>
     </ClCompile>
     <ClCompile Include="MainPage.xaml.cpp">
       <DependentUpon>MainPage.xaml</DependentUpon>
