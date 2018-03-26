@@ -6,16 +6,53 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:controls="using:fishparty"
+    Loaded="Page_Loaded"
+    Unloaded="Page_Unloaded"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <RelativePanel x:Name="contentPanel" VerticalAlignment="Bottom" HorizontalAlignment="Left">
+    <Page.Resources>
+        <ImageBrush ImageSource="Assets/Egg Room Guided Tour/egg_001.jpg" x:Key="walk1" Opacity="1" Stretch="UniformToFill"/>
+    </Page.Resources>
+
+    <Grid Background="{StaticResource walk1}" x:Name="page_grid">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Row="2" Grid.Column="1" x:Name="button_grid">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Button Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" Background="{x:Null}" Click="forward_Click">
+                <Image Source="Assets/up_arrow.png" HorizontalAlignment="Center"/>
+            </Button>
+
+        </Grid>
+
+
+        <Grid  VerticalAlignment="Bottom" HorizontalAlignment="Left" Grid.Row="2">
+
             <Button Content="Jump to Section" FontSize="20">
                 <Button.Flyout>
                     <controls:guided_tour_nav />
                 </Button.Flyout>
             </Button>
-        </RelativePanel>
-        <Image x:Name="image" HorizontalAlignment="Left" Height="500" Source="/Assets/egg_intake.jpg" Margin="555,273,0,0" VerticalAlignment="Top"/>
+
+        </Grid>
     </Grid>
+
 </Page>

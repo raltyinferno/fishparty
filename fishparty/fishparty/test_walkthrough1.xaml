@@ -42,15 +42,15 @@
         </Grid>
         
     
-    <Grid  VerticalAlignment="Bottom" HorizontalAlignment="Left" Grid.Row="2">
+        <Grid  VerticalAlignment="Bottom" HorizontalAlignment="Left" Grid.Row="2">
 
-        <Button Content="Jump to Section" FontSize="20">
-            <Button.Flyout>
-                <controls:guided_tour_nav />
-            </Button.Flyout>
-        </Button>
+            <Button Content="Jump to Section" FontSize="20">
+                <Button.Flyout>
+                    <controls:guided_tour_nav />
+                </Button.Flyout>
+            </Button>
 
-    </Grid>
+        </Grid>
     </Grid>
 
 </Page>

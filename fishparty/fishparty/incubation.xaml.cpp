@@ -25,3 +25,21 @@ incubation::incubation()
 {
 	InitializeComponent();
 }
+
+
+void fishparty::incubation::forward_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(incubation_2::typeid));
+}
+
+
+void fishparty::incubation::Page_Loaded(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+
+}
+
+
+void fishparty::incubation::Page_Unloaded(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+
+}
