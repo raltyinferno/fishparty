@@ -70,6 +70,7 @@
 
     <Grid Background="{StaticResource boiler_room}" x:Name="page_grid">
         <Grid>
+
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
@@ -113,6 +114,7 @@
                     <controls:guided_tour_nav />
                 </Button.Flyout>
             </Button>
+            
         </Grid>
         <RelativePanel x:Name="furtherInfo">
             <Button Height="72" Margin="943,1008,-984,-1068" Width="61" RenderTransformOrigin="4.46,2.563">

@@ -46,6 +46,7 @@
     <ClInclude Include="test_walkthrough2.xaml.h" />
     <ClInclude Include="test_walkthrough3.xaml.h" />
     <ClInclude Include="walkthrough_start1.xaml.h" />
+    <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\boiler_room.jpg">
@@ -141,6 +142,12 @@
     <Image Include="Assets\walkthrough\walkthrough_start1.jpg">
       <Filter>images</Filter>
     </Image>
+    <Image Include="Assets\bg_wintake.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\win_close.jpg">
+      <Filter>images</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <Page Include="MainPage.xaml" />
@@ -169,6 +176,9 @@
     </Page>
     <Page Include="walkthrough_start1.xaml">
       <Filter>walkthrough</Filter>
+    </Page>
+    <Page Include="water_intake.xaml">
+      <Filter>guided tour pages</Filter>
     </Page>
   </ItemGroup>
   <ItemGroup>
@@ -227,5 +237,8 @@
     <ApplicationDefinition Include="App.xaml">
       <Filter>global resources</Filter>
     </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="fishparty.rc" />
   </ItemGroup>
 </Project>

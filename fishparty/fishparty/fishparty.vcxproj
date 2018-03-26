@@ -136,6 +136,9 @@
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="water_intake.xaml.h">
+      <DependentUpon>water_intake.xaml</DependentUpon>
+    </ClInclude>
     <ClInclude Include="fivetanks.xaml.h">
       <DependentUpon>fivetanks.xaml</DependentUpon>
     </ClInclude>
@@ -157,6 +160,7 @@
     <ClInclude Include="MainPage.xaml.h">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </ClInclude>
+    <ClInclude Include="resource.h" />
     <ClInclude Include="test_walkthrough1.xaml.h">
       <DependentUpon>test_walkthrough1.xaml</DependentUpon>
     </ClInclude>
@@ -180,6 +184,9 @@
     <ApplicationDefinition Include="App.xaml">
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="water_intake.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="fivetanks.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -222,6 +229,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Image Include="Assets\bg_wintake.jpg" />
     <Image Include="Assets\boiler_room.jpg" />
     <Image Include="Assets\boiler_room2.jpg" />
     <Image Include="Assets\down_arrow.png" />
@@ -253,8 +261,12 @@
     <Image Include="Assets\up_arrow.png" />
     <Image Include="Assets\walkthrough\walkthrough_start1.jpg" />
     <Image Include="Assets\Wide310x150Logo.scale-200.png" />
+    <Image Include="Assets\win_close.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="water_intake.xaml.cpp">
+      <DependentUpon>water_intake.xaml</DependentUpon>
+    </ClCompile>
     <ClCompile Include="fivetanks.xaml.cpp">
       <DependentUpon>fivetanks.xaml</DependentUpon>
     </ClCompile>
@@ -300,6 +312,9 @@
     <ClCompile Include="water_treatment.xaml.cpp">
       <DependentUpon>water_treatment.xaml</DependentUpon>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="fishparty.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
