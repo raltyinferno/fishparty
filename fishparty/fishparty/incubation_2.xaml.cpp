@@ -29,12 +29,10 @@ incubation_2::incubation_2()
 
 void fishparty::incubation_2::forward_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	new_timer.cancel_Timer();
 }
 
 void fishparty::incubation_2::backward_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	new_timer.cancel_Timer();
 	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(incubation::typeid));
 }
 
@@ -48,5 +46,11 @@ void fishparty::incubation_2::show_Flyout(Platform::Object^ sender, Windows::UI:
 
 void fishparty::incubation_2::Page_Loaded(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	new_timer.start_Timer();
+
+}
+
+
+void fishparty::incubation_2::Page_Unloaded(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+
 }
