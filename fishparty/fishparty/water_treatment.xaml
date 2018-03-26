@@ -45,6 +45,8 @@
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>
+            <Setter Property="Height" Value="Auto"/>
+            <Setter Property="Width" Value="Auto"/>
         </Style>
 
         <Flyout x:Key="display" Placement="Full" FlyoutPresenterStyle="{StaticResource CenteredFlyoutPresenterStyle}">
@@ -100,7 +102,7 @@
                     <TextBlock TextWrapping="Wrap" Width="80" TextAlignment="Center">Manganese Filtering</TextBlock>
                 </StackPanel>
             </Button>
-            <Button Grid.Row="2" Grid.Column="3" x:Name="degassing_button" HorizontalAlignment="Center" BorderThickness="0" Padding="0" Background="{x:Null}" Flyout="{StaticResource display}" Click="heat_display_Click">
+            <Button Grid.Row="2" Grid.Column="3" x:Name="degassing_button" HorizontalAlignment="Center" BorderThickness="0" Padding="0" Background="{x:Null}"  Click="heat_display_Click">
                 <StackPanel>
                     <Image Source="Assets/filter.gif" Height="70" Width="70" Stretch="UniformToFill"/>
                     <TextBlock>Degassing</TextBlock>
@@ -133,8 +135,9 @@
                 </Button.Flyout>
             </Button>
         </RelativePanel>
-        
+
         <Button x:Name="button" Content="Go to eggs" HorizontalAlignment="Left" Margin="1736,1019,0,0" VerticalAlignment="Top" Click="next_page_Click"/>
+        <WebView HorizontalAlignment="Left" Height="616" Margin="480,294,0,0" VerticalAlignment="Top" Width="900" Source="ms-appx-web:///iron_content_display.htm"/>
     </Grid>
 
 </Page>
