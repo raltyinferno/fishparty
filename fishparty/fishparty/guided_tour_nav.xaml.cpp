@@ -52,6 +52,7 @@ void fishparty::guided_tour_nav::five_tanks_Click(Platform::Object^ sender, Wind
 void fishparty::nav_to_page(Windows::UI::Xaml::Interop::TypeName sourcePageType)
 {
 	auto rootFrame = dynamic_cast<Frame^>(Window::Current->Content);
+
 	rootFrame->Navigate(sourcePageType);
 }
 

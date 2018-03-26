@@ -19,6 +19,8 @@ namespace fishparty
 	public:
 		incubation();
 	private:
-		Hometimer timeout;
+		Hometimer new_timer;
+		void forward_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
+		void Page_Loaded(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 	};
 }
