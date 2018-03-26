@@ -7,8 +7,8 @@
     <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
     <AppContainerApplication>true</AppContainerApplication>
     <ApplicationType>Windows Store</ApplicationType>
-    <WindowsTargetPlatformVersion Condition=" '$(WindowsTargetPlatformVersion)' == '' ">10.0.15063.0</WindowsTargetPlatformVersion>
-    <WindowsTargetPlatformMinVersion>10.0.10586.0</WindowsTargetPlatformMinVersion>
+    <WindowsTargetPlatformVersion Condition=" '$(WindowsTargetPlatformVersion)' == '' ">10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.15063.0</WindowsTargetPlatformMinVersion>
     <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -136,6 +136,9 @@
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="fish_delivery.xaml.h">
+      <DependentUpon>fish_delivery.xaml</DependentUpon>
+    </ClInclude>
     <ClInclude Include="fivetanks.xaml.h">
       <DependentUpon>fivetanks.xaml</DependentUpon>
     </ClInclude>
@@ -180,6 +183,9 @@
     <ApplicationDefinition Include="App.xaml">
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="fish_delivery.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="fivetanks.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -224,6 +230,7 @@
   <ItemGroup>
     <Image Include="Assets\boiler_room.jpg" />
     <Image Include="Assets\boiler_room2.jpg" />
+    <Image Include="Assets\delivery_truck2.png" />
     <Image Include="Assets\down_arrow.png" />
     <Image Include="Assets\egg_intake.jpg" />
     <Image Include="Assets\filter.gif" />
@@ -233,6 +240,7 @@
     <Image Include="Assets\left_arrow.png" />
     <Image Include="Assets\LockScreenLogo.scale-200.png" />
     <Image Include="Assets\right_arrow.png" />
+    <Image Include="Assets\Round_Icon.png" />
     <Image Include="Assets\salmon.gif" />
     <Image Include="Assets\SplashScreen.scale-200.png" />
     <Image Include="Assets\splash_image.jpg" />
@@ -255,6 +263,9 @@
     <Image Include="Assets\Wide310x150Logo.scale-200.png" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="fish_delivery.xaml.cpp">
+      <DependentUpon>fish_delivery.xaml</DependentUpon>
+    </ClCompile>
     <ClCompile Include="fivetanks.xaml.cpp">
       <DependentUpon>fivetanks.xaml</DependentUpon>
     </ClCompile>

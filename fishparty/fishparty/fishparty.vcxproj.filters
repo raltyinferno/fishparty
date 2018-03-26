@@ -141,6 +141,12 @@
     <Image Include="Assets\walkthrough\walkthrough_start1.jpg">
       <Filter>images</Filter>
     </Image>
+    <Image Include="Assets\Round_Icon.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\delivery_truck2.png">
+      <Filter>images</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <Page Include="MainPage.xaml" />
@@ -169,6 +175,9 @@
     </Page>
     <Page Include="walkthrough_start1.xaml">
       <Filter>walkthrough</Filter>
+    </Page>
+    <Page Include="fish_delivery.xaml">
+      <Filter>guided tour pages</Filter>
     </Page>
   </ItemGroup>
   <ItemGroup>
