@@ -11,8 +11,14 @@
 
     <!--Application Resources-->
     <Application.Resources>
-        <ImageBrush x:Key="splash_image" ImageSource="/Assets/splash_image.jpg" Opacity=".1" Stretch="UniformToFill" />
+        <ImageBrush x:Key="splash_image"      ImageSource="/Assets/splash_image.jpg" Opacity=".1" Stretch="UniformToFill" />
         <ImageBrush x:Key="splash_background" ImageSource="/Assets/fishparty_splash_background.png" Opacity="0.8" Stretch="UniformToFill" />
+        <ImageBrush x:Key="hatchery_map"      ImageSource="/Assets/hatchery_map.jpg" Opacity="1" Stretch="UniformToFill" />
+        <ImageBrush x:Key="boiler_room"       ImageSource="/Assets/boiler_room2.jpg" Opacity=".3" Stretch="UniformToFill" />
+        <ImageBrush x:Key="up_arrow"          ImageSource="Assets/up_arrow.jpg" Opacity="1" Stretch="UniformToFill" />
+        <ImageBrush x:Key="down_arrow"        ImageSource="Assets/down_arrow.jpg" Opacity="1" Stretch="UniformToFill" />
+        <ImageBrush x:Key="left_arrow"        ImageSource="Assets/left_arrow.jpg" Opacity="1" Stretch="UniformToFill" />
+        <ImageBrush x:Key="right_arrow"       ImageSource="Assets/right_arrow.jpg" Opacity="1" Stretch="UniformToFill" />
         <ImageBrush x:Key="hatchery_map" ImageSource="/Assets/hatchery_map.jpg" Opacity="1" Stretch="UniformToFill" />
         <ImageBrush x:Key="boiler_room" ImageSource="/Assets/boiler_room2.jpg" Opacity=".3" Stretch="UniformToFill" />
         

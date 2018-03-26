@@ -39,6 +39,7 @@
     <ClInclude Include="tour_page_1.xaml.h" />
     <ClInclude Include="walkthrough_start1.xaml.h" />
     <ClInclude Include="water_treatment.xaml.h" />
+    <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\down_arrow.png">
@@ -137,6 +138,12 @@
     <Image Include="Assets\test walkthrough\walkthrough4.jpg">
       <Filter>images</Filter>
     </Image>
+    <Image Include="Assets\bg_wintake.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\win_close.jpg">
+      <Filter>images</Filter>
+    </Image>
     <Image Include="Assets\Round_Icon.png">
       <Filter>images</Filter>
     </Image>
@@ -193,8 +200,12 @@
     <Page Include="fivetanks.xaml">
       <Filter>guided tour pages</Filter>
     </Page>
+    <Page Include="water_intake.xaml">
+      <Filter>guided tour pages</Filter>
+    </Page>
     <Page Include="fish_delivery.xaml">
       <Filter>guided tour pages</Filter>
+    </Page>
     <Page Include="incubation.xaml">
       <Filter>guided tour pages</Filter>
     </Page>
@@ -215,5 +226,13 @@
     <Filter Include="guided tour pages">
       <UniqueIdentifier>{d1abf654-6a8b-4548-9a55-8aa774fdbc73}</UniqueIdentifier>
     </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Filter>global resources</Filter>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="fishparty.rc" />
   </ItemGroup>
 </Project>
