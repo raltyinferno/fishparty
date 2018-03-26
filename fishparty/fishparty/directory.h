@@ -5,6 +5,7 @@
 #include "water_treatment.xaml.h"
 #include "incubation.xaml.h"
 #include "fivetanks.xaml.h"
+#include "air.xaml.h"
 
 
 #include "Hometimer.h"

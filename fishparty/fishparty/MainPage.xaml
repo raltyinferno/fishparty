@@ -91,7 +91,7 @@
         </Grid>
 
 
-        <RelativePanel x:Name="contentPanel" VerticalAlignment="Bottom" HorizontalAlignment="Left">
+        <Grid x:Name="contentPanel" VerticalAlignment="Bottom" HorizontalAlignment="Left">
 
             <Button Content="Jump to Section" FontSize="20">
                 <Button.Flyout>
@@ -99,7 +99,7 @@
                 </Button.Flyout>
             </Button>
 
-        </RelativePanel>
+        </Grid>
 
         <Image x:Name="bubble_1" Width="100" Height="100" Source="Assets/fishparty_bubble.png" HorizontalAlignment="Left" Margin="167,1041,0,-61" RenderTransformOrigin="0.5,0.5"  >
             <Image.RenderTransform>

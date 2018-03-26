@@ -136,6 +136,9 @@
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="air.xaml.h">
+      <DependentUpon>air.xaml</DependentUpon>
+    </ClInclude>
     <ClInclude Include="fivetanks.xaml.h">
       <DependentUpon>fivetanks.xaml</DependentUpon>
     </ClInclude>
@@ -180,6 +183,9 @@
     <ApplicationDefinition Include="App.xaml">
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="air.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="fivetanks.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -222,6 +228,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Image Include="Assets\air_background.jpg" />
     <Image Include="Assets\boiler_room.jpg" />
     <Image Include="Assets\boiler_room2.jpg" />
     <Image Include="Assets\down_arrow.png" />
@@ -255,6 +262,9 @@
     <Image Include="Assets\Wide310x150Logo.scale-200.png" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="air.xaml.cpp">
+      <DependentUpon>air.xaml</DependentUpon>
+    </ClCompile>
     <ClCompile Include="fivetanks.xaml.cpp">
       <DependentUpon>fivetanks.xaml</DependentUpon>
     </ClCompile>

@@ -141,6 +141,9 @@
     <Image Include="Assets\walkthrough\walkthrough_start1.jpg">
       <Filter>images</Filter>
     </Image>
+    <Image Include="Assets\air_background.jpg">
+      <Filter>images</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <Page Include="MainPage.xaml" />
@@ -169,6 +172,9 @@
     </Page>
     <Page Include="walkthrough_start1.xaml">
       <Filter>walkthrough</Filter>
+    </Page>
+    <Page Include="air.xaml">
+      <Filter>guided tour pages</Filter>
     </Page>
   </ItemGroup>
   <ItemGroup>
