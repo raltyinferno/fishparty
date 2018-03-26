@@ -7,8 +7,8 @@
     <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
     <AppContainerApplication>true</AppContainerApplication>
     <ApplicationType>Windows Store</ApplicationType>
-    <WindowsTargetPlatformVersion Condition=" '$(WindowsTargetPlatformVersion)' == '' ">10.0.15063.0</WindowsTargetPlatformVersion>
-    <WindowsTargetPlatformMinVersion>10.0.10586.0</WindowsTargetPlatformMinVersion>
+    <WindowsTargetPlatformVersion Condition=" '$(WindowsTargetPlatformVersion)' == '' ">10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.15063.0</WindowsTargetPlatformMinVersion>
     <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,6 +139,9 @@
     <ClInclude Include="air.xaml.h">
       <DependentUpon>air.xaml</DependentUpon>
     </ClInclude>
+    <ClInclude Include="fish_delivery.xaml.h">
+      <DependentUpon>fish_delivery.xaml</DependentUpon>
+    </ClInclude>
     <ClInclude Include="fivetanks.xaml.h">
       <DependentUpon>fivetanks.xaml</DependentUpon>
     </ClInclude>
@@ -189,6 +192,9 @@
     <Page Include="air.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="fish_delivery.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="fivetanks.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -237,6 +243,7 @@
     <Image Include="Assets\air_background.jpg" />
     <Image Include="Assets\boiler_room.jpg" />
     <Image Include="Assets\boiler_room2.jpg" />
+    <Image Include="Assets\delivery_truck2.png" />
     <Image Include="Assets\down_arrow.png" />
     <Image Include="Assets\Egg Room Guided Tour\egg_001.jpg" />
     <Image Include="Assets\Egg Room Guided Tour\egg_002.jpg" />
@@ -252,6 +259,7 @@
     <Image Include="Assets\left_arrow.png" />
     <Image Include="Assets\LockScreenLogo.scale-200.png" />
     <Image Include="Assets\right_arrow.png" />
+    <Image Include="Assets\Round_Icon.png" />
     <Image Include="Assets\salmon.gif" />
     <Image Include="Assets\SplashScreen.scale-200.png" />
     <Image Include="Assets\splash_image.jpg" />
@@ -276,6 +284,9 @@
   <ItemGroup>
     <ClCompile Include="air.xaml.cpp">
       <DependentUpon>air.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="fish_delivery.xaml.cpp">
+      <DependentUpon>fish_delivery.xaml</DependentUpon>
     </ClCompile>
     <ClCompile Include="fivetanks.xaml.cpp">
       <DependentUpon>fivetanks.xaml</DependentUpon>

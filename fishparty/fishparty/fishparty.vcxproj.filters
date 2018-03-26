@@ -137,6 +137,15 @@
     <Image Include="Assets\test walkthrough\walkthrough4.jpg">
       <Filter>images</Filter>
     </Image>
+    <Image Include="Assets\Round_Icon.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\delivery_truck2.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\Egg Room Guided Tour\egg_001.jpg">
+      <Filter>images\Egg Room Guided Tour</Filter>
+    </Image>
     <Image Include="Assets\test walkthrough\walkthrough5.jpg">
       <Filter>images</Filter>
     </Image>
@@ -184,6 +193,8 @@
     <Page Include="fivetanks.xaml">
       <Filter>guided tour pages</Filter>
     </Page>
+    <Page Include="fish_delivery.xaml">
+      <Filter>guided tour pages</Filter>
     <Page Include="incubation.xaml">
       <Filter>guided tour pages</Filter>
     </Page>

@@ -21,6 +21,6 @@
         <Button x:Name="tentanks"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Rearing (10' Tanks)"/>
         <Button x:Name="life_support"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Rearing (25' Tanks)"/>
         <Button x:Name="air"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Air Filtration" Click="air_click"/>
-        <Button x:Name="release"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Fish Release"/>
+        <Button x:Name="release"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Fish Release" Click="delivery_Click"/>
     </StackPanel>
 </Flyout>
