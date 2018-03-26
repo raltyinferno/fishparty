@@ -29,12 +29,17 @@ incubation::incubation()
 
 void fishparty::incubation::forward_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	new_timer.cancel_Timer();
 	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(incubation_2::typeid));
 }
 
 
 void fishparty::incubation::Page_Loaded(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	new_timer.start_Timer();
+
+}
+
+
+void fishparty::incubation::Page_Unloaded(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+
 }
