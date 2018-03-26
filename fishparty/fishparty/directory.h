@@ -3,10 +3,16 @@
 #include "MainPage.xaml.h"
 #include "hatchery_map.xaml.h"
 #include "water_treatment.xaml.h"
-#include "incubation.xaml.h"
-#include "fivetanks.xaml.h"
 #include "water_intake.xaml.h"
+#include "fivetanks.xaml.h"
 
+// Egg Rooms
+#include "incubation.xaml.h"
+#include "incubation_2.xaml.h"
+//
+
+#include "fivetanks.xaml.h"
+#include "fish_delivery.xaml.h"
 
 #include "Hometimer.h"
 

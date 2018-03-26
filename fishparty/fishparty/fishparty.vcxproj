@@ -7,8 +7,8 @@
     <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
     <AppContainerApplication>true</AppContainerApplication>
     <ApplicationType>Windows Store</ApplicationType>
-    <WindowsTargetPlatformVersion Condition=" '$(WindowsTargetPlatformVersion)' == '' ">10.0.15063.0</WindowsTargetPlatformVersion>
-    <WindowsTargetPlatformMinVersion>10.0.10586.0</WindowsTargetPlatformMinVersion>
+    <WindowsTargetPlatformVersion Condition=" '$(WindowsTargetPlatformVersion)' == '' ">10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.15063.0</WindowsTargetPlatformMinVersion>
     <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -138,6 +138,8 @@
   <ItemGroup>
     <ClInclude Include="water_intake.xaml.h">
       <DependentUpon>water_intake.xaml</DependentUpon>
+    <ClInclude Include="fish_delivery.xaml.h">
+      <DependentUpon>fish_delivery.xaml</DependentUpon>
     </ClInclude>
     <ClInclude Include="fivetanks.xaml.h">
       <DependentUpon>fivetanks.xaml</DependentUpon>
@@ -152,6 +154,9 @@
     <ClInclude Include="Hometimer.h" />
     <ClInclude Include="incubation.xaml.h">
       <DependentUpon>incubation.xaml</DependentUpon>
+    </ClInclude>
+    <ClInclude Include="incubation_2.xaml.h">
+      <DependentUpon>incubation_2.xaml</DependentUpon>
     </ClInclude>
     <ClInclude Include="pch.h" />
     <ClInclude Include="App.xaml.h">
@@ -185,6 +190,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="water_intake.xaml">
+    <Page Include="fish_delivery.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Include="fivetanks.xaml">
@@ -195,6 +201,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="incubation.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="incubation_2.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Include="MainPage.xaml">
@@ -232,15 +241,23 @@
     <Image Include="Assets\bg_wintake.jpg" />
     <Image Include="Assets\boiler_room.jpg" />
     <Image Include="Assets\boiler_room2.jpg" />
+    <Image Include="Assets\delivery_truck2.png" />
     <Image Include="Assets\down_arrow.png" />
+    <Image Include="Assets\Egg Room Guided Tour\egg_001.jpg" />
+    <Image Include="Assets\Egg Room Guided Tour\egg_002.jpg" />
+    <Image Include="Assets\Egg Room Guided Tour\egg_002_01.jpg" />
+    <Image Include="Assets\Egg Room Guided Tour\egg_002_02.jpg" />
+    <Image Include="Assets\Egg Room Guided Tour\egg_002_03.jpg" />
     <Image Include="Assets\egg_intake.jpg" />
     <Image Include="Assets\filter.gif" />
     <Image Include="Assets\fishparty_bubble.png" />
+    <Image Include="Assets\fishparty_highlight.png" />
     <Image Include="Assets\fishparty_splash_background.png" />
     <Image Include="Assets\hatchery_map.jpg" />
     <Image Include="Assets\left_arrow.png" />
     <Image Include="Assets\LockScreenLogo.scale-200.png" />
     <Image Include="Assets\right_arrow.png" />
+    <Image Include="Assets\Round_Icon.png" />
     <Image Include="Assets\salmon.gif" />
     <Image Include="Assets\SplashScreen.scale-200.png" />
     <Image Include="Assets\splash_image.jpg" />
@@ -266,6 +283,8 @@
   <ItemGroup>
     <ClCompile Include="water_intake.xaml.cpp">
       <DependentUpon>water_intake.xaml</DependentUpon>
+    <ClCompile Include="fish_delivery.xaml.cpp">
+      <DependentUpon>fish_delivery.xaml</DependentUpon>
     </ClCompile>
     <ClCompile Include="fivetanks.xaml.cpp">
       <DependentUpon>fivetanks.xaml</DependentUpon>
@@ -282,6 +301,9 @@
     <ClCompile Include="Hometimer.cpp" />
     <ClCompile Include="incubation.xaml.cpp">
       <DependentUpon>incubation.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="incubation_2.xaml.cpp">
+      <DependentUpon>incubation_2.xaml</DependentUpon>
     </ClCompile>
     <ClCompile Include="MainPage.xaml.cpp">
       <DependentUpon>MainPage.xaml</DependentUpon>

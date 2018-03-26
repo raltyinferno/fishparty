@@ -19,6 +19,18 @@
         <ImageBrush x:Key="down_arrow"        ImageSource="Assets/down_arrow.jpg" Opacity="1" Stretch="UniformToFill" />
         <ImageBrush x:Key="left_arrow"        ImageSource="Assets/left_arrow.jpg" Opacity="1" Stretch="UniformToFill" />
         <ImageBrush x:Key="right_arrow"       ImageSource="Assets/right_arrow.jpg" Opacity="1" Stretch="UniformToFill" />
+        <ImageBrush x:Key="hatchery_map" ImageSource="/Assets/hatchery_map.jpg" Opacity="1" Stretch="UniformToFill" />
+        <ImageBrush x:Key="boiler_room" ImageSource="/Assets/boiler_room2.jpg" Opacity=".3" Stretch="UniformToFill" />
+        
+        <!-- Added by Jake Conner, 3/25/18 for fish deliverty page -->
+        <ImageBrush x:Key="delivery_truck" ImageSource="/Assets/delivery_truck2.png" Opacity="1" Stretch="UniformToFill" />
+        <ImageBrush x:Key="round_icon" ImageSource="/Assets/Round_Icon.png" Opacity="1" />
+        <!-- ***************************************************** -->
+        
+        <ImageBrush x:Key="up_arrow" ImageSource="Assets/up_arrow.jpg" Opacity="1" Stretch="UniformToFill"/>
+        <ImageBrush x:Key="down_arrow" ImageSource="Assets/down_arrow.jpg" Opacity="1" Stretch="UniformToFill"/>
+        <ImageBrush x:Key="left_arrow" ImageSource="Assets/left_arrow.jpg" Opacity="1" Stretch="UniformToFill"/>
+        <ImageBrush x:Key="right_arrow" ImageSource="Assets/right_arrow.jpg" Opacity="1" Stretch="UniformToFill"/>
     </Application.Resources>
 
 </Application>
