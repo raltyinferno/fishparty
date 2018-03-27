@@ -44,21 +44,6 @@ void fishparty::Hometimer::start_Timer()
 			//
 			// UI components can be accessed within this scope.
 			//
-		}));
-
-	}), period, ref new TimerDestroyedHandler([&](ThreadPoolTimer ^ source)
-	{
-		//
-		// TODO: Handle work cancellation/completion.
-		//
-
-		Windows::ApplicationModel::Core::CoreApplication::MainView->CoreWindow->Dispatcher->RunAsync(CoreDispatcherPriority::High,
-			ref new DispatchedHandler([&]()
-		{
-			//
-			// Update the UI thread by using the UI core dispatcher.
-			//
-
 			if (!canceled)
 			{
 				// Timer completed.
@@ -84,6 +69,23 @@ void fishparty::Hometimer::start_Timer()
 				}
 
 			}
+
+		}));
+
+	}), period, ref new TimerDestroyedHandler([&](ThreadPoolTimer ^ source)
+	{
+		//
+		// TODO: Handle work cancellation/completion.
+		//
+
+		Windows::ApplicationModel::Core::CoreApplication::MainView->CoreWindow->Dispatcher->RunAsync(CoreDispatcherPriority::High,
+			ref new DispatchedHandler([&]()
+		{
+			//
+			// Update the UI thread by using the UI core dispatcher.
+			//
+
+
 
 		}));
 	}));
