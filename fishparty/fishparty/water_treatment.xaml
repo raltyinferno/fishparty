@@ -85,19 +85,19 @@
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="14*"/>
             </Grid.RowDefinitions>
-            <Button Grid.Row="2" Grid.Column="0" x:Name="heating_button" HorizontalAlignment="Center" BorderThickness="0" Padding="0" Background="{x:Null}" Flyout="{StaticResource display}" Click="heat_display_Click">
+            <Button Grid.Row="2" Grid.Column="0" x:Name="heating_button" HorizontalAlignment="Center" BorderThickness="0" Padding="0" Background="{x:Null}"  Click="heat_display_Click">
                 <StackPanel>
                     <Image Source="Assets/filter.gif" Height="70" Width="70" Stretch="UniformToFill"/>
                     <TextBlock HorizontalAlignment="Center">Heating</TextBlock>
                 </StackPanel>
             </Button>
-            <Button Grid.Row="1" Grid.Column="1"  x:Name="iron_button" HorizontalAlignment="Center" BorderThickness="0" Padding="0" Background="{x:Null}" Flyout="{StaticResource display}" Click="iron_display_Click" VerticalAlignment="Top">
+            <Button Grid.Row="1" Grid.Column="1"  x:Name="iron_button" HorizontalAlignment="Center" BorderThickness="0" Padding="0" Background="{x:Null}"  Click="iron_display_Click" VerticalAlignment="Top">
                 <StackPanel>
                     <Image Source="Assets/filter.gif" Height="70" Width="70" Stretch="UniformToFill"/>
                     <TextBlock>Iron Filtering</TextBlock>
                 </StackPanel>
             </Button>
-            <Button Grid.Row="1" Grid.Column="2"  x:Name="manganese_button" HorizontalAlignment="Center" BorderThickness="0" Padding="0" Background="{x:Null}" Flyout="{StaticResource display}" Click="iron_display_Click">
+            <Button Grid.Row="1" Grid.Column="2"  x:Name="manganese_button" HorizontalAlignment="Center" BorderThickness="0" Padding="0" Background="{x:Null}"  Click="iron_display_Click">
                 <StackPanel>
                     <Image Source="Assets/filter.gif" Height="70" Width="70" Stretch="UniformToFill"/>
                     <TextBlock TextWrapping="Wrap" Width="80" TextAlignment="Center">Manganese Filtering</TextBlock>
@@ -116,30 +116,13 @@
                     <controls:guided_tour_nav />
                 </Button.Flyout>
             </Button>
-            
-        </Grid>
-        <RelativePanel x:Name="furtherInfo">
-            <Button Height="72" Margin="943,1008,-984,-1068" Width="61" RenderTransformOrigin="4.46,2.563">
-                <Button.Flyout>
-                    <Flyout>
-                        <!--<ContentPresenter ContentTemplate="{StaticResource more_info}" />-->
-                        <Flyout.FlyoutPresenterStyle>
-                            <Style TargetType="FlyoutPresenter">
-                                <Setter Property="ScrollViewer.HorizontalScrollMode" Value="Disabled" />
-                                <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Disabled" />
-                            </Style>
-                        </Flyout.FlyoutPresenterStyle>
-                        <StackPanel>
-                            <Image Source="/Assets/Salmon.gif"/>
-                            <TextBlock FontSize="24">Info here</TextBlock>
-                        </StackPanel>
-                    </Flyout>
-                </Button.Flyout>
-            </Button>
-        </RelativePanel>
 
-        <Button x:Name="button" Content="Go to eggs" HorizontalAlignment="Left" Margin="1736,1019,0,0" VerticalAlignment="Top" Click="next_page_Click"/>
-        <WebView HorizontalAlignment="Left" Height="616" Margin="480,294,0,0" VerticalAlignment="Top" Width="900" Source="ms-appx-web:///iron_content_display.htm"/>
+        </Grid>
+
+
+        <Button x:Name="button" Content="Go to eggs" HorizontalAlignment="Left" Margin="1736,1019,0,0" VerticalAlignment="Top" Click="next_page_Click" Height="51" Width="124"/>
+        <WebView x:Name="content_webview" HorizontalAlignment="Center" Height="650" VerticalAlignment="Center" Width="900" Source="ms-appx-web:///iron_content_display.htm" Visibility="Collapsed"/>
+        <Button x:Name="close_button" Content="X" HorizontalAlignment="Left" Height="35" Margin="1407,207,0,0" VerticalAlignment="Top" Width="35" Visibility="Collapsed" Click="close_Click"/>
     </Grid>
 
 </Page>

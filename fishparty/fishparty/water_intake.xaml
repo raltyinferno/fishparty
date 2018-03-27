@@ -114,7 +114,15 @@
                     </Flyout>
                 </Button.Flyout>
             </Button>
+        
+        <Grid x:Name="contentPanel" VerticalAlignment="Bottom" HorizontalAlignment="Left">
+            <Button Content="Jump to Section" FontSize="20">
+                <Button.Flyout>
+                    <controls:guided_tour_nav />
+                </Button.Flyout>
+            </Button>
 
+        </Grid>
     </Grid>
 
 </Page>

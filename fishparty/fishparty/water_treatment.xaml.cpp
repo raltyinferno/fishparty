@@ -35,6 +35,18 @@ void fishparty::water_treatment::next_page_Click(Platform::Object^ sender, Windo
 	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(incubation::typeid));
 }
 
+void fishparty::water_treatment::open_content(string content)
+{
+	auto source = ref new Windows::Foundation::Uri(content);
+	content_webview->Navigate(source);
+
+	if (content_webview->Visibility == Windows::UI::Xaml::Visibility::Collapsed)
+	{
+		content_webview->Visibility = Windows::UI::Xaml::Visibility::Visible;
+		close_button->Visibility = Windows::UI::Xaml::Visibility::Visible;
+	}
+}
+
 
 void fishparty::water_treatment::iron_display_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
@@ -44,7 +56,10 @@ void fishparty::water_treatment::iron_display_Click(Platform::Object^ sender, Wi
 	bitmapImage->UriSource = uri;
 	display_header_image->Source = bitmapImage;
 	timeout.reset_Timer();
+
+	open_content("ms-appx-web://iron_content_display.htm");
 }
+
 
 
 void fishparty::water_treatment::heat_display_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
@@ -54,4 +69,13 @@ void fishparty::water_treatment::heat_display_Click(Platform::Object^ sender, Wi
 	bitmapImage->UriSource = uri;
 	display_header_image->Source = bitmapImage;
 	timeout.reset_Timer();
+
+	open_content("ms-appx-web://heat_content_display.htm");
+}
+
+
+void fishparty::water_treatment::close_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	content_webview->Visibility = Windows::UI::Xaml::Visibility::Collapsed;
+	close_button->Visibility = Windows::UI::Xaml::Visibility::Collapsed;
 }

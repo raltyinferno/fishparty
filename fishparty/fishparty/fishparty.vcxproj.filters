@@ -20,6 +20,8 @@
     <ClCompile Include="tour_page_1.xaml.cpp" />
     <ClCompile Include="walkthrough_start1.xaml.cpp" />
     <ClCompile Include="water_treatment.xaml.cpp" />
+    <ClCompile Include="water_intake.xaml.cpp" />
+    <ClCompile Include="fish_delivery.xaml.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="air.xaml.h" />
@@ -40,6 +42,8 @@
     <ClInclude Include="walkthrough_start1.xaml.h" />
     <ClInclude Include="water_treatment.xaml.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="water_intake.xaml.h" />
+    <ClInclude Include="fish_delivery.xaml.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\down_arrow.png">
@@ -178,6 +182,7 @@
   <ItemGroup>
     <None Include="fishparty_TemporaryKey.pfx" />
     <None Include="Iron_content_display.htm" />
+    <None Include="heat_content_display.htm" />
   </ItemGroup>
   <ItemGroup>
     <Page Include="guided_tour_nav.xaml" />
