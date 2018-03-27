@@ -6,8 +6,6 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:controls="using:fishparty"
-    Loaded="Page_Loaded"
-    Unloaded="Page_Unloaded"
     mc:Ignorable="d">
 
     <Page.Resources>
@@ -62,7 +60,7 @@
             </Button>
         </Grid>
         
-        <Path Data="M556.5,447 L567,921 L777,736.5 L777,489" Fill="White" HorizontalAlignment="Left" Height="475" Margin="556,86.5,0,0" Grid.Row="1" Stretch="Fill" Stroke="Black" UseLayoutRounding="False" VerticalAlignment="Top" Width="221.5" Grid.RowSpan="2" Grid.ColumnSpan="2" Opacity="0.2" Tapped="show_Flyout">
+        <Path Data="M556.5,447 L567,921 L777,736.5 L777,489" Fill="White" HorizontalAlignment="Left" Height="475" Margin="556,86.5,0,0" Grid.Row="1" Stretch="Fill" Stroke="#FFFFDC00" UseLayoutRounding="False" VerticalAlignment="Top" Width="221.5" Grid.RowSpan="2" Grid.ColumnSpan="2" Opacity="0.2" Tapped="show_Flyout" StrokeThickness="14">
             <FlyoutBase.AttachedFlyout>
                 <Flyout Placement="Full">
                     <!--<ContentPresenter ContentTemplate="{StaticResource more_info}" />-->

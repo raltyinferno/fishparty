@@ -14,10 +14,10 @@ fishparty::Hometimer::Hometimer()
 
 fishparty::Hometimer::~Hometimer()
 {
-	if (!canceled)
-	{
+	//if (!canceled)
+	//{
 		this->cancel_Timer();
-	}
+	//}
 }
 
 
@@ -36,11 +36,6 @@ void fishparty::Hometimer::start_Timer()
 	home_timer = ThreadPoolTimer::CreateTimer(ref new TimerElapsedHandler([&](ThreadPoolTimer^ source)
 	{
 		//
-		// TODO: Work
-		//
-		//this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(MainPage::typeid));
-
-		//
 		// Update the UI thread by using the UI core dispatcher.
 		//
 		Windows::ApplicationModel::Core::CoreApplication::MainView->CoreWindow->Dispatcher->RunAsync(CoreDispatcherPriority::High,
@@ -49,10 +44,7 @@ void fishparty::Hometimer::start_Timer()
 			//
 			// UI components can be accessed within this scope.
 			//
-
 		}));
-
-
 
 	}), period, ref new TimerDestroyedHandler([&](ThreadPoolTimer ^ source)
 	{

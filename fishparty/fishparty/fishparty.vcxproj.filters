@@ -73,9 +73,6 @@
     <Image Include="Assets\fishparty_bubble.png">
       <Filter>images</Filter>
     </Image>
-    <Image Include="Assets\fishparty_highlight.png">
-      <Filter>images</Filter>
-    </Image>
     <Image Include="Assets\boiler_room2.jpg">
       <Filter>images</Filter>
     </Image>

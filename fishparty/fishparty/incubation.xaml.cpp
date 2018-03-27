@@ -33,13 +33,4 @@ void fishparty::incubation::forward_Click(Platform::Object^ sender, Windows::UI:
 }
 
 
-void fishparty::incubation::Page_Loaded(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
-{
 
-}
-
-
-void fishparty::incubation::Page_Unloaded(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
-{
-
-}

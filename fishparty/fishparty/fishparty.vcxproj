@@ -264,7 +264,6 @@
     <Image Include="Assets\egg_intake.jpg" />
     <Image Include="Assets\filter.gif" />
     <Image Include="Assets\fishparty_bubble.png" />
-    <Image Include="Assets\fishparty_highlight.png" />
     <Image Include="Assets\fishparty_splash_background.png" />
     <Image Include="Assets\hatchery_map.jpg" />
     <Image Include="Assets\left_arrow.png" />
