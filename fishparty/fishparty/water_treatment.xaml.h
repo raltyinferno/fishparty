@@ -24,7 +24,7 @@ namespace fishparty
 		Hometimer timeout;
 		void next_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void iron_display_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
-		void open_content(string content);
+		void open_content(Platform::String ^ content);
 		void heat_display_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void close_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		bool content_open = false;

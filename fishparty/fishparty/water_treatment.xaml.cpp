@@ -35,7 +35,7 @@ void fishparty::water_treatment::next_page_Click(Platform::Object^ sender, Windo
 	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(incubation::typeid));
 }
 
-void fishparty::water_treatment::open_content(string content)
+void fishparty::water_treatment::open_content(Platform::String ^ content)
 {
 	auto source = ref new Windows::Foundation::Uri(content);
 	content_webview->Navigate(source);
@@ -51,10 +51,10 @@ void fishparty::water_treatment::open_content(string content)
 void fishparty::water_treatment::iron_display_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
 	
-	auto bitmapImage = ref new Windows::UI::Xaml::Media::Imaging::BitmapImage();
+	/*auto bitmapImage = ref new Windows::UI::Xaml::Media::Imaging::BitmapImage();
 	auto uri = ref new Windows::Foundation::Uri("ms-appx:///Assets/test_header.png");
 	bitmapImage->UriSource = uri;
-	display_header_image->Source = bitmapImage;
+	display_header_image->Source = bitmapImage;*/
 	timeout.reset_Timer();
 
 	open_content("ms-appx-web://iron_content_display.htm");
@@ -64,10 +64,10 @@ void fishparty::water_treatment::iron_display_Click(Platform::Object^ sender, Wi
 
 void fishparty::water_treatment::heat_display_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	auto bitmapImage = ref new Windows::UI::Xaml::Media::Imaging::BitmapImage();
+	/*auto bitmapImage = ref new Windows::UI::Xaml::Media::Imaging::BitmapImage();
 	auto uri = ref new Windows::Foundation::Uri("ms-appx:///Assets/test_header2.png");
 	bitmapImage->UriSource = uri;
-	display_header_image->Source = bitmapImage;
+	display_header_image->Source = bitmapImage;*/
 	timeout.reset_Timer();
 
 	open_content("ms-appx-web://heat_content_display.htm");
