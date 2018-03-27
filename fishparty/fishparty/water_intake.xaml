@@ -12,7 +12,6 @@
     <Page.Resources>
         <ImageBrush x:Key="water_intake" ImageSource="/Assets/bg_wintake.jpg" Opacity=".85" Stretch="UniformToFill" />
         <DataTemplate x:Key="moreInfo">
-
             <Grid x:Name="moreInfo1" Width="1250" Height="750">
                 <Image Source="/Assets/win_close.jpg" VerticalAlignment="Center" HorizontalAlignment="Left" Height="700" Width="auto"/>
                 <TextBlock VerticalAlignment="Top" HorizontalAlignment="Right" FontSize="42" TextWrapping="WrapWholeWords" FontFamily="Times New Roman" Width="675">
