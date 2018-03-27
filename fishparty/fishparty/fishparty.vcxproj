@@ -245,6 +245,9 @@
     <None Include="Iron_content_display.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
+    <None Include="heat_content_display.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\air_background.jpg" />
