@@ -57,7 +57,7 @@ void fishparty::water_treatment::iron_display_Click(Platform::Object^ sender, Wi
 	display_header_image->Source = bitmapImage;*/
 	timeout.reset_Timer();
 
-	open_content("ms-appx-web://iron_content_display.htm");
+	open_content("ms-appx-web:///iron_content_display.htm");
 }
 
 
@@ -70,7 +70,7 @@ void fishparty::water_treatment::heat_display_Click(Platform::Object^ sender, Wi
 	display_header_image->Source = bitmapImage;*/
 	timeout.reset_Timer();
 
-	open_content("ms-appx-web://heat_content_display.htm");
+	open_content("ms-appx-web:///heat_content_display.htm");
 }
 
 

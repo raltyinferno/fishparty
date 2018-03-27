@@ -49,14 +49,14 @@
             <Setter Property="Width" Value="Auto"/>
         </Style>
 
-        <Flyout x:Key="display" Placement="Full" FlyoutPresenterStyle="{StaticResource CenteredFlyoutPresenterStyle}">
-            <!--<Flyout.FlyoutPresenterStyle>
+        <Flyout x:Key="display" Placement="Full">
+            <Flyout.FlyoutPresenterStyle>
                 <Style TargetType="FlyoutPresenter">
                     <Setter Property="MinWidth" Value="800"/>
                     <Setter Property="ScrollViewer.HorizontalScrollMode" Value="Disabled" />
                     <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Disabled" />
                 </Style>
-            </Flyout.FlyoutPresenterStyle>-->
+            </Flyout.FlyoutPresenterStyle>
             <Grid HorizontalAlignment="Center">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
@@ -121,7 +121,7 @@
 
 
         <Button x:Name="button" Content="Go to eggs" HorizontalAlignment="Left" Margin="1736,1019,0,0" VerticalAlignment="Top" Click="next_page_Click" Height="51" Width="124"/>
-        <WebView x:Name="content_webview" HorizontalAlignment="Center" Height="650" VerticalAlignment="Center" Width="900" Source="ms-appx-web:///iron_content_display.htm" Visibility="Collapsed"/>
+        <WebView x:Name="content_webview" HorizontalAlignment="Center" Height="650" VerticalAlignment="Center" Width="900" Visibility="Collapsed"/>
         <Button x:Name="close_button" Content="X" HorizontalAlignment="Left" Height="35" Margin="1407,207,0,0" VerticalAlignment="Top" Width="35" Visibility="Collapsed" Click="close_Click"/>
     </Grid>
 
