@@ -6,6 +6,7 @@
 #pragma once
 
 #include "water_intake.g.h"
+#include "directory.h"
 
 namespace fishparty
 {
@@ -17,5 +18,8 @@ namespace fishparty
 	{
 	public:
 		water_intake();
+	private:
+		Hometimer timeout;
+		void next_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 	};
 }

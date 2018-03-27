@@ -120,8 +120,9 @@
                     <controls:guided_tour_nav />
                 </Button.Flyout>
             </Button>
-
         </Grid>
+        <Button x:Name="egg_butt" Content="Egg Intake ->" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,200,100" Click="next_page_Click" Height="75" Width="185" FontSize="28"/>
+
     </Grid>
 
 </Page>

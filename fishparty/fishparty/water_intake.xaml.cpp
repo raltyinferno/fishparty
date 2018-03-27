@@ -25,3 +25,8 @@ water_intake::water_intake()
 {
 	InitializeComponent();
 }
+
+void fishparty::water_intake::next_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(incubation::typeid));
+}
