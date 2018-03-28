@@ -25,3 +25,16 @@ fivetanks::fivetanks()
 {
 	InitializeComponent();
 }
+
+
+void fishparty::fivetanks::next_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(six_foot_tanks::typeid));
+}
+
+
+void fishparty::fivetanks::show_Flyout(Platform::Object^ sender, Windows::UI::Xaml::Input::TappedRoutedEventArgs^ e)
+{
+	new_timer.reset_Timer();
+	this->Frame->ContextFlyout->ShowAttachedFlyout((FrameworkElement^)sender);
+}

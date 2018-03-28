@@ -11,7 +11,15 @@
 #include "incubation_2.xaml.h"
 //
 
+// Five foot tank rooms
 #include "fivetanks.xaml.h"
+//
+
+// Six foot tank rooms
+#include "six_foot_tanks.xaml.h"
+//
+
+
 #include "air.xaml.h"
 
 #include "fish_delivery.xaml.h"

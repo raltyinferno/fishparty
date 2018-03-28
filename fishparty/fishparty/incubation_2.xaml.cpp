@@ -44,3 +44,9 @@ void fishparty::incubation_2::show_Flyout(Platform::Object^ sender, Windows::UI:
 }
 
 
+
+
+void fishparty::incubation_2::next_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(fivetanks::typeid));
+}

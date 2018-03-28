@@ -19,6 +19,8 @@ namespace fishparty
 	public:
 		fivetanks();
 	private:
-		Hometimer timeout;
+		Hometimer new_timer;
+		void next_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
+		void show_Flyout(Platform::Object^ sender, Windows::UI::Xaml::Input::TappedRoutedEventArgs^ e);
 	};
 }

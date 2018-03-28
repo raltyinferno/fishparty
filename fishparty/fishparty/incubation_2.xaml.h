@@ -24,5 +24,6 @@ namespace fishparty
 		void forward_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void backward_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void show_Flyout(Platform::Object^ sender, Windows::UI::Xaml::Input::TappedRoutedEventArgs^ e);
+		void next_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 	};
 }

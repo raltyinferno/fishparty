@@ -139,6 +139,9 @@
     <ClInclude Include="air.xaml.h">
       <DependentUpon>air.xaml</DependentUpon>
     </ClInclude>
+    <ClInclude Include="six_foot_tanks.xaml.h">
+      <DependentUpon>six_foot_tanks.xaml</DependentUpon>
+    </ClInclude>
     <ClInclude Include="water_intake.xaml.h">
       <DependentUpon>water_intake.xaml</DependentUpon>
     </ClInclude>
@@ -196,6 +199,9 @@
     <Page Include="air.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="six_foot_tanks.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="water_intake.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -250,6 +256,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Image Include="Assets\5ft Tank Guided Tour\5ft_001.jpg" />
+    <Image Include="Assets\5ft Tank Guided Tour\5ft_001_01.jpg" />
+    <Image Include="Assets\6ft Tank Guided Tour\6ft_001.jpg" />
+    <Image Include="Assets\6ft Tank Guided Tour\6ft_002.jpg" />
     <Image Include="Assets\air_background.jpg" />
     <Image Include="Assets\bg_wintake.jpg" />
     <Image Include="Assets\boiler_room.jpg" />
@@ -295,6 +305,9 @@
   <ItemGroup>
     <ClCompile Include="air.xaml.cpp">
       <DependentUpon>air.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="six_foot_tanks.xaml.cpp">
+      <DependentUpon>six_foot_tanks.xaml</DependentUpon>
     </ClCompile>
     <ClCompile Include="water_intake.xaml.cpp">
       <DependentUpon>water_intake.xaml</DependentUpon>
