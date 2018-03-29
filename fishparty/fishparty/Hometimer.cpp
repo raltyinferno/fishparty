@@ -16,7 +16,7 @@ fishparty::Hometimer::~Hometimer()
 {
 	//if (!canceled)
 	//{
-		this->cancel_Timer();
+	this->cancel_Timer();
 	//}
 }
 
