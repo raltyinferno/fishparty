@@ -83,8 +83,8 @@
         </Path>
 
         <Grid>
-            <Rectangle Fill="Black" Opacity=".4" Width="1024" Height="250" VerticalAlignment="Top" RadiusX="10" Margin="0,0,-384,0" HorizontalAlignment="Right"/>
-            <TextBlock HorizontalAlignment="Left" FontSize="132" FontFamily="Times New Roman" Margin="193,46,-118,54" Foreground="LightBlue">Incubation</TextBlock>
+            <Rectangle Style="{StaticResource title_box_style}" Width="669" Margin="0,0,-29,0"/>
+            <TextBlock Style="{StaticResource title_text_style}">Incubation</TextBlock>
 
         </Grid>
 

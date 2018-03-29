@@ -15,7 +15,7 @@
     <Grid Background="{StaticResource background}">
 
         <Grid>
-            <Rectangle Fill="Black" Opacity=".4" Width="1070" Height="250" VerticalAlignment="Top" RadiusX="10" Margin="0,0,850,0" HorizontalAlignment="Right"/>
+            <Rectangle Style="{StaticResource title_box_style}" Width="889"/>
             <TextBlock Style="{StaticResource title_text_style}">Air Collection</TextBlock>
         </Grid>
 

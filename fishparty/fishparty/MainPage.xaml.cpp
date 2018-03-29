@@ -73,7 +73,7 @@ void fishparty::MainPage::Page_Loaded(Platform::Object^ sender, Windows::UI::Xam
 
 void fishparty::MainPage::test_button_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(tour_page_1::typeid));
+	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(water_treatment::typeid));
 }
 
 

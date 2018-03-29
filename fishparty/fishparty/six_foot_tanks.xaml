@@ -38,8 +38,8 @@
 
 
         <Grid>
-            <Rectangle Fill="Black" Opacity=".4" Width="1024" Height="250" VerticalAlignment="Top" RadiusX="10" Margin="0,0,896,0" HorizontalAlignment="Right"/>
-            <TextBlock HorizontalAlignment="Left" FontSize="132" FontFamily="Times New Roman" Margin="140,52,0,900" Foreground="LightBlue">6 Foot Tanks</TextBlock>
+            <Rectangle Style="{StaticResource title_box_style}" Width="809"/>
+            <TextBlock Style="{StaticResource title_text_style}">6 Foot Tanks</TextBlock>
         </Grid>
 
         <Button x:Name="next_button" Content="Front Tanks ->" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="next_page_Click" Height="75" Width="203" FontSize="28"/>

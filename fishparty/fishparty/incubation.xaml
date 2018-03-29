@@ -58,11 +58,10 @@
 
             </Grid>
 
-            <Rectangle Fill="Black" Opacity=".4" Width="1024" Height="250" VerticalAlignment="Top" RadiusX="10" Grid.ColumnSpan="2" Margin="0,0,256,0"/>
+            <Rectangle Style="{StaticResource title_box_style}" Width="868" Grid.ColumnSpan="3" Margin="0,0,-868,-150" Grid.RowSpan="3"/>
             <TextBlock Style="{StaticResource title_text_style}">Egg Receiving</TextBlock>
 
         </Grid>
-        <Rectangle Fill="Black" Opacity=".4" Width="1024" Height="250" VerticalAlignment="Top" RadiusX="10" Margin="0,0,256,0"/>
         <TextBlock Style="{StaticResource title_text_style}">Egg Receiving</TextBlock>
     </Grid>
 

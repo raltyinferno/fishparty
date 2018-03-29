@@ -35,8 +35,12 @@
                 </Button.Flyout>
             </Button>
         </Grid>
+        <Grid>
+            <Rectangle Style="{StaticResource title_box_style}" Width="889"/>
+            <TextBlock Style="{StaticResource title_text_style}">Fish Release</TextBlock>
+        </Grid>
         <RelativePanel x:Name="furtherInfo">
-            
+
             <!-- Vehicles button, shows information about the different delivery methods -->
             <Button 
                     x:Name="vehicles_button" 
@@ -102,7 +106,7 @@
                         VerticalAlignment="Bottom"><Run Text="Delivery Locations"/></TextBlock>
                 </StackPanel>
             </Button>
-            
+
             <!-- Process button, shows information about the process of delivering the fish, (maybe stuff about the chutes?) -->
             <Button
                     x:Name="process_button" 
@@ -111,7 +115,7 @@
                     VerticalAlignment="Bottom" 
                     BorderThickness="0" 
                     Padding="0"
-                    Margin="53,0,-553,-560" 
+                    Margin="43,0,-543,-651" 
                     Width="500"
                     Height="500">
                 <Button.Flyout>
@@ -134,7 +138,7 @@
                     HorizontalAlignment="Center"><Run Text="Delivery Process"/></TextBlock>
                 </StackPanel>
             </Button>
-            
+
         </RelativePanel>
         <Button x:Name="button" Content="Return Home" HorizontalAlignment="Left" Height="104"  VerticalAlignment="Top" Width="162" Margin="1693,941,0,0" Click="home_Click"/>
     </Grid>
