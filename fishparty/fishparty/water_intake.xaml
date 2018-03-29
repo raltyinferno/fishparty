@@ -29,7 +29,7 @@
         <Rectangle Fill="Black" Opacity=".7" Width="1575" Height="250" VerticalAlignment="Top" HorizontalAlignment="left" RadiusX="10"/>
 
         <TextBlock Style="{StaticResource title_text_style}">Water Intake and Treatment</TextBlock>
-        <Button RenderTransformOrigin="13.425,0.03" Margin="1667,412,0,368" Height="660" Width="811" Opacity=".35">
+        <Button RenderTransformOrigin="13.425,0.03" Margin="1254,288,0,304" Height="488" Width="556" Opacity=".35">
             <Button.Flyout>
                 <Flyout Placement="Left" >
                     <Flyout.FlyoutPresenterStyle>
@@ -50,7 +50,7 @@
                 </Flyout>
             </Button.Flyout>
         </Button>
-        <Button RenderTransformOrigin="13.425,0.03" Margin="1157,551,0,595" Height="294" Width="218" Opacity=".35">
+        <Button RenderTransformOrigin="13.425,0.03" Margin="876,384,0,402" Height="294" Width="218" Opacity=".35">
             <Button.Flyout>
                 <Flyout Placement="Left" >
                     <Flyout.FlyoutPresenterStyle>
@@ -71,7 +71,7 @@
                 </Flyout>
             </Button.Flyout>
         </Button>
-        <Button RenderTransformOrigin="13.425,0.03" Margin="930,614,0,595" Height="231" Width="117" Opacity=".35">
+        <Button RenderTransformOrigin="13.425,0.03" Margin="720,450,0,444" Height="186" Width="75" Opacity=".35">
             <Button.Flyout>
                 <Flyout Placement="Left" >
                     <Flyout.FlyoutPresenterStyle>
@@ -93,27 +93,27 @@
             </Button.Flyout>
         </Button>
         <Button>
-                <Button.Flyout>
-                    <Flyout Placement="Left" >
-                        <Flyout.FlyoutPresenterStyle>
-                            <Style TargetType="FlyoutPresenter">
-                                <Setter Property="MinWidth" Value="1300"/>
-                                <Setter Property="Background" >
-                                    <Setter.Value>
-                                        <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
-                                            <GradientStop Color="Navy" Offset="0.0"/>
-                                            <GradientStop Color="DarkSlateGray" Offset="0.5"/>
-                                            <GradientStop Color="Black" Offset="1"/>
-                                        </LinearGradientBrush>
-                                    </Setter.Value>
-                                </Setter>
-                            </Style>
-                        </Flyout.FlyoutPresenterStyle>
-                        <ContentPresenter ContentTemplate="{StaticResource moreInfo}"/>
-                    </Flyout>
-                </Button.Flyout>
-            </Button>
-        
+            <Button.Flyout>
+                <Flyout Placement="Left" >
+                    <Flyout.FlyoutPresenterStyle>
+                        <Style TargetType="FlyoutPresenter">
+                            <Setter Property="MinWidth" Value="1300"/>
+                            <Setter Property="Background" >
+                                <Setter.Value>
+                                    <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+                                        <GradientStop Color="Navy" Offset="0.0"/>
+                                        <GradientStop Color="DarkSlateGray" Offset="0.5"/>
+                                        <GradientStop Color="Black" Offset="1"/>
+                                    </LinearGradientBrush>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </Flyout.FlyoutPresenterStyle>
+                    <ContentPresenter ContentTemplate="{StaticResource moreInfo}"/>
+                </Flyout>
+            </Button.Flyout>
+        </Button>
+
         <Grid x:Name="contentPanel" VerticalAlignment="Bottom" HorizontalAlignment="Left">
             <Button Content="Jump to Section" FontSize="20">
                 <Button.Flyout>
