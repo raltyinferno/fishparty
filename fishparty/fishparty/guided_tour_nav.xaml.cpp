@@ -34,7 +34,7 @@ void fishparty::guided_tour_nav::home_Click(Platform::Object^ sender, Windows::U
 
 void fishparty::guided_tour_nav::water_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	nav_to_page(Windows::UI::Xaml::Interop::TypeName(water_treatment::typeid));
+	nav_to_page(Windows::UI::Xaml::Interop::TypeName(water_intake::typeid));
 }
 
 
@@ -47,6 +47,11 @@ void fishparty::guided_tour_nav::eggs_Click(Platform::Object^ sender, Windows::U
 void fishparty::guided_tour_nav::five_tanks_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
 	nav_to_page(Windows::UI::Xaml::Interop::TypeName(fivetanks::typeid));
+}
+
+void fishparty::guided_tour_nav::siz_tanks_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	nav_to_page(Windows::UI::Xaml::Interop::TypeName(six_foot_tanks::typeid));
 }
 
 void fishparty::guided_tour_nav::air_click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
@@ -67,6 +72,8 @@ void fishparty::nav_to_page(Windows::UI::Xaml::Interop::TypeName sourcePageType)
 
 	rootFrame->Navigate(sourcePageType);
 }
+
+
 
 
 

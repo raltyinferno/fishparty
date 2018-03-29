@@ -18,7 +18,7 @@
         <Button x:Name="water"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="The Water" Click="water_Click"/>
         <Button x:Name="eggs"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Egg Room" Click="eggs_Click"/>
         <Button x:Name="fivetanks"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Start Up (5' Tanks)" Click="five_tanks_Click"/>
-        <Button x:Name="tentanks"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Rearing (10' Tanks)"/>
+        <Button x:Name="tentanks"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Rearing (6' Tanks)" Click="siz_tanks_Click"/>
         <Button x:Name="life_support"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Rearing (25' Tanks)"/>
         <Button x:Name="air"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Air Filtration" Click="air_click"/>
         <Button x:Name="release"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Fish Release" Click="delivery_Click"/>

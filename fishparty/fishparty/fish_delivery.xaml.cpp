@@ -27,41 +27,26 @@ fish_delivery::fish_delivery()
 }
 
 
-
-
-
-void fishparty::fish_delivery::next_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
-{
-	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(incubation::typeid));
-}
-
-
 void fishparty::fish_delivery::vehicles_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-
-	auto bitmapImage = ref new Windows::UI::Xaml::Media::Imaging::BitmapImage();
-	auto uri = ref new Windows::Foundation::Uri("ms-appx:///Assets/test_header.png");
-	bitmapImage->UriSource = uri;
-	display_header_image->Source = bitmapImage;
 	timeout.reset_Timer();
 }
 
 
 void fishparty::fish_delivery::locations_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	auto bitmapImage = ref new Windows::UI::Xaml::Media::Imaging::BitmapImage();
-	auto uri = ref new Windows::Foundation::Uri("ms-appx:///Assets/test_header2.png");
-	bitmapImage->UriSource = uri;
-	display_header_image->Source = bitmapImage;
+
 	timeout.reset_Timer();
 }
 
 
 void fishparty::fish_delivery::process_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	auto bitmapImage = ref new Windows::UI::Xaml::Media::Imaging::BitmapImage();
-	auto uri = ref new Windows::Foundation::Uri("ms-appx:///Assets/test_header2.png");
-	bitmapImage->UriSource = uri;
-	display_header_image->Source = bitmapImage;
 	timeout.reset_Timer();
+}
+
+
+void fishparty::fish_delivery::home_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(MainPage::typeid));
 }

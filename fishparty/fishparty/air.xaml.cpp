@@ -25,3 +25,9 @@ air::air()
 {
 	InitializeComponent();
 }
+
+
+void fishparty::air::nav_to_fish_release(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(fish_delivery::typeid));
+}

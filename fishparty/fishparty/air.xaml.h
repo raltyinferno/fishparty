@@ -18,5 +18,7 @@ namespace fishparty
 	{
 	public:
 		air();
+	private:
+		void nav_to_fish_release(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 	};
 }

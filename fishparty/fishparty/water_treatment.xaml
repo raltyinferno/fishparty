@@ -68,6 +68,8 @@
                 <WebView x:Name="content" Source="ms-appx-web:///iron_content_display.htm" Grid.Row="2" />
             </Grid>
         </Flyout>
+        <ImageBrush x:Key="boiler_room"       ImageSource="/Assets/boiler_room2.jpg" Opacity=".3" Stretch="UniformToFill" />
+
     </Page.Resources>
 
     <Grid Background="{StaticResource boiler_room}" x:Name="page_grid">

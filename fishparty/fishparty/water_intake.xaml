@@ -28,7 +28,7 @@
     <Grid Background="{StaticResource water_intake}" x:Name="page_grid">
         <Rectangle Fill="Black" Opacity=".7" Width="1575" Height="250" VerticalAlignment="Top" HorizontalAlignment="left" RadiusX="10"/>
 
-        <TextBlock FontSize="132" FontFamily="Times New Roman" Margin="50" Foreground="LightBlue">Water Intake and Treatment</TextBlock>
+        <TextBlock Style="{StaticResource title_text_style}">Water Intake and Treatment</TextBlock>
         <Button RenderTransformOrigin="13.425,0.03" Margin="1667,412,0,368" Height="660" Width="811" Opacity=".35">
             <Button.Flyout>
                 <Flyout Placement="Left" >

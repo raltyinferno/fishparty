@@ -29,7 +29,7 @@ front_tanks::front_tanks()
 
 void fishparty::front_tanks::next_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-
+	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(air::typeid));
 }
 
 

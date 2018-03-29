@@ -13,54 +13,57 @@
     </Page.Resources>
 
     <Grid Background="{StaticResource walk1}" x:Name="page_grid">
-        
+        <Grid>
 
-        <Grid.RowDefinitions>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
-        <Grid Grid.Row="1" Grid.Column="1" x:Name="button_grid">
             <Grid.RowDefinitions>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
+            <Grid Grid.Row="1" Grid.Column="1" x:Name="button_grid">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
 
-            <Button Grid.Column="2" Grid.Row="1" HorizontalAlignment="Center" Background="{x:Null}" Click="forward_Click">
-                <Image Source="Assets/up_arrow.png" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5">
-                    <Image.RenderTransform>
-                        <CompositeTransform Rotation="-72.533"/>
-                    </Image.RenderTransform>
-                </Image>
-            </Button>
+                <Button Grid.Column="2" Grid.Row="1" HorizontalAlignment="Center" Background="{x:Null}" Click="forward_Click">
+                    <Image Source="Assets/up_arrow.png" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5">
+                        <Image.RenderTransform>
+                            <CompositeTransform Rotation="-72.533"/>
+                        </Image.RenderTransform>
+                    </Image>
+                </Button>
+
+            </Grid>
+
+
+            <Grid  VerticalAlignment="Bottom" HorizontalAlignment="Left" Grid.Row="2">
+
+                <Button Content="Jump to Section" FontSize="20">
+                    <Button.Flyout>
+                        <controls:guided_tour_nav />
+                    </Button.Flyout>
+                </Button>
+
+            </Grid>
+
+            <Rectangle Fill="Black" Opacity=".4" Width="1024" Height="250" VerticalAlignment="Top" RadiusX="10" Grid.ColumnSpan="2" Margin="0,0,256,0"/>
+            <TextBlock Style="{StaticResource title_text_style}">Egg Receiving</TextBlock>
 
         </Grid>
-
-
-        <Grid  VerticalAlignment="Bottom" HorizontalAlignment="Left" Grid.Row="2">
-
-            <Button Content="Jump to Section" FontSize="20">
-                <Button.Flyout>
-                    <controls:guided_tour_nav />
-                </Button.Flyout>
-            </Button>
-
-        </Grid>
-
-        <Rectangle Fill="Black" Opacity=".4" Width="1024" Height="250" VerticalAlignment="Top" RadiusX="10" Grid.ColumnSpan="2" Margin="0,0,256,0"/>
-        <TextBlock HorizontalAlignment="Center" FontSize="132" FontFamily="Times New Roman" Margin="123,47,376,53" Foreground="LightBlue" Grid.ColumnSpan="2">Egg Receiving</TextBlock>
-
+        <Rectangle Fill="Black" Opacity=".4" Width="1024" Height="250" VerticalAlignment="Top" RadiusX="10" Margin="0,0,256,0"/>
+        <TextBlock Style="{StaticResource title_text_style}">Egg Receiving</TextBlock>
     </Grid>
 
 </Page>
