@@ -1,10 +1,10 @@
 ﻿//
-// six_foot_tanks_2.xaml.cpp
-// Implementation of the six_foot_tanks_2 class
+// front_tanks.xaml.cpp
+// Implementation of the front_tanks class
 //
 
 #include "pch.h"
-#include "six_foot_tanks_2.xaml.h"
+#include "front_tanks.xaml.h"
 
 using namespace fishparty;
 
@@ -21,19 +21,20 @@ using namespace Windows::UI::Xaml::Navigation;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
-six_foot_tanks_2::six_foot_tanks_2()
+front_tanks::front_tanks()
 {
 	InitializeComponent();
 }
 
 
-void fishparty::six_foot_tanks_2::next_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+void fishparty::front_tanks::next_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(front_tanks::typeid));
+
 }
 
 
-void fishparty::six_foot_tanks_2::return_button_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+void fishparty::front_tanks::show_Flyout(Platform::Object^ sender, Windows::UI::Xaml::Input::TappedRoutedEventArgs^ e)
 {
-	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(six_foot_tanks::typeid));
+	new_timer.reset_Timer();
+	this->Frame->ContextFlyout->ShowAttachedFlyout((FrameworkElement^)sender);
 }

@@ -1,0 +1,63 @@
+﻿<Page
+    x:Class="fishparty.front_tanks"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:fishparty"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:fishparty"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <ImageBrush ImageSource="Assets/Front Tanks Guided Tour/front_001.jpg" x:Key="walk1" Opacity="1" Stretch="UniformToFill"/>
+    </Page.Resources>
+
+    <Grid Background="{StaticResource walk1}" x:Name="page_grid">
+
+
+
+
+        <Grid  VerticalAlignment="Bottom" HorizontalAlignment="Left" Grid.Row="2">
+            <Button Content="Jump to Section" FontSize="20">
+                <Button.Flyout>
+                    <controls:guided_tour_nav/>
+
+
+                </Button.Flyout>
+            </Button>
+        </Grid>
+
+
+        <Path Data="M882.072,288.287 L1411.31,283.984 L1407.01,417.37 L894.98,395.856 z" Fill="White" HorizontalAlignment="Left" Height="147.387" Margin="875.072,276.984,0,0" Stretch="Fill" Stroke="#FF002EFF" StrokeThickness="14" UseLayoutRounding="False" VerticalAlignment="Top" Width="543.243" Opacity="0.2" Tapped="show_Flyout">
+        <FlyoutBase.AttachedFlyout>
+                <Flyout Placement="Full">
+                    <!--<ContentPresenter ContentTemplate="{StaticResource more_info}" />-->
+                    <Flyout.FlyoutPresenterStyle>
+                        <Style TargetType="FlyoutPresenter">
+                            <Setter Property="ScrollViewer.HorizontalScrollMode" Value="Disabled" />
+                            <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Disabled" />
+                        </Style>
+                    </Flyout.FlyoutPresenterStyle>
+
+                    <StackPanel Orientation="Vertical">
+                        <Image Source="/Assets/Front Tanks Guided Tour/arcticchar_largemap.jpg"/>
+                        <TextBlock FontSize="24">Arctic Char Info Here</TextBlock>
+
+
+                    </StackPanel>
+                </Flyout>
+            </FlyoutBase.AttachedFlyout>
+        </Path>
+
+
+
+
+        <Grid>
+            <Rectangle Fill="Black" Opacity=".4" Width="1024" Height="250" VerticalAlignment="Top" RadiusX="10" Margin="0,0,896,0" HorizontalAlignment="Right"/>
+            <TextBlock HorizontalAlignment="Left" FontSize="132" FontFamily="Times New Roman" Margin="140,52,0,900" Foreground="LightBlue">Front Tanks</TextBlock>
+        </Grid>
+
+        <Button x:Name="next_button" Content="30 Foot Tanks ->" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="next_page_Click" Height="75" Width="236" FontSize="28"/>
+
+    </Grid>
+</Page>

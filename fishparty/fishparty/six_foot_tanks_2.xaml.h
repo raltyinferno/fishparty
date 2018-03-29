@@ -18,6 +18,8 @@ namespace fishparty
 	public:
 		six_foot_tanks_2();
 	private:
+		Hometimer new_timer;
+
 		void next_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void return_button_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 	};

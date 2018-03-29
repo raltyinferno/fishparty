@@ -139,6 +139,9 @@
     <ClInclude Include="air.xaml.h">
       <DependentUpon>air.xaml</DependentUpon>
     </ClInclude>
+    <ClInclude Include="front_tanks.xaml.h">
+      <DependentUpon>front_tanks.xaml</DependentUpon>
+    </ClInclude>
     <ClInclude Include="six_foot_tanks.xaml.h">
       <DependentUpon>six_foot_tanks.xaml</DependentUpon>
     </ClInclude>
@@ -200,6 +203,9 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="air.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="front_tanks.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Include="six_foot_tanks.xaml">
@@ -281,6 +287,8 @@
     <Image Include="Assets\filter.gif" />
     <Image Include="Assets\fishparty_bubble.png" />
     <Image Include="Assets\fishparty_splash_background.png" />
+    <Image Include="Assets\Front Tanks Guided Tour\arcticchar_largemap.jpg" />
+    <Image Include="Assets\Front Tanks Guided Tour\front_001.jpg" />
     <Image Include="Assets\hatchery_map.jpg" />
     <Image Include="Assets\left_arrow.png" />
     <Image Include="Assets\LockScreenLogo.scale-200.png" />
@@ -311,6 +319,9 @@
   <ItemGroup>
     <ClCompile Include="air.xaml.cpp">
       <DependentUpon>air.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="front_tanks.xaml.cpp">
+      <DependentUpon>front_tanks.xaml</DependentUpon>
     </ClCompile>
     <ClCompile Include="six_foot_tanks.xaml.cpp">
       <DependentUpon>six_foot_tanks.xaml</DependentUpon>

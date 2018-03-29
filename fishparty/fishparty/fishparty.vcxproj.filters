@@ -184,6 +184,12 @@
     <Image Include="Assets\6ft Tank Guided Tour\6ft_002.jpg">
       <Filter>images\6ft Guided Tour</Filter>
     </Image>
+    <Image Include="Assets\Front Tanks Guided Tour\front_001.jpg">
+      <Filter>images\Front Tanks Guided Tour</Filter>
+    </Image>
+    <Image Include="Assets\Front Tanks Guided Tour\arcticchar_largemap.jpg">
+      <Filter>images\Front Tanks Guided Tour</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest" />
@@ -235,6 +241,9 @@
     <Page Include="six_foot_tanks_2.xaml">
       <Filter>guided tour pages</Filter>
     </Page>
+    <Page Include="front_tanks.xaml">
+      <Filter>guided tour pages</Filter>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="images">
@@ -251,6 +260,9 @@
     </Filter>
     <Filter Include="images\6ft Guided Tour">
       <UniqueIdentifier>{31930c9e-fec1-446c-b3c5-dc3e5bae2966}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="images\Front Tanks Guided Tour">
+      <UniqueIdentifier>{eedd53d9-470b-4935-a004-0c830818e5ca}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

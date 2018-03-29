@@ -28,7 +28,7 @@
         </Grid>
 
 
-            <Path Data="M588.653,558.414 L923.299,520.112 L921.283,794.279 L602.765,832.582 z" Fill="#FF0017FF" HorizontalAlignment="Left" Height="326.47" Margin="581.653,513.112,0,0" Stretch="Fill" Stroke="#FF002EFF" StrokeThickness="14" UseLayoutRounding="False" VerticalAlignment="Top" Width="348.646" Opacity="0.2" Tapped="show_Flyout">
+            <Path Data="M588.653,558.414 L923.299,520.112 L921.283,794.279 L602.765,832.582 z" Fill="White" HorizontalAlignment="Left" Height="326.47" Margin="581.653,513.112,0,0" Stretch="Fill" Stroke="#FF002EFF" StrokeThickness="14" UseLayoutRounding="False" VerticalAlignment="Top" Width="348.646" Opacity="0.2" Tapped="show_Flyout">
                 <FlyoutBase.AttachedFlyout>
                 <Flyout Placement="Full">
                     <!--<ContentPresenter ContentTemplate="{StaticResource more_info}" />-->

@@ -11,13 +11,17 @@
 #include "incubation_2.xaml.h"
 //
 
-// Five foot tank rooms
+// Five foot tank pages
 #include "fivetanks.xaml.h"
 //
 
-// Six foot tank rooms
+// Six foot tank pages
 #include "six_foot_tanks.xaml.h"
 #include "six_foot_tanks_2.xaml.h"
+//
+
+// Front Tank Pages
+#include "front_tanks.xaml.h"
 //
 
 
