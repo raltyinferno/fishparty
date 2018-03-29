@@ -8,15 +8,57 @@
     xmlns:controls="using:fishparty"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <RelativePanel x:Name="contentPanel" VerticalAlignment="Bottom" HorizontalAlignment="Left">
+    <Page.Resources>
+        <ImageBrush ImageSource="Assets/5ft Tank Guided Tour/5ft_001.jpg" x:Key="walk1" Opacity="1" Stretch="UniformToFill"/>
+    </Page.Resources>
+
+    <Grid Background="{StaticResource walk1}" x:Name="page_grid">
+
+
+
+
+        <Grid  VerticalAlignment="Bottom" HorizontalAlignment="Left" Grid.Row="2">
             <Button Content="Jump to Section" FontSize="20">
                 <Button.Flyout>
-                    <controls:guided_tour_nav />
+                    <controls:guided_tour_nav/>
+
+
                 </Button.Flyout>
             </Button>
-        </RelativePanel>
-        <Image x:Name="image" HorizontalAlignment="Left" Height="100" Source="/Assets/Square150x150Logo.scale-200.png" Margin="664,423,0,0" VerticalAlignment="Top" Width="100"/>
+        </Grid>
+
+
+            <Path Data="M588.653,558.414 L923.299,520.112 L921.283,794.279 L602.765,832.582 z" Fill="White" HorizontalAlignment="Left" Height="326.47" Margin="581.653,513.112,0,0" Stretch="Fill" Stroke="#FF002EFF" StrokeThickness="14" UseLayoutRounding="False" VerticalAlignment="Top" Width="348.646" Opacity="0.2" Tapped="show_Flyout">
+                <FlyoutBase.AttachedFlyout>
+                <Flyout Placement="Full">
+                    <!--<ContentPresenter ContentTemplate="{StaticResource more_info}" />-->
+                    <Flyout.FlyoutPresenterStyle>
+                        <Style TargetType="FlyoutPresenter">
+                            <Setter Property="ScrollViewer.HorizontalScrollMode" Value="Disabled" />
+                            <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Disabled" />
+                        </Style>
+                    </Flyout.FlyoutPresenterStyle>
+
+                    <StackPanel Orientation="Vertical">
+                        <Image Source="/Assets/5ft Tank Guided Tour/5ft_001_01.jpg"/>
+                        <TextBlock FontSize="24">Info here</TextBlock>
+
+
+                    </StackPanel>
+                </Flyout>
+            </FlyoutBase.AttachedFlyout>
+        </Path>
+
+
+
+
+        <Grid>
+            <Rectangle Fill="Black" Opacity=".4" Width="1024" Height="250" VerticalAlignment="Top" RadiusX="10" Margin="0,0,896,0" HorizontalAlignment="Right"/>
+            <TextBlock HorizontalAlignment="Left" FontSize="132" FontFamily="Times New Roman" Margin="140,52,0,900" Foreground="LightBlue">5 Foot Tanks</TextBlock>
+        </Grid>
+
+        <Button x:Name="egg_butt" Content="6ft Tanks ->" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="next_page_Click" Height="75" Width="185" FontSize="28" Grid.Column="2" Grid.Row="2"/>
 
     </Grid>
+
 </Page>

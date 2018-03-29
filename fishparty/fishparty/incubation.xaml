@@ -13,6 +13,8 @@
     </Page.Resources>
 
     <Grid Background="{StaticResource walk1}" x:Name="page_grid">
+        
+
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition/>
@@ -55,6 +57,10 @@
             </Button>
 
         </Grid>
+
+        <Rectangle Fill="Black" Opacity=".4" Width="1024" Height="250" VerticalAlignment="Top" RadiusX="10" Grid.ColumnSpan="2" Margin="0,0,256,0"/>
+        <TextBlock HorizontalAlignment="Center" FontSize="132" FontFamily="Times New Roman" Margin="123,47,376,53" Foreground="LightBlue" Grid.ColumnSpan="2">Egg Receiving</TextBlock>
+
     </Grid>
 
 </Page>

@@ -172,6 +172,24 @@
     <Image Include="Assets\fishparty_splash_background.png">
       <Filter>images</Filter>
     </Image>
+    <Image Include="Assets\5ft Tank Guided Tour\5ft_001.jpg">
+      <Filter>images\5ft Guided Tour</Filter>
+    </Image>
+    <Image Include="Assets\5ft Tank Guided Tour\5ft_001_01.jpg">
+      <Filter>images\5ft Guided Tour</Filter>
+    </Image>
+    <Image Include="Assets\6ft Tank Guided Tour\6ft_001.jpg">
+      <Filter>images\6ft Guided Tour</Filter>
+    </Image>
+    <Image Include="Assets\6ft Tank Guided Tour\6ft_002.jpg">
+      <Filter>images\6ft Guided Tour</Filter>
+    </Image>
+    <Image Include="Assets\Front Tanks Guided Tour\front_001.jpg">
+      <Filter>images\Front Tanks Guided Tour</Filter>
+    </Image>
+    <Image Include="Assets\Front Tanks Guided Tour\arcticchar_largemap.jpg">
+      <Filter>images\Front Tanks Guided Tour</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest" />
@@ -217,6 +235,15 @@
     <Page Include="water_treatment.xaml">
       <Filter>guided tour pages</Filter>
     </Page>
+    <Page Include="six_foot_tanks.xaml">
+      <Filter>guided tour pages</Filter>
+    </Page>
+    <Page Include="six_foot_tanks_2.xaml">
+      <Filter>guided tour pages</Filter>
+    </Page>
+    <Page Include="front_tanks.xaml">
+      <Filter>guided tour pages</Filter>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="images">
@@ -227,6 +254,15 @@
     </Filter>
     <Filter Include="guided tour pages">
       <UniqueIdentifier>{d1abf654-6a8b-4548-9a55-8aa774fdbc73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="images\5ft Guided Tour">
+      <UniqueIdentifier>{22b26b48-cd08-4abe-9384-5c5f25b0507d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="images\6ft Guided Tour">
+      <UniqueIdentifier>{31930c9e-fec1-446c-b3c5-dc3e5bae2966}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="images\Front Tanks Guided Tour">
+      <UniqueIdentifier>{eedd53d9-470b-4935-a004-0c830818e5ca}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

@@ -10,11 +10,7 @@
 
     <Page.Resources>
         <ImageBrush ImageSource="Assets/Egg Room Guided Tour/egg_002.jpg" x:Key="walk1" Opacity="1" Stretch="UniformToFill"/>
-
-
     </Page.Resources>
-
-
 
     <Grid Background="{StaticResource walk1}" x:Name="page_grid">
 
@@ -59,8 +55,8 @@
                 </Button.Flyout>
             </Button>
         </Grid>
-        
-        <Path Data="M556.5,447 L567,921 L777,736.5 L777,489" Fill="White" HorizontalAlignment="Left" Height="475" Margin="556,86.5,0,0" Grid.Row="1" Stretch="Fill" Stroke="#FFFFDC00" UseLayoutRounding="False" VerticalAlignment="Top" Width="221.5" Grid.RowSpan="2" Grid.ColumnSpan="2" Opacity="0.2" Tapped="show_Flyout" StrokeThickness="14">
+
+        <Path Data="M562,934 L556,442 L776,488 L778,750 z" Fill="White" HorizontalAlignment="Left" Height="506" Margin="549,75,0,0" Grid.Row="1" Stretch="Fill" Stroke="#FF002EFF" StrokeThickness="14" UseLayoutRounding="False" VerticalAlignment="Top" Width="236" Grid.RowSpan="2" Grid.ColumnSpan="2" Opacity="0.2" Tapped="show_Flyout">
             <FlyoutBase.AttachedFlyout>
                 <Flyout Placement="Full">
                     <!--<ContentPresenter ContentTemplate="{StaticResource more_info}" />-->
@@ -85,6 +81,14 @@
                 </Flyout>
             </FlyoutBase.AttachedFlyout>
         </Path>
+
+        <Grid>
+            <Rectangle Fill="Black" Opacity=".4" Width="1024" Height="250" VerticalAlignment="Top" RadiusX="10" Margin="0,0,-384,0" HorizontalAlignment="Right"/>
+            <TextBlock HorizontalAlignment="Left" FontSize="132" FontFamily="Times New Roman" Margin="193,46,-118,54" Foreground="LightBlue">Incubation</TextBlock>
+
+        </Grid>
+
+        <Button x:Name="egg_butt" Content="5ft Tanks ->" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="next_page_Click" Height="75" Width="185" FontSize="28" Grid.Column="2" Grid.Row="2"/>
 
     </Grid>
 </Page>
