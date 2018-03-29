@@ -25,3 +25,9 @@ hatchery_map::hatchery_map()
 {
 	InitializeComponent();
 }
+
+
+void fishparty::hatchery_map::start_button_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(walkthrough_start1::typeid));
+}

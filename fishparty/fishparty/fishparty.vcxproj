@@ -148,6 +148,12 @@
     <ClInclude Include="six_foot_tanks_2.xaml.h">
       <DependentUpon>six_foot_tanks_2.xaml</DependentUpon>
     </ClInclude>
+    <ClInclude Include="walkthrough_002.xaml.h">
+      <DependentUpon>walkthrough_002.xaml</DependentUpon>
+    </ClInclude>
+    <ClInclude Include="walkthrough_003.xaml.h">
+      <DependentUpon>walkthrough_003.xaml</DependentUpon>
+    </ClInclude>
     <ClInclude Include="water_intake.xaml.h">
       <DependentUpon>water_intake.xaml</DependentUpon>
     </ClInclude>
@@ -212,6 +218,12 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="six_foot_tanks_2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="walkthrough_002.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="walkthrough_003.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Include="water_intake.xaml">
@@ -312,6 +324,9 @@
     <Image Include="Assets\test_header.png" />
     <Image Include="Assets\test_header2.png" />
     <Image Include="Assets\up_arrow.png" />
+    <Image Include="Assets\walkthrough\walkthrough_002.jpg" />
+    <Image Include="Assets\walkthrough\walkthrough_003.jpg" />
+    <Image Include="Assets\walkthrough\walkthrough_004.jpg" />
     <Image Include="Assets\walkthrough\walkthrough_start1.jpg" />
     <Image Include="Assets\Wide310x150Logo.scale-200.png" />
     <Image Include="Assets\win_close.jpg" />
@@ -328,6 +343,12 @@
     </ClCompile>
     <ClCompile Include="six_foot_tanks_2.xaml.cpp">
       <DependentUpon>six_foot_tanks_2.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="walkthrough_002.xaml.cpp">
+      <DependentUpon>walkthrough_002.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="walkthrough_003.xaml.cpp">
+      <DependentUpon>walkthrough_003.xaml</DependentUpon>
     </ClCompile>
     <ClCompile Include="water_intake.xaml.cpp">
       <DependentUpon>water_intake.xaml</DependentUpon>

@@ -17,5 +17,8 @@ namespace fishparty
 	{
 	public:
 		walkthrough_start1();
+	private:
+		void right_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
+		void left_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 	};
 }

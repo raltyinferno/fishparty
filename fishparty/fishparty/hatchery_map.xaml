@@ -17,5 +17,8 @@
             </Button>
 
         </RelativePanel>
+
+        <Button x:Name="start_button" Content="Begin" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="start_button_Click" Height="129" Width="236" FontSize="28" Margin="0,0,950,0" Background="#7F000000"/>
+
     </Grid>
 </Page>

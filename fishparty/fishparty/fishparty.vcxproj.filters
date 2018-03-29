@@ -22,6 +22,9 @@
     <ClCompile Include="water_treatment.xaml.cpp" />
     <ClCompile Include="water_intake.xaml.cpp" />
     <ClCompile Include="fish_delivery.xaml.cpp" />
+    <ClCompile Include="front_tanks.xaml.cpp" />
+    <ClCompile Include="six_foot_tanks.xaml.cpp" />
+    <ClCompile Include="six_foot_tanks_2.xaml.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="air.xaml.h" />
@@ -44,6 +47,9 @@
     <ClInclude Include="resource.h" />
     <ClInclude Include="water_intake.xaml.h" />
     <ClInclude Include="fish_delivery.xaml.h" />
+    <ClInclude Include="front_tanks.xaml.h" />
+    <ClInclude Include="six_foot_tanks.xaml.h" />
+    <ClInclude Include="six_foot_tanks_2.xaml.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\down_arrow.png">
@@ -124,9 +130,6 @@
     <Image Include="Assets\up_arrow.png">
       <Filter>images</Filter>
     </Image>
-    <Image Include="Assets\walkthrough\walkthrough_start1.jpg">
-      <Filter>images</Filter>
-    </Image>
     <Image Include="Assets\test walkthrough\walkthrough1.jpg">
       <Filter>images</Filter>
     </Image>
@@ -190,6 +193,18 @@
     <Image Include="Assets\Front Tanks Guided Tour\arcticchar_largemap.jpg">
       <Filter>images\Front Tanks Guided Tour</Filter>
     </Image>
+    <Image Include="Assets\walkthrough\walkthrough_start1.jpg">
+      <Filter>images\Walkthrough Images</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough\walkthrough_002.jpg">
+      <Filter>images\Walkthrough Images</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough\walkthrough_003.jpg">
+      <Filter>images\Walkthrough Images</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough\walkthrough_004.jpg">
+      <Filter>images\Walkthrough Images</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest" />
@@ -204,7 +219,6 @@
     <Page Include="hatchery_map.xaml" />
     <Page Include="MainPage.xaml" />
     <Page Include="tour_page_1.xaml" />
-    <Page Include="walkthrough_start1.xaml" />
     <Page Include="test_walkthrough3.xaml">
       <Filter>test walkthrough</Filter>
     </Page>
@@ -244,6 +258,15 @@
     <Page Include="front_tanks.xaml">
       <Filter>guided tour pages</Filter>
     </Page>
+    <Page Include="walkthrough_start1.xaml">
+      <Filter>Walkthrough Pages</Filter>
+    </Page>
+    <Page Include="walkthrough_003.xaml">
+      <Filter>Walkthrough Pages</Filter>
+    </Page>
+    <Page Include="walkthrough_002.xaml">
+      <Filter>Walkthrough Pages</Filter>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="images">
@@ -263,6 +286,12 @@
     </Filter>
     <Filter Include="images\Front Tanks Guided Tour">
       <UniqueIdentifier>{eedd53d9-470b-4935-a004-0c830818e5ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Walkthrough Pages">
+      <UniqueIdentifier>{6f8319c0-6b4f-44b0-b5cc-a5c137e977ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="images\Walkthrough Images">
+      <UniqueIdentifier>{a82e9c14-f3bb-4856-8341-b461be9c30bb}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

@@ -17,5 +17,7 @@ namespace fishparty
 	{
 	public:
 		hatchery_map();
+	private:
+		void start_button_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 	};
 }
