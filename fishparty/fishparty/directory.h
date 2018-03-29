@@ -17,6 +17,7 @@
 
 // Six foot tank rooms
 #include "six_foot_tanks.xaml.h"
+#include "six_foot_tanks_2.xaml.h"
 //
 
 

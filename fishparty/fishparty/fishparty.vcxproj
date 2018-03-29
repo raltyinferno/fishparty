@@ -142,6 +142,9 @@
     <ClInclude Include="six_foot_tanks.xaml.h">
       <DependentUpon>six_foot_tanks.xaml</DependentUpon>
     </ClInclude>
+    <ClInclude Include="six_foot_tanks_2.xaml.h">
+      <DependentUpon>six_foot_tanks_2.xaml</DependentUpon>
+    </ClInclude>
     <ClInclude Include="water_intake.xaml.h">
       <DependentUpon>water_intake.xaml</DependentUpon>
     </ClInclude>
@@ -200,6 +203,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="six_foot_tanks.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="six_foot_tanks_2.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Include="water_intake.xaml">
@@ -308,6 +314,9 @@
     </ClCompile>
     <ClCompile Include="six_foot_tanks.xaml.cpp">
       <DependentUpon>six_foot_tanks.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="six_foot_tanks_2.xaml.cpp">
+      <DependentUpon>six_foot_tanks_2.xaml</DependentUpon>
     </ClCompile>
     <ClCompile Include="water_intake.xaml.cpp">
       <DependentUpon>water_intake.xaml</DependentUpon>

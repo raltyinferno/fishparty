@@ -232,6 +232,9 @@
     <Page Include="six_foot_tanks.xaml">
       <Filter>guided tour pages</Filter>
     </Page>
+    <Page Include="six_foot_tanks_2.xaml">
+      <Filter>guided tour pages</Filter>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="images">
