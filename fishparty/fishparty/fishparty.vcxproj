@@ -185,15 +185,6 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </ClInclude>
     <ClInclude Include="resource.h" />
-    <ClInclude Include="test_walkthrough1.xaml.h">
-      <DependentUpon>test_walkthrough1.xaml</DependentUpon>
-    </ClInclude>
-    <ClInclude Include="test_walkthrough2.xaml.h">
-      <DependentUpon>test_walkthrough2.xaml</DependentUpon>
-    </ClInclude>
-    <ClInclude Include="test_walkthrough3.xaml.h">
-      <DependentUpon>test_walkthrough3.xaml</DependentUpon>
-    </ClInclude>
     <ClInclude Include="tour_page_1.xaml.h">
       <DependentUpon>tour_page_1.xaml</DependentUpon>
     </ClInclude>
@@ -246,15 +237,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="MainPage.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="test_walkthrough1.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="test_walkthrough2.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="test_walkthrough3.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Include="tour_page_1.xaml">
@@ -385,15 +367,6 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
-    </ClCompile>
-    <ClCompile Include="test_walkthrough1.xaml.cpp">
-      <DependentUpon>test_walkthrough1.xaml</DependentUpon>
-    </ClCompile>
-    <ClCompile Include="test_walkthrough2.xaml.cpp">
-      <DependentUpon>test_walkthrough2.xaml</DependentUpon>
-    </ClCompile>
-    <ClCompile Include="test_walkthrough3.xaml.cpp">
-      <DependentUpon>test_walkthrough3.xaml</DependentUpon>
     </ClCompile>
     <ClCompile Include="tour_page_1.xaml.cpp">
       <DependentUpon>tour_page_1.xaml</DependentUpon>

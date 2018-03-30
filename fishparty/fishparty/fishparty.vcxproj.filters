@@ -25,6 +25,8 @@
     <ClCompile Include="front_tanks.xaml.cpp" />
     <ClCompile Include="six_foot_tanks.xaml.cpp" />
     <ClCompile Include="six_foot_tanks_2.xaml.cpp" />
+    <ClCompile Include="walkthrough_002.xaml.cpp" />
+    <ClCompile Include="walkthrough_003.xaml.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="air.xaml.h" />
@@ -50,6 +52,8 @@
     <ClInclude Include="front_tanks.xaml.h" />
     <ClInclude Include="six_foot_tanks.xaml.h" />
     <ClInclude Include="six_foot_tanks_2.xaml.h" />
+    <ClInclude Include="walkthrough_002.xaml.h" />
+    <ClInclude Include="walkthrough_003.xaml.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\down_arrow.png">
@@ -219,15 +223,6 @@
     <Page Include="hatchery_map.xaml" />
     <Page Include="MainPage.xaml" />
     <Page Include="tour_page_1.xaml" />
-    <Page Include="test_walkthrough3.xaml">
-      <Filter>test walkthrough</Filter>
-    </Page>
-    <Page Include="test_walkthrough1.xaml">
-      <Filter>test walkthrough</Filter>
-    </Page>
-    <Page Include="test_walkthrough2.xaml">
-      <Filter>test walkthrough</Filter>
-    </Page>
     <Page Include="air.xaml">
       <Filter>guided tour pages</Filter>
     </Page>
