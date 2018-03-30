@@ -14,9 +14,9 @@
 
     <Grid Background="{StaticResource background}">
 
-        <Grid>
+        <Grid Style="{StaticResource title_grid_style}">
             <Rectangle Style="{StaticResource title_box_style}" Width="889"/>
-            <TextBlock Style="{StaticResource title_text_style}">Air Collection</TextBlock>
+            <TextBlock Style="{StaticResource title_text_style}" >Air Collection</TextBlock>
         </Grid>
 
         <Button x:Name="button" Content="Fish Release" HorizontalAlignment="Left" Height="86" Margin="1700,964,0,0" VerticalAlignment="Top" Width="174" Click="nav_to_fish_release" FontSize="24"/>

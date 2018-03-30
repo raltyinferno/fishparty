@@ -24,6 +24,13 @@
 #include "front_tanks.xaml.h"
 //
 
+// Walkthrough Pages
+#include "walkthrough_start1.xaml.h"
+#include "walkthrough_002.xaml.h"
+#include "walkthrough_003.xaml.h"
+//
+
+
 
 #include "air.xaml.h"
 

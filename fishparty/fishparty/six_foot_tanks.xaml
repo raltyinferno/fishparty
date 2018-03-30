@@ -14,7 +14,10 @@
 
     <Grid Background="{StaticResource walk1}" x:Name="page_grid">
 
-
+        <Grid Style="{StaticResource title_grid_style}">
+            <Rectangle Style="{StaticResource title_box_style}" Width="809"/>
+            <TextBlock Style="{StaticResource title_text_style}">6 Foot Tanks</TextBlock>
+        </Grid>
 
 
         <Grid  VerticalAlignment="Bottom" HorizontalAlignment="Left" Grid.Row="2">
@@ -34,13 +37,6 @@
                 <CompositeTransform TranslateX="39" Rotation="-0.903"/>
             </Button.RenderTransform>
         </Button>
-
-
-
-        <Grid>
-            <Rectangle Style="{StaticResource title_box_style}" Width="809"/>
-            <TextBlock Style="{StaticResource title_text_style}">6 Foot Tanks</TextBlock>
-        </Grid>
 
         <Button x:Name="next_button" Content="Front Tanks ->" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="next_page_Click" Height="75" Width="203" FontSize="28"/>
 

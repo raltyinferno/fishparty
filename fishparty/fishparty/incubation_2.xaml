@@ -13,7 +13,11 @@
     </Page.Resources>
 
     <Grid Background="{StaticResource walk1}" x:Name="page_grid">
-
+        <Grid Style="{StaticResource title_grid_style}">
+            <Rectangle Style="{StaticResource title_box_style}" Width="669" Margin="0,0,-29,0"/>
+            <TextBlock Style="{StaticResource title_text_style}">Incubation</TextBlock>
+        </Grid>
+        <Grid>
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition/>
@@ -82,13 +86,9 @@
             </FlyoutBase.AttachedFlyout>
         </Path>
 
-        <Grid>
-            <Rectangle Style="{StaticResource title_box_style}" Width="669" Margin="0,0,-29,0"/>
-            <TextBlock Style="{StaticResource title_text_style}">Incubation</TextBlock>
-
-        </Grid>
+        
 
         <Button x:Name="egg_butt" Content="5ft Tanks ->" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="next_page_Click" Height="75" Width="185" FontSize="28" Grid.Column="2" Grid.Row="2"/>
-
+        </Grid>
     </Grid>
 </Page>

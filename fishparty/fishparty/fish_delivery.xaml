@@ -13,6 +13,10 @@
     </Page.Resources>
 
     <Grid Background="{StaticResource delivery_truck}" x:Name="page_grid">
+        <Grid Style="{StaticResource title_grid_style}">
+            <Rectangle Style="{StaticResource title_box_style}" Width="774"/>
+            <TextBlock Style="{StaticResource title_text_style}">Fish Release</TextBlock>
+        </Grid>
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="147*"/>
@@ -35,10 +39,7 @@
                 </Button.Flyout>
             </Button>
         </Grid>
-        <Grid>
-            <Rectangle Style="{StaticResource title_box_style}" Width="889"/>
-            <TextBlock Style="{StaticResource title_text_style}">Fish Release</TextBlock>
-        </Grid>
+        
         <RelativePanel x:Name="furtherInfo">
 
             <!-- Vehicles button, shows information about the different delivery methods -->

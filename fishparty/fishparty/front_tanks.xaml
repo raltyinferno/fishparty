@@ -14,6 +14,10 @@
 
     <Grid Background="{StaticResource walk1}" x:Name="page_grid">
 
+        <Grid Style="{StaticResource title_grid_style}">
+            <Rectangle Style="{StaticResource title_box_style}" Width="736"/>
+            <TextBlock Style="{StaticResource title_text_style}">Front Tanks</TextBlock>
+        </Grid>
 
 
 
@@ -27,7 +31,7 @@
 
 
         <Path Data="M882.072,288.287 L1411.31,283.984 L1407.01,417.37 L894.98,395.856 z" Fill="White" HorizontalAlignment="Left" Height="147.387" Margin="875.072,276.984,0,0" Stretch="Fill" Stroke="#FF002EFF" StrokeThickness="14" UseLayoutRounding="False" VerticalAlignment="Top" Width="543.243" Opacity="0.2" Tapped="show_Flyout">
-        <FlyoutBase.AttachedFlyout>
+            <FlyoutBase.AttachedFlyout>
                 <Flyout Placement="Full">
                     <!--<ContentPresenter ContentTemplate="{StaticResource more_info}" />-->
                     <Flyout.FlyoutPresenterStyle>
@@ -46,14 +50,6 @@
                 </Flyout>
             </FlyoutBase.AttachedFlyout>
         </Path>
-
-
-
-
-        <Grid>
-            <Rectangle Style="{StaticResource title_box_style}" Width="736"/>
-            <TextBlock Style="{StaticResource title_text_style}">Front Tanks</TextBlock>
-        </Grid>
 
         <Button x:Name="next_button" Content="30 Foot Tanks ->" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="next_page_Click" Height="75" Width="236" FontSize="28"/>
 

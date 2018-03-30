@@ -13,12 +13,17 @@
     </Page.Resources>
 
     <Grid Background="{StaticResource walk1}" x:Name="page_grid">
+        
+        <Grid Style="{StaticResource title_grid_style}">
+            <Rectangle Style="{StaticResource title_box_style}" Width="868"/>
+            <TextBlock Style="{StaticResource title_text_style}">Egg Receiving</TextBlock>
+        </Grid>
+        
         <Grid>
-
             <Grid.RowDefinitions>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
@@ -58,11 +63,9 @@
 
             </Grid>
 
-            <Rectangle Style="{StaticResource title_box_style}" Width="868" Grid.ColumnSpan="3" Margin="0,0,-868,-150" Grid.RowSpan="3"/>
-            <TextBlock Style="{StaticResource title_text_style}">Egg Receiving</TextBlock>
+            
 
         </Grid>
-        <TextBlock Style="{StaticResource title_text_style}">Egg Receiving</TextBlock>
     </Grid>
 
 </Page>
