@@ -19,7 +19,7 @@
             <TextBlock Style="{StaticResource title_text_style}" >Air Collection</TextBlock>
         </Grid>
 
-        <Button x:Name="button" Content="Fish Release" HorizontalAlignment="Left" Height="86" Margin="1700,964,0,0" VerticalAlignment="Top" Width="174" Click="nav_to_fish_release" FontSize="24"/>
+        <Button x:Name="button" Style="{StaticResource guided_forward_button}" Click="nav_to_fish_release" FontSize="24">Fish Release -></Button>
 
         <Grid x:Name="contentPanel" VerticalAlignment="Bottom" HorizontalAlignment="Left">
             <Button Content="Jump to Section" FontSize="20">

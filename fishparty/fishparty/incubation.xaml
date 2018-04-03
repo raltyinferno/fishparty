@@ -18,39 +18,8 @@
             <Rectangle Style="{StaticResource title_box_style}" Width="868"/>
             <TextBlock Style="{StaticResource title_text_style}">Egg Receiving</TextBlock>
         </Grid>
-        
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-            </Grid.ColumnDefinitions>
-            <Grid Grid.Row="1" Grid.Column="1" x:Name="button_grid">
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
 
-                <Button Grid.Column="2" Grid.Row="1" HorizontalAlignment="Center" Background="{x:Null}" Click="forward_Click">
-                    <Image Source="Assets/up_arrow.png" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5">
-                        <Image.RenderTransform>
-                            <CompositeTransform Rotation="-72.533"/>
-                        </Image.RenderTransform>
-                    </Image>
-                </Button>
-
-            </Grid>
+        <Button Style="{StaticResource guided_forward_button}" Click="forward_Click">Incubation-></Button>
 
 
             <Grid  VerticalAlignment="Bottom" HorizontalAlignment="Left" Grid.Row="2">
@@ -66,6 +35,6 @@
             
 
         </Grid>
-    </Grid>
+
 
 </Page>

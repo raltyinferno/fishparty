@@ -44,6 +44,3 @@
 
 #include "Hometimer.h"
 
-//#include "test_walkthrough1.xaml.h"
-//#include "test_walkthrough2.xaml.h"
-//#include "test_walkthrough3.xaml.h"

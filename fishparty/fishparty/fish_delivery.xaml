@@ -141,7 +141,7 @@
             </Button>
 
         </RelativePanel>
-        <Button x:Name="button" Content="Return Home" HorizontalAlignment="Left" Height="104"  VerticalAlignment="Top" Width="162" Margin="1693,941,0,0" Click="home_Click"/>
+        <Button x:Name="button"  Style="{StaticResource guided_forward_button}" Content="Return Home" Click="home_Click"/>
     </Grid>
 
 </Page>

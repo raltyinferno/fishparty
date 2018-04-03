@@ -55,6 +55,20 @@
                 </StackPanel>
             </Button>
         </Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <WebView x:Name="content_webview" Style="{StaticResource content_display_style}"/>
+            <Button x:Name="close_button" Style="{StaticResource content_display_close_style}" Click="close_Click"/>
+        </Grid>
         <Grid x:Name="contentPanel" VerticalAlignment="Bottom" HorizontalAlignment="Left">
             <Button Content="Jump to Section" FontSize="20">
                 <Button.Flyout>
@@ -66,8 +80,8 @@
 
 
         <Button x:Name="button" Content="Go to eggs" HorizontalAlignment="Left" Margin="1736,1019,0,0" VerticalAlignment="Top" Click="next_page_Click" Height="51" Width="124"/>
-        <WebView x:Name="content_webview" HorizontalAlignment="Center" Height="650" VerticalAlignment="Center" Width="900" Visibility="Collapsed"/>
-        <Button x:Name="close_button" Content="X" HorizontalAlignment="Left" Height="35" Margin="1407,207,0,0" VerticalAlignment="Top" Width="35" Visibility="Collapsed" Click="close_Click"/>
+        
+        
     </Grid>
 
 </Page>
