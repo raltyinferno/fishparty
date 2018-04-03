@@ -52,6 +52,27 @@
             <Setter Property="VerticalAlignment" Value="Bottom"/>
             <Setter Property="FontSize" Value="28"/>
         </Style>
+
+        <Style x:Key="content_display_style" TargetType="WebView">
+            <Setter Property="Height" Value="650"/>
+            <Setter Property="Width" Value="900"/>
+            <Setter Property="Grid.Row" Value="1"/>
+            <Setter Property="Grid.Column" Value="1"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Visibility" Value="Collapsed"/>
+        </Style>
+
+        <Style x:Key="content_display_close_style" TargetType="Button">
+            <Setter Property="Height" Value="45"/>
+            <Setter Property="Width" Value="45"/>
+            <Setter Property="Grid.Row" Value="0"/>
+            <Setter Property="Grid.Column" Value="2"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Bottom"/>
+            <Setter Property="Visibility" Value="Collapsed"/>
+            <Setter Property="Content" Value="X"/>
+        </Style>
     </Application.Resources>
 
 </Application>
