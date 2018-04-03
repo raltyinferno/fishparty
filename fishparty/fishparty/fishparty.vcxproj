@@ -160,6 +160,27 @@
     <ClInclude Include="walkthrough_F1R1.xaml.h">
       <DependentUpon>walkthrough_F1R1.xaml</DependentUpon>
     </ClInclude>
+    <ClInclude Include="walkthrough_F1R1F1.xaml.h">
+      <DependentUpon>walkthrough_F1R1F1.xaml</DependentUpon>
+    </ClInclude>
+    <ClInclude Include="walkthrough_F1R1F2.xaml.h">
+      <DependentUpon>walkthrough_F1R1F2.xaml</DependentUpon>
+    </ClInclude>
+    <ClInclude Include="walkthrough_F1R1F3.xaml.h">
+      <DependentUpon>walkthrough_F1R1F3.xaml</DependentUpon>
+    </ClInclude>
+    <ClInclude Include="walkthrough_F1R1F4.xaml.h">
+      <DependentUpon>walkthrough_F1R1F4.xaml</DependentUpon>
+    </ClInclude>
+    <ClInclude Include="walkthrough_F1R1F4L1.xaml.h">
+      <DependentUpon>walkthrough_F1R1F4L1.xaml</DependentUpon>
+    </ClInclude>
+    <ClInclude Include="walkthrough_F1R1F4L1F1.xaml.h">
+      <DependentUpon>walkthrough_F1R1F4L1F1.xaml</DependentUpon>
+    </ClInclude>
+    <ClInclude Include="walkthrough_F1R1F4L1F1R1.xaml.h">
+      <DependentUpon>walkthrough_F1R1F4L1F1R1.xaml</DependentUpon>
+    </ClInclude>
     <ClInclude Include="walkthrough_F2.xaml.h">
       <DependentUpon>walkthrough_F2.xaml</DependentUpon>
     </ClInclude>
@@ -246,6 +267,27 @@
     </Page>
     <Page Include="walkthrough_F1.xaml" />
     <Page Include="walkthrough_F1R1.xaml" />
+    <Page Include="walkthrough_F1R1F1.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="walkthrough_F1R1F2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="walkthrough_F1R1F3.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="walkthrough_F1R1F4.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="walkthrough_F1R1F4L1.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="walkthrough_F1R1F4L1F1.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="walkthrough_F1R1F4L1F1R1.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="walkthrough_F2.xaml" />
     <Page Include="walkthrough_L1.xaml" />
     <Page Include="walkthrough_L1F1.xaml" />
@@ -359,6 +401,7 @@
     <Image Include="Assets\walkthrough\walkthrough_F1R1F4L1.jpg" />
     <Image Include="Assets\walkthrough\walkthrough_F1R1F4L1F1.jpg" />
     <Image Include="Assets\walkthrough\walkthrough_F1R1F4L1F1R1.jpg" />
+    <Image Include="Assets\walkthrough\walkthrough_F2.jpg" />
     <Image Include="Assets\walkthrough\walkthrough_L1.jpg" />
     <Image Include="Assets\walkthrough\walkthrough_L1F1.jpg" />
     <Image Include="Assets\walkthrough\walkthrough_L1F1R1.jpg" />
@@ -393,6 +436,27 @@
     </ClCompile>
     <ClCompile Include="walkthrough_F1R1.xaml.cpp">
       <DependentUpon>walkthrough_F1R1.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="walkthrough_F1R1F1.xaml.cpp">
+      <DependentUpon>walkthrough_F1R1F1.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="walkthrough_F1R1F2.xaml.cpp">
+      <DependentUpon>walkthrough_F1R1F2.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="walkthrough_F1R1F3.xaml.cpp">
+      <DependentUpon>walkthrough_F1R1F3.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="walkthrough_F1R1F4.xaml.cpp">
+      <DependentUpon>walkthrough_F1R1F4.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="walkthrough_F1R1F4L1.xaml.cpp">
+      <DependentUpon>walkthrough_F1R1F4L1.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="walkthrough_F1R1F4L1F1.xaml.cpp">
+      <DependentUpon>walkthrough_F1R1F4L1F1.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="walkthrough_F1R1F4L1F1R1.xaml.cpp">
+      <DependentUpon>walkthrough_F1R1F4L1F1R1.xaml</DependentUpon>
     </ClCompile>
     <ClCompile Include="walkthrough_F2.xaml.cpp">
       <DependentUpon>walkthrough_F2.xaml</DependentUpon>

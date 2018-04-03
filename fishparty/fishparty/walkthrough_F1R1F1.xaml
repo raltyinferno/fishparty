@@ -1,5 +1,5 @@
 ﻿<Page
-    x:Class="fishparty.walkthrough_F2"
+    x:Class="fishparty.walkthrough_F1R1F1"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:fishparty"
@@ -10,7 +10,7 @@
     >
 
     <Page.Resources>
-        <ImageBrush ImageSource="Assets/walkthrough/walkthrough_F2.jpg" x:Key="walk" Opacity="1" Stretch="UniformToFill"/>
+        <ImageBrush ImageSource="Assets/walkthrough/walkthrough_F1R1F1.jpg" x:Key="walk" Opacity="1" Stretch="UniformToFill"/>
     </Page.Resources>
 
 

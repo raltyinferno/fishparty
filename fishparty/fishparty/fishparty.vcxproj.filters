@@ -22,10 +22,17 @@
     <ClCompile Include="front_tanks.xaml.cpp" />
     <ClCompile Include="six_foot_tanks.xaml.cpp" />
     <ClCompile Include="six_foot_tanks_2.xaml.cpp" />
-    <ClCompile Include="walkthrough_002.xaml.cpp" />
-    <ClCompile Include="walkthrough_003.xaml.cpp" />
     <ClCompile Include="tf_foot_tanks.xaml.cpp" />
     <ClCompile Include="tf_foot_filters.xaml.cpp" />
+    <ClCompile Include="walkthrough_F1.xaml.cpp" />
+    <ClCompile Include="walkthrough_F1R1.xaml.cpp" />
+    <ClCompile Include="walkthrough_F2.xaml.cpp" />
+    <ClCompile Include="walkthrough_L1.xaml.cpp" />
+    <ClCompile Include="walkthrough_L1F1.xaml.cpp" />
+    <ClCompile Include="walkthrough_L1F1R1.xaml.cpp" />
+    <ClCompile Include="walkthrough_L1F2.xaml.cpp" />
+    <ClCompile Include="walkthrough_L1F2R1.xaml.cpp" />
+    <ClCompile Include="walkthrough_R1.xaml.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="air.xaml.h" />
@@ -48,10 +55,17 @@
     <ClInclude Include="front_tanks.xaml.h" />
     <ClInclude Include="six_foot_tanks.xaml.h" />
     <ClInclude Include="six_foot_tanks_2.xaml.h" />
-    <ClInclude Include="walkthrough_002.xaml.h" />
-    <ClInclude Include="walkthrough_003.xaml.h" />
     <ClInclude Include="tf_foot_tanks.xaml.h" />
     <ClInclude Include="tf_foot_filters.xaml.h" />
+    <ClInclude Include="walkthrough_F1.xaml.h" />
+    <ClInclude Include="walkthrough_F1R1.xaml.h" />
+    <ClInclude Include="walkthrough_F2.xaml.h" />
+    <ClInclude Include="walkthrough_L1.xaml.h" />
+    <ClInclude Include="walkthrough_L1F1.xaml.h" />
+    <ClInclude Include="walkthrough_L1F1R1.xaml.h" />
+    <ClInclude Include="walkthrough_L1F2.xaml.h" />
+    <ClInclude Include="walkthrough_L1F2R1.xaml.h" />
+    <ClInclude Include="walkthrough_R1.xaml.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\down_arrow.png">
@@ -267,6 +281,9 @@
     <Image Include="Assets\walkthrough\walkthrough_R1.jpg">
       <Filter>images\Walkthrough Images</Filter>
     </Image>
+    <Image Include="Assets\walkthrough\walkthrough_F2.jpg">
+      <Filter>images\Walkthrough Images</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest" />
@@ -345,6 +362,27 @@
       <Filter>Walkthrough Pages</Filter>
     </Page>
     <Page Include="walkthrough_L1F2R1.xaml">
+      <Filter>Walkthrough Pages</Filter>
+    </Page>
+    <Page Include="walkthrough_F1R1F1.xaml">
+      <Filter>Walkthrough Pages</Filter>
+    </Page>
+    <Page Include="walkthrough_F1R1F2.xaml">
+      <Filter>Walkthrough Pages</Filter>
+    </Page>
+    <Page Include="walkthrough_F1R1F3.xaml">
+      <Filter>Walkthrough Pages</Filter>
+    </Page>
+    <Page Include="walkthrough_F1R1F4.xaml">
+      <Filter>Walkthrough Pages</Filter>
+    </Page>
+    <Page Include="walkthrough_F1R1F4L1.xaml">
+      <Filter>Walkthrough Pages</Filter>
+    </Page>
+    <Page Include="walkthrough_F1R1F4L1F1.xaml">
+      <Filter>Walkthrough Pages</Filter>
+    </Page>
+    <Page Include="walkthrough_F1R1F4L1F1R1.xaml">
       <Filter>Walkthrough Pages</Filter>
     </Page>
   </ItemGroup>
