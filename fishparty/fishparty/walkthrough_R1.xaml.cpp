@@ -1,10 +1,10 @@
 ﻿//
-// Walkthrough_002.xaml.cpp
-// Implementation of the Walkthrough_002 class
+// walkthrough_R1.xaml.cpp
+// Implementation of the walkthrough_R1 class
 //
 
 #include "pch.h"
-#include "Walkthrough_002.xaml.h"
+#include "walkthrough_R1.xaml.h"
 
 using namespace fishparty;
 
@@ -21,13 +21,13 @@ using namespace Windows::UI::Xaml::Navigation;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
-Walkthrough_002::Walkthrough_002()
+walkthrough_R1::walkthrough_R1()
 {
 	InitializeComponent();
 }
 
 
-void fishparty::Walkthrough_002::left_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+void fishparty::walkthrough_R1::left_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
 	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(walkthrough_start1::typeid));
 }

@@ -20,5 +20,6 @@ namespace fishparty
 	private:
 		void right_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void left_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
+		void forward_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 	};
 }

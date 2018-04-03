@@ -37,7 +37,7 @@
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
 
-            <Button Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" Background="{x:Null}" >
+            <Button Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" Background="{x:Null}" Click="forward_Click">
                 <Image Source="Assets/up_arrow.png" HorizontalAlignment="Center"/>
             </Button>
             <Button Grid.Column="0" Grid.Row="1" HorizontalAlignment="Center" Background="{x:Null}" Click="left_Click">

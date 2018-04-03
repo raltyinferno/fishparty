@@ -1,11 +1,11 @@
 ﻿//
-// Walkthrough_002.xaml.h
-// Declaration of the Walkthrough_002 class
+// walkthrough_R1.xaml.h
+// Declaration of the walkthrough_R1 class
 //
 
 #pragma once
 
-#include "Walkthrough_002.g.h"
+#include "walkthrough_R1.g.h"
 
 namespace fishparty
 {
@@ -13,10 +13,10 @@ namespace fishparty
 	/// An empty page that can be used on its own or navigated to within a Frame.
 	/// </summary>
 	[Windows::Foundation::Metadata::WebHostHidden]
-	public ref class Walkthrough_002 sealed
+	public ref class walkthrough_R1 sealed
 	{
 	public:
-		Walkthrough_002();
+		walkthrough_R1();
 	private:
 		void left_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 	};

@@ -29,7 +29,7 @@ test_walkthrough1::test_walkthrough1()
 
 void fishparty::test_walkthrough1::forward_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(test_walkthrough2::typeid));
+	//this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(test_walkthrough2::typeid));
 }
 
 fishparty::walkthrough_page::walkthrough_page(walkthrough_page^  forward, walkthrough_page^  back,

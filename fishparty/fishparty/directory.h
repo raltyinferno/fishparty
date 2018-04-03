@@ -26,8 +26,14 @@
 
 // Walkthrough Pages
 #include "walkthrough_start1.xaml.h"
-#include "walkthrough_002.xaml.h"
-#include "walkthrough_003.xaml.h"
+#include "walkthrough_R1.xaml.h"
+#include "walkthrough_L1.xaml.h"
+#include "walkthrough_L1F1.xaml.h"
+#include "walkthrough_L1F1R1.xaml.h"
+#include "walkthrough_L1F2.xaml.h"
+#include "walkthrough_L1F2R1.xaml.h"
+#include "walkthrough_F1.xaml.h"
+#include "walkthrough_F1R1.xaml.h"
 //
 
 
