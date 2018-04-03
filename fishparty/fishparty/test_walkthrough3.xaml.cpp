@@ -29,5 +29,5 @@ test_walkthrough3::test_walkthrough3()
 
 void fishparty::test_walkthrough3::back_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(test_walkthrough2::typeid));
+	//this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(test_walkthrough2::typeid));
 }

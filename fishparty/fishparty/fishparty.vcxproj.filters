@@ -25,6 +25,7 @@
     <ClCompile Include="walkthrough_002.xaml.cpp" />
     <ClCompile Include="walkthrough_003.xaml.cpp" />
     <ClCompile Include="tf_foot_tanks.xaml.cpp" />
+    <ClCompile Include="tf_foot_filters.xaml.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="air.xaml.h" />
@@ -50,6 +51,7 @@
     <ClInclude Include="walkthrough_002.xaml.h" />
     <ClInclude Include="walkthrough_003.xaml.h" />
     <ClInclude Include="tf_foot_tanks.xaml.h" />
+    <ClInclude Include="tf_foot_filters.xaml.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\down_arrow.png">
@@ -196,15 +198,6 @@
     <Image Include="Assets\walkthrough\walkthrough_start1.jpg">
       <Filter>images\Walkthrough Images</Filter>
     </Image>
-    <Image Include="Assets\walkthrough\walkthrough_002.jpg">
-      <Filter>images\Walkthrough Images</Filter>
-    </Image>
-    <Image Include="Assets\walkthrough\walkthrough_003.jpg">
-      <Filter>images\Walkthrough Images</Filter>
-    </Image>
-    <Image Include="Assets\walkthrough\walkthrough_004.jpg">
-      <Filter>images\Walkthrough Images</Filter>
-    </Image>
     <Image Include="Assets\25ft Tank\25ft_close.jpg">
       <Filter>images\25ft Guided Tour</Filter>
     </Image>
@@ -228,6 +221,51 @@
     </Image>
     <Image Include="Assets\25ft Filters\filter_bg.jpg">
       <Filter>images\25ft Filter Guided Tour</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough\walkthrough_F1.jpg">
+      <Filter>images\Walkthrough Images</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough\walkthrough_F1R1.jpg">
+      <Filter>images\Walkthrough Images</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough\walkthrough_F1R1F1.jpg">
+      <Filter>images\Walkthrough Images</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough\walkthrough_F1R1F2.jpg">
+      <Filter>images\Walkthrough Images</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough\walkthrough_F1R1F3.jpg">
+      <Filter>images\Walkthrough Images</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough\walkthrough_F1R1F4.jpg">
+      <Filter>images\Walkthrough Images</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough\walkthrough_F1R1F4L1.jpg">
+      <Filter>images\Walkthrough Images</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough\walkthrough_F1R1F4L1F1.jpg">
+      <Filter>images\Walkthrough Images</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough\walkthrough_F1R1F4L1F1R1.jpg">
+      <Filter>images\Walkthrough Images</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough\walkthrough_L1.jpg">
+      <Filter>images\Walkthrough Images</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough\walkthrough_L1F1.jpg">
+      <Filter>images\Walkthrough Images</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough\walkthrough_L1F1R1.jpg">
+      <Filter>images\Walkthrough Images</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough\walkthrough_L1F2.jpg">
+      <Filter>images\Walkthrough Images</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough\walkthrough_L1F2R1.jpg">
+      <Filter>images\Walkthrough Images</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough\walkthrough_R1.jpg">
+      <Filter>images\Walkthrough Images</Filter>
     </Image>
   </ItemGroup>
   <ItemGroup>
@@ -276,17 +314,38 @@
     <Page Include="walkthrough_start1.xaml">
       <Filter>Walkthrough Pages</Filter>
     </Page>
-    <Page Include="walkthrough_003.xaml">
-      <Filter>Walkthrough Pages</Filter>
-    </Page>
-    <Page Include="walkthrough_002.xaml">
-      <Filter>Walkthrough Pages</Filter>
-    </Page>
     <Page Include="tf_foot_filters.xaml">
       <Filter>guided tour pages</Filter>
     </Page>
     <Page Include="tf_foot_tanks.xaml">
       <Filter>guided tour pages</Filter>
+    </Page>
+    <Page Include="walkthrough_R1.xaml">
+      <Filter>Walkthrough Pages</Filter>
+    </Page>
+    <Page Include="walkthrough_F1.xaml">
+      <Filter>Walkthrough Pages</Filter>
+    </Page>
+    <Page Include="walkthrough_F1R1.xaml">
+      <Filter>Walkthrough Pages</Filter>
+    </Page>
+    <Page Include="walkthrough_F2.xaml">
+      <Filter>Walkthrough Pages</Filter>
+    </Page>
+    <Page Include="walkthrough_L1.xaml">
+      <Filter>Walkthrough Pages</Filter>
+    </Page>
+    <Page Include="walkthrough_L1F1.xaml">
+      <Filter>Walkthrough Pages</Filter>
+    </Page>
+    <Page Include="walkthrough_L1F1R1.xaml">
+      <Filter>Walkthrough Pages</Filter>
+    </Page>
+    <Page Include="walkthrough_L1F2.xaml">
+      <Filter>Walkthrough Pages</Filter>
+    </Page>
+    <Page Include="walkthrough_L1F2R1.xaml">
+      <Filter>Walkthrough Pages</Filter>
     </Page>
   </ItemGroup>
   <ItemGroup>

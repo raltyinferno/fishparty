@@ -29,13 +29,13 @@ test_walkthrough2::test_walkthrough2()
 
 void fishparty::test_walkthrough2::left_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(test_walkthrough3::typeid));
+	//this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(test_walkthrough3::typeid));
 }
 
 
 void fishparty::test_walkthrough2::back_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(test_walkthrough1::typeid));
+	//this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(test_walkthrough1::typeid));
 }
 
 
