@@ -31,7 +31,7 @@
             <TextBlock Style="{StaticResource title_text_style}">Water Intake and Treatment</TextBlock>
         </Grid>
         
-        <Button RenderTransformOrigin="13.425,0.03" Margin="1254,288,0,304" Height="488" Width="556" Opacity=".35">
+        <Button RenderTransformOrigin="13.425,0.03" Margin="1254,288,0,304" Height="488" Width="556" Opacity=".35" Click="Button_Click">
             <Button.Flyout>
                 <Flyout Placement="Left" >
                     <Flyout.FlyoutPresenterStyle>
@@ -52,7 +52,7 @@
                 </Flyout>
             </Button.Flyout>
         </Button>
-        <Button RenderTransformOrigin="13.425,0.03" Margin="876,384,0,402" Height="294" Width="218" Opacity=".35">
+        <Button RenderTransformOrigin="13.425,0.03" Margin="876,384,0,402" Height="294" Width="218" Opacity=".35" Click="Button_Click">
             <Button.Flyout>
                 <Flyout Placement="Left" >
                     <Flyout.FlyoutPresenterStyle>
@@ -73,7 +73,7 @@
                 </Flyout>
             </Button.Flyout>
         </Button>
-        <Button RenderTransformOrigin="13.425,0.03" Margin="720,450,0,444" Height="186" Width="75" Opacity=".35">
+        <Button RenderTransformOrigin="13.425,0.03" Margin="720,450,0,444" Height="186" Width="75" Opacity=".35" Click="Button_Click">
             <Button.Flyout>
                 <Flyout Placement="Left" >
                     <Flyout.FlyoutPresenterStyle>
@@ -123,7 +123,13 @@
                 </Button.Flyout>
             </Button>
         </Grid>
-        <Button x:Name="egg_butt" Content="Egg Intake ->" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,200,100" Click="next_page_Click" Height="75" Width="185" FontSize="28"/>
+        <Button x:Name="egg_butt" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,200,100" Click="next_page_Click" Height="180" Width="180">
+            <Image Source="Assets/down_arrow.png" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <CompositeTransform Rotation="270"/>
+                </Image.RenderTransform>
+            </Image>
+        </Button>
 
     </Grid>
 

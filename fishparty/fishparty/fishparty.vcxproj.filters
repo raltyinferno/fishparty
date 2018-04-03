@@ -14,9 +14,6 @@
     <ClCompile Include="incubation_2.xaml.cpp" />
     <ClCompile Include="MainPage.xaml.cpp" />
     <ClCompile Include="pch.cpp" />
-    <ClCompile Include="test_walkthrough1.xaml.cpp" />
-    <ClCompile Include="test_walkthrough2.xaml.cpp" />
-    <ClCompile Include="test_walkthrough3.xaml.cpp" />
     <ClCompile Include="tour_page_1.xaml.cpp" />
     <ClCompile Include="walkthrough_start1.xaml.cpp" />
     <ClCompile Include="water_treatment.xaml.cpp" />
@@ -27,6 +24,7 @@
     <ClCompile Include="six_foot_tanks_2.xaml.cpp" />
     <ClCompile Include="walkthrough_002.xaml.cpp" />
     <ClCompile Include="walkthrough_003.xaml.cpp" />
+    <ClCompile Include="tf_foot_tanks.xaml.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="air.xaml.h" />
@@ -40,9 +38,6 @@
     <ClInclude Include="pch.h" />
     <ClInclude Include="App.xaml.h" />
     <ClInclude Include="MainPage.xaml.h" />
-    <ClInclude Include="test_walkthrough1.xaml.h" />
-    <ClInclude Include="test_walkthrough2.xaml.h" />
-    <ClInclude Include="test_walkthrough3.xaml.h" />
     <ClInclude Include="tour_page_1.xaml.h" />
     <ClInclude Include="walkthrough_start1.xaml.h" />
     <ClInclude Include="water_treatment.xaml.h" />
@@ -54,6 +49,7 @@
     <ClInclude Include="six_foot_tanks_2.xaml.h" />
     <ClInclude Include="walkthrough_002.xaml.h" />
     <ClInclude Include="walkthrough_003.xaml.h" />
+    <ClInclude Include="tf_foot_tanks.xaml.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\down_arrow.png">
@@ -209,6 +205,30 @@
     <Image Include="Assets\walkthrough\walkthrough_004.jpg">
       <Filter>images\Walkthrough Images</Filter>
     </Image>
+    <Image Include="Assets\25ft Tank\25ft_close.jpg">
+      <Filter>images\25ft Guided Tour</Filter>
+    </Image>
+    <Image Include="Assets\25ft Tank\25ft_food.jpg">
+      <Filter>images\25ft Guided Tour</Filter>
+    </Image>
+    <Image Include="Assets\25ft Tank\25ft_grayling.jpg">
+      <Filter>images\25ft Guided Tour</Filter>
+    </Image>
+    <Image Include="Assets\25ft Tank\25ft_oh.jpg">
+      <Filter>images\25ft Guided Tour</Filter>
+    </Image>
+    <Image Include="Assets\25ft Filters\big_close.jpg">
+      <Filter>images\25ft Filter Guided Tour</Filter>
+    </Image>
+    <Image Include="Assets\25ft Filters\big_top.jpg">
+      <Filter>images\25ft Filter Guided Tour</Filter>
+    </Image>
+    <Image Include="Assets\25ft Filters\drum_close.jpg">
+      <Filter>images\25ft Filter Guided Tour</Filter>
+    </Image>
+    <Image Include="Assets\25ft Filters\filter_bg.jpg">
+      <Filter>images\25ft Filter Guided Tour</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest" />
@@ -262,6 +282,12 @@
     <Page Include="walkthrough_002.xaml">
       <Filter>Walkthrough Pages</Filter>
     </Page>
+    <Page Include="tf_foot_filters.xaml">
+      <Filter>guided tour pages</Filter>
+    </Page>
+    <Page Include="tf_foot_tanks.xaml">
+      <Filter>guided tour pages</Filter>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="images">
@@ -287,6 +313,12 @@
     </Filter>
     <Filter Include="images\Walkthrough Images">
       <UniqueIdentifier>{a82e9c14-f3bb-4856-8341-b461be9c30bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="images\25ft Guided Tour">
+      <UniqueIdentifier>{6f1e3498-f655-4a57-add6-3ce50c362801}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="images\25ft Filter Guided Tour">
+      <UniqueIdentifier>{1fbdad21-4a69-4bc2-ac15-b26e272e43e5}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

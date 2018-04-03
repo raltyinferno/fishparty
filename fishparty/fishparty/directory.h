@@ -20,6 +20,11 @@
 #include "six_foot_tanks_2.xaml.h"
 //
 
+// Thirty foot tank pages
+#include "tf_foot_tanks.xaml.h"
+#include "tf_foot_filters.xaml.h"
+//
+
 // Front Tank Pages
 #include "front_tanks.xaml.h"
 //
@@ -29,6 +34,7 @@
 #include "walkthrough_002.xaml.h"
 #include "walkthrough_003.xaml.h"
 //
+
 
 
 
