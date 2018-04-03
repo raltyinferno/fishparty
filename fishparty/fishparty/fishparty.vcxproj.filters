@@ -267,9 +267,6 @@
     <Filter Include="images">
       <UniqueIdentifier>{e6a7b1eb-2023-4190-b735-805ad8a1c4f1}</UniqueIdentifier>
     </Filter>
-    <Filter Include="test walkthrough">
-      <UniqueIdentifier>{74175036-dbc0-40ee-bdf9-963b514a39ea}</UniqueIdentifier>
-    </Filter>
     <Filter Include="guided tour pages">
       <UniqueIdentifier>{d1abf654-6a8b-4548-9a55-8aa774fdbc73}</UniqueIdentifier>
     </Filter>

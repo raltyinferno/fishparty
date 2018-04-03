@@ -28,5 +28,6 @@
                 </Button.Flyout>
             </Button>
         </Grid>
+        <ToolTip Content="ToolTip" HorizontalAlignment="Left" Margin="424,152,0,0" VerticalAlignment="Top" Height="192" Width="396"/>
     </Grid>
 </Page>
