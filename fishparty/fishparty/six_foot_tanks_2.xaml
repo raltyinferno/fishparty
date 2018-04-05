@@ -16,7 +16,7 @@
 
         <Grid Style="{StaticResource title_grid_style}">
             <Rectangle Style="{StaticResource title_box_style}" Width="811"/>
-            <TextBlock Style="{StaticResource title_text_style}">6 Foot Tanks</TextBlock>
+            <TextBlock Style="{StaticResource title_text_style}">10 Foot Tanks</TextBlock>
         </Grid>
 
 

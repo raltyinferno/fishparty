@@ -53,7 +53,7 @@
         </Path>
 
 
-        <Button x:Name="egg_butt" Content="6ft Tanks ->" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="next_page_Click" Height="75" Width="185" FontSize="28" Grid.Column="2" Grid.Row="2"/>
+        <Button x:Name="egg_butt" Content="10ft Tanks ->" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="next_page_Click" Height="75" Width="185" FontSize="28" Grid.Column="2" Grid.Row="2"/>
 
     </Grid>
 
