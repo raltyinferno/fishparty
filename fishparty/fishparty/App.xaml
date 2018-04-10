@@ -14,7 +14,8 @@
         <ImageBrush x:Key="splash_image"      ImageSource="/Assets/splash_image.jpg" Opacity=".1" Stretch="UniformToFill" />
         <ImageBrush x:Key="splash_background" ImageSource="/Assets/fishparty_splash_background.png" Opacity="0.8" Stretch="UniformToFill" />
         <ImageBrush x:Key="hatchery_map"      ImageSource="/Assets/hatchery_map.jpg" Opacity="1" Stretch="UniformToFill" />
-        
+        <SolidColorBrush x:Key="button_background"  Color="#FF1E6C00" Opacity=".7"/>
+
         <!--Arrow buttons-->
         <ImageBrush x:Key="up_arrow"          ImageSource="Assets/up_arrow.jpg" Opacity="1" Stretch="UniformToFill" />
         <ImageBrush x:Key="down_arrow"        ImageSource="Assets/down_arrow.jpg" Opacity="1" Stretch="UniformToFill" />
@@ -23,6 +24,7 @@
         <!--  -->
 
         <ImageBrush x:Key="home_icon" ImageSource="Assets/home_icon.png" Opacity="1" Stretch="UniformToFill"/>
+        <BitmapImage x:Key="advance_icon" UriSource="Assets/advance_icon.png"/>
 
 
         <Style x:Key="title_text_style" TargetType="TextBlock">
@@ -55,6 +57,8 @@
             <Setter Property="HorizontalAlignment" Value="Right"/>
             <Setter Property="VerticalAlignment" Value="Bottom"/>
             <Setter Property="FontSize" Value="28"/>
+            <Setter Property="Background" Value="{StaticResource button_background}"/>
+            <Setter Property="Foreground" Value="Black"/>
         </Style>
 
         <Style x:Key="content_display_style" TargetType="WebView">

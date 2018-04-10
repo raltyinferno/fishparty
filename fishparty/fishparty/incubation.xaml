@@ -19,6 +19,7 @@
             <TextBlock Style="{StaticResource title_text_style}">Egg Receiving</TextBlock>
         </Grid>
 
+        <local:home_button/>
         <Button Style="{StaticResource guided_forward_button}" Click="forward_Click">Incubation-></Button>
 
 

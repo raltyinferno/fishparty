@@ -38,6 +38,7 @@
             </Button.RenderTransform>
         </Button>
 
+        <local:home_button/>
         <Button x:Name="next_button" Content="Front Tanks ->" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="next_page_Click" Height="75" Width="203" FontSize="28"/>
 
 

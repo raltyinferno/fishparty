@@ -301,6 +301,9 @@
     <Image Include="Assets\home_icon.png">
       <Filter>images</Filter>
     </Image>
+    <Image Include="Assets\advance_icon.png">
+      <Filter>images</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest" />

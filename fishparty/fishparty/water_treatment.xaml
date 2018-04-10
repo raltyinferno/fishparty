@@ -82,6 +82,7 @@
 
         </Grid>
 
+        <!--Just paste this to include home button-->
         <local:home_button/>
         <Button x:Name="button" Content="Go to eggs" HorizontalAlignment="Left" Margin="1736,1019,0,0" VerticalAlignment="Top" Click="next_page_Click" Height="51" Width="124"/>
         
