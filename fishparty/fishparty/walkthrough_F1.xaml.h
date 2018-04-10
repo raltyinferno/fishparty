@@ -18,6 +18,7 @@ namespace fishparty
 	public:
 		walkthrough_F1();
 	private:
+		Hometimer new_timer;
 		void right_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void back_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void forward_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);

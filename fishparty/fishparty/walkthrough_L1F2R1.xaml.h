@@ -18,6 +18,7 @@ namespace fishparty
 	public:
 		walkthrough_L1F2R1();
 	private:
+		Hometimer new_timer;
 		void left_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 	};
 }

@@ -31,12 +31,15 @@
 
 // Walkthrough Pages
 #include "walkthrough_start1.xaml.h"
+
 #include "walkthrough_R1.xaml.h"
+
 #include "walkthrough_L1.xaml.h"
 #include "walkthrough_L1F1.xaml.h"
 #include "walkthrough_L1F1R1.xaml.h"
 #include "walkthrough_L1F2.xaml.h"
 #include "walkthrough_L1F2R1.xaml.h"
+
 #include "walkthrough_F1.xaml.h"
 #include "walkthrough_F1R1.xaml.h"
 #include "walkthrough_F1R1F1.xaml.h"
@@ -46,7 +49,34 @@
 #include "walkthrough_F1R1F4L1.xaml.h"
 #include "walkthrough_F1R1F4L1F1.xaml.h"
 #include "walkthrough_F1R1F4L1F1R1.xaml.h"
+
 #include "walkthrough_F2.xaml.h"
+
+#include "walkthrough_F3.xaml.h"
+#include "walkthrough_F3R1.xaml.h"
+#include "walkthrough_F3R1F1.xaml.h"
+#include "walkthrough_F3R1F2.xaml.h"
+#include "walkthrough_F3R1F3.xaml.h"
+#include "walkthrough_F3R1F3R1.xaml.h"
+#include "walkthrough_F3R1F3R1F1.xaml.h"
+#include "walkthrough_F3R1F3R1F2.xaml.h"
+#include "walkthrough_F3R1F3R1F2L1.xaml.h"
+#include "walkthrough_F3R1F3R1F2L1F1.xaml.h"
+#include "walkthrough_F3R1F3R1F2L1F2.xaml.h"
+#include "walkthrough_F3R1F3R1F2L1F3.xaml.h"
+
+#include "walkthrough_F4.xaml.h"
+#include "walkthrough_F4L1.xaml.h"
+#include "walkthrough_F4L1F1.xaml.h"
+#include "walkthrough_F4L1F2.xaml.h"
+#include "walkthrough_F4R1.xaml.h"
+#include "walkthrough_F4R1F1.xaml.h"
+#include "walkthrough_F4R1F1L1.xaml.h"
+#include "walkthrough_F4R1F1L1F1.xaml.h"
+#include "walkthrough_F4R1F1L1F1R1.xaml.h"
+#include "walkthrough_F4R1F1L1F1R1F1.xaml.h"
+
+#include "walkthrough_F5.xaml.h"
 //
 
 
