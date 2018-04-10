@@ -9,14 +9,14 @@
     mc:Ignorable="d">
 
     <Page.Resources>
-        <ImageBrush x:Name="background" ImageSource="Assets/air_background.jpg" Opacity=".5"/>
+        <ImageBrush x:Name="background" ImageSource="Assets/air_background.jpg" Opacity="1"/>
     </Page.Resources>
 
     <Grid Background="{StaticResource background}">
 
         <Grid Style="{StaticResource title_grid_style}">
-            <Rectangle Style="{StaticResource title_box_style}" Width="889"/>
-            <TextBlock Style="{StaticResource title_text_style}" >Air Collection</TextBlock>
+            <Rectangle Style="{StaticResource title_box_style}" Width="1100"/>
+            <TextBlock Style="{StaticResource title_text_style}" >Oxygen Collection</TextBlock>
         </Grid>
 
         <Grid>
@@ -34,7 +34,7 @@
             <Button x:Name="close_button" Style="{StaticResource content_display_close_style}" Click="close_Click"/>
         </Grid>
 
-        <Button x:Name="button" Style="{StaticResource guided_forward_button}" Click="next_page" FontSize="24">Fish Release -></Button>
+        <Button x:Name="button" Style="{StaticResource guided_forward_button}" Click="next_page">Fish Release -></Button>
 
         <Grid x:Name="contentPanel" VerticalAlignment="Bottom" HorizontalAlignment="Left">
             <Button Content="Jump to Section" FontSize="20">

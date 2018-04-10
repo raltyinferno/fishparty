@@ -142,6 +142,9 @@
     <ClInclude Include="front_tanks.xaml.h">
       <DependentUpon>front_tanks.xaml</DependentUpon>
     </ClInclude>
+    <ClInclude Include="home_button.xaml.h">
+      <DependentUpon>home_button.xaml</DependentUpon>
+    </ClInclude>
     <ClInclude Include="six_foot_tanks.xaml.h">
       <DependentUpon>six_foot_tanks.xaml</DependentUpon>
     </ClInclude>
@@ -251,6 +254,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="front_tanks.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="home_button.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Include="six_foot_tanks.xaml">
@@ -370,6 +376,7 @@
     <Image Include="Assets\Front Tanks Guided Tour\arcticchar_largemap.jpg" />
     <Image Include="Assets\Front Tanks Guided Tour\front_001.jpg" />
     <Image Include="Assets\hatchery_map.jpg" />
+    <Image Include="Assets\home_icon.png" />
     <Image Include="Assets\left_arrow.png" />
     <Image Include="Assets\LockScreenLogo.scale-200.png" />
     <Image Include="Assets\right_arrow.png" />
@@ -418,6 +425,9 @@
     </ClCompile>
     <ClCompile Include="front_tanks.xaml.cpp">
       <DependentUpon>front_tanks.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="home_button.xaml.cpp">
+      <DependentUpon>home_button.xaml</DependentUpon>
     </ClCompile>
     <ClCompile Include="six_foot_tanks.xaml.cpp">
       <DependentUpon>six_foot_tanks.xaml</DependentUpon>

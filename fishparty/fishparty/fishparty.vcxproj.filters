@@ -33,6 +33,13 @@
     <ClCompile Include="walkthrough_L1F2.xaml.cpp" />
     <ClCompile Include="walkthrough_L1F2R1.xaml.cpp" />
     <ClCompile Include="walkthrough_R1.xaml.cpp" />
+    <ClCompile Include="walkthrough_F1R1F1.xaml.cpp" />
+    <ClCompile Include="walkthrough_F1R1F2.xaml.cpp" />
+    <ClCompile Include="walkthrough_F1R1F3.xaml.cpp" />
+    <ClCompile Include="walkthrough_F1R1F4.xaml.cpp" />
+    <ClCompile Include="walkthrough_F1R1F4L1.xaml.cpp" />
+    <ClCompile Include="walkthrough_F1R1F4L1F1.xaml.cpp" />
+    <ClCompile Include="walkthrough_F1R1F4L1F1R1.xaml.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="air.xaml.h" />
@@ -66,6 +73,13 @@
     <ClInclude Include="walkthrough_L1F2.xaml.h" />
     <ClInclude Include="walkthrough_L1F2R1.xaml.h" />
     <ClInclude Include="walkthrough_R1.xaml.h" />
+    <ClInclude Include="walkthrough_F1R1F1.xaml.h" />
+    <ClInclude Include="walkthrough_F1R1F2.xaml.h" />
+    <ClInclude Include="walkthrough_F1R1F3.xaml.h" />
+    <ClInclude Include="walkthrough_F1R1F4.xaml.h" />
+    <ClInclude Include="walkthrough_F1R1F4L1.xaml.h" />
+    <ClInclude Include="walkthrough_F1R1F4L1F1.xaml.h" />
+    <ClInclude Include="walkthrough_F1R1F4L1F1R1.xaml.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\down_arrow.png">
@@ -284,6 +298,9 @@
     <Image Include="Assets\walkthrough\walkthrough_F2.jpg">
       <Filter>images\Walkthrough Images</Filter>
     </Image>
+    <Image Include="Assets\home_icon.png">
+      <Filter>images</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest" />
@@ -385,6 +402,7 @@
     <Page Include="walkthrough_F1R1F4L1F1R1.xaml">
       <Filter>Walkthrough Pages</Filter>
     </Page>
+    <Page Include="home_button.xaml" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="images">

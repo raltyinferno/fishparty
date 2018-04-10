@@ -55,6 +55,8 @@
                 </StackPanel>
             </Button>
         </Grid>
+        
+        <!--Grid and content panel, copy to add content to new page-->
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="1*"/>
@@ -69,6 +71,8 @@
             <WebView x:Name="content_webview" Style="{StaticResource content_display_style}"/>
             <Button x:Name="close_button" Style="{StaticResource content_display_close_style}" Click="close_Click"/>
         </Grid>
+        <!--End of content panel, close button for content panel, and container for both-->
+        
         <Grid x:Name="contentPanel" VerticalAlignment="Bottom" HorizontalAlignment="Left">
             <Button Content="Jump to Section" FontSize="20">
                 <Button.Flyout>
@@ -78,7 +82,7 @@
 
         </Grid>
 
-
+        <local:home_button/>
         <Button x:Name="button" Content="Go to eggs" HorizontalAlignment="Left" Margin="1736,1019,0,0" VerticalAlignment="Top" Click="next_page_Click" Height="51" Width="124"/>
         
         
