@@ -15,8 +15,8 @@
     <Grid Background="{StaticResource background}">
 
         <Grid Style="{StaticResource title_grid_style}">
-            <Rectangle Style="{StaticResource title_box_style}" Width="1100"/>
-            <TextBlock Style="{StaticResource title_text_style}" >Oxygen Collection</TextBlock>
+            <Rectangle Style="{StaticResource title_box_style}" Width="1150"/>
+            <TextBlock Style="{StaticResource title_text_style}" >Oxygen Generation</TextBlock>
         </Grid>
 
         <Grid>

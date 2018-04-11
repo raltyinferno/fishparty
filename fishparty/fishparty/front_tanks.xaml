@@ -52,7 +52,7 @@
         </Path>
 
         <local:home_button/>
-        <Button x:Name="next_button" Content="30 Foot Tanks ->" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="next_page_Click" Height="75" Width="236" FontSize="28"/>
+        <Button x:Name="next_button" Content="30 Foot Tanks ->"  Click="next_page_Click" Style="{StaticResource guided_forward_button}"/>
 
     </Grid>
 </Page>

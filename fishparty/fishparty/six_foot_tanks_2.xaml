@@ -31,7 +31,7 @@
         </Grid>
 
 
-        <Button x:Name="overhead_button" Content="Return" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="return_button_Click" Height="129.812" Width="278.137" FontSize="28" RenderTransformOrigin="0.5,0.5" Margin="0,0,94.437,893.925" UseLayoutRounding="False" d:LayoutRounding="Auto" FontWeight="Bold" Foreground="Black" Background="#66FFFFFF">
+        <Button x:Name="overhead_button" Content="Return" Style="{StaticResource guided_forward_button}" Click="return_button_Click" Height="129.812" Width="278.137" FontSize="28" RenderTransformOrigin="0.5,0.5" Margin="0,0,94.437,893.925" UseLayoutRounding="False" d:LayoutRounding="Auto" FontWeight="Bold" Foreground="Black" Background="#66FFFFFF">
             <Button.RenderTransform>
                 <CompositeTransform TranslateX="39" Rotation="-0.903"/>
             </Button.RenderTransform>
@@ -42,7 +42,7 @@
 
 
         <local:home_button/>
-        <Button x:Name="next_button" Content="Front Tanks ->" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="next_page_Click" Height="75" Width="203" FontSize="28"/>
+        <Button x:Name="next_button" Content="Front Tanks ->" Style="{StaticResource guided_forward_button}" Click="next_page_Click"/>
 
 
 
