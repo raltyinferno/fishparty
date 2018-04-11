@@ -25,9 +25,6 @@
 #include "tf_foot_filters.xaml.h"
 //
 
-// Front Tank Pages
-#include "front_tanks.xaml.h"
-//
 
 // Walkthrough Pages
 #include "walkthrough_start1.xaml.h"

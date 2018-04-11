@@ -90,13 +90,7 @@
         <!-- End Title -->
         
         <!-- navigation sidebar -->
-        <Grid  VerticalAlignment="Bottom" HorizontalAlignment="Left" Grid.Row="2">
-            <Button Content="Jump to Section" FontSize="20">
-                <Button.Flyout>
-                    <controls:guided_tour_nav/>
-                </Button.Flyout>
-            </Button>
-        </Grid>
+        <local:navigation_button/>
         <!-- end navigation sidebar -->
 
         <!-- Page Buttons -->

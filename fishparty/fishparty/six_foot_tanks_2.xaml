@@ -20,15 +20,7 @@
         </Grid>
 
 
-        <Grid  VerticalAlignment="Bottom" HorizontalAlignment="Left" Grid.Row="2">
-            <Button Content="Jump to Section" FontSize="20">
-                <Button.Flyout>
-                    <controls:guided_tour_nav/>
-
-
-                </Button.Flyout>
-            </Button>
-        </Grid>
+       
 
 
         <Button x:Name="overhead_button" Content="Return" Style="{StaticResource guided_forward_button}" Click="return_button_Click" Height="129.812" Width="278.137" FontSize="28" RenderTransformOrigin="0.5,0.5" Margin="0,0,94.437,893.925" UseLayoutRounding="False" d:LayoutRounding="Auto" FontWeight="Bold" Foreground="Black" Background="#66FFFFFF">
@@ -40,7 +32,7 @@
 
 
 
-
+        <local:navigation_button/>
         <local:home_button/>
         <Button x:Name="next_button" Content="Front Tanks ->" Style="{StaticResource guided_forward_button}" Click="next_page_Click"/>
 

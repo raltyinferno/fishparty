@@ -465,9 +465,6 @@
     <Page Include="six_foot_tanks_2.xaml">
       <Filter>guided tour pages</Filter>
     </Page>
-    <Page Include="front_tanks.xaml">
-      <Filter>guided tour pages</Filter>
-    </Page>
     <Page Include="walkthrough_start1.xaml">
       <Filter>Walkthrough Pages</Filter>
     </Page>
@@ -595,6 +592,7 @@
     <Page Include="walkthrough_F4R1F1L1F1R1F1.xaml">
       <Filter>Walkthrough Pages</Filter>
     </Page>
+    <Page Include="navigation_button.xaml" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="images">

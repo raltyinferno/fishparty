@@ -1,0 +1,26 @@
+﻿<Flyout
+    x:Class="fishparty.guided_tour_nav"
+    x:Name="guided_tour_flyout"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:fishparty"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+   >
+    <StackPanel>
+        <StackPanel.Resources>
+            <Style TargetType="Button">
+                <Setter Property="Margin" Value="0,0,0,20"/>
+            </Style>
+        </StackPanel.Resources>
+        <Button x:Name="home"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Return to Home" Click="home_Click"/>
+        <Button x:Name="water"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="The Water" Click="water_Click"/>
+        <Button x:Name="eggs"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Egg Room" Click="eggs_Click"/>
+        <Button x:Name="fivetanks"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Start Up (5' Tanks)" Click="five_tanks_Click"/>
+        <Button x:Name="tentanks"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Rearing (10' Tanks)"/>
+        <Button x:Name="life_support"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Rearing (25' Tanks)"/>
+        <Button x:Name="air"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Air Filtration" Click="air_click"/>
+        <Button x:Name="release"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Fish Release" Click="delivery_Click"/>
+    </StackPanel>
+</Flyout>

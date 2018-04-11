@@ -19,19 +19,12 @@
             <TextBlock Style="{StaticResource title_text_style}">Egg Receiving</TextBlock>
         </Grid>
 
+        <local:navigation_button/>
         <local:home_button/>
         <Button Style="{StaticResource guided_forward_button}" Click="forward_Click">Incubation-></Button>
 
 
-            <Grid  VerticalAlignment="Bottom" HorizontalAlignment="Left" Grid.Row="2">
-
-                <Button Content="Jump to Section" FontSize="20">
-                    <Button.Flyout>
-                        <controls:guided_tour_nav />
-                    </Button.Flyout>
-                </Button>
-
-            </Grid>
+            
 
             
 

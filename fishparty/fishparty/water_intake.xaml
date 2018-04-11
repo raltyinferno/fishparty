@@ -116,14 +116,7 @@
             </Button.Flyout>
         </Button>
 
-        <Grid x:Name="contentPanel" VerticalAlignment="Bottom" HorizontalAlignment="Left">
-            <Button Content="Jump to Section" FontSize="20">
-                <Button.Flyout>
-                    <controls:guided_tour_nav />
-                </Button.Flyout>
-            </Button>
-        </Grid>
-
+        <local:navigation_button/>
         <local:home_button/>
         <Button Style="{StaticResource guided_forward_button}" Click="next_page_Click">
             <StackPanel Orientation="Horizontal">

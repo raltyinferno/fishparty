@@ -20,15 +20,7 @@
 
 
 
-        <Grid  VerticalAlignment="Bottom" HorizontalAlignment="Left" Grid.Row="2">
-            <Button Content="Jump to Section" FontSize="20">
-                <Button.Flyout>
-                    <controls:guided_tour_nav/>
-
-
-                </Button.Flyout>
-            </Button>
-        </Grid>
+        
 
 
             <Path Data="M588.653,558.414 L923.299,520.112 L921.283,794.279 L602.765,832.582 z" Fill="White" HorizontalAlignment="Left" Height="326.47" Margin="581.653,513.112,0,0" Stretch="Fill" Stroke="#FF002EFF" StrokeThickness="14" UseLayoutRounding="False" VerticalAlignment="Top" Width="348.646" Opacity="0.2" Tapped="show_Flyout">
@@ -52,6 +44,7 @@
             </FlyoutBase.AttachedFlyout>
         </Path>
 
+        <local:navigation_button/>
         <local:home_button/>
         <Button x:Name="egg_butt" Content="10ft Tanks ->" Style="{StaticResource guided_forward_button}" Click="next_page_Click"/>
 
