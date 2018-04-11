@@ -1,19 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ApplicationDefinition Include="App.xaml" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="air.xaml.cpp" />
     <ClCompile Include="fivetanks.xaml.cpp" />
     <ClCompile Include="App.xaml.cpp" />
     <ClCompile Include="guided_tour_nav.xaml.cpp" />
     <ClCompile Include="hatchery_map.xaml.cpp" />
-    <ClCompile Include="Hometimer.cpp" />
     <ClCompile Include="incubation.xaml.cpp" />
     <ClCompile Include="incubation_2.xaml.cpp" />
     <ClCompile Include="MainPage.xaml.cpp" />
-    <ClCompile Include="pch.cpp" />
     <ClCompile Include="tour_page_1.xaml.cpp" />
     <ClCompile Include="walkthrough_start1.xaml.cpp" />
     <ClCompile Include="water_treatment.xaml.cpp" />
@@ -64,23 +59,25 @@
     <ClCompile Include="walkthrough_F4R1F1L1F1R1.xaml.cpp" />
     <ClCompile Include="walkthrough_F4R1F1L1F1R1F1.xaml.cpp" />
     <ClCompile Include="walkthrough_F5.xaml.cpp" />
+    <ClCompile Include="Hometimer.cpp">
+      <Filter>global resources</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>generated files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="air.xaml.h" />
     <ClInclude Include="fivetanks.xaml.h" />
-    <ClInclude Include="directory.h" />
     <ClInclude Include="guided_tour_nav.xaml.h" />
     <ClInclude Include="hatchery_map.xaml.h" />
-    <ClInclude Include="Hometimer.h" />
     <ClInclude Include="incubation.xaml.h" />
     <ClInclude Include="incubation_2.xaml.h" />
-    <ClInclude Include="pch.h" />
     <ClInclude Include="App.xaml.h" />
     <ClInclude Include="MainPage.xaml.h" />
     <ClInclude Include="tour_page_1.xaml.h" />
     <ClInclude Include="walkthrough_start1.xaml.h" />
     <ClInclude Include="water_treatment.xaml.h" />
-    <ClInclude Include="resource.h" />
     <ClInclude Include="water_intake.xaml.h" />
     <ClInclude Include="fish_delivery.xaml.h" />
     <ClInclude Include="front_tanks.xaml.h" />
@@ -128,6 +125,18 @@
     <ClInclude Include="walkthrough_F4R1F1L1F1R1.xaml.h" />
     <ClInclude Include="walkthrough_F4R1F1L1F1R1F1.xaml.h" />
     <ClInclude Include="walkthrough_F5.xaml.h" />
+    <ClInclude Include="directory.h">
+      <Filter>global resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Hometimer.h">
+      <Filter>global resources</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>generated files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>generated files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\down_arrow.png">
@@ -426,15 +435,13 @@
     </Image>
   </ItemGroup>
   <ItemGroup>
-    <AppxManifest Include="Package.appxmanifest" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="fishparty_TemporaryKey.pfx" />
     <None Include="Iron_content_display.htm" />
     <None Include="heat_content_display.htm" />
+    <None Include="fishparty_TemporaryKey.pfx">
+      <Filter>generated files</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <Page Include="guided_tour_nav.xaml" />
     <Page Include="hatchery_map.xaml" />
     <Page Include="MainPage.xaml" />
     <Page Include="tour_page_1.xaml" />
@@ -522,7 +529,6 @@
     <Page Include="walkthrough_F1R1F4L1F1R1.xaml">
       <Filter>Walkthrough Pages</Filter>
     </Page>
-    <Page Include="home_button.xaml" />
     <Page Include="walkthrough_F3.xaml">
       <Filter>Walkthrough Pages</Filter>
     </Page>
@@ -592,7 +598,15 @@
     <Page Include="walkthrough_F4R1F1L1F1R1F1.xaml">
       <Filter>Walkthrough Pages</Filter>
     </Page>
-    <Page Include="navigation_button.xaml" />
+    <Page Include="guided_tour_nav.xaml">
+      <Filter>global resources</Filter>
+    </Page>
+    <Page Include="home_button.xaml">
+      <Filter>global resources</Filter>
+    </Page>
+    <Page Include="navigation_button.xaml">
+      <Filter>global resources</Filter>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="images">
@@ -622,13 +636,29 @@
     <Filter Include="images\25ft Filter Guided Tour">
       <UniqueIdentifier>{1fbdad21-4a69-4bc2-ac15-b26e272e43e5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="global resources">
+      <UniqueIdentifier>{c3db9090-59c8-48cd-8166-264e35347b05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="generated files">
+      <UniqueIdentifier>{6456529a-c644-4ad9-9279-2c260439bdba}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
       <Filter>global resources</Filter>
     </ApplicationDefinition>
+    <ApplicationDefinition Include="App.xaml">
+      <Filter>global resources</Filter>
+    </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="fishparty.rc" />
+    <ResourceCompile Include="fishparty.rc">
+      <Filter>generated files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <Filter>generated files</Filter>
+    </AppxManifest>
   </ItemGroup>
 </Project>
