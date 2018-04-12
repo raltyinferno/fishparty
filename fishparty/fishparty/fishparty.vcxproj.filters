@@ -436,7 +436,7 @@
     <Image Include="Assets\next_icon.png">
       <Filter>images</Filter>
     </Image>
-    <Image Include="Assets\home_icon2.png">
+    <Image Include="Assets\home_icon.png">
       <Filter>images</Filter>
     </Image>
   </ItemGroup>
