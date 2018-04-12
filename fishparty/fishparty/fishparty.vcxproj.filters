@@ -436,6 +436,9 @@
     <Image Include="Assets\hamburger.png">
       <Filter>images</Filter>
     </Image>
+    <Image Include="Assets\next_icon.png">
+      <Filter>images</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <None Include="Iron_content_display.htm" />

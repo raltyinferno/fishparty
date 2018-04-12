@@ -21,7 +21,7 @@
 
         <local:navigation_button/>
         <local:home_button/>
-        <Button Style="{StaticResource guided_forward_button}" Click="forward_Click">Incubation-></Button>
+        <Button Style="{StaticResource guided_forward_button}" Click="forward_Click">To Incubation</Button>
 
 
             

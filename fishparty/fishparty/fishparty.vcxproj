@@ -520,6 +520,7 @@
     <Image Include="Assets\home_icon.png" />
     <Image Include="Assets\left_arrow.png" />
     <Image Include="Assets\LockScreenLogo.scale-200.png" />
+    <Image Include="Assets\next_icon.png" />
     <Image Include="Assets\right_arrow.png" />
     <Image Include="Assets\Round_Icon.png" />
     <Image Include="Assets\salmon.gif" />
