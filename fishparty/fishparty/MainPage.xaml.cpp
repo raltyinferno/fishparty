@@ -28,17 +28,17 @@ MainPage::MainPage()
 	InitializeComponent();
 }
 
-
-void fishparty::MainPage::animate_Bubble()
-{
-	//Vector3KeyFrameAnimation animation = compositor.CreateVector3KeyFrameAnimation();
-	//animation.InsertKeyFrame(1f, new Vector3(200f, 0f, 0f));
-	//animation.Duration = TimeSpan.FromSeconds(2);
-	//animation.Direction = Windows.UI.Composition.AnimationDirection.Alternate;
-	//// Run animation for 10 times
-	//animation.IterationCount = 10;
-	//visual.StartAnimation("Translation", animation);
-}
+//
+//void fishparty::MainPage::animate_Bubble()
+//{
+//	//Vector3KeyFrameAnimation animation = compositor.CreateVector3KeyFrameAnimation();
+//	//animation.InsertKeyFrame(1f, new Vector3(200f, 0f, 0f));
+//	//animation.Duration = TimeSpan.FromSeconds(2);
+//	//animation.Direction = Windows.UI.Composition.AnimationDirection.Alternate;
+//	//// Run animation for 10 times
+//	//animation.IterationCount = 10;
+//	//visual.StartAnimation("Translation", animation);
+//}
 
 void fishparty::MainPage::anim_Completed(Platform::Object ^ sender, Windows::UI::Xaml::RoutedEventArgs ^ e)
 {
@@ -53,7 +53,7 @@ void fishparty::MainPage::start_tour_button_Click(Platform::Object^ sender, Wind
 
 void fishparty::MainPage::explore_button_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(hatchery_map::typeid));
+	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(walkthrough_start1::typeid));
 }
 
 

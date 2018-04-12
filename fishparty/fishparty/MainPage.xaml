@@ -65,6 +65,15 @@
                 </EasingDoubleKeyFrame>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
+
+        <Style x:Name="button_style" TargetType="Button">
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="FontSize" Value="28"/>
+            <Setter Property="Height" Value="80"/>
+            <Setter Property="Width" Value="150"/>
+            <Setter Property="Background" Value="LightGreen"/>
+            <Setter Property="Foreground" Value="Black"/>
+        </Style>
     </Page.Resources>
 
 
@@ -72,33 +81,26 @@
 
     <Grid Background ="{StaticResource splash_background}">
 
-
-
-        <Grid HorizontalAlignment="Stretch" VerticalAlignment="Top" >
-            <TextBlock TextAlignment="Center"  FontSize="108">
+            <TextBlock TextAlignment="Center"  FontSize="108" Foreground="LightGreen">
                      <Span FontSize="140">Welcome</Span> <LineBreak/> Ruth Burnett Sport Fish Hatchery
 
             </TextBlock>
 
-            <Button x:Name="tour_button" Content="Start Tour" Click="start_tour_button_Click" HorizontalAlignment="Center" Height="78" FontSize="24" Margin="887,481,887,521" Width="146"/>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="4*"/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="3*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
 
-            <Button x:Name="explore_button" Content="Explore" Click="explore_button_Click"  HorizontalAlignment="Center" Width="146" Height="78" FontSize="24" Margin="887,676,887,326"/>
-            <Button x:Name="test_page_button" Content="testing page" HorizontalAlignment="Left" Margin="1815,993,0,0" VerticalAlignment="Top" Click="test_button_Click"/>
+                </Grid.ColumnDefinitions>
+                <Button x:Name="tour_button" Style="{StaticResource button_style}" Content="Start Tour" Click="start_tour_button_Click" VerticalAlignment="Bottom" Grid.Row="0"/>
 
+                <Button x:Name="explore_button" Style="{StaticResource button_style}" Content="Explore" Click="explore_button_Click" VerticalAlignment="Top" Grid.Row="2"/>
+            </Grid>
 
-
-        </Grid>
-
-
-        <Grid x:Name="contentPanel" VerticalAlignment="Bottom" HorizontalAlignment="Left">
-
-            <Button Content="Jump to Section" FontSize="20">
-                <Button.Flyout>
-                    <controls:guided_tour_nav />
-                </Button.Flyout>
-            </Button>
-
-        </Grid>
+        <Button x:Name="test_page_button" Content="testing page" HorizontalAlignment="Left" Margin="1815,993,0,0" VerticalAlignment="Top" Click="test_button_Click"/>
 
         <Image x:Name="bubble_1" Width="100" Height="100" Source="Assets/fishparty_bubble.png" HorizontalAlignment="Left" Margin="167,1041,0,-61" RenderTransformOrigin="0.5,0.5"  >
             <Image.RenderTransform>
