@@ -89,22 +89,23 @@
         </Grid>
         <!-- End Title -->
         
-        <!-- navigation sidebar -->
+        <!-- navigation/home buttons -->
         <local:navigation_button/>
-        <!-- end navigation sidebar -->
+        <local:home_button/>
+        <!-- end navigation/home buttons -->
 
         <!-- Page Buttons -->
         <Button Style="{StaticResource guided_forward_button}" Click="next_page_Click">
             <StackPanel Orientation="Horizontal">
                 <TextBlock VerticalAlignment="Center">30ft Tank Filters</TextBlock>
-                <Image Source="{StaticResource advance_icon}" Height="50" Width="50"/>
+                <!--<Image Source="{StaticResource advance_icon}" Height="50" Width="50"/>-->
             </StackPanel>
         </Button>
 
-        <local:home_button/>
+        
         <Button Style="{StaticResource guided_back_button}" Click="prev_page_Click">
             <StackPanel Orientation="Horizontal">
-                <Image Source="{StaticResource back_icon}" Height="50" Width="50"/>
+                <!--<Image Source="{StaticResource back_icon}" Height="50" Width="50"/>-->
                 <TextBlock VerticalAlignment="Center">10ft Tanks</TextBlock>
             </StackPanel>
         </Button>

@@ -43,6 +43,11 @@ void fishparty::guided_tour_nav::eggs_Click(Platform::Object^ sender, Windows::U
 	nav_to_page(Windows::UI::Xaml::Interop::TypeName(incubation::typeid));
 }
 
+void fishparty::guided_tour_nav::eggs2_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	nav_to_page(Windows::UI::Xaml::Interop::TypeName(incubation_2::typeid));
+}
+
 
 void fishparty::guided_tour_nav::five_tanks_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
@@ -68,13 +73,12 @@ void fishparty::guided_tour_nav::air_click(Platform::Object^ sender, Windows::UI
 	nav_to_page(Windows::UI::Xaml::Interop::TypeName(air::typeid));
 }
 
-
-
-
 void fishparty::guided_tour_nav::delivery_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
 	nav_to_page(Windows::UI::Xaml::Interop::TypeName(fish_delivery::typeid));
 }
+
+
 
 void fishparty::nav_to_page(Windows::UI::Xaml::Interop::TypeName sourcePageType)
 {
@@ -82,4 +86,7 @@ void fishparty::nav_to_page(Windows::UI::Xaml::Interop::TypeName sourcePageType)
 
 	rootFrame->Navigate(sourcePageType);
 }
+
+
+
 

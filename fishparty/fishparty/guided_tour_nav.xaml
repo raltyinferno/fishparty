@@ -15,14 +15,15 @@
                 <Setter Property="Margin" Value="0,0,0,20"/>
             </Style>
         </StackPanel.Resources>
-        <Button x:Name="home"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Return to Home" Click="home_Click"/>
-        <Button x:Name="water"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="The Water" Click="water_Click"/>
-        <Button x:Name="eggs"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Egg Room" Click="eggs_Click"/>
-        <Button x:Name="fivetanks"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Start Up (5' Tanks)" Click="five_tanks_Click"/>
-        <Button x:Name="tentanks"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Rearing (6' Tanks)" Click="siz_tanks_Click"/>
+        <!--<Button x:Name="home"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Return to Home" Click="home_Click"/>-->
+        <Button x:Name="water"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Water Intake" Click="water_Click"/>
+        <Button x:Name="eggs"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Egg Recieving" Click="eggs_Click"/>
+        <Button x:Name="eggs2"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Incubation" Click="eggs2_Click"/>
+        <Button x:Name="fivetanks"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Start Up (5ft Tanks)" Click="five_tanks_Click"/>
+        <Button x:Name="tentanks"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Rearing (10ft Tanks)" Click="siz_tanks_Click"/>
         <Button x:Name="life_support"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Rearing (30' Tanks)" Click="tf_tanks_Click"/>
         <Button x:Name="life_sup_filt" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Filters (30' Tanks)" Click="tf_filts_Click"/>
-        <Button x:Name="air"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Air Filtration" Click="air_click"/>
+        <Button x:Name="air"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Oxygen Generation" Click="air_click"/>
         <Button x:Name="release"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Fish Release" Click="delivery_Click"/>
     </StackPanel>
 </Flyout>
