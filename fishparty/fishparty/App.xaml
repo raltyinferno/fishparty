@@ -24,7 +24,7 @@
         <!--  -->
         
         <!-- Other icons -->
-        <ImageBrush x:Key="home_icon" ImageSource="Assets/home_icon2.png" Opacity="1" Stretch="UniformToFill"/>
+        <ImageBrush x:Key="home_icon" ImageSource="Assets/home_icon.png" Opacity="1" Stretch="UniformToFill"/>
         <ImageBrush x:Key="hamburger" ImageSource="Assets/hamburger.png" Opacity="1" Stretch="UniformToFill"/>
         <BitmapImage x:Key="advance_icon" UriSource="Assets/advance_icon.png"/>
         <!--  -->
