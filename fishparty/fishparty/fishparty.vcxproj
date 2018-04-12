@@ -515,6 +515,7 @@
     <Image Include="Assets\fishparty_splash_background.png" />
     <Image Include="Assets\Front Tanks Guided Tour\arcticchar_largemap.jpg" />
     <Image Include="Assets\Front Tanks Guided Tour\front_001.jpg" />
+    <Image Include="Assets\hamburger.png" />
     <Image Include="Assets\hatchery_map.jpg" />
     <Image Include="Assets\home_icon.png" />
     <Image Include="Assets\left_arrow.png" />

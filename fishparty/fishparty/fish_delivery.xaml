@@ -138,7 +138,7 @@
 
         <local:navigation_button/>
         <local:home_button/>
-        <Button x:Name="button"  Style="{StaticResource guided_forward_button}" Content="Return Home" Click="home_Click"/>
+        
     </Grid>
 
 </Page>

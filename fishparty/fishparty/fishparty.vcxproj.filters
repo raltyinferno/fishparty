@@ -14,7 +14,6 @@
     <ClCompile Include="water_treatment.xaml.cpp" />
     <ClCompile Include="water_intake.xaml.cpp" />
     <ClCompile Include="fish_delivery.xaml.cpp" />
-    <ClCompile Include="front_tanks.xaml.cpp" />
     <ClCompile Include="six_foot_tanks.xaml.cpp" />
     <ClCompile Include="six_foot_tanks_2.xaml.cpp" />
     <ClCompile Include="tf_foot_tanks.xaml.cpp" />
@@ -65,6 +64,7 @@
     <ClCompile Include="pch.cpp">
       <Filter>generated files</Filter>
     </ClCompile>
+    <ClCompile Include="navigation_button.xaml.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="air.xaml.h" />
@@ -80,7 +80,6 @@
     <ClInclude Include="water_treatment.xaml.h" />
     <ClInclude Include="water_intake.xaml.h" />
     <ClInclude Include="fish_delivery.xaml.h" />
-    <ClInclude Include="front_tanks.xaml.h" />
     <ClInclude Include="six_foot_tanks.xaml.h" />
     <ClInclude Include="six_foot_tanks_2.xaml.h" />
     <ClInclude Include="tf_foot_tanks.xaml.h" />
@@ -137,6 +136,7 @@
     <ClInclude Include="resource.h">
       <Filter>generated files</Filter>
     </ClInclude>
+    <ClInclude Include="navigation_button.xaml.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\down_arrow.png">
@@ -432,6 +432,9 @@
     </Image>
     <Image Include="Assets\delivery_truck3.jpg">
       <Filter>images\Walkthrough Images</Filter>
+    </Image>
+    <Image Include="Assets\hamburger.png">
+      <Filter>images</Filter>
     </Image>
   </ItemGroup>
   <ItemGroup>
