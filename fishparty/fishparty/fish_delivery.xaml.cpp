@@ -50,3 +50,9 @@ void fishparty::fish_delivery::home_Click(Platform::Object^ sender, Windows::UI:
 {
 	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(MainPage::typeid));
 }
+
+
+void fishparty::fish_delivery::prev_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(air::typeid));
+}

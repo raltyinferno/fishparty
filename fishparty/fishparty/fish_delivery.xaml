@@ -138,6 +138,12 @@
 
         <local:navigation_button/>
         <local:home_button/>
+        <Button Style="{StaticResource guided_back_button}" Click="prev_page_Click" >
+            <StackPanel Orientation="Horizontal">
+                <Image Source="{StaticResource back_icon}" Height="50" Width="50"/>
+                <TextBlock VerticalAlignment="Center">Oxygen Gen</TextBlock>
+            </StackPanel>
+        </Button>
         
     </Grid>
 

@@ -34,3 +34,9 @@ void fishparty::incubation::next_page_Click(Platform::Object^ sender, Windows::U
 {
 	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(incubation_2::typeid));
 }
+
+
+void fishparty::incubation::prev_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(water_intake::typeid));
+}

@@ -24,5 +24,6 @@ namespace fishparty
 		void locations_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void process_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void home_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
+		void prev_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 	};
 }

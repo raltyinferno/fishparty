@@ -37,3 +37,9 @@ void fishparty::six_foot_tanks::overhead_button_Click(Platform::Object^ sender, 
 {
 	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(six_foot_tanks_2::typeid));
 }
+
+
+void fishparty::six_foot_tanks::prev_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(fivetanks::typeid));
+}

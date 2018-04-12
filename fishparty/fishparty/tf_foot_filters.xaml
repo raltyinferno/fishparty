@@ -22,13 +22,7 @@
         <!-- End Title -->
 
         <!-- navigation sidebar -->
-        <Grid  VerticalAlignment="Bottom" HorizontalAlignment="Left">
-            <Button Content="Jump to Section" FontSize="20">
-                <Button.Flyout>
-                    <controls:guided_tour_nav/>
-                </Button.Flyout>
-            </Button>
-        </Grid>
+        <local:navigation_button/>
         <!-- end navigation sidebar -->
 
         <!-- Page Buttons -->
@@ -38,15 +32,15 @@
                 <Image Source="{StaticResource advance_icon}" Height="50" Width="50"/>
             </StackPanel>
         </Button>
+        <Button Style="{StaticResource guided_back_button}" Click="prev_page_Click">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="{StaticResource back_icon}" Height="50" Width="50"/>
+                <TextBlock VerticalAlignment="Center">30ft Tanks</TextBlock>
+            </StackPanel>
+        </Button>
 
         <local:home_button/>
-        <Button x:Name="tf_six_butt" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="200,0,0,0" Click="prev_page_Click" Height="180" Width="180">
-            <Image Source="Assets/down_arrow.png" RenderTransformOrigin="0.5,0.5">
-                <Image.RenderTransform>
-                    <CompositeTransform Rotation="90"/>
-                </Image.RenderTransform>
-            </Image>
-        </Button>
+        
         <!-- End Page Buttons -->
     </Grid>
 </Page>

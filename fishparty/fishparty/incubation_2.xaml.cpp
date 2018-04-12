@@ -50,3 +50,9 @@ void fishparty::incubation_2::next_page_Click(Platform::Object^ sender, Windows:
 {
 	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(fivetanks::typeid));
 }
+
+
+void fishparty::incubation_2::prev_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(incubation::typeid));
+}

@@ -38,6 +38,12 @@
                 <Image Source="{StaticResource advance_icon}" Height="50" Width="50"/>
             </StackPanel>
         </Button>
+        <Button Style="{StaticResource guided_back_button}" Click="prev_page_Click">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="{StaticResource back_icon}" Height="50" Width="50"/>
+                <TextBlock VerticalAlignment="Center">5ft Tanks</TextBlock>
+            </StackPanel>
+        </Button>
 
 
     </Grid>
