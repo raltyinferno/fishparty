@@ -442,6 +442,9 @@
     <Image Include="Assets\back_icon.png">
       <Filter>images</Filter>
     </Image>
+    <Image Include="Assets\last_icon.png">
+      <Filter>images</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <None Include="Iron_content_display.htm" />
