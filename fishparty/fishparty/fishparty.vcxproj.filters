@@ -355,9 +355,6 @@
     <Image Include="Assets\walkthrough\walkthrough_F2.jpg">
       <Filter>images\Walkthrough Images</Filter>
     </Image>
-    <Image Include="Assets\home_icon.png">
-      <Filter>images</Filter>
-    </Image>
     <Image Include="Assets\advance_icon.png">
       <Filter>images</Filter>
     </Image>
@@ -437,6 +434,9 @@
       <Filter>images</Filter>
     </Image>
     <Image Include="Assets\next_icon.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\home_icon2.png">
       <Filter>images</Filter>
     </Image>
   </ItemGroup>

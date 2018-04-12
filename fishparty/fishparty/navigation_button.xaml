@@ -7,10 +7,10 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     xmlns:controls="using:fishparty"
-    d:DesignHeight="300"
-    d:DesignWidth="400">
+    d:DesignHeight="70"
+    d:DesignWidth="70">
 
-    <Button HorizontalAlignment="Left" VerticalAlignment="Center" Background="{StaticResource hamburger}" Height="100" Width="100">
+    <Button HorizontalAlignment="Left" VerticalAlignment="Center" Background="{StaticResource hamburger}" Height="70" Width="70">
         <Button.Flyout>
             <local:guided_tour_nav/>
         </Button.Flyout>

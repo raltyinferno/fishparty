@@ -24,9 +24,8 @@
         <!--  -->
         
         <!-- Other icons -->
-        <ImageBrush x:Key="home_icon" ImageSource="Assets/home_icon.png" Opacity="1" Stretch="UniformToFill"/>
+        <ImageBrush x:Key="home_icon" ImageSource="Assets/home_icon2.png" Opacity="1" Stretch="UniformToFill"/>
         <ImageBrush x:Key="hamburger" ImageSource="Assets/hamburger.png" Opacity="1" Stretch="UniformToFill"/>
-        <ImageBrush x:Key="next_icon" ImageSource="Assets/next_icon.png" Opacity="1" Stretch="Uniform" AlignmentX="Right"/>
         <BitmapImage x:Key="advance_icon" UriSource="Assets/advance_icon.png"/>
         <!--  -->
 
@@ -56,13 +55,23 @@
         </Style>
 
         <Style x:Key="guided_forward_button" TargetType="Button">
-            <Setter Property="Height" Value="100"/>
-            <Setter Property="Width" Value="400"/>
+            <Setter Property="Height" Value="75"/>
+            <Setter Property="Width" Value="Auto"/>
             <Setter Property="HorizontalAlignment" Value="Right"/>
             <Setter Property="VerticalAlignment" Value="Bottom"/>
             <Setter Property="FontSize" Value="28"/>
-            <Setter Property="Background" Value="{StaticResource next_icon}"/>
-            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Background" Value="{StaticResource button_background}"/>
+            <Setter Property="Foreground" Value="Black"/>
+        </Style>
+
+        <Style x:Key="guided_back_button" TargetType="Button">
+            <Setter Property="Height" Value="75"/>
+            <Setter Property="Width" Value="Auto"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Bottom"/>
+            <Setter Property="FontSize" Value="28"/>
+            <Setter Property="Background" Value="{StaticResource button_background}"/>
+            <Setter Property="Foreground" Value="Black"/>
         </Style>
 
         <Style x:Key="content_display_style" TargetType="WebView">
