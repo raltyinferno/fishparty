@@ -28,17 +28,7 @@ MainPage::MainPage()
 	InitializeComponent();
 }
 
-//
-//void fishparty::MainPage::animate_Bubble()
-//{
-//	//Vector3KeyFrameAnimation animation = compositor.CreateVector3KeyFrameAnimation();
-//	//animation.InsertKeyFrame(1f, new Vector3(200f, 0f, 0f));
-//	//animation.Duration = TimeSpan.FromSeconds(2);
-//	//animation.Direction = Windows.UI.Composition.AnimationDirection.Alternate;
-//	//// Run animation for 10 times
-//	//animation.IterationCount = 10;
-//	//visual.StartAnimation("Translation", animation);
-//}
+
 
 void fishparty::MainPage::anim_Completed(Platform::Object ^ sender, Windows::UI::Xaml::RoutedEventArgs ^ e)
 {

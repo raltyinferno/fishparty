@@ -29,6 +29,7 @@
         <ImageBrush x:Key="next_icon" ImageSource="/Assets/next_icon.png" Opacity="1" Stretch="Uniform" AlignmentX="Right" />
         <ImageBrush x:Key="last_icon" ImageSource="/Assets/last_icon.png" Opacity="1" Stretch="Uniform" AlignmentX="Left" />
         <BitmapImage x:Key="back_icon" UriSource="Assets/back_icon.png"/>
+        <ImageBrush x:Key="round_icon" ImageSource="/Assets/Round_Icon.png" Opacity="1" />
         <!--  -->
 
 
@@ -95,6 +96,14 @@
             <Setter Property="VerticalAlignment" Value="Bottom"/>
             <Setter Property="Visibility" Value="Collapsed"/>
             <Setter Property="Content" Value="X"/>
+            <Setter Property="Background" Value="LightGreen"/>
+            <Setter Property="Foreground" Value="Black"/>
+        </Style>
+
+        <Style x:Key="content_display_open_style" TargetType="Button">
+            <Setter Property="Background" Value="{StaticResource round_icon}"/>
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="FontSize" Value="18"/>
         </Style>
     </Application.Resources>
 

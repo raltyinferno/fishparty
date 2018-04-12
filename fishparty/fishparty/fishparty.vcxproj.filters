@@ -65,6 +65,9 @@
       <Filter>generated files</Filter>
     </ClCompile>
     <ClCompile Include="navigation_button.xaml.cpp" />
+    <ClCompile Include="open_webpage.cpp">
+      <Filter>global resources</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="air.xaml.h" />
@@ -137,6 +140,9 @@
       <Filter>generated files</Filter>
     </ClInclude>
     <ClInclude Include="navigation_button.xaml.h" />
+    <ClInclude Include="open_webpage.h">
+      <Filter>global resources</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\down_arrow.png">
@@ -452,6 +458,8 @@
     <None Include="fishparty_TemporaryKey.pfx">
       <Filter>generated files</Filter>
     </None>
+    <None Include="guided_tour_content\water_intake\first_stage_filter.htm" />
+    <None Include="guided_tour_content\water_intake\second_stage_filter.htm" />
   </ItemGroup>
   <ItemGroup>
     <Page Include="hatchery_map.xaml" />

@@ -10,7 +10,6 @@
 
     <Page.Resources>
         <ImageBrush x:Key="thirtybgGrid" ImageSource="/Assets/25ft Tank/25ft_oh.jpg" Opacity=".85" Stretch="UniformToFill" />
-        <ImageBrush x:Key="round_icon" ImageSource="/Assets/Round_Icon.png" Opacity="1" />
     </Page.Resources>
         
     <Grid Background="{ThemeResource thirtybgGrid}" x:Name="bg_grid">

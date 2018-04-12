@@ -8,8 +8,7 @@
     xmlns:controls="using:fishparty"
     mc:Ignorable="d">
     <Page.Resources>
-        <ImageBrush x:Key="delivery_truck" ImageSource="/Assets/delivery_truck3.jpg" Opacity="1" Stretch="UniformToFill" />
-        <ImageBrush x:Key="round_icon" ImageSource="/Assets/Round_Icon.png" Opacity="1" />
+        <ImageBrush x:Key="delivery_truck" ImageSource="/Assets/delivery_truck3.jpg" Opacity="1" Stretch="UniformToFill"/>
     </Page.Resources>
 
     <Grid Background="{StaticResource delivery_truck}" x:Name="page_grid">

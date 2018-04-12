@@ -32,13 +32,29 @@ void fishparty::water_intake::next_page_Click(Platform::Object^ sender, Windows:
 }
 
 
-void fishparty::water_intake::Button_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+void fishparty::water_intake::prev_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
+	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(MainPage::typeid));
+}
+
+
+void fishparty::water_intake::close_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	content_webview->Visibility = Windows::UI::Xaml::Visibility::Collapsed;
+	close_button->Visibility = Windows::UI::Xaml::Visibility::Collapsed;
 	timeout.reset_Timer();
 }
 
 
-void fishparty::water_intake::prev_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+void fishparty::water_intake::first_stage_filter_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(MainPage::typeid));
+	open_content("ms-appx-web:///guided_tour_content/water_intake/first_stage_filter.htm", content_webview, close_button);
+	timeout.reset_Timer();
+}
+
+
+void fishparty::water_intake::second_stage_filter_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	open_content("ms-appx-web:///guided_tour_content/water_intake/second_stage_filter.htm", content_webview, close_button);
+	timeout.reset_Timer();
 }

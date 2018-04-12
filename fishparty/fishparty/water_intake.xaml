@@ -10,111 +10,55 @@
     >
 
     <Page.Resources>
-        <ImageBrush x:Key="water_intake" ImageSource="/Assets/bg_wintake.jpg" Opacity=".85" Stretch="UniformToFill" />
-        <DataTemplate x:Key="moreInfo">
-            <Grid x:Name="moreInfo1" Width="1250" Height="750">
-                <Image Source="/Assets/win_close.jpg" VerticalAlignment="Center" HorizontalAlignment="Left" Height="700" Width="auto"/>
-                <TextBlock VerticalAlignment="Top" HorizontalAlignment="Right" FontSize="42" TextWrapping="WrapWholeWords" FontFamily="Times New Roman" Width="675">
-                            There are two tanks on each train for treating the water as it gets brought in.
-                            The first takes care of the Iron, the second takes care of Manganese, an 
-                            element that is dangerous to fish.
-                </TextBlock>
-
-                <Rectangle VerticalAlignment="Bottom" HorizontalAlignment="Right" Height="300" Width="400" Fill="Gray" Margin="0,0,170,120" RadiusX="40" RadiusY="40"/>
-                <TextBlock VerticalAlignment="Bottom" HorizontalAlignment="Right" FontFamily="Impact" FontSize="256" RenderTransformOrigin="-1.994,-1.269" Margin="0,0,210,120">Mn</TextBlock>
-            </Grid>
-        </DataTemplate>
+        <ImageBrush x:Key="water_intake" ImageSource="/Assets/bg_wintake.jpg" Opacity="1" Stretch="UniformToFill"/>
     </Page.Resources>
+        
+        
     <Grid Background="{StaticResource water_intake}" x:Name="page_grid">
         <Grid Style="{StaticResource title_grid_style}">
             <Rectangle Style="{StaticResource title_box_style}" Width="1568"/>
             <TextBlock Style="{StaticResource title_text_style}">Water Intake and Treatment</TextBlock>
         </Grid>
-        
-        <Button RenderTransformOrigin="13.425,0.03" Margin="1254,288,0,304" Height="488" Width="556" Opacity=".35" Click="Button_Click">
-            <Button.Flyout>
-                <Flyout Placement="Left" >
-                    <Flyout.FlyoutPresenterStyle>
-                        <Style TargetType="FlyoutPresenter">
-                            <Setter Property="MinWidth" Value="1300"/>
-                            <Setter Property="Background" >
-                                <Setter.Value>
-                                    <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
-                                        <GradientStop Color="Navy" Offset="0.0"/>
-                                        <GradientStop Color="DarkSlateGray" Offset="0.5"/>
-                                        <GradientStop Color="Black" Offset="1"/>
-                                    </LinearGradientBrush>
-                                </Setter.Value>
-                            </Setter>
-                        </Style>
-                    </Flyout.FlyoutPresenterStyle>
-                    <ContentPresenter ContentTemplate="{StaticResource moreInfo}"/>
-                </Flyout>
-            </Button.Flyout>
-        </Button>
-        <Button RenderTransformOrigin="13.425,0.03" Margin="876,384,0,402" Height="294" Width="218" Opacity=".35" Click="Button_Click">
-            <Button.Flyout>
-                <Flyout Placement="Left" >
-                    <Flyout.FlyoutPresenterStyle>
-                        <Style TargetType="FlyoutPresenter">
-                            <Setter Property="MinWidth" Value="1300"/>
-                            <Setter Property="Background" >
-                                <Setter.Value>
-                                    <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
-                                        <GradientStop Color="Navy" Offset="0.0"/>
-                                        <GradientStop Color="DarkSlateGray" Offset="0.5"/>
-                                        <GradientStop Color="Black" Offset="1"/>
-                                    </LinearGradientBrush>
-                                </Setter.Value>
-                            </Setter>
-                        </Style>
-                    </Flyout.FlyoutPresenterStyle>
-                    <ContentPresenter ContentTemplate="{StaticResource moreInfo}"/>
-                </Flyout>
-            </Button.Flyout>
-        </Button>
-        <Button RenderTransformOrigin="13.425,0.03" Margin="720,450,0,444" Height="186" Width="75" Opacity=".35" Click="Button_Click">
-            <Button.Flyout>
-                <Flyout Placement="Left" >
-                    <Flyout.FlyoutPresenterStyle>
-                        <Style TargetType="FlyoutPresenter">
-                            <Setter Property="MinWidth" Value="1300"/>
-                            <Setter Property="Background" >
-                                <Setter.Value>
-                                    <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
-                                        <GradientStop Color="Navy" Offset="0.0"/>
-                                        <GradientStop Color="DarkSlateGray" Offset="0.5"/>
-                                        <GradientStop Color="Black" Offset="1"/>
-                                    </LinearGradientBrush>
-                                </Setter.Value>
-                            </Setter>
-                        </Style>
-                    </Flyout.FlyoutPresenterStyle>
-                    <ContentPresenter ContentTemplate="{StaticResource moreInfo}"/>
-                </Flyout>
-            </Button.Flyout>
-        </Button>
-        <Button>
-            <Button.Flyout>
-                <Flyout Placement="Left" >
-                    <Flyout.FlyoutPresenterStyle>
-                        <Style TargetType="FlyoutPresenter">
-                            <Setter Property="MinWidth" Value="1300"/>
-                            <Setter Property="Background" >
-                                <Setter.Value>
-                                    <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
-                                        <GradientStop Color="Navy" Offset="0.0"/>
-                                        <GradientStop Color="DarkSlateGray" Offset="0.5"/>
-                                        <GradientStop Color="Black" Offset="1"/>
-                                    </LinearGradientBrush>
-                                </Setter.Value>
-                            </Setter>
-                        </Style>
-                    </Flyout.FlyoutPresenterStyle>
-                    <ContentPresenter ContentTemplate="{StaticResource moreInfo}"/>
-                </Flyout>
-            </Button.Flyout>
-        </Button>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <Button Style="{StaticResource content_display_open_style}" Grid.Row="1" Grid.Column="1"
+                    HorizontalAlignment="Right" VerticalAlignment="Center" Click="first_stage_filter_Click"
+                    Height="200" Width="200">
+                First Stage Filtering
+            </Button>
+            <Button Style="{StaticResource content_display_open_style}" Grid.Row="1" Grid.Column="2"
+                    HorizontalAlignment="Right" VerticalAlignment="Top" Click="second_stage_filter_Click"
+                    Height="220" Width="220">
+                Second Stage Filtering
+            </Button>
+            
+        </Grid>
+
+        <!--Webview layout structure-->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <WebView x:Name="content_webview" Style="{StaticResource content_display_style}"/>
+            <Button x:Name="close_button" Style="{StaticResource content_display_close_style}" Click="close_Click"/>
+        </Grid>
 
         <local:navigation_button/>
         <local:home_button/>
