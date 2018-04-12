@@ -27,13 +27,13 @@ tf_foot_filters::tf_foot_filters()
 }
 
 
-void fishparty::tf_foot_filters::tf_filt_butt_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+void fishparty::tf_foot_filters::next_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
 	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(air::typeid));
 }
 
 
-void fishparty::tf_foot_filters::tf_six_butt_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+void fishparty::tf_foot_filters::prev_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
 	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(tf_foot_tanks::typeid));
 

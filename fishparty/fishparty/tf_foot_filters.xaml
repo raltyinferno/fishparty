@@ -40,7 +40,7 @@
         </Button>
 
         <local:home_button/>
-        <Button x:Name="tf_six_butt" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="200,0,0,0" Click="tf_six_butt_Click" Height="180" Width="180">
+        <Button x:Name="tf_six_butt" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="200,0,0,0" Click="prev_page_Click" Height="180" Width="180">
             <Image Source="Assets/down_arrow.png" RenderTransformOrigin="0.5,0.5">
                 <Image.RenderTransform>
                     <CompositeTransform Rotation="90"/>

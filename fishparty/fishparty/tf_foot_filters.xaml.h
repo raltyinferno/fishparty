@@ -18,7 +18,7 @@ namespace fishparty
 	public:
 		tf_foot_filters();
 	private:
-		void tf_filt_butt_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
-		void tf_six_butt_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
+		void next_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
+		void prev_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 	};
 }

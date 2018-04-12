@@ -27,7 +27,7 @@ air::air()
 }
 
 
-void fishparty::air::next_page(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+void fishparty::air::next_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
 	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(fish_delivery::typeid));
 }
