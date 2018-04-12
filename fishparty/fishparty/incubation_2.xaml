@@ -29,6 +29,11 @@
         </Grid>
 
         <local:home_button/>
-        <Button x:Name="egg_butt" Content="5ft Tanks ->" Style="{StaticResource guided_forward_button}" Click="next_page_Click"/>
+        <Button Style="{StaticResource guided_forward_button}" Click="next_page_Click">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock VerticalAlignment="Center">5ft Tanks</TextBlock>
+                <Image Source="{StaticResource advance_icon}" Height="50" Width="50"/>
+            </StackPanel>
+        </Button>
     </Grid>
 </Page>

@@ -36,7 +36,12 @@
 
         <local:navigation_button/>
         <local:home_button/>
-        <Button x:Name="button" Style="{StaticResource guided_forward_button}" Click="next_page">Fish Release -></Button>
+        <Button Style="{StaticResource guided_forward_button}" Click="next_page_Click">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock VerticalAlignment="Center">Fish Release</TextBlock>
+                <Image Source="{StaticResource advance_icon}" Height="50" Width="50"/>
+            </StackPanel>
+        </Button>
 
         
     </Grid>

@@ -498,6 +498,7 @@
     <Image Include="Assets\6ft Tank Guided Tour\6ft_002.jpg" />
     <Image Include="Assets\advance_icon.png" />
     <Image Include="Assets\air_background.jpg" />
+    <Image Include="Assets\back_icon.png" />
     <Image Include="Assets\bg_wintake.jpg" />
     <Image Include="Assets\boiler_room.jpg" />
     <Image Include="Assets\boiler_room2.jpg" />

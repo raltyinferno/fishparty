@@ -94,12 +94,11 @@
         <!-- end navigation sidebar -->
 
         <!-- Page Buttons -->
-        <Button x:Name="tf_filt_butt" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="next_page_Click" Height="180" Width="180">
-            <Image Source="Assets/down_arrow.png" RenderTransformOrigin="0.5,0.5">
-                <Image.RenderTransform>
-                    <CompositeTransform Rotation="270"/>
-                </Image.RenderTransform>
-            </Image>
+        <Button Style="{StaticResource guided_forward_button}" Click="next_page_Click">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock VerticalAlignment="Center">30ft Tank Filters</TextBlock>
+                <Image Source="{StaticResource advance_icon}" Height="50" Width="50"/>
+            </StackPanel>
         </Button>
 
         <local:home_button/>

@@ -27,10 +27,10 @@ incubation::incubation()
 }
 
 
-void fishparty::incubation::forward_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+
+
+
+void fishparty::incubation::next_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
 	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(incubation_2::typeid));
 }
-
-
-

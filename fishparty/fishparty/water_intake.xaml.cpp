@@ -36,3 +36,9 @@ void fishparty::water_intake::Button_Click(Platform::Object^ sender, Windows::UI
 {
 	timeout.reset_Timer();
 }
+
+
+void fishparty::water_intake::prev_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(MainPage::typeid));
+}

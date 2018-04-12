@@ -21,7 +21,12 @@
 
         <local:navigation_button/>
         <local:home_button/>
-        <Button Style="{StaticResource guided_forward_button}" Click="forward_Click">To Incubation</Button>
+        <Button Style="{StaticResource guided_forward_button}" Click="next_page_Click">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock VerticalAlignment="Center">Incubation</TextBlock>
+                <Image Source="{StaticResource advance_icon}" Height="50" Width="50"/>
+            </StackPanel>
+        </Button>
 
 
             
