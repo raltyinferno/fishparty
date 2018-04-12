@@ -14,7 +14,6 @@
         <ImageBrush x:Key="splash_image"      ImageSource="/Assets/splash_image.jpg" Opacity=".1" Stretch="UniformToFill" />
         <ImageBrush x:Key="splash_background" ImageSource="/Assets/fishparty_splash_background.png" Opacity="0.8" Stretch="UniformToFill" />
         <ImageBrush x:Key="hatchery_map"      ImageSource="/Assets/hatchery_map.jpg" Opacity="1" Stretch="UniformToFill" />
-        <SolidColorBrush x:Key="button_background"  Color="#FF1E6C00" Opacity=".7"/>
 
         <!--Arrow buttons-->
         <ImageBrush x:Key="up_arrow"          ImageSource="Assets/up_arrow.jpg" Opacity="1" Stretch="UniformToFill" />
@@ -27,6 +26,8 @@
         <ImageBrush x:Key="home_icon" ImageSource="Assets/home_icon.png" Opacity="1" Stretch="UniformToFill"/>
         <ImageBrush x:Key="hamburger" ImageSource="Assets/hamburger.png" Opacity="1" Stretch="UniformToFill"/>
         <BitmapImage x:Key="advance_icon" UriSource="Assets/advance_icon.png"/>
+        <ImageBrush x:Key="next_icon" ImageSource="/Assets/next_icon.png" Opacity="1" Stretch="Uniform" AlignmentX="Right" />
+        <ImageBrush x:Key="last_icon" ImageSource="/Assets/last_icon.png" Opacity="1" Stretch="Uniform" AlignmentX="Left" />
         <BitmapImage x:Key="back_icon" UriSource="Assets/back_icon.png"/>
         <!--  -->
 
@@ -57,22 +58,22 @@
 
         <Style x:Key="guided_forward_button" TargetType="Button">
             <Setter Property="Height" Value="75"/>
-            <Setter Property="Width" Value="Auto"/>
+            <Setter Property="Width" Value="352"/>
             <Setter Property="HorizontalAlignment" Value="Right"/>
             <Setter Property="VerticalAlignment" Value="Bottom"/>
             <Setter Property="FontSize" Value="28"/>
-            <Setter Property="Background" Value="{StaticResource button_background}"/>
-            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="Background" Value="{StaticResource next_icon}"/>
+            <Setter Property="Foreground" Value="White"/>
         </Style>
 
         <Style x:Key="guided_back_button" TargetType="Button">
             <Setter Property="Height" Value="75"/>
-            <Setter Property="Width" Value="Auto"/>
+            <Setter Property="Width" Value="352"/>
             <Setter Property="HorizontalAlignment" Value="Left"/>
             <Setter Property="VerticalAlignment" Value="Bottom"/>
             <Setter Property="FontSize" Value="28"/>
-            <Setter Property="Background" Value="{StaticResource button_background}"/>
-            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="Background" Value="{StaticResource last_icon}"/>
+            <Setter Property="Foreground" Value="White"/>
         </Style>
 
         <Style x:Key="content_display_style" TargetType="WebView">
