@@ -453,13 +453,33 @@
     </Image>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Iron_content_display.htm" />
-    <None Include="heat_content_display.htm" />
     <None Include="fishparty_TemporaryKey.pfx">
       <Filter>generated files</Filter>
     </None>
-    <None Include="guided_tour_content\water_intake\first_stage_filter.htm" />
-    <None Include="guided_tour_content\water_intake\second_stage_filter.htm" />
+    <None Include="guided_tour_content\water_intake\first_stage_filter.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="heat_content_display.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="Iron_content_display.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\water_intake\second_stage_filter.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\incubation\incubation.html">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\water_intake\incubation.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\water_intake\incubation.html">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\incubation\incubation.htm">
+      <Filter>webpages</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Page Include="hatchery_map.xaml" />
@@ -661,6 +681,9 @@
     </Filter>
     <Filter Include="generated files">
       <UniqueIdentifier>{6456529a-c644-4ad9-9279-2c260439bdba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="webpages">
+      <UniqueIdentifier>{fddbb908-70be-40b0-b051-10f2bd1f410b}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

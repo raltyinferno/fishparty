@@ -7,7 +7,7 @@ fishparty/.vs/*
 fishparty/Debug/*
 fishparty/x64/*
 fishparty/ARM/*
-fishparty/fishparty/Assets/*
+*/Assets/*
 /Images/*
 
 # Compiled source #

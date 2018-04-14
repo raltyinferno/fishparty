@@ -39,7 +39,7 @@ void fishparty::incubation_2::backward_Click(Platform::Object^ sender, Windows::
 
 void fishparty::incubation_2::show_Flyout(Platform::Object^ sender, Windows::UI::Xaml::Input::TappedRoutedEventArgs^ e)
 {
-	new_timer.reset_Timer();
+	timeout.reset_Timer();
 	this->Frame->ContextFlyout->ShowAttachedFlyout((FrameworkElement^)sender);
 }
 
@@ -55,4 +55,19 @@ void fishparty::incubation_2::next_page_Click(Platform::Object^ sender, Windows:
 void fishparty::incubation_2::prev_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
 	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(incubation::typeid));
+}
+
+
+void fishparty::incubation_2::close_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	content_webview->Visibility = Windows::UI::Xaml::Visibility::Collapsed;
+	close_button->Visibility = Windows::UI::Xaml::Visibility::Collapsed;
+	timeout.reset_Timer();
+}
+
+
+void fishparty::incubation_2::incubation_trays_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	open_content("ms-appx-web:///guided_tour_content/incubation/incubation.htm", content_webview, close_button);
+	timeout.reset_Timer();
 }

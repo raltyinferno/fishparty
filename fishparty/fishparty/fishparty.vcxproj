@@ -477,9 +477,17 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <None Include="fishparty_TemporaryKey.pfx" />
+    <None Include="guided_tour_content\incubation\incubation.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="guided_tour_content\incubation\incubation.html" />
     <None Include="guided_tour_content\water_intake\first_stage_filter.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
+    <None Include="guided_tour_content\water_intake\incubation.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="guided_tour_content\water_intake\incubation.html" />
     <None Include="guided_tour_content\water_intake\second_stage_filter.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
