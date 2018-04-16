@@ -468,15 +468,6 @@
     <None Include="guided_tour_content\water_intake\second_stage_filter.htm">
       <Filter>webpages</Filter>
     </None>
-    <None Include="guided_tour_content\incubation\incubation.html">
-      <Filter>webpages</Filter>
-    </None>
-    <None Include="guided_tour_content\water_intake\incubation.htm">
-      <Filter>webpages</Filter>
-    </None>
-    <None Include="guided_tour_content\water_intake\incubation.html">
-      <Filter>webpages</Filter>
-    </None>
     <None Include="guided_tour_content\incubation\incubation.htm">
       <Filter>webpages</Filter>
     </None>
