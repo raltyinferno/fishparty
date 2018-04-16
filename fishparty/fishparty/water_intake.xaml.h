@@ -25,5 +25,7 @@ namespace fishparty
 		void close_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void first_stage_filter_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void second_stage_filter_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
+		void page_load_wintake(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
+		void fishparty::water_intake::wintake_info_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 	};
 }

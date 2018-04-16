@@ -480,6 +480,9 @@
     <None Include="guided_tour_content\incubation\incubation.htm">
       <Filter>webpages</Filter>
     </None>
+    <None Include="guided_tour_content\water_intake\wintake_page_overview.htm">
+      <Filter>webpages</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Page Include="hatchery_map.xaml" />

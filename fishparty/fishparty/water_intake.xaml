@@ -41,6 +41,13 @@
                     Height="220" Width="220">
                 Second Stage Filtering
             </Button>
+            <Button Style="{StaticResource content_display_open_style}" Grid.Row="0" Grid.Column="0"
+                    HorizontalAlignment="Left" VerticalAlignment="Top" Click="wintake_info_Click"
+                    Margin="0,95"
+                    Loaded="page_load_wintake"
+                    Height="50" Width="50">
+                i
+            </Button>
             
         </Grid>
 

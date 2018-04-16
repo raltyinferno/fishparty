@@ -491,6 +491,9 @@
     <None Include="guided_tour_content\water_intake\second_stage_filter.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
+    <None Include="guided_tour_content\water_intake\wintake_page_overview.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
     <None Include="Iron_content_display.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>

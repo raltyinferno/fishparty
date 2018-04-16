@@ -58,3 +58,14 @@ void fishparty::water_intake::second_stage_filter_Click(Platform::Object^ sender
 	open_content("ms-appx-web:///guided_tour_content/water_intake/second_stage_filter.htm", content_webview, close_button);
 	timeout.reset_Timer();
 }
+
+void fishparty::water_intake::wintake_info_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	open_content("ms-appx-web:///guided_tour_content/water_intake/wintake_page_overview.htm", content_webview, close_button);
+	timeout.reset_Timer();
+}
+
+void fishparty::water_intake::page_load_wintake(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	open_content("ms-appx-web:///guided_tour_content/water_intake/wintake_page_overview.htm", content_webview, close_button);
+}
