@@ -30,5 +30,7 @@ namespace fishparty
 		void incubation_trays_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void incubation_info_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void page_load_info(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
+		void header_tanks_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
+		void covers_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 	};
 }

@@ -21,5 +21,6 @@ namespace fishparty
 		Hometimer new_timer;
 		void back_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void forward_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
+		void right_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 	};
 }

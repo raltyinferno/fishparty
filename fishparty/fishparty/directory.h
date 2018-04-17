@@ -44,8 +44,11 @@
 #include "walkthrough_F1R1F3.xaml.h"
 #include "walkthrough_F1R1F4.xaml.h"
 #include "walkthrough_F1R1F4L1.xaml.h"
+#include "walkthrough_F1R1F4L1R1.xaml.h"
 #include "walkthrough_F1R1F4L1F1.xaml.h"
 #include "walkthrough_F1R1F4L1F1R1.xaml.h"
+#include "walkthrough_F1R1F4L1F1R2.xaml.h"
+#include "walkthrough_F1R1F4L1F1R1F1.xaml.h"
 
 #include "walkthrough_F2.xaml.h"
 
@@ -74,6 +77,8 @@
 #include "walkthrough_F4R1F1L1F1R1F1.xaml.h"
 
 #include "walkthrough_F5.xaml.h"
+#include "walkthrough_F5L1.xaml.h"
+#include "walkthrough_F5R1.xaml.h"
 //
 
 

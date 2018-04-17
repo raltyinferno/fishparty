@@ -31,3 +31,15 @@ void fishparty::walkthrough_F5::back_Click(Platform::Object^ sender, Windows::UI
 {
 	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(walkthrough_F4::typeid));
 }
+
+
+void fishparty::walkthrough_F5::forward_L_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(walkthrough_F5L1::typeid));
+}
+
+
+void fishparty::walkthrough_F5::forward_R_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(walkthrough_F5R1::typeid));
+}

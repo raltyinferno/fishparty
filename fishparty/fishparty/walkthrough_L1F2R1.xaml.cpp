@@ -27,7 +27,7 @@ walkthrough_L1F2R1::walkthrough_L1F2R1()
 }
 
 
-void fishparty::walkthrough_L1F2R1::left_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+void fishparty::walkthrough_L1F2R1::back_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
 	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(walkthrough_L1F2::typeid));
 }

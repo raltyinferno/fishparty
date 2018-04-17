@@ -41,8 +41,8 @@
                 <Image Source="Assets/up_arrow.png" HorizontalAlignment="Center"/>
             </Button>
 
-            <Button Grid.Column="0" Grid.Row="1" HorizontalAlignment="Center" Background="{x:Null}" Click="left_Click">
-                <Image Source="Assets/left_arrow.png" HorizontalAlignment="Center"/>
+            <Button Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" Background="{x:Null}" Click="back_Click">
+                <Image Source="Assets/down_arrow.png" HorizontalAlignment="Center"/>
             </Button>
 
 

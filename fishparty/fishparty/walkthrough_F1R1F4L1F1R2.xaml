@@ -1,5 +1,5 @@
 ﻿<Page
-    x:Class="fishparty.walkthrough_F4R1F1L1"
+    x:Class="fishparty.walkthrough_F1R1F4L1F1R2"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:fishparty"
@@ -10,7 +10,7 @@
     >
 
     <Page.Resources>
-        <ImageBrush ImageSource="Assets/walkthrough/walkthrough_F4R1F1L1.jpg" x:Key="walk" Opacity="1" Stretch="UniformToFill"/>
+        <ImageBrush ImageSource="Assets/walkthrough/walkthrough_F1R1F4L1F1R2.jpg" x:Key="walk" Opacity="1" Stretch="UniformToFill"/>
     </Page.Resources>
 
 
@@ -37,14 +37,9 @@
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
 
-            <Button Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" Background="{x:Null}" Click="forward_Click">
-                <Image Source="Assets/up_arrow.png" HorizontalAlignment="Center"/>
-            </Button>
-
-            <Button Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" Background="{x:Null}" Click="back_Click">
+            <Button Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" Background="{x:Null}" Click="back_Click" >
                 <Image Source="Assets/down_arrow.png" HorizontalAlignment="Center"/>
             </Button>
-
 
 
         </Grid>
