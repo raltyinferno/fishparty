@@ -34,12 +34,53 @@
             </StackPanel>
         </Button>
 
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
 
-            
+            <Button Style="{StaticResource content_display_open_style}" Grid.Row="1" Grid.Column="1"
+                    HorizontalAlignment="Left" VerticalAlignment="Bottom" Click="disinfecting_Click"
+                    Height="200" Width="200">
+                Disinfecting
+            </Button>
 
-            
+            <Button Style="{StaticResource content_display_open_style}" Grid.Row="0" Grid.Column="0"
+                    HorizontalAlignment="Left" VerticalAlignment="Top" Click="egg_receiving_info_Click"
+                    Margin="0,95"
+                    Loaded="page_load_info"
+                    Height="50" Width="50">
+                i
+            </Button>
 
         </Grid>
+
+        <!--Webview layout structure-->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <WebView x:Name="content_webview" Style="{StaticResource content_display_style}"/>
+            <Button x:Name="close_button" Style="{StaticResource content_display_close_style}" Click="close_Click"/>
+        </Grid>
+
+
+
+    </Grid>
 
 
 </Page>

@@ -31,6 +31,7 @@
                 <RowDefinition Height="1*"/>
                 <RowDefinition Height="1*"/>
             </Grid.RowDefinitions>
+            
             <Button Style="{StaticResource content_display_open_style}" Grid.Row="1" Grid.Column="1"
                     HorizontalAlignment="Right" VerticalAlignment="Center" Click="first_stage_filter_Click"
                     Height="200" Width="200">

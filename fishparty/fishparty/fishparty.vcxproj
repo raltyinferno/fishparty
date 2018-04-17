@@ -7,8 +7,8 @@
     <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
     <AppContainerApplication>true</AppContainerApplication>
     <ApplicationType>Windows Store</ApplicationType>
-    <WindowsTargetPlatformVersion Condition=" '$(WindowsTargetPlatformVersion)' == '' ">10.0.16299.0</WindowsTargetPlatformVersion>
-    <WindowsTargetPlatformMinVersion>10.0.16299.0</WindowsTargetPlatformMinVersion>
+    <WindowsTargetPlatformVersion Condition=" '$(WindowsTargetPlatformVersion)' == '' ">10.0.15063.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.15063.0</WindowsTargetPlatformMinVersion>
     <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -476,6 +476,12 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <None Include="egg_receiving_disinfecting.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="egg_receiving_overview.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
     <None Include="fishparty_TemporaryKey.pfx" />
     <None Include="guided_tour_content\incubation\incubation.htm">
       <DeploymentContent>true</DeploymentContent>
@@ -487,6 +493,9 @@
       <DeploymentContent>true</DeploymentContent>
     </None>
     <None Include="guided_tour_content\water_intake\wintake_page_overview.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="incubation_info.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
     <None Include="Iron_content_display.htm">

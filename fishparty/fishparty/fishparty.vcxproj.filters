@@ -474,6 +474,15 @@
     <None Include="guided_tour_content\water_intake\wintake_page_overview.htm">
       <Filter>webpages</Filter>
     </None>
+    <None Include="egg_receiving_overview.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="egg_receiving_disinfecting.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="incubation_info.htm">
+      <Filter>webpages</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Page Include="hatchery_map.xaml" />

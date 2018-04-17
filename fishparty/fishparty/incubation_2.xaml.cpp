@@ -71,3 +71,16 @@ void fishparty::incubation_2::incubation_trays_Click(Platform::Object^ sender, W
 	open_content("ms-appx-web:///guided_tour_content/incubation/incubation.htm", content_webview, close_button);
 	timeout.reset_Timer();
 }
+
+
+void fishparty::incubation_2::incubation_info_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	open_content("ms-appx-web:///incubation_info.htm", content_webview, close_button);
+	timeout.reset_Timer();
+}
+
+
+void fishparty::incubation_2::page_load_info(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	open_content("ms-appx-web:///incubation_info.htm", content_webview, close_button);
+}
