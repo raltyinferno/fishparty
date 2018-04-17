@@ -70,7 +70,7 @@
             <Setter Property="HorizontalAlignment" Value="Center"/>
             <Setter Property="FontSize" Value="28"/>
             <Setter Property="Height" Value="80"/>
-            <Setter Property="Width" Value="150"/>
+            <Setter Property="Width" Value="180"/>
             <Setter Property="Background" Value="LightGreen"/>
             <Setter Property="Foreground" Value="Black"/>
         </Style>
@@ -97,7 +97,7 @@
                 </Grid.ColumnDefinitions>
                 <Button x:Name="tour_button" Style="{StaticResource button_style}" Content="Start Tour" Click="start_tour_button_Click" VerticalAlignment="Bottom" Grid.Row="0"/>
 
-                <Button x:Name="explore_button" Style="{StaticResource button_style}" Content="Explore" Click="explore_button_Click" VerticalAlignment="Top" Grid.Row="2"/>
+                <Button x:Name="explore_button" Style="{StaticResource button_style}" Content="Walkthrough" Click="explore_button_Click" VerticalAlignment="Top" Grid.Row="2"/>
             </Grid>
 
         <Button x:Name="test_page_button" Content="testing page" HorizontalAlignment="Left" Margin="1815,993,0,0" VerticalAlignment="Top" Click="test_button_Click"/>
