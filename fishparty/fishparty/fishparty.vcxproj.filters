@@ -68,6 +68,11 @@
     <ClCompile Include="open_webpage.cpp">
       <Filter>global resources</Filter>
     </ClCompile>
+    <ClCompile Include="walkthrough_F1R1F4L1F1R1F1.xaml.cpp" />
+    <ClCompile Include="walkthrough_F1R1F4L1F1R2.xaml.cpp" />
+    <ClCompile Include="walkthrough_F1R1F4L1R1.xaml.cpp" />
+    <ClCompile Include="walkthrough_F5L1.xaml.cpp" />
+    <ClCompile Include="walkthrough_F5R1.xaml.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="air.xaml.h" />
@@ -143,6 +148,11 @@
     <ClInclude Include="open_webpage.h">
       <Filter>global resources</Filter>
     </ClInclude>
+    <ClInclude Include="walkthrough_F1R1F4L1F1R1F1.xaml.h" />
+    <ClInclude Include="walkthrough_F1R1F4L1F1R2.xaml.h" />
+    <ClInclude Include="walkthrough_F1R1F4L1R1.xaml.h" />
+    <ClInclude Include="walkthrough_F5L1.xaml.h" />
+    <ClInclude Include="walkthrough_F5R1.xaml.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\down_arrow.png">
