@@ -6,13 +6,16 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:controls="using:fishparty"
-    mc:Ignorable="d">
+    mc:Ignorable="d"
+    Loaded="five_tanks_loaded">
 
     <Page.Resources>
         <ImageBrush ImageSource="Assets/5ft Tank Guided Tour/5ft_001.jpg" x:Key="walk1" Opacity="1" Stretch="UniformToFill"/>
     </Page.Resources>
 
     <Grid Background="{StaticResource walk1}" x:Name="page_grid">
+        <local:navigation_button/>
+        <local:home_button/>
         <Grid Style="{StaticResource title_grid_style}">
             <Rectangle Style="{StaticResource title_box_style}" Width="807"/>
             <TextBlock Style="{StaticResource title_text_style}">5 Foot Tanks</TextBlock>
@@ -21,31 +24,33 @@
 
 
         
-
-
-            <Path Data="M588.653,558.414 L923.299,520.112 L921.283,794.279 L602.765,832.582 z" Fill="White" HorizontalAlignment="Left" Height="326.47" Margin="581.653,513.112,0,0" Stretch="Fill" Stroke="#FF002EFF" StrokeThickness="14" UseLayoutRounding="False" VerticalAlignment="Top" Width="348.646" Opacity="0.2" Tapped="show_Flyout">
-                <FlyoutBase.AttachedFlyout>
-                <Flyout Placement="Full">
-                    <!--<ContentPresenter ContentTemplate="{StaticResource more_info}" />-->
-                    <Flyout.FlyoutPresenterStyle>
-                        <Style TargetType="FlyoutPresenter">
-                            <Setter Property="ScrollViewer.HorizontalScrollMode" Value="Disabled" />
-                            <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Disabled" />
-                        </Style>
-                    </Flyout.FlyoutPresenterStyle>
-
-                    <StackPanel Orientation="Vertical">
-                        <Image Source="/Assets/5ft Tank Guided Tour/5ft_001_01.jpg"/>
-                        <TextBlock FontSize="24">Info here</TextBlock>
-
-
-                    </StackPanel>
-                </Flyout>
-            </FlyoutBase.AttachedFlyout>
-        </Path>
-
-        <local:navigation_button/>
-        <local:home_button/>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="2*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="6*"/>
+            </Grid.ColumnDefinitions>
+            <Button Style="{StaticResource content_display_open_style}" HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="175" Width="175"
+                    Content="Header Tanks" Click="header_tanks_Click"/>
+        </Grid>
+        <!--Webview layout structure-->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <WebView x:Name="content_webview" Style="{StaticResource content_display_style}"/>
+            <Button x:Name="close_button" Style="{StaticResource content_display_close_style}" Click="close_Click"/>
+        </Grid>
         <Button Style="{StaticResource guided_forward_button}" Click="next_page_Click">
             <StackPanel Orientation="Horizontal">
                 <TextBlock VerticalAlignment="Center">10ft Tanks</TextBlock>

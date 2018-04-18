@@ -44,3 +44,16 @@ void fishparty::fivetanks::prev_page_Click(Platform::Object^ sender, Windows::UI
 {
 	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(incubation_2::typeid));
 }
+
+
+void fishparty::fivetanks::header_tanks_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	open_content("ms-appx-web:///guided_tour_content/5ft_tanks/header_tanks.htm", content_webview, close_button);
+	new_timer.reset_Timer();
+}
+
+
+void fishparty::fivetanks::five_tanks_loaded(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	open_content("ms-appx-web:///guided_tour_content/5ft_tanks/5ft_tanks_overview.htm", content_webview, close_button);
+}
