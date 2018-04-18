@@ -57,3 +57,11 @@ void fishparty::fivetanks::five_tanks_loaded(Platform::Object^ sender, Windows::
 {
 	open_content("ms-appx-web:///guided_tour_content/5ft_tanks/5ft_tanks_overview.htm", content_webview, close_button);
 }
+
+
+void fishparty::fivetanks::close_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	content_webview->Visibility = Windows::UI::Xaml::Visibility::Collapsed;
+	close_button->Visibility = Windows::UI::Xaml::Visibility::Collapsed;
+	new_timer.reset_Timer();
+}
