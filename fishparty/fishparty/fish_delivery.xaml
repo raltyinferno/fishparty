@@ -45,21 +45,8 @@
                     Padding="0"
                     Margin="638,354,-650,-174" 
                     Width="528"
-                    Height="528">
-                <Button.Flyout>
-                    <Flyout>
-                        <Flyout.FlyoutPresenterStyle>
-                            <Style TargetType="FlyoutPresenter">
-                                <Setter Property="ScrollViewer.HorizontalScrollMode" Value="Disabled" />
-                                <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Disabled" />
-                            </Style>
-                        </Flyout.FlyoutPresenterStyle>
-                        <StackPanel>
-                            <Image Source="/Assets/Salmon.gif"/>
-                            <TextBlock FontSize="24">Info here</TextBlock>
-                        </StackPanel>
-                    </Flyout>
-                </Button.Flyout>
+                    Height="528"
+                    Click="vehicles_Click">
                 <StackPanel>
                     <TextBlock
                     FontSize="25"
@@ -78,21 +65,8 @@
                     Padding="0" 
                     Margin="214,444,-47,-444" 
                     Width="300"
-                    Height="300">
-                <Button.Flyout>
-                    <Flyout>
-                        <Flyout.FlyoutPresenterStyle>
-                            <Style TargetType="FlyoutPresenter">
-                                <Setter Property="ScrollViewer.HorizontalScrollMode" Value="Disabled" />
-                                <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Disabled" />
-                            </Style>
-                        </Flyout.FlyoutPresenterStyle>
-                        <StackPanel>
-                            <Image Source="/Assets/Salmon.gif"/>
-                            <TextBlock FontSize="24">Info here</TextBlock>
-                        </StackPanel>
-                    </Flyout>
-                </Button.Flyout>
+                    Height="300"
+                    Click="locations_Click">
                 <StackPanel>
                     <TextBlock
                         FontSize="21"
@@ -111,21 +85,8 @@
                     Padding="0"
                     Margin="1221,0,-1709,-561" 
                     Width="488"
-                    Height="488">
-                <Button.Flyout>
-                    <Flyout>
-                        <Flyout.FlyoutPresenterStyle>
-                            <Style TargetType="FlyoutPresenter">
-                                <Setter Property="ScrollViewer.HorizontalScrollMode" Value="Disabled" />
-                                <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Disabled" />
-                            </Style>
-                        </Flyout.FlyoutPresenterStyle>
-                        <StackPanel>
-                            <Image Source="/Assets/Salmon.gif"/>
-                            <TextBlock FontSize="24">Info here</TextBlock>
-                        </StackPanel>
-                    </Flyout>
-                </Button.Flyout>
+                    Height="488"
+                    Click="process_Click">
                 <StackPanel>
                     <TextBlock
                     FontSize="28"
@@ -134,6 +95,22 @@
             </Button>
 
         </RelativePanel>
+
+        <!--Webview layout structure-->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <WebView x:Name="content_webview" Style="{StaticResource content_display_style}"/>
+            <Button x:Name="close_button" Style="{StaticResource content_display_close_style}" Click="close_Click"/>
+        </Grid>
 
         <local:navigation_button/>
         <local:home_button/>

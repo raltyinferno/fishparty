@@ -513,6 +513,16 @@
       <DeploymentContent>true</DeploymentContent>
     </None>
     <None Include="fishparty_TemporaryKey.pfx" />
+    <None Include="guided_tour_content\css\singlePageTemplate.css" />
+    <None Include="guided_tour_content\fish_delivery\delivery_locations.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="guided_tour_content\fish_delivery\delivery_process.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="guided_tour_content\fish_delivery\delivery_vehicles.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
     <None Include="guided_tour_content\incubation\incubation.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>

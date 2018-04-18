@@ -20,6 +20,7 @@ namespace fishparty
 		fish_delivery();
 	private:
 		Hometimer timeout;
+		void close_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void vehicles_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void locations_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void process_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
