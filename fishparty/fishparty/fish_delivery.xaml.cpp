@@ -26,22 +26,23 @@ fish_delivery::fish_delivery()
 	InitializeComponent();
 }
 
-
-void fishparty::fish_delivery::vehicles_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+void fishparty::fish_delivery::close_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
+	content_webview->Visibility = Windows::UI::Xaml::Visibility::Collapsed;
+	close_button->Visibility = Windows::UI::Xaml::Visibility::Collapsed;
 	timeout.reset_Timer();
 }
 
-
-void fishparty::fish_delivery::locations_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+void fishparty::fish_delivery::vehicles_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-
+	open_content("ms-appx-web:///guided_tour_content/fish_delivery/delivery_vehicles.htm", content_webview, close_button);
 	timeout.reset_Timer();
 }
 
 
 void fishparty::fish_delivery::process_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
+	open_content("ms-appx-web:///guided_tour_content/fish_delivery/delivery_process.htm", content_webview, close_button);
 	timeout.reset_Timer();
 }
 
@@ -55,4 +56,10 @@ void fishparty::fish_delivery::home_Click(Platform::Object^ sender, Windows::UI:
 void fishparty::fish_delivery::prev_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
 	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(air::typeid));
+}
+
+
+void fishparty::fish_delivery::home_button_Loaded(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+
 }

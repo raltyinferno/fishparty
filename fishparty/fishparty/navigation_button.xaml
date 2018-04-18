@@ -8,9 +8,9 @@
     mc:Ignorable="d"
     xmlns:controls="using:fishparty"
     d:DesignHeight="70"
-    d:DesignWidth="70">
+    d:DesignWidth="150">
 
-    <Button HorizontalAlignment="Left" VerticalAlignment="Center" Background="{StaticResource hamburger}" Height="70" Width="70">
+    <Button HorizontalAlignment="Center" VerticalAlignment="Bottom" Background="{StaticResource hamburger}" Height="70" Width="70" Margin="0.0, 0.0, 80.0, 0.0">
         <Button.Flyout>
             <local:guided_tour_nav/>
         </Button.Flyout>
