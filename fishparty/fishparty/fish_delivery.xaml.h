@@ -22,9 +22,9 @@ namespace fishparty
 		Hometimer timeout;
 		void close_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void vehicles_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
-		void locations_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void process_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void home_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void prev_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
+		void home_button_Loaded(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 	};
 }

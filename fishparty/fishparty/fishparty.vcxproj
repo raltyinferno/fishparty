@@ -514,9 +514,6 @@
     </None>
     <None Include="fishparty_TemporaryKey.pfx" />
     <None Include="guided_tour_content\css\singlePageTemplate.css" />
-    <None Include="guided_tour_content\fish_delivery\delivery_locations.htm">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
     <None Include="guided_tour_content\fish_delivery\delivery_process.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
@@ -586,6 +583,7 @@
     <Image Include="Assets\Front Tanks Guided Tour\front_001.jpg" />
     <Image Include="Assets\hamburger.png" />
     <Image Include="Assets\hatchery_map.jpg" />
+    <Image Include="Assets\heli.gif" />
     <Image Include="Assets\home_icon.png" />
     <Image Include="Assets\last_icon.png" />
     <Image Include="Assets\left_arrow.png" />
@@ -599,6 +597,9 @@
     <Image Include="Assets\Square150x150Logo.scale-200.png" />
     <Image Include="Assets\Square44x44Logo.scale-200.png" />
     <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Image Include="Assets\stocking_1.gif" />
+    <Image Include="Assets\stocking_2.gif" />
+    <Image Include="Assets\stocking_truck.gif" />
     <Image Include="Assets\StoreLogo.png" />
     <Image Include="Assets\test walkthrough\walkthrough1.jpg" />
     <Image Include="Assets\test walkthrough\walkthrough2.jpg" />

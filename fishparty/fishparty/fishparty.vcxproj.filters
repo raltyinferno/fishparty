@@ -476,6 +476,18 @@
     <Image Include="Assets\walkthrough\walkthrough_F5R1.jpg">
       <Filter>images\Walkthrough Images</Filter>
     </Image>
+    <Image Include="Assets\heli.gif">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\stocking_truck.gif">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\stocking_1.gif">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\stocking_2.gif">
+      <Filter>images</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <None Include="fishparty_TemporaryKey.pfx">
@@ -516,9 +528,6 @@
     </None>
     <None Include="guided_tour_content\css\singlePageTemplate.css" />
     <None Include="guided_tour_content\fish_delivery\delivery_process.htm">
-      <Filter>webpages</Filter>
-    </None>
-    <None Include="guided_tour_content\fish_delivery\delivery_locations.htm">
       <Filter>webpages</Filter>
     </None>
     <None Include="guided_tour_content\fish_delivery\delivery_vehicles.htm">

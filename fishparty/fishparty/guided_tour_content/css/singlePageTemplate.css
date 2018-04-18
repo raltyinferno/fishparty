@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /* Body */
 body {
 	font-family: source-sans-pro;
@@ -28,7 +28,7 @@ header {
 .logo {
 	color: #fff;
 	font-weight: bold;
-	text-align: undefined;
+	text-align: center;
 	width: 10%;
 	float: left;
 	margin-top: 15px;
