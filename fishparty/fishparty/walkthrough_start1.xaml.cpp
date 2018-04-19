@@ -27,11 +27,6 @@ walkthrough_start1::walkthrough_start1()
 }
 
 
-void fishparty::walkthrough_start1::right_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
-{
-	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(walkthrough_R1::typeid));
-}
-
 
 void fishparty::walkthrough_start1::left_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
