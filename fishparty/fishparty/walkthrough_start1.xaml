@@ -44,19 +44,11 @@
                 <Image Source="Assets/left_arrow.png" HorizontalAlignment="Center"/>
             </Button>
             <local:home_button Grid.Row="2" Grid.Column="0"/>
-            <local:walkthrough_nav Grid.Row="2" Grid.Column="2"/>
+            <local:walkthrough_nav_button Grid.Row="2" Grid.Column="2"/>
 
         </Grid>
 
 
-        <Grid  VerticalAlignment="Bottom" HorizontalAlignment="Left" Grid.Row="2">
-
-            <Button Content="Jump to Section" FontSize="20">
-                <Button.Flyout>
-                    <controls:guided_tour_nav />
-                </Button.Flyout>
-            </Button>
-
-        </Grid>
+        
     </Grid>
 </Page>

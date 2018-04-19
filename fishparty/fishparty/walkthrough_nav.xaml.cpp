@@ -21,7 +21,7 @@ using namespace Windows::UI::Xaml::Navigation;
 
 // The User Control item template is documented at https://go.microsoft.com/fwlink/?LinkId=234236
 
-walkthrough_nav::walkthrough_nav()
+walkthrough_nav_button::walkthrough_nav_button()
 {
 	InitializeComponent();
 }

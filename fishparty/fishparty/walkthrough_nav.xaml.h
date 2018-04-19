@@ -10,9 +10,9 @@
 namespace fishparty
 {
 	[Windows::Foundation::Metadata::WebHostHidden]
-	public ref class walkthrough_nav sealed
+	public ref class walkthrough_nav_button sealed
 	{
 	public:
-		walkthrough_nav();
+		walkthrough_nav_button();
 	};
 }
