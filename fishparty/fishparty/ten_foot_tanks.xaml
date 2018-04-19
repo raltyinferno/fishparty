@@ -1,5 +1,5 @@
 ﻿<Page
-    x:Class="fishparty.six_foot_tanks_2"
+    x:Class="fishparty.ten_foot_tanks"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:fishparty"
@@ -9,28 +9,26 @@
     mc:Ignorable="d">
 
     <Page.Resources>
-        <ImageBrush ImageSource="Assets/6ft Tank Guided Tour/6ft_002.jpg" x:Key="walk1" Opacity="1" Stretch="UniformToFill"/>
+        <ImageBrush ImageSource="Assets/10ft Tank Guided Tour/10ft_001.jpg" x:Key="walk1" Opacity="1" Stretch="UniformToFill"/>
     </Page.Resources>
 
     <Grid Background="{StaticResource walk1}" x:Name="page_grid">
 
         <Grid Style="{StaticResource title_grid_style}">
-            <Rectangle Style="{StaticResource title_box_style}" Width="811"/>
+            <Rectangle Style="{StaticResource title_box_style}" Width="809"/>
             <TextBlock Style="{StaticResource title_text_style}">10 Foot Tanks</TextBlock>
         </Grid>
 
 
-       
+        
 
 
-        <Button x:Name="overhead_button" Content="Return" Style="{StaticResource guided_forward_button}" Click="return_button_Click" Height="129.812" Width="278.137" FontSize="28" RenderTransformOrigin="0.5,0.5" Margin="0,0,94.437,893.925" UseLayoutRounding="False" d:LayoutRounding="Auto" FontWeight="Bold" Foreground="Black" Background="#66FFFFFF">
+
+        <Button x:Name="overhead_button" Content="Overhead View" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="overhead_button_Click" Height="129.812" Width="278.137" FontSize="28" RenderTransformOrigin="0.5,0.5" Margin="0,0,94.437,893.925" UseLayoutRounding="False" d:LayoutRounding="Auto" FontWeight="Bold" Foreground="Black" Background="#66FFFFFF">
             <Button.RenderTransform>
                 <CompositeTransform TranslateX="39" Rotation="-0.903"/>
             </Button.RenderTransform>
         </Button>
-
-
-
 
         <local:navigation_button/>
         <local:home_button/>
@@ -46,7 +44,6 @@
                 <TextBlock VerticalAlignment="Center">5ft Tanks</TextBlock>
             </StackPanel>
         </Button>
-
 
 
     </Grid>

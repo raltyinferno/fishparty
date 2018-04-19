@@ -69,3 +69,10 @@ void fishparty::water_intake::page_load_wintake(Platform::Object^ sender, Window
 {
 	open_content("ms-appx-web:///guided_tour_content/water_intake/wintake_page_overview.htm", content_webview, close_button);
 }
+
+
+void fishparty::water_intake::wintake_gas_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(wintake_gas::typeid));
+
+}

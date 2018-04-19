@@ -1,10 +1,10 @@
 ﻿//
-// six_foot_tanks.xaml.cpp
-// Implementation of the six_foot_tanks class
+// ten_foot_tanks_2.xaml.cpp
+// Implementation of the ten_foot_tanks_2 class
 //
 
 #include "pch.h"
-#include "six_foot_tanks.xaml.h"
+#include "ten_foot_tanks_2.xaml.h"
 
 using namespace fishparty;
 
@@ -21,25 +21,25 @@ using namespace Windows::UI::Xaml::Navigation;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
-six_foot_tanks::six_foot_tanks()
+ten_foot_tanks_2::ten_foot_tanks_2()
 {
 	InitializeComponent();
 }
 
 
-void fishparty::six_foot_tanks::next_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+void fishparty::ten_foot_tanks_2::next_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
 	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(tf_foot_tanks::typeid));
 }
 
 
-void fishparty::six_foot_tanks::overhead_button_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+void fishparty::ten_foot_tanks_2::return_button_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(six_foot_tanks_2::typeid));
+	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(ten_foot_tanks::typeid));
 }
 
 
-void fishparty::six_foot_tanks::prev_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+void fishparty::ten_foot_tanks_2::prev_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
 	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(fivetanks::typeid));
 }

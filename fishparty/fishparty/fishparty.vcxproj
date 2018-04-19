@@ -7,7 +7,7 @@
     <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
     <AppContainerApplication>true</AppContainerApplication>
     <ApplicationType>Windows Store</ApplicationType>
-    <WindowsTargetPlatformVersion Condition=" '$(WindowsTargetPlatformVersion)' == '' ">10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion Condition=" '$(WindowsTargetPlatformVersion)' == '' ">10.0.15063.0</WindowsTargetPlatformVersion>
     <WindowsTargetPlatformMinVersion>10.0.15063.0</WindowsTargetPlatformMinVersion>
     <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
   </PropertyGroup>
@@ -149,11 +149,11 @@
     <ClInclude Include="overview_button.xaml.h">
       <DependentUpon>overview_button.xaml</DependentUpon>
     </ClInclude>
-    <ClInclude Include="six_foot_tanks.xaml.h">
-      <DependentUpon>six_foot_tanks.xaml</DependentUpon>
+    <ClInclude Include="ten_foot_tanks.xaml.h">
+      <DependentUpon>ten_foot_tanks.xaml</DependentUpon>
     </ClInclude>
-    <ClInclude Include="six_foot_tanks_2.xaml.h">
-      <DependentUpon>six_foot_tanks_2.xaml</DependentUpon>
+    <ClInclude Include="ten_foot_tanks_2.xaml.h">
+      <DependentUpon>ten_foot_tanks_2.xaml</DependentUpon>
     </ClInclude>
     <ClInclude Include="tf_foot_filters.xaml.h">
       <DependentUpon>tf_foot_filters.xaml</DependentUpon>
@@ -196,6 +196,30 @@
     </ClInclude>
     <ClInclude Include="walkthrough_F1R1F4L1R1.xaml.h">
       <DependentUpon>walkthrough_F1R1F4L1R1.xaml</DependentUpon>
+    </ClInclude>
+    <ClInclude Include="walkthrough_F1R1F4R1.xaml.h">
+      <DependentUpon>walkthrough_F1R1F4R1.xaml</DependentUpon>
+    </ClInclude>
+    <ClInclude Include="walkthrough_F1R1F4R1F1.xaml.h">
+      <DependentUpon>walkthrough_F1R1F4R1F1.xaml</DependentUpon>
+    </ClInclude>
+    <ClInclude Include="walkthrough_F1R1F4R1F2.xaml.h">
+      <DependentUpon>walkthrough_F1R1F4R1F2.xaml</DependentUpon>
+    </ClInclude>
+    <ClInclude Include="walkthrough_F1R1F4R1F3.xaml.h">
+      <DependentUpon>walkthrough_F1R1F4R1F3.xaml</DependentUpon>
+    </ClInclude>
+    <ClInclude Include="walkthrough_F1R1F4R1F4.xaml.h">
+      <DependentUpon>walkthrough_F1R1F4R1F4.xaml</DependentUpon>
+    </ClInclude>
+    <ClInclude Include="walkthrough_F1R1F4R1F5.xaml.h">
+      <DependentUpon>walkthrough_F1R1F4R1F5.xaml</DependentUpon>
+    </ClInclude>
+    <ClInclude Include="walkthrough_F1R1F4R1F6.xaml.h">
+      <DependentUpon>walkthrough_F1R1F4R1F6.xaml</DependentUpon>
+    </ClInclude>
+    <ClInclude Include="walkthrough_F1R1F4R1F7.xaml.h">
+      <DependentUpon>walkthrough_F1R1F4R1F7.xaml</DependentUpon>
     </ClInclude>
     <ClInclude Include="walkthrough_F2.xaml.h">
       <DependentUpon>walkthrough_F2.xaml</DependentUpon>
@@ -248,6 +272,21 @@
     <ClInclude Include="walkthrough_F4L1F2.xaml.h">
       <DependentUpon>walkthrough_F4L1F2.xaml</DependentUpon>
     </ClInclude>
+    <ClInclude Include="walkthrough_F4L1F3.xaml.h">
+      <DependentUpon>walkthrough_F4L1F3.xaml</DependentUpon>
+    </ClInclude>
+    <ClInclude Include="walkthrough_F4L1F4.xaml.h">
+      <DependentUpon>walkthrough_F4L1F4.xaml</DependentUpon>
+    </ClInclude>
+    <ClInclude Include="walkthrough_F4L1F5.xaml.h">
+      <DependentUpon>walkthrough_F4L1F5.xaml</DependentUpon>
+    </ClInclude>
+    <ClInclude Include="walkthrough_F4L1F6.xaml.h">
+      <DependentUpon>walkthrough_F4L1F6.xaml</DependentUpon>
+    </ClInclude>
+    <ClInclude Include="walkthrough_F4L1F7.xaml.h">
+      <DependentUpon>walkthrough_F4L1F7.xaml</DependentUpon>
+    </ClInclude>
     <ClInclude Include="walkthrough_F4R1.xaml.h">
       <DependentUpon>walkthrough_F4R1.xaml</DependentUpon>
     </ClInclude>
@@ -290,9 +329,6 @@
     <ClInclude Include="walkthrough_L1F2R1.xaml.h">
       <DependentUpon>walkthrough_L1F2R1.xaml</DependentUpon>
     </ClInclude>
-    <ClInclude Include="walkthrough_R1.xaml.h">
-      <DependentUpon>walkthrough_R1.xaml</DependentUpon>
-    </ClInclude>
     <ClInclude Include="water_intake.xaml.h">
       <DependentUpon>water_intake.xaml</DependentUpon>
     </ClInclude>
@@ -333,6 +369,9 @@
     <ClInclude Include="water_treatment.xaml.h">
       <DependentUpon>water_treatment.xaml</DependentUpon>
     </ClInclude>
+    <ClInclude Include="wintake_gas.xaml.h">
+      <DependentUpon>wintake_gas.xaml</DependentUpon>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -347,13 +386,17 @@
     <Page Include="navigation_button.xaml">
       <SubType>Designer</SubType>
     </Page>
+<<<<<<< HEAD
     <Page Include="overview_button.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Include="six_foot_tanks.xaml">
+=======
+    <Page Include="ten_foot_tanks.xaml">
+>>>>>>> 22e0c2b16aca1b54ef6d8fbee6ef0b25368312db
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="six_foot_tanks_2.xaml">
+    <Page Include="ten_foot_tanks_2.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Include="tf_foot_filters.xaml">
@@ -392,6 +435,30 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="walkthrough_F1R1F4L1R1.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="walkthrough_F1R1F4R1.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="walkthrough_F1R1F4R1F1.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="walkthrough_F1R1F4R1F2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="walkthrough_F1R1F4R1F3.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="walkthrough_F1R1F4R1F4.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="walkthrough_F1R1F4R1F5.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="walkthrough_F1R1F4R1F6.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="walkthrough_F1R1F4R1F7.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Include="walkthrough_F2.xaml" />
@@ -443,6 +510,19 @@
     <Page Include="walkthrough_F4L1F2.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="walkthrough_F4L1F3.xaml" />
+    <Page Include="walkthrough_F4L1F4.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="walkthrough_F4L1F5.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="walkthrough_F4L1F6.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="walkthrough_F4L1F7.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="walkthrough_F4R1.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -475,7 +555,6 @@
     <Page Include="walkthrough_L1F1R1.xaml" />
     <Page Include="walkthrough_L1F2.xaml" />
     <Page Include="walkthrough_L1F2R1.xaml" />
-    <Page Include="walkthrough_R1.xaml" />
     <Page Include="water_intake.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -505,6 +584,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="water_treatment.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="wintake_gas.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
@@ -561,6 +643,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Image Include="Assets\10ft Tank Guided Tour\10ft_001.jpg" />
+    <Image Include="Assets\10ft Tank Guided Tour\10ft_002.jpg" />
     <Image Include="Assets\25ft Filters\big_close.jpg" />
     <Image Include="Assets\25ft Filters\big_top.jpg" />
     <Image Include="Assets\25ft Filters\drum_close.jpg" />
@@ -571,14 +655,13 @@
     <Image Include="Assets\25ft Tank\25ft_oh.jpg" />
     <Image Include="Assets\5ft Tank Guided Tour\5ft_001.jpg" />
     <Image Include="Assets\5ft Tank Guided Tour\5ft_001_01.jpg" />
-    <Image Include="Assets\6ft Tank Guided Tour\6ft_001.jpg" />
-    <Image Include="Assets\6ft Tank Guided Tour\6ft_002.jpg" />
     <Image Include="Assets\advance_icon.png" />
     <Image Include="Assets\air_background.jpg" />
     <Image Include="Assets\back_icon.png" />
     <Image Include="Assets\bg_wintake.jpg" />
     <Image Include="Assets\boiler_room.jpg" />
     <Image Include="Assets\boiler_room2.jpg" />
+    <Image Include="Assets\co2.jpg" />
     <Image Include="Assets\delivery_truck2.png" />
     <Image Include="Assets\delivery_truck3.jpg" />
     <Image Include="Assets\down_arrow.png" />
@@ -595,12 +678,14 @@
     <Image Include="Assets\Front Tanks Guided Tour\front_001.jpg" />
     <Image Include="Assets\hamburger.png" />
     <Image Include="Assets\hatchery_map.jpg" />
+    <Image Include="Assets\heat.jpg" />
     <Image Include="Assets\heli.gif" />
     <Image Include="Assets\home_icon.png" />
     <Image Include="Assets\last_icon.png" />
     <Image Include="Assets\left_arrow.png" />
     <Image Include="Assets\LockScreenLogo.scale-200.png" />
     <Image Include="Assets\next_icon.png" />
+    <Image Include="Assets\nitrogen.jpg" />
     <Image Include="Assets\right_arrow.png" />
     <Image Include="Assets\Round_Icon.png" />
     <Image Include="Assets\salmon.gif" />
@@ -636,6 +721,14 @@
     <Image Include="Assets\walkthrough\walkthrough_F1R1F4L1F1R1F1.jpg" />
     <Image Include="Assets\walkthrough\walkthrough_F1R1F4L1F1R2.jpg" />
     <Image Include="Assets\walkthrough\walkthrough_F1R1F4L1R1.jpg" />
+    <Image Include="Assets\walkthrough\walkthrough_F1R1F4R1.jpg" />
+    <Image Include="Assets\walkthrough\walkthrough_F1R1F4R1F1.jpg" />
+    <Image Include="Assets\walkthrough\walkthrough_F1R1F4R1F2.jpg" />
+    <Image Include="Assets\walkthrough\walkthrough_F1R1F4R1F3.jpg" />
+    <Image Include="Assets\walkthrough\walkthrough_F1R1F4R1F4.jpg" />
+    <Image Include="Assets\walkthrough\walkthrough_F1R1F4R1F5.jpg" />
+    <Image Include="Assets\walkthrough\walkthrough_F1R1F4R1F6.jpg" />
+    <Image Include="Assets\walkthrough\walkthrough_F1R1F4R1F7.jpg" />
     <Image Include="Assets\walkthrough\walkthrough_F2.jpg" />
     <Image Include="Assets\walkthrough\walkthrough_F3.jpg" />
     <Image Include="Assets\walkthrough\walkthrough_F3R1.jpg" />
@@ -653,6 +746,11 @@
     <Image Include="Assets\walkthrough\walkthrough_F4L1.jpg" />
     <Image Include="Assets\walkthrough\walkthrough_F4L1F1.jpg" />
     <Image Include="Assets\walkthrough\walkthrough_F4L1F2.jpg" />
+    <Image Include="Assets\walkthrough\walkthrough_F4L1F3.jpg" />
+    <Image Include="Assets\walkthrough\walkthrough_F4L1F4.jpg" />
+    <Image Include="Assets\walkthrough\walkthrough_F4L1F5.jpg" />
+    <Image Include="Assets\walkthrough\walkthrough_F4L1F6.jpg" />
+    <Image Include="Assets\walkthrough\walkthrough_F4L1F7.jpg" />
     <Image Include="Assets\walkthrough\walkthrough_F4R1.jpg" />
     <Image Include="Assets\walkthrough\walkthrough_F4R1F1.jpg" />
     <Image Include="Assets\walkthrough\walkthrough_F4R1F1L1.jpg" />
@@ -667,7 +765,6 @@
     <Image Include="Assets\walkthrough\walkthrough_L1F1R1.jpg" />
     <Image Include="Assets\walkthrough\walkthrough_L1F2.jpg" />
     <Image Include="Assets\walkthrough\walkthrough_L1F2R1.jpg" />
-    <Image Include="Assets\walkthrough\walkthrough_R1.jpg" />
     <Image Include="Assets\walkthrough\walkthrough_start1.jpg" />
     <Image Include="Assets\Wide310x150Logo.scale-200.png" />
     <Image Include="Assets\win_close.jpg" />
@@ -683,14 +780,19 @@
       <DependentUpon>navigation_button.xaml</DependentUpon>
     </ClCompile>
     <ClCompile Include="open_webpage.cpp" />
+<<<<<<< HEAD
     <ClCompile Include="overview_button.xaml.cpp">
       <DependentUpon>overview_button.xaml</DependentUpon>
     </ClCompile>
     <ClCompile Include="six_foot_tanks.xaml.cpp">
       <DependentUpon>six_foot_tanks.xaml</DependentUpon>
+=======
+    <ClCompile Include="ten_foot_tanks.xaml.cpp">
+      <DependentUpon>ten_foot_tanks.xaml</DependentUpon>
+>>>>>>> 22e0c2b16aca1b54ef6d8fbee6ef0b25368312db
     </ClCompile>
-    <ClCompile Include="six_foot_tanks_2.xaml.cpp">
-      <DependentUpon>six_foot_tanks_2.xaml</DependentUpon>
+    <ClCompile Include="ten_foot_tanks_2.xaml.cpp">
+      <DependentUpon>ten_foot_tanks_2.xaml</DependentUpon>
     </ClCompile>
     <ClCompile Include="tf_foot_filters.xaml.cpp">
       <DependentUpon>tf_foot_filters.xaml</DependentUpon>
@@ -733,6 +835,30 @@
     </ClCompile>
     <ClCompile Include="walkthrough_F1R1F4L1R1.xaml.cpp">
       <DependentUpon>walkthrough_F1R1F4L1R1.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="walkthrough_F1R1F4R1.xaml.cpp">
+      <DependentUpon>walkthrough_F1R1F4R1.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="walkthrough_F1R1F4R1F1.xaml.cpp">
+      <DependentUpon>walkthrough_F1R1F4R1F1.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="walkthrough_F1R1F4R1F2.xaml.cpp">
+      <DependentUpon>walkthrough_F1R1F4R1F2.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="walkthrough_F1R1F4R1F3.xaml.cpp">
+      <DependentUpon>walkthrough_F1R1F4R1F3.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="walkthrough_F1R1F4R1F4.xaml.cpp">
+      <DependentUpon>walkthrough_F1R1F4R1F4.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="walkthrough_F1R1F4R1F5.xaml.cpp">
+      <DependentUpon>walkthrough_F1R1F4R1F5.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="walkthrough_F1R1F4R1F6.xaml.cpp">
+      <DependentUpon>walkthrough_F1R1F4R1F6.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="walkthrough_F1R1F4R1F7.xaml.cpp">
+      <DependentUpon>walkthrough_F1R1F4R1F7.xaml</DependentUpon>
     </ClCompile>
     <ClCompile Include="walkthrough_F2.xaml.cpp">
       <DependentUpon>walkthrough_F2.xaml</DependentUpon>
@@ -785,6 +911,21 @@
     <ClCompile Include="walkthrough_F4L1F2.xaml.cpp">
       <DependentUpon>walkthrough_F4L1F2.xaml</DependentUpon>
     </ClCompile>
+    <ClCompile Include="walkthrough_F4L1F3.xaml.cpp">
+      <DependentUpon>walkthrough_F4L1F3.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="walkthrough_F4L1F4.xaml.cpp">
+      <DependentUpon>walkthrough_F4L1F4.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="walkthrough_F4L1F5.xaml.cpp">
+      <DependentUpon>walkthrough_F4L1F5.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="walkthrough_F4L1F6.xaml.cpp">
+      <DependentUpon>walkthrough_F4L1F6.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="walkthrough_F4L1F7.xaml.cpp">
+      <DependentUpon>walkthrough_F4L1F7.xaml</DependentUpon>
+    </ClCompile>
     <ClCompile Include="walkthrough_F4R1.xaml.cpp">
       <DependentUpon>walkthrough_F4R1.xaml</DependentUpon>
     </ClCompile>
@@ -826,9 +967,6 @@
     </ClCompile>
     <ClCompile Include="walkthrough_L1F2R1.xaml.cpp">
       <DependentUpon>walkthrough_L1F2R1.xaml</DependentUpon>
-    </ClCompile>
-    <ClCompile Include="walkthrough_R1.xaml.cpp">
-      <DependentUpon>walkthrough_R1.xaml</DependentUpon>
     </ClCompile>
     <ClCompile Include="water_intake.xaml.cpp">
       <DependentUpon>water_intake.xaml</DependentUpon>
@@ -874,6 +1012,9 @@
     </ClCompile>
     <ClCompile Include="water_treatment.xaml.cpp">
       <DependentUpon>water_treatment.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="wintake_gas.xaml.cpp">
+      <DependentUpon>wintake_gas.xaml</DependentUpon>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
