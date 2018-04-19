@@ -1,0 +1,100 @@
+﻿<Page
+    x:Class="fishparty.wintake_gas"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:fishparty"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:controls="using:fishparty"
+    >
+
+    <Page.Resources>
+        <ImageBrush x:Key="nostreat" ImageSource="/Assets/nitrogen.jpg" Opacity=".85" Stretch="UniformToFill" />
+        <ImageBrush x:Key="co2treat" ImageSource="/Assets/co2.jpg" Opacity=".85" Stretch="UniformToFill" />
+        <ImageBrush x:Key="heat" ImageSource="/Assets/heat.jpg" Opacity=".85" Stretch="UniformToFill" />
+    </Page.Resources>
+
+
+    <Grid Background="{StaticResource splash_background}" x:Name="page_grid">
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width=".03*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height=".056*"/>
+                <RowDefinition Height="1.5*"/>
+            </Grid.RowDefinitions>
+
+            <Button x:Name="heating"
+                    Background="{StaticResource heat}"
+                    Click="heating_Click"                    
+                    Grid.Column="0" Grid.Row="0" 
+                    HorizontalAlignment="Stretch" 
+                    VerticalAlignment="Stretch" />
+            <Button x:Name="nitrogen"
+                    Background="{StaticResource co2treat}"
+                    Click="nitrogen_Click"                    
+                    Grid.Column="2" Grid.Row="0" 
+                    HorizontalAlignment="Stretch" 
+                    VerticalAlignment="Stretch" />
+            <Button x:Name="oxygen"
+                    Background="{StaticResource nostreat}"
+                    Click="oxygen_Click"
+                    Grid.Column="0" Grid.Row="2" 
+                    HorizontalAlignment="Stretch" 
+                    VerticalAlignment="Stretch" />
+            <Button x:Name="back_to_wintake"
+                    Style="{StaticResource AccentButtonStyle}"
+                    Click="back_to_wintake_Click"
+                    Grid.Column="3" Grid.Row="0"
+                    Content="Return" FontSize="48"
+                    VerticalAlignment="Top"
+                    HorizontalAlignment="Right"/>
+
+
+            <Button Style="{StaticResource guided_forward_button}" Click="next_page_Click" Grid.Column="3" Grid.Row="3">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock VerticalAlignment="Center">Egg Receiving</TextBlock>
+                    <!--<Image Source="{StaticResource advance_icon}" Height="50" Width="50"/>-->
+                </StackPanel>
+            </Button>
+            <Grid Style="{StaticResource title_grid_style}" >
+                <Rectangle Style="{StaticResource title_box_style}" Width="975"/>
+                <TextBlock Style="{StaticResource title_text_style}"><Run Text="Heating and Gas"/></TextBlock>
+            </Grid>
+            <!-- <Button Style="{StaticResource content_display_open_style}" Grid.Row="0" Grid.Column="0"
+                    HorizontalAlignment="Left" VerticalAlignment="Top" Click="wintake_gas_info_Click"
+                    Margin="0,95"
+                    Loaded=""
+                    Height="50" Width="50">
+                i
+            </Button> -->
+
+        </Grid>
+
+        <!--Webview layout structure-->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <WebView x:Name="content_webview" Style="{StaticResource content_display_style}"/>
+            <Button x:Name="close_button" Style="{StaticResource content_display_close_style}" Click="close_Click"/>
+        </Grid>
+
+        <local:navigation_button/>
+        <local:home_button/>
+
+    </Grid>
+</Page>

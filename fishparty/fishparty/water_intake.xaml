@@ -16,8 +16,8 @@
         
     <Grid Background="{StaticResource water_intake}" x:Name="page_grid">
         <Grid Style="{StaticResource title_grid_style}">
-            <Rectangle Style="{StaticResource title_box_style}" Width="1568"/>
-            <TextBlock Style="{StaticResource title_text_style}">Water Intake and Treatment</TextBlock>
+            <Rectangle Style="{StaticResource title_box_style}" Width="768"/>
+            <TextBlock Style="{StaticResource title_text_style}">Water Intake</TextBlock>
         </Grid>
 
         <Grid>
@@ -49,7 +49,12 @@
                     Height="50" Width="50">
                 i
             </Button>
-            
+            <Button Style="{StaticResource AccentButtonStyle}" Grid.Row="0" Grid.Column="3"
+                    VerticalAlignment="Top" HorizontalAlignment="Right"
+                    Click="wintake_gas_Click">
+                <TextBlock TextWrapping="WrapWholeWords" FontSize="32">Learn about water heating and gas removal</TextBlock>
+            </Button>
+
         </Grid>
 
         <!--Webview layout structure-->

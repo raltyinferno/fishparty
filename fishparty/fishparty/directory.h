@@ -3,7 +3,9 @@
 #include "MainPage.xaml.h"
 #include "hatchery_map.xaml.h"
 #include "water_treatment.xaml.h"
+// Water and Gas Inflow Treatment
 #include "water_intake.xaml.h"
+#include "wintake_gas.xaml.h"
 #include "fivetanks.xaml.h"
 
 // Egg Rooms

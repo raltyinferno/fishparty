@@ -488,6 +488,15 @@
     <Image Include="Assets\stocking_2.gif">
       <Filter>images</Filter>
     </Image>
+    <Image Include="Assets\heat.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\nitrogen.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\co2.jpg">
+      <Filter>images</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <None Include="fishparty_TemporaryKey.pfx">
@@ -720,6 +729,9 @@
     </Page>
     <Page Include="walkthrough_F5L1.xaml">
       <Filter>Walkthrough Pages</Filter>
+    </Page>
+    <Page Include="wintake_gas.xaml">
+      <Filter>guided tour pages</Filter>
     </Page>
   </ItemGroup>
   <ItemGroup>

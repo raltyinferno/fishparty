@@ -330,6 +330,9 @@
     <ClInclude Include="water_treatment.xaml.h">
       <DependentUpon>water_treatment.xaml</DependentUpon>
     </ClInclude>
+    <ClInclude Include="wintake_gas.xaml.h">
+      <DependentUpon>wintake_gas.xaml</DependentUpon>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -501,6 +504,9 @@
     <Page Include="water_treatment.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="wintake_gas.xaml">
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -573,6 +579,7 @@
     <Image Include="Assets\bg_wintake.jpg" />
     <Image Include="Assets\boiler_room.jpg" />
     <Image Include="Assets\boiler_room2.jpg" />
+    <Image Include="Assets\co2.jpg" />
     <Image Include="Assets\delivery_truck2.png" />
     <Image Include="Assets\delivery_truck3.jpg" />
     <Image Include="Assets\down_arrow.png" />
@@ -589,12 +596,14 @@
     <Image Include="Assets\Front Tanks Guided Tour\front_001.jpg" />
     <Image Include="Assets\hamburger.png" />
     <Image Include="Assets\hatchery_map.jpg" />
+    <Image Include="Assets\heat.jpg" />
     <Image Include="Assets\heli.gif" />
     <Image Include="Assets\home_icon.png" />
     <Image Include="Assets\last_icon.png" />
     <Image Include="Assets\left_arrow.png" />
     <Image Include="Assets\LockScreenLogo.scale-200.png" />
     <Image Include="Assets\next_icon.png" />
+    <Image Include="Assets\nitrogen.jpg" />
     <Image Include="Assets\right_arrow.png" />
     <Image Include="Assets\Round_Icon.png" />
     <Image Include="Assets\salmon.gif" />
@@ -865,6 +874,9 @@
     </ClCompile>
     <ClCompile Include="water_treatment.xaml.cpp">
       <DependentUpon>water_treatment.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="wintake_gas.xaml.cpp">
+      <DependentUpon>wintake_gas.xaml</DependentUpon>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
