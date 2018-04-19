@@ -30,6 +30,7 @@
         <ImageBrush x:Key="last_icon" ImageSource="/Assets/last_icon.png" Opacity="1" Stretch="Uniform" AlignmentX="Left" />
         <BitmapImage x:Key="back_icon" UriSource="Assets/back_icon.png"/>
         <ImageBrush x:Key="round_icon" ImageSource="/Assets/Round_Icon.png" Opacity="1" />
+        <BitmapImage x:Key="magnify_icon" UriSource="Assets/magnify.png" />
         <!--  -->
 
 

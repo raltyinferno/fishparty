@@ -33,13 +33,6 @@ void fishparty::fivetanks::next_page_Click(Platform::Object^ sender, Windows::UI
 }
 
 
-void fishparty::fivetanks::show_Flyout(Platform::Object^ sender, Windows::UI::Xaml::Input::TappedRoutedEventArgs^ e)
-{
-	new_timer.reset_Timer();
-	this->Frame->ContextFlyout->ShowAttachedFlyout((FrameworkElement^)sender);
-}
-
-
 void fishparty::fivetanks::prev_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
 	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(incubation_2::typeid));
@@ -53,7 +46,7 @@ void fishparty::fivetanks::header_tanks_Click(Platform::Object^ sender, Windows:
 }
 
 
-void fishparty::fivetanks::five_tanks_loaded(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+void fishparty::fivetanks::show_overview(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
 	open_content("ms-appx-web:///guided_tour_content/5ft_tanks/5ft_tanks_overview.htm", content_webview, close_button);
 }

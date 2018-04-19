@@ -721,6 +721,9 @@
     <Page Include="walkthrough_F5L1.xaml">
       <Filter>Walkthrough Pages</Filter>
     </Page>
+    <Page Include="overview_button.xaml">
+      <Filter>global resources</Filter>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="images">

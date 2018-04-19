@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:controls="using:fishparty"
     mc:Ignorable="d"
-    Loaded="five_tanks_loaded">
+    Loaded="show_overview">
 
     <Page.Resources>
         <ImageBrush ImageSource="Assets/5ft Tank Guided Tour/5ft_001.jpg" x:Key="walk1" Opacity="1" Stretch="UniformToFill"/>
@@ -19,6 +19,7 @@
         <Grid Style="{StaticResource title_grid_style}">
             <Rectangle Style="{StaticResource title_box_style}" Width="807"/>
             <TextBlock Style="{StaticResource title_text_style}">5 Foot Tanks</TextBlock>
+            <local:overview_button Tapped="show_overview"/>
         </Grid>
 
 
@@ -27,14 +28,28 @@
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
                 <RowDefinition Height="2*"/>
+                <RowDefinition Height="1*"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="1*"/>
-                <ColumnDefinition Width="6*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="4*"/>
             </Grid.ColumnDefinitions>
-            <Button Style="{StaticResource content_display_open_style}" HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="175" Width="175"
+            <Button Style="{StaticResource content_display_open_style}" HorizontalAlignment="Right" VerticalAlignment="Top" Height="175" Width="175"
+                    Grid.Column="0" Grid.Row="1"
                     Content="Header Tanks" Click="header_tanks_Click"/>
+            <Button Style="{StaticResource content_display_open_style}" HorizontalAlignment="Right" VerticalAlignment="Center" Height="175" Width="175"
+                    Grid.Column="2" Grid.Row="2">
+                <Image Source="{StaticResource magnify_icon}" Width="50" Height="50"/>
+                <Button.Flyout>
+                    <Flyout>
+                        <Image Source="Assets/"/>
+                    </Flyout>
+                </Button.Flyout>
+            </Button>
         </Grid>
         <!--Webview layout structure-->
         <Grid>
