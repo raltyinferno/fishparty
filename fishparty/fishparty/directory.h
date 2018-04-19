@@ -18,8 +18,8 @@
 //
 
 // Six foot tank pages
-#include "six_foot_tanks.xaml.h"
-#include "six_foot_tanks_2.xaml.h"
+#include "ten_foot_tanks.xaml.h"
+#include "ten_foot_tanks_2.xaml.h"
 //
 
 // Thirty foot tank pages

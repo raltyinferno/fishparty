@@ -146,11 +146,11 @@
       <DependentUpon>navigation_button.xaml</DependentUpon>
     </ClInclude>
     <ClInclude Include="open_webpage.h" />
-    <ClInclude Include="six_foot_tanks.xaml.h">
-      <DependentUpon>six_foot_tanks.xaml</DependentUpon>
+    <ClInclude Include="ten_foot_tanks.xaml.h">
+      <DependentUpon>ten_foot_tanks.xaml</DependentUpon>
     </ClInclude>
-    <ClInclude Include="six_foot_tanks_2.xaml.h">
-      <DependentUpon>six_foot_tanks_2.xaml</DependentUpon>
+    <ClInclude Include="ten_foot_tanks_2.xaml.h">
+      <DependentUpon>ten_foot_tanks_2.xaml</DependentUpon>
     </ClInclude>
     <ClInclude Include="tf_foot_filters.xaml.h">
       <DependentUpon>tf_foot_filters.xaml</DependentUpon>
@@ -383,10 +383,10 @@
     <Page Include="navigation_button.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="six_foot_tanks.xaml">
+    <Page Include="ten_foot_tanks.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="six_foot_tanks_2.xaml">
+    <Page Include="ten_foot_tanks_2.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Include="tf_foot_filters.xaml">
@@ -633,6 +633,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Image Include="Assets\10ft Tank Guided Tour\10ft_001.jpg" />
+    <Image Include="Assets\10ft Tank Guided Tour\10ft_002.jpg" />
     <Image Include="Assets\25ft Filters\big_close.jpg" />
     <Image Include="Assets\25ft Filters\big_top.jpg" />
     <Image Include="Assets\25ft Filters\drum_close.jpg" />
@@ -643,8 +645,6 @@
     <Image Include="Assets\25ft Tank\25ft_oh.jpg" />
     <Image Include="Assets\5ft Tank Guided Tour\5ft_001.jpg" />
     <Image Include="Assets\5ft Tank Guided Tour\5ft_001_01.jpg" />
-    <Image Include="Assets\6ft Tank Guided Tour\6ft_001.jpg" />
-    <Image Include="Assets\6ft Tank Guided Tour\6ft_002.jpg" />
     <Image Include="Assets\advance_icon.png" />
     <Image Include="Assets\air_background.jpg" />
     <Image Include="Assets\back_icon.png" />
@@ -770,11 +770,11 @@
       <DependentUpon>navigation_button.xaml</DependentUpon>
     </ClCompile>
     <ClCompile Include="open_webpage.cpp" />
-    <ClCompile Include="six_foot_tanks.xaml.cpp">
-      <DependentUpon>six_foot_tanks.xaml</DependentUpon>
+    <ClCompile Include="ten_foot_tanks.xaml.cpp">
+      <DependentUpon>ten_foot_tanks.xaml</DependentUpon>
     </ClCompile>
-    <ClCompile Include="six_foot_tanks_2.xaml.cpp">
-      <DependentUpon>six_foot_tanks_2.xaml</DependentUpon>
+    <ClCompile Include="ten_foot_tanks_2.xaml.cpp">
+      <DependentUpon>ten_foot_tanks_2.xaml</DependentUpon>
     </ClCompile>
     <ClCompile Include="tf_foot_filters.xaml.cpp">
       <DependentUpon>tf_foot_filters.xaml</DependentUpon>

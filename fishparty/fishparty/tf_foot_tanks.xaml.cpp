@@ -33,7 +33,7 @@ void fishparty::tf_foot_tanks::next_page_Click(Platform::Object^ sender, Windows
 
 void fishparty::tf_foot_tanks::prev_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(six_foot_tanks::typeid));
+	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(ten_foot_tanks::typeid));
 }
 
 void fishparty::tf_foot_tanks::food_butt_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)

@@ -14,8 +14,6 @@
     <ClCompile Include="water_treatment.xaml.cpp" />
     <ClCompile Include="water_intake.xaml.cpp" />
     <ClCompile Include="fish_delivery.xaml.cpp" />
-    <ClCompile Include="six_foot_tanks.xaml.cpp" />
-    <ClCompile Include="six_foot_tanks_2.xaml.cpp" />
     <ClCompile Include="tf_foot_tanks.xaml.cpp" />
     <ClCompile Include="tf_foot_filters.xaml.cpp" />
     <ClCompile Include="walkthrough_F1.xaml.cpp" />
@@ -74,6 +72,8 @@
     <ClCompile Include="walkthrough_F5L1.xaml.cpp" />
     <ClCompile Include="walkthrough_F5R1.xaml.cpp" />
     <ClCompile Include="wintake_gas.xaml.cpp" />
+    <ClCompile Include="ten_foot_tanks.xaml.cpp" />
+    <ClCompile Include="ten_foot_tanks_2.xaml.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="air.xaml.h" />
@@ -89,8 +89,6 @@
     <ClInclude Include="water_treatment.xaml.h" />
     <ClInclude Include="water_intake.xaml.h" />
     <ClInclude Include="fish_delivery.xaml.h" />
-    <ClInclude Include="six_foot_tanks.xaml.h" />
-    <ClInclude Include="six_foot_tanks_2.xaml.h" />
     <ClInclude Include="tf_foot_tanks.xaml.h" />
     <ClInclude Include="tf_foot_filters.xaml.h" />
     <ClInclude Include="walkthrough_F1.xaml.h" />
@@ -155,6 +153,8 @@
     <ClInclude Include="walkthrough_F5L1.xaml.h" />
     <ClInclude Include="walkthrough_F5R1.xaml.h" />
     <ClInclude Include="wintake_gas.xaml.h" />
+    <ClInclude Include="ten_foot_tanks.xaml.h" />
+    <ClInclude Include="ten_foot_tanks_2.xaml.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\down_arrow.png">
@@ -285,12 +285,6 @@
     </Image>
     <Image Include="Assets\5ft Tank Guided Tour\5ft_001_01.jpg">
       <Filter>images\5ft Guided Tour</Filter>
-    </Image>
-    <Image Include="Assets\6ft Tank Guided Tour\6ft_001.jpg">
-      <Filter>images\6ft Guided Tour</Filter>
-    </Image>
-    <Image Include="Assets\6ft Tank Guided Tour\6ft_002.jpg">
-      <Filter>images\6ft Guided Tour</Filter>
     </Image>
     <Image Include="Assets\Front Tanks Guided Tour\front_001.jpg">
       <Filter>images\Front Tanks Guided Tour</Filter>
@@ -535,6 +529,12 @@
     <Image Include="Assets\walkthrough\walkthrough_F1R1F4R1F7.jpg">
       <Filter>images\Walkthrough Images</Filter>
     </Image>
+    <Image Include="Assets\10ft Tank Guided Tour\10ft_001.jpg">
+      <Filter>images\10ft Guided Tour</Filter>
+    </Image>
+    <Image Include="Assets\10ft Tank Guided Tour\10ft_002.jpg">
+      <Filter>images\10ft Guided Tour</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <None Include="fishparty_TemporaryKey.pfx">
@@ -610,12 +610,6 @@
       <Filter>guided tour pages</Filter>
     </Page>
     <Page Include="water_treatment.xaml">
-      <Filter>guided tour pages</Filter>
-    </Page>
-    <Page Include="six_foot_tanks.xaml">
-      <Filter>guided tour pages</Filter>
-    </Page>
-    <Page Include="six_foot_tanks_2.xaml">
       <Filter>guided tour pages</Filter>
     </Page>
     <Page Include="walkthrough_start1.xaml">
@@ -807,6 +801,12 @@
     <Page Include="walkthrough_F1R1F4R1F7.xaml">
       <Filter>Walkthrough Pages</Filter>
     </Page>
+    <Page Include="ten_foot_tanks.xaml">
+      <Filter>guided tour pages</Filter>
+    </Page>
+    <Page Include="ten_foot_tanks_2.xaml">
+      <Filter>guided tour pages</Filter>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="images">
@@ -817,9 +817,6 @@
     </Filter>
     <Filter Include="images\5ft Guided Tour">
       <UniqueIdentifier>{22b26b48-cd08-4abe-9384-5c5f25b0507d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="images\6ft Guided Tour">
-      <UniqueIdentifier>{31930c9e-fec1-446c-b3c5-dc3e5bae2966}</UniqueIdentifier>
     </Filter>
     <Filter Include="images\Front Tanks Guided Tour">
       <UniqueIdentifier>{eedd53d9-470b-4935-a004-0c830818e5ca}</UniqueIdentifier>
@@ -844,6 +841,9 @@
     </Filter>
     <Filter Include="webpages">
       <UniqueIdentifier>{fddbb908-70be-40b0-b051-10f2bd1f410b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="images\10ft Guided Tour">
+      <UniqueIdentifier>{31930c9e-fec1-446c-b3c5-dc3e5bae2966}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

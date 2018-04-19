@@ -1,11 +1,11 @@
 ﻿//
-// six_foot_tanks_2.xaml.h
-// Declaration of the six_foot_tanks_2 class
+// ten_foot_tanks_2.xaml.h
+// Declaration of the ten_foot_tanks_2 class
 //
 
 #pragma once
 
-#include "six_foot_tanks_2.g.h"
+#include "ten_foot_tanks_2.g.h"
 
 namespace fishparty
 {
@@ -13,10 +13,10 @@ namespace fishparty
 	/// An empty page that can be used on its own or navigated to within a Frame.
 	/// </summary>
 	[Windows::Foundation::Metadata::WebHostHidden]
-	public ref class six_foot_tanks_2 sealed
+	public ref class ten_foot_tanks_2 sealed
 	{
 	public:
-		six_foot_tanks_2();
+		ten_foot_tanks_2();
 	private:
 		Hometimer new_timer;
 
