@@ -43,6 +43,8 @@
             <Button Grid.Column="0" Grid.Row="1" HorizontalAlignment="Center" Background="{x:Null}" Click="left_Click">
                 <Image Source="Assets/left_arrow.png" HorizontalAlignment="Center"/>
             </Button>
+            <local:home_button Grid.Row="2" Grid.Column="0"/>
+            <local:walkthrough_nav Grid.Row="2" Grid.Column="2"/>
 
         </Grid>
 

@@ -24,7 +24,6 @@
     <ClCompile Include="walkthrough_L1F1R1.xaml.cpp" />
     <ClCompile Include="walkthrough_L1F2.xaml.cpp" />
     <ClCompile Include="walkthrough_L1F2R1.xaml.cpp" />
-    <ClCompile Include="walkthrough_R1.xaml.cpp" />
     <ClCompile Include="walkthrough_F1R1F1.xaml.cpp" />
     <ClCompile Include="walkthrough_F1R1F2.xaml.cpp" />
     <ClCompile Include="walkthrough_F1R1F3.xaml.cpp" />
@@ -74,6 +73,20 @@
     <ClCompile Include="wintake_gas.xaml.cpp" />
     <ClCompile Include="ten_foot_tanks.xaml.cpp" />
     <ClCompile Include="ten_foot_tanks_2.xaml.cpp" />
+    <ClCompile Include="overview_button.xaml.cpp" />
+    <ClCompile Include="walkthrough_F1R1F4R1.xaml.cpp" />
+    <ClCompile Include="walkthrough_F1R1F4R1F1.xaml.cpp" />
+    <ClCompile Include="walkthrough_F1R1F4R1F2.xaml.cpp" />
+    <ClCompile Include="walkthrough_F1R1F4R1F3.xaml.cpp" />
+    <ClCompile Include="walkthrough_F1R1F4R1F4.xaml.cpp" />
+    <ClCompile Include="walkthrough_F1R1F4R1F5.xaml.cpp" />
+    <ClCompile Include="walkthrough_F1R1F4R1F6.xaml.cpp" />
+    <ClCompile Include="walkthrough_F1R1F4R1F7.xaml.cpp" />
+    <ClCompile Include="walkthrough_F4L1F3.xaml.cpp" />
+    <ClCompile Include="walkthrough_F4L1F4.xaml.cpp" />
+    <ClCompile Include="walkthrough_F4L1F5.xaml.cpp" />
+    <ClCompile Include="walkthrough_F4L1F6.xaml.cpp" />
+    <ClCompile Include="walkthrough_F4L1F7.xaml.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="air.xaml.h" />
@@ -99,7 +112,6 @@
     <ClInclude Include="walkthrough_L1F1R1.xaml.h" />
     <ClInclude Include="walkthrough_L1F2.xaml.h" />
     <ClInclude Include="walkthrough_L1F2R1.xaml.h" />
-    <ClInclude Include="walkthrough_R1.xaml.h" />
     <ClInclude Include="walkthrough_F1R1F1.xaml.h" />
     <ClInclude Include="walkthrough_F1R1F2.xaml.h" />
     <ClInclude Include="walkthrough_F1R1F3.xaml.h" />
@@ -155,6 +167,20 @@
     <ClInclude Include="wintake_gas.xaml.h" />
     <ClInclude Include="ten_foot_tanks.xaml.h" />
     <ClInclude Include="ten_foot_tanks_2.xaml.h" />
+    <ClInclude Include="overview_button.xaml.h" />
+    <ClInclude Include="walkthrough_F1R1F4R1.xaml.h" />
+    <ClInclude Include="walkthrough_F1R1F4R1F1.xaml.h" />
+    <ClInclude Include="walkthrough_F1R1F4R1F2.xaml.h" />
+    <ClInclude Include="walkthrough_F1R1F4R1F3.xaml.h" />
+    <ClInclude Include="walkthrough_F1R1F4R1F4.xaml.h" />
+    <ClInclude Include="walkthrough_F1R1F4R1F5.xaml.h" />
+    <ClInclude Include="walkthrough_F1R1F4R1F6.xaml.h" />
+    <ClInclude Include="walkthrough_F1R1F4R1F7.xaml.h" />
+    <ClInclude Include="walkthrough_F4L1F3.xaml.h" />
+    <ClInclude Include="walkthrough_F4L1F4.xaml.h" />
+    <ClInclude Include="walkthrough_F4L1F5.xaml.h" />
+    <ClInclude Include="walkthrough_F4L1F6.xaml.h" />
+    <ClInclude Include="walkthrough_F4L1F7.xaml.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\down_arrow.png">
@@ -535,6 +561,9 @@
     <Image Include="Assets\10ft Tank Guided Tour\10ft_002.jpg">
       <Filter>images\10ft Guided Tour</Filter>
     </Image>
+    <Image Include="Assets\compass.png">
+      <Filter>images</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <None Include="fishparty_TemporaryKey.pfx">
@@ -584,6 +613,9 @@
       <Filter>webpages</Filter>
     </None>
     <None Include="guided_tour_content\5ft_tanks\header_tanks.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\10ft_tanks\10ft_tanks_overview.htm">
       <Filter>webpages</Filter>
     </None>
   </ItemGroup>
@@ -809,6 +841,9 @@
     </Page>
     <Page Include="ten_foot_tanks_2.xaml">
       <Filter>guided tour pages</Filter>
+    </Page>
+    <Page Include="walkthrough_nav.xaml">
+      <Filter>global resources</Filter>
     </Page>
   </ItemGroup>
   <ItemGroup>

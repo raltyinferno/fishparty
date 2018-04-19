@@ -13,27 +13,44 @@
     </Page.Resources>
 
     <Grid Background="{StaticResource walk1}" x:Name="page_grid">
-
+        <local:navigation_button/>
+        <local:home_button/>
         <Grid Style="{StaticResource title_grid_style}">
-            <Rectangle Style="{StaticResource title_box_style}" Width="811"/>
+            <Rectangle Style="{StaticResource title_box_style}" Width="850"/>
             <TextBlock Style="{StaticResource title_text_style}">10 Foot Tanks</TextBlock>
+            <local:overview_button Tapped="show_overview"/>
         </Grid>
 
 
        
 
 
-        <Button x:Name="overhead_button" Content="Return" Style="{StaticResource guided_forward_button}" Click="return_button_Click" Height="129.812" Width="278.137" FontSize="28" RenderTransformOrigin="0.5,0.5" Margin="0,0,94.437,893.925" UseLayoutRounding="False" d:LayoutRounding="Auto" FontWeight="Bold" Foreground="Black" Background="#66FFFFFF">
+        <Button x:Name="overhead_button" Content="Return" Style="{StaticResource guided_forward_button}" Click="return_button_Click" 
+                Height="129.812" Width="278.137" FontSize="28" RenderTransformOrigin="0.5,0.5" Margin="0,0,94.437,893.925" 
+                UseLayoutRounding="False" d:LayoutRounding="Auto" FontWeight="Bold" Foreground="Black" Background="LightGreen">
             <Button.RenderTransform>
                 <CompositeTransform TranslateX="39" Rotation="-0.903"/>
             </Button.RenderTransform>
         </Button>
 
+        <!--Webview layout structure-->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <WebView x:Name="content_webview" Style="{StaticResource content_display_style}"/>
+            <Button x:Name="close_button" Style="{StaticResource content_display_close_style}" Click="close_Click"/>
+        </Grid>
 
 
-
-        <local:navigation_button/>
-        <local:home_button/>
+        
         <Button Style="{StaticResource guided_forward_button}" Click="next_page_Click">
             <StackPanel Orientation="Horizontal">
                 <TextBlock VerticalAlignment="Center">30ft Tanks</TextBlock>

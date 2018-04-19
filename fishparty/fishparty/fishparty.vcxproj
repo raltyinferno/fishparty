@@ -329,6 +329,9 @@
     <ClInclude Include="walkthrough_L1F2R1.xaml.h">
       <DependentUpon>walkthrough_L1F2R1.xaml</DependentUpon>
     </ClInclude>
+    <ClInclude Include="walkthrough_nav.xaml.h">
+      <DependentUpon>walkthrough_nav.xaml</DependentUpon>
+    </ClInclude>
     <ClInclude Include="water_intake.xaml.h">
       <DependentUpon>water_intake.xaml</DependentUpon>
     </ClInclude>
@@ -386,14 +389,10 @@
     <Page Include="navigation_button.xaml">
       <SubType>Designer</SubType>
     </Page>
-<<<<<<< HEAD
     <Page Include="overview_button.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="six_foot_tanks.xaml">
-=======
     <Page Include="ten_foot_tanks.xaml">
->>>>>>> 22e0c2b16aca1b54ef6d8fbee6ef0b25368312db
       <SubType>Designer</SubType>
     </Page>
     <Page Include="ten_foot_tanks_2.xaml">
@@ -555,6 +554,9 @@
     <Page Include="walkthrough_L1F1R1.xaml" />
     <Page Include="walkthrough_L1F2.xaml" />
     <Page Include="walkthrough_L1F2R1.xaml" />
+    <Page Include="walkthrough_nav.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="water_intake.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -601,6 +603,9 @@
       <DeploymentContent>true</DeploymentContent>
     </None>
     <None Include="fishparty_TemporaryKey.pfx" />
+    <None Include="guided_tour_content\10ft_tanks\10ft_tanks_overview.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
     <None Include="guided_tour_content\5ft_tanks\5ft_tanks_overview.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
@@ -662,6 +667,7 @@
     <Image Include="Assets\boiler_room.jpg" />
     <Image Include="Assets\boiler_room2.jpg" />
     <Image Include="Assets\co2.jpg" />
+    <Image Include="Assets\compass.png" />
     <Image Include="Assets\delivery_truck2.png" />
     <Image Include="Assets\delivery_truck3.jpg" />
     <Image Include="Assets\down_arrow.png" />
@@ -780,16 +786,11 @@
       <DependentUpon>navigation_button.xaml</DependentUpon>
     </ClCompile>
     <ClCompile Include="open_webpage.cpp" />
-<<<<<<< HEAD
     <ClCompile Include="overview_button.xaml.cpp">
       <DependentUpon>overview_button.xaml</DependentUpon>
     </ClCompile>
-    <ClCompile Include="six_foot_tanks.xaml.cpp">
-      <DependentUpon>six_foot_tanks.xaml</DependentUpon>
-=======
     <ClCompile Include="ten_foot_tanks.xaml.cpp">
       <DependentUpon>ten_foot_tanks.xaml</DependentUpon>
->>>>>>> 22e0c2b16aca1b54ef6d8fbee6ef0b25368312db
     </ClCompile>
     <ClCompile Include="ten_foot_tanks_2.xaml.cpp">
       <DependentUpon>ten_foot_tanks_2.xaml</DependentUpon>
@@ -967,6 +968,9 @@
     </ClCompile>
     <ClCompile Include="walkthrough_L1F2R1.xaml.cpp">
       <DependentUpon>walkthrough_L1F2R1.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="walkthrough_nav.xaml.cpp">
+      <DependentUpon>walkthrough_nav.xaml</DependentUpon>
     </ClCompile>
     <ClCompile Include="water_intake.xaml.cpp">
       <DependentUpon>water_intake.xaml</DependentUpon>

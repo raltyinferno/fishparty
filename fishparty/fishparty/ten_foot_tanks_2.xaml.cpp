@@ -43,3 +43,17 @@ void fishparty::ten_foot_tanks_2::prev_page_Click(Platform::Object^ sender, Wind
 {
 	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(fivetanks::typeid));
 }
+
+
+void fishparty::ten_foot_tanks_2::show_overview(Platform::Object^ sender, Windows::UI::Xaml::Input::TappedRoutedEventArgs^ e)
+{
+	open_content("ms-appx-web:///guided_tour_content/10ft_tanks/10ft_tanks_overview.htm", content_webview, close_button);
+}
+
+
+void fishparty::ten_foot_tanks_2::close_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	content_webview->Visibility = Windows::UI::Xaml::Visibility::Collapsed;
+	close_button->Visibility = Windows::UI::Xaml::Visibility::Collapsed;
+	new_timer.reset_Timer();
+}
