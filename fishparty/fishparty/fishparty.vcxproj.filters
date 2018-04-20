@@ -87,6 +87,7 @@
     <ClCompile Include="walkthrough_F4L1F5.xaml.cpp" />
     <ClCompile Include="walkthrough_F4L1F6.xaml.cpp" />
     <ClCompile Include="walkthrough_F4L1F7.xaml.cpp" />
+    <ClCompile Include="walkthrough_nav.xaml.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="air.xaml.h" />
@@ -181,6 +182,7 @@
     <ClInclude Include="walkthrough_F4L1F5.xaml.h" />
     <ClInclude Include="walkthrough_F4L1F6.xaml.h" />
     <ClInclude Include="walkthrough_F4L1F7.xaml.h" />
+    <ClInclude Include="walkthrough_nav.xaml.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\down_arrow.png">
@@ -562,6 +564,9 @@
       <Filter>images\10ft Guided Tour</Filter>
     </Image>
     <Image Include="Assets\compass.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\magnify.png">
       <Filter>images</Filter>
     </Image>
   </ItemGroup>
