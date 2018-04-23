@@ -569,6 +569,9 @@
     <Image Include="Assets\magnify.png">
       <Filter>images</Filter>
     </Image>
+    <Image Include="Assets\Effluent Guided Tour\effluent.jpg">
+      <Filter>images\Effluent Guided Tour</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <None Include="fishparty_TemporaryKey.pfx">
@@ -634,6 +637,8 @@
     </None>
     <None Include="guided_tour_content\water_intake\wintake_page_overview.htm">
       <Filter>webpages\water_intake</Filter>
+    <None Include="guided_tour_content\effluent\effluent.htm">
+      <Filter>webpages</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
@@ -862,6 +867,9 @@
     <Page Include="walkthrough_nav.xaml">
       <Filter>global resources</Filter>
     </Page>
+    <Page Include="effluent.xaml">
+      <Filter>guided tour pages</Filter>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="images">
@@ -902,6 +910,8 @@
     </Filter>
     <Filter Include="webpages\water_intake">
       <UniqueIdentifier>{ae6ed30f-2878-4aea-aa01-d96da92a078d}</UniqueIdentifier>
+    <Filter Include="images\Effluent Guided Tour">
+      <UniqueIdentifier>{b546c10e-e36f-4b8f-ae44-625dcb1dba7c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

@@ -48,6 +48,7 @@
             <WebView x:Name="content_webview" Style="{StaticResource content_display_style}"/>
             <Button x:Name="close_button" Style="{StaticResource content_display_close_style}" Click="close_Click"/>
         </Grid>
+        
 
 
         

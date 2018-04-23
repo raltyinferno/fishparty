@@ -12,8 +12,10 @@
         <ImageBrush x:Key="tfFbgGrid" ImageSource="/Assets/25ft Filters/filter_bg.jpg" Opacity=".85" Stretch="UniformToFill" />
         <ImageBrush x:Key="round_icon" ImageSource="/Assets/Round_Icon.png" Opacity="1" />
     </Page.Resources>
-    
+
     <Grid Background="{ThemeResource tfFbgGrid}">
+        <local:navigation_button/>
+        <local:home_button/>
         <!-- Title -->
         <Grid Style="{StaticResource title_grid_style}">
             <Rectangle Style="{StaticResource title_box_style}" Width="1180"/>
@@ -21,25 +23,17 @@
         </Grid>
         <!-- End Title -->
 
-        <!-- navigation sidebar -->
-        <local:navigation_button/>
-        <!-- end navigation sidebar -->
+        
 
         <!-- Page Buttons -->
         <Button Style="{StaticResource guided_forward_button}" Click="next_page_Click">
-            <StackPanel Orientation="Horizontal">
-                <TextBlock VerticalAlignment="Center">Oxygen Gen</TextBlock>
-                <!--<Image Source="{StaticResource advance_icon}" Height="50" Width="50"/>-->
-            </StackPanel>
+            <TextBlock VerticalAlignment="Center">Effluent</TextBlock>
         </Button>
         <Button Style="{StaticResource guided_back_button}" Click="prev_page_Click">
-            <StackPanel Orientation="Horizontal">
-                <!--<Image Source="{StaticResource back_icon}" Height="50" Width="50"/>-->
-                <TextBlock VerticalAlignment="Center">30ft Tanks</TextBlock>
-            </StackPanel>
+            <TextBlock VerticalAlignment="Center">30ft Tanks</TextBlock>
         </Button>
 
-        <local:home_button/>
+        
         
         <!-- End Page Buttons -->
     </Grid>

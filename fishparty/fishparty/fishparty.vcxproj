@@ -139,6 +139,9 @@
     <ClInclude Include="air.xaml.h">
       <DependentUpon>air.xaml</DependentUpon>
     </ClInclude>
+    <ClInclude Include="effluent.xaml.h">
+      <DependentUpon>effluent.xaml</DependentUpon>
+    </ClInclude>
     <ClInclude Include="home_button.xaml.h">
       <DependentUpon>home_button.xaml</DependentUpon>
     </ClInclude>
@@ -383,6 +386,9 @@
     <Page Include="air.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="effluent.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="home_button.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -613,6 +619,9 @@
       <DeploymentContent>true</DeploymentContent>
     </None>
     <None Include="guided_tour_content\css\singlePageTemplate.css" />
+    <None Include="guided_tour_content\effluent\effluent.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
     <None Include="guided_tour_content\fish_delivery\delivery_process.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
@@ -683,6 +692,7 @@
     <Image Include="Assets\delivery_truck2.png" />
     <Image Include="Assets\delivery_truck3.jpg" />
     <Image Include="Assets\down_arrow.png" />
+    <Image Include="Assets\Effluent Guided Tour\effluent.jpg" />
     <Image Include="Assets\Egg Room Guided Tour\egg_001.jpg" />
     <Image Include="Assets\Egg Room Guided Tour\egg_002.jpg" />
     <Image Include="Assets\Egg Room Guided Tour\egg_002_01.jpg" />
@@ -791,6 +801,9 @@
   <ItemGroup>
     <ClCompile Include="air.xaml.cpp">
       <DependentUpon>air.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="effluent.xaml.cpp">
+      <DependentUpon>effluent.xaml</DependentUpon>
     </ClCompile>
     <ClCompile Include="home_button.xaml.cpp">
       <DependentUpon>home_button.xaml</DependentUpon>

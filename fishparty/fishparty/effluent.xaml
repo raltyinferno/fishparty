@@ -1,24 +1,27 @@
 ﻿<Page
-    x:Class="fishparty.air"
+    x:Class="fishparty.effluent"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:fishparty"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:controls="using:fishparty"
-    mc:Ignorable="d">
+    mc:Ignorable="d"
+    Loaded="show_overview">
 
     <Page.Resources>
-        <ImageBrush x:Name="background" ImageSource="Assets/air_background.jpg" Opacity="1"/>
+        <ImageBrush x:Key="eff_back" ImageSource="Assets/effluent guided tour/effluent.jpg" Opacity="1" Stretch="UniformToFill"/>
     </Page.Resources>
 
-    <Grid Background="{StaticResource background}">
-
+    <Grid Background="{StaticResource eff_back}">
+        <local:navigation_button/>
+        <local:home_button/>
         <Grid Style="{StaticResource title_grid_style}">
-            <Rectangle Style="{StaticResource title_box_style}" Width="1150"/>
-            <TextBlock Style="{StaticResource title_text_style}" >Oxygen Generation</TextBlock>
+            <Rectangle Style="{StaticResource title_box_style}" Width="540"/>
+            <TextBlock Style="{StaticResource title_text_style}">Effluent</TextBlock>
+            <local:overview_button Tapped="show_overview"/>
         </Grid>
-
+        
+        <!--Webview layout structure-->
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="1*"/>
@@ -34,15 +37,12 @@
             <Button x:Name="close_button" Style="{StaticResource content_display_close_style}" Click="close_Click"/>
         </Grid>
 
-        <local:navigation_button/>
-        <local:home_button/>
-        <Button Style="{StaticResource guided_forward_button}" Click="next_page_Click">
-            <TextBlock VerticalAlignment="Center">Fish Release</TextBlock>
-        </Button>
+
         <Button Style="{StaticResource guided_back_button}" Click="prev_page_Click">
-            <TextBlock VerticalAlignment="Center">Effluent</TextBlock>
+            <TextBlock VerticalAlignment="Center">30ft Filters</TextBlock>
         </Button>
-
-
+        <Button Style="{StaticResource guided_forward_button}" Click="next_page_Click">
+            <TextBlock VerticalAlignment="Center">Oxygen Gen</TextBlock>
+        </Button>
     </Grid>
 </Page>

@@ -63,3 +63,16 @@ void fishparty::fish_delivery::home_button_Loaded(Platform::Object^ sender, Wind
 {
 
 }
+
+
+void fishparty::fish_delivery::show_overview(Platform::Object^ sender, Windows::UI::Xaml::Input::TappedRoutedEventArgs^ e)
+{
+	open_content("ms-appx-web:///guided_tour_content/fish_delivery/delivery_process.htm", content_webview, close_button);
+	timeout.reset_Timer();
+}
+
+
+void fishparty::fish_delivery::next_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(MainPage::typeid));
+}

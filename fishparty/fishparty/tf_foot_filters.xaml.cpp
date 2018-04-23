@@ -29,7 +29,7 @@ tf_foot_filters::tf_foot_filters()
 
 void fishparty::tf_foot_filters::next_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(air::typeid));
+	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(effluent::typeid));
 }
 
 
