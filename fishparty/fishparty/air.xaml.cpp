@@ -42,5 +42,5 @@ void fishparty::air::close_Click(Platform::Object^ sender, Windows::UI::Xaml::Ro
 
 void fishparty::air::prev_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(tf_foot_filters::typeid));
+	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(effluent::typeid));
 }

@@ -6,7 +6,8 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:controls="using:fishparty"
-    mc:Ignorable="d">
+    mc:Ignorable="d"
+    Loaded="show_overview">
     <Page.Resources>
         <ImageBrush x:Key="delivery_truck" ImageSource="/Assets/delivery_truck3.jpg" Opacity="1" Stretch="UniformToFill"/>
     </Page.Resources>
@@ -14,17 +15,20 @@
     <Grid Background="{StaticResource delivery_truck}" x:Name="page_grid">
         <controls:home_button/>
         <controls:navigation_button/>
-        <Button Style="{StaticResource guided_back_button}" Click="prev_page_Click" >
-            <StackPanel Orientation="Horizontal">
-                <!--<Image Source="{StaticResource back_icon}" Height="50" Width="50"/>-->
-                <TextBlock VerticalAlignment="Center"><Run Text="Oxygen Gen"/></TextBlock>
-            </StackPanel>
-        </Button>
 
         <Grid Style="{StaticResource title_grid_style}">
-            <Rectangle Style="{StaticResource title_box_style}" Width="774"/>
-            <TextBlock Style="{StaticResource title_text_style}"><Run Text="Fish Release"/></TextBlock>
+            <Rectangle Style="{StaticResource title_box_style}" Width="840"/>
+            <TextBlock Style="{StaticResource title_text_style}"><Run Text="Fish Stocking"/></TextBlock>
+            <local:overview_button Tapped="show_overview"/>
         </Grid>
+        <Button Style="{StaticResource guided_back_button}" Click="prev_page_Click" >
+            <TextBlock VerticalAlignment="Center"><Run Text="Oxygen Gen"/></TextBlock>
+        </Button>
+        <Button Style="{StaticResource guided_forward_button}" Click="next_page_Click">
+            <TextBlock VerticalAlignment="Center">Finish Tour</TextBlock>
+        </Button>
+
+        
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="147*"/>

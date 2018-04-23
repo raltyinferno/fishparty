@@ -25,6 +25,7 @@
         <Button x:Name="tentanks"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Rearing (10ft Tanks)" Click="siz_tanks_Click"/>
         <Button x:Name="life_support"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Rearing (30' Tanks)" Click="tf_tanks_Click"/>
         <Button x:Name="life_sup_filt" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Filters (30' Tanks)" Click="tf_filts_Click"/>
+        <Button x:Name="effluent" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Effluent" Click="effluent_Click"/>
         <Button x:Name="air"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Oxygen Generation" Click="air_click"/>
         <Button x:Name="release"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Fish Release" Click="delivery_Click"/>
     </StackPanel>

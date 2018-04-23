@@ -27,6 +27,9 @@
 #include "tf_foot_filters.xaml.h"
 //
 
+// Effluent pages
+#include "effluent.xaml.h"
+//
 
 // Walkthrough Pages
 #include "walkthrough_start1.xaml.h"
