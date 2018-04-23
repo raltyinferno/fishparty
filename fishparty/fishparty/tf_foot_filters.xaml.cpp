@@ -38,3 +38,18 @@ void fishparty::tf_foot_filters::prev_page_Click(Platform::Object^ sender, Windo
 	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(tf_foot_tanks::typeid));
 
 }
+
+
+void fishparty::tf_foot_filters::show_overview(Platform::Object^ sender, Windows::UI::Xaml::Input::TappedRoutedEventArgs^ e)
+{
+	open_content("ms-appx-web:///guided_tour_content/30ft_filters/30ft_filters_overview.htm", content_webview, close_button);
+	new_timer.reset_Timer();
+}
+
+
+void fishparty::tf_foot_filters::close_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	content_webview->Visibility = Windows::UI::Xaml::Visibility::Collapsed;
+	close_button->Visibility = Windows::UI::Xaml::Visibility::Collapsed;
+	new_timer.reset_Timer();
+}

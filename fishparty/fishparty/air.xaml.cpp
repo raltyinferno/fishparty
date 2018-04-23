@@ -44,3 +44,10 @@ void fishparty::air::prev_page_Click(Platform::Object^ sender, Windows::UI::Xaml
 {
 	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(effluent::typeid));
 }
+
+
+void fishparty::air::show_overview(Platform::Object^ sender, Windows::UI::Xaml::Input::TappedRoutedEventArgs^ e)
+{
+	open_content("ms-appx-web:///guided_tour_content/oxygen_generation/oxygen_generation_overview.htm", content_webview, close_button);
+	timeout.reset_Timer();
+}

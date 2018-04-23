@@ -37,6 +37,20 @@
             </Button.RenderTransform>
         </Button>
 
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <Button Grid.Column="0" Grid.Row="1" Style="{StaticResource content_display_open_style}"
+                    VerticalAlignment="Top" HorizontalAlignment="Right"
+                    Height="150" Width="150" Content="Tank Structure" />
+        </Grid>
+
         <!--Webview layout structure-->
         <Grid>
             <Grid.ColumnDefinitions>
@@ -53,19 +67,7 @@
             <Button x:Name="close_button" Style="{StaticResource content_display_close_style}" Click="close_Click"/>
         </Grid>
 
-        <Grid>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="1*"/>
-                <ColumnDefinition Width="2*"/>
-            </Grid.ColumnDefinitions>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="3*"/>
-                <RowDefinition Height="1*"/>
-            </Grid.RowDefinitions>
-            <Button Grid.Column="0" Grid.Row="1" Style="{StaticResource content_display_open_style}"
-                    VerticalAlignment="Top" HorizontalAlignment="Right"
-                    Height="150" Width="150" Content="Tank Structure" />
-        </Grid>
+        
 
 
         <Button Style="{StaticResource guided_forward_button}" Click="next_page_Click">

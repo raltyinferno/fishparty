@@ -6,7 +6,8 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:controls="using:fishparty"
-    mc:Ignorable="d">
+    mc:Ignorable="d"
+    Loaded="show_overview">
 
     <Page.Resources>
         <ImageBrush x:Name="background" ImageSource="Assets/air_background.jpg" Opacity="1"/>
@@ -17,6 +18,7 @@
         <Grid Style="{StaticResource title_grid_style}">
             <Rectangle Style="{StaticResource title_box_style}" Width="1150"/>
             <TextBlock Style="{StaticResource title_text_style}" >Oxygen Generation</TextBlock>
+            <local:overview_button Tapped="show_overview"/>
         </Grid>
 
         <Grid>

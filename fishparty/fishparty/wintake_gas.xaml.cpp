@@ -71,3 +71,10 @@ void fishparty::wintake_gas::back_to_wintake_Click(Platform::Object^ sender, Win
 {
 	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(water_intake::typeid));
 }
+
+
+void fishparty::wintake_gas::show_overview(Platform::Object^ sender, Windows::UI::Xaml::Input::TappedRoutedEventArgs^ e)
+{
+	open_content("ms-appx-web:///guided_tour_content/gas_conditioning/gas_conditioning_overview.htm", content_webview, close_button);
+	timeout.reset_Timer();
+}

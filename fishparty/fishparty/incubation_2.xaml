@@ -6,7 +6,8 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:controls="using:fishparty"
-    mc:Ignorable="d">
+    mc:Ignorable="d"
+    Loaded="page_load_info">
 
     <Page.Resources>
         <ImageBrush ImageSource="Assets/Egg Room Guided Tour/egg_002.jpg" x:Key="walk1" Opacity="1" Stretch="UniformToFill"/>
@@ -16,8 +17,9 @@
         <local:home_button/>
         <local:navigation_button/>
         <Grid Style="{StaticResource title_grid_style}">
-            <Rectangle Style="{StaticResource title_box_style}" Width="669" Margin="0,0,-29,0"/>
+            <Rectangle Style="{StaticResource title_box_style}" Width="680"/>
             <TextBlock Style="{StaticResource title_text_style}">Incubation</TextBlock>
+            <local:overview_button Tapped="page_load_info"/>
         </Grid>
 
         <Grid>
@@ -50,13 +52,13 @@
                 Header Tanks
             </Button>
 
-            <Button Style="{StaticResource content_display_open_style}" Grid.Row="0" Grid.Column="0"
+            <!--<Button Style="{StaticResource content_display_open_style}" Grid.Row="0" Grid.Column="0"
                     HorizontalAlignment="Left" VerticalAlignment="Top" Click="incubation_info_Click"
                     Margin="0,95"
                     Loaded="page_load_info"
                     Height="50" Width="50">
                 i
-            </Button>
+            </Button>-->
         </Grid>
 
         <!--Webview layout structure-->

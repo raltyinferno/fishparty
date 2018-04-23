@@ -49,6 +49,7 @@ void fishparty::fivetanks::header_tanks_Click(Platform::Object^ sender, Windows:
 void fishparty::fivetanks::show_overview(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
 	open_content("ms-appx-web:///guided_tour_content/5ft_tanks/5ft_tanks_overview.htm", content_webview, close_button);
+	new_timer.reset_Timer();
 }
 
 

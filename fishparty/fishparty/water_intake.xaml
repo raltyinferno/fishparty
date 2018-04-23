@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     xmlns:controls="using:fishparty"
-    >
+    Loaded="page_load_wintake">
 
     <Page.Resources>
         <ImageBrush x:Key="water_intake" ImageSource="/Assets/bg_wintake.jpg" Opacity="1" Stretch="UniformToFill"/>
@@ -15,9 +15,12 @@
         
         
     <Grid Background="{StaticResource water_intake}" x:Name="page_grid">
+        <local:navigation_button/>
+        <local:home_button/>
         <Grid Style="{StaticResource title_grid_style}">
             <Rectangle Style="{StaticResource title_box_style}" Width="768"/>
             <TextBlock Style="{StaticResource title_text_style}">Water Intake</TextBlock>
+            <local:overview_button Tapped="page_load_wintake"/>
         </Grid>
 
         <Grid>
@@ -42,13 +45,13 @@
                     Height="220" Width="220">
                 Second Stage Filtering
             </Button>
-            <Button Style="{StaticResource content_display_open_style}" Grid.Row="0" Grid.Column="0"
+            <!--<Button Style="{StaticResource content_display_open_style}" Grid.Row="0" Grid.Column="0"
                     HorizontalAlignment="Left" VerticalAlignment="Top" Click="wintake_info_Click"
                     Margin="0,95"
                     Loaded="page_load_wintake"
                     Height="50" Width="50">
                 i
-            </Button>
+            </Button>-->
             <Button Style="{StaticResource AccentButtonStyle}" Grid.Row="0" Grid.Column="3"
                     VerticalAlignment="Top" HorizontalAlignment="Right"
                     Click="wintake_gas_Click">
@@ -73,8 +76,7 @@
             <Button x:Name="close_button" Style="{StaticResource content_display_close_style}" Click="close_Click"/>
         </Grid>
 
-        <local:navigation_button/>
-        <local:home_button/>
+        
         <Button Style="{StaticResource guided_forward_button}" Click="next_page_Click">
             <StackPanel Orientation="Horizontal">
                 <TextBlock VerticalAlignment="Center">Egg Receiving</TextBlock>

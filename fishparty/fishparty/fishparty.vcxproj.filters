@@ -629,6 +629,18 @@
     <None Include="guided_tour_content\effluent\effluent.htm">
       <Filter>webpages</Filter>
     </None>
+    <None Include="guided_tour_content\oxygen_generation\oxygen_generation_overview.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\30ft_filters\30ft_filters_overview.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\30ft_tanks\30ft_tanks_overview.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\gas_conditioning\gas_conditioning_overview.htm">
+      <Filter>webpages</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Page Include="hatchery_map.xaml" />

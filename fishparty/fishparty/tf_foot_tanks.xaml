@@ -6,14 +6,27 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:controls="using:fishparty"
-    mc:Ignorable="d">
+    mc:Ignorable="d"
+    Loaded="show_overview">
 
     <Page.Resources>
         <ImageBrush x:Key="thirtybgGrid" ImageSource="/Assets/25ft Tank/25ft_oh.jpg" Opacity=".85" Stretch="UniformToFill" />
     </Page.Resources>
         
     <Grid Background="{ThemeResource thirtybgGrid}" x:Name="bg_grid">
-
+        <!-- navigation/home buttons -->
+        <local:navigation_button/>
+        <local:home_button/>
+        <!-- end navigation/home buttons -->
+        
+        <!-- Title -->
+        <Grid Style="{StaticResource title_grid_style}">
+            <Rectangle Style="{StaticResource title_box_style}" Width="850"/>
+            <TextBlock Style="{StaticResource title_text_style}">30 Foot Tanks</TextBlock>
+            <local:overview_button Tapped="show_overview"/>
+        </Grid>
+        <!-- End Title -->
+        
         <!-- FEEDER BUTTON -->
         <Button Height="100" 
                 Width="100" 
@@ -84,17 +97,25 @@
         </Button>
         <!-- END T CLOSE UP BUTTON -->
 
-        <!-- Title -->
-        <Grid Style="{StaticResource title_grid_style}">
-            <Rectangle Style="{StaticResource title_box_style}" Width="850"/>
-            <TextBlock Style="{StaticResource title_text_style}">30 Foot Tanks</TextBlock>
+        <!--Webview layout structure-->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <WebView x:Name="content_webview" Style="{StaticResource content_display_style}"/>
+            <Button x:Name="close_button" Style="{StaticResource content_display_close_style}" Click="close_Click"/>
         </Grid>
-        <!-- End Title -->
-        
-        <!-- navigation/home buttons -->
-        <local:navigation_button/>
-        <local:home_button/>
-        <!-- end navigation/home buttons -->
+
+
+
+
 
         <!-- Page Buttons -->
         <Button Style="{StaticResource guided_forward_button}" Click="next_page_Click">

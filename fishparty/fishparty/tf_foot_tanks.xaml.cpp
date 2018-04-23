@@ -52,3 +52,18 @@ void fishparty::tf_foot_tanks::t_close_butt_Click(Platform::Object^ sender, Wind
 {
 	timeout.reset_Timer();
 }
+
+
+void fishparty::tf_foot_tanks::show_overview(Platform::Object^ sender, Windows::UI::Xaml::Input::TappedRoutedEventArgs^ e)
+{
+	open_content("ms-appx-web:///guided_tour_content/30ft_tanks/30ft_tanks_overview.htm", content_webview, close_button);
+	timeout.reset_Timer();
+}
+
+
+void fishparty::tf_foot_tanks::close_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	content_webview->Visibility = Windows::UI::Xaml::Visibility::Collapsed;
+	close_button->Visibility = Windows::UI::Xaml::Visibility::Collapsed;
+	timeout.reset_Timer();
+}

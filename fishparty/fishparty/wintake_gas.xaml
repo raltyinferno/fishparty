@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     xmlns:controls="using:fishparty"
-    >
+    Loaded="show_overview">
 
     <Page.Resources>
         <ImageBrush x:Key="nostreat" ImageSource="/Assets/nitrogen.jpg" Opacity=".85" Stretch="UniformToFill" />
@@ -17,6 +17,8 @@
 
 
     <Grid Background="{StaticResource splash_background}" x:Name="page_grid">
+        <local:navigation_button/>
+        <local:home_button/>
 
         <Grid>
             <Grid.ColumnDefinitions>
@@ -66,6 +68,7 @@
             <Grid Style="{StaticResource title_grid_style}" >
                 <Rectangle Style="{StaticResource title_box_style}" Width="975"/>
                 <TextBlock Style="{StaticResource title_text_style}"><Run Text="Heating and Gas"/></TextBlock>
+                <local:overview_button Tapped="show_overview"/>
             </Grid>
             <!-- <Button Style="{StaticResource content_display_open_style}" Grid.Row="0" Grid.Column="0"
                     HorizontalAlignment="Left" VerticalAlignment="Top" Click="wintake_gas_info_Click"
@@ -93,8 +96,7 @@
             <Button x:Name="close_button" Style="{StaticResource content_display_close_style}" Click="close_Click"/>
         </Grid>
 
-        <local:navigation_button/>
-        <local:home_button/>
+        
 
     </Grid>
 </Page>
