@@ -49,10 +49,12 @@
                     Height="50" Width="50">
                 i
             </Button>
-            <Button Style="{StaticResource AccentButtonStyle}" Grid.Row="0" Grid.Column="3"
+            <Button Grid.Row="0" Grid.Column="3"
                     VerticalAlignment="Top" HorizontalAlignment="Right"
-                    Click="wintake_gas_Click">
-                <TextBlock TextWrapping="WrapWholeWords" FontSize="32">Learn about water heating and gas removal</TextBlock>
+                    Click="wintake_gas_Click"
+                    UseLayoutRounding="False" d:LayoutRounding="Auto" FontWeight="Bold" 
+                    Foreground="Black" Background="LightGreen">
+                <TextBlock TextWrapping="WrapWholeWords" FontSize="32">Learn about heating and gas</TextBlock>
             </Button>
 
         </Grid>
