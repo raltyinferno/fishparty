@@ -13,8 +13,9 @@
         <ImageBrush ImageSource="Assets/walkthrough/walkthrough_F1.jpg" x:Key="walk" Opacity="1" Stretch="UniformToFill"/>
     </Page.Resources>
 
-
+    
     <Grid Background="{StaticResource walk}" x:Name="page_grid">
+        
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition/>
@@ -36,7 +37,7 @@
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-
+            
             <Button Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" Background="{x:Null}" Click="forward_Click">
                 <Image Source="Assets/up_arrow.png" HorizontalAlignment="Center"/>
             </Button>
@@ -51,15 +52,8 @@
 
         </Grid>
 
+        <local:walkthrough_home_nav Grid.ColumnSpan="3" Grid.RowSpan="3"/>
 
-        <Grid  VerticalAlignment="Bottom" HorizontalAlignment="Left" Grid.Row="2">
-
-            <Button Content="Jump to Section" FontSize="20">
-                <Button.Flyout>
-                    <controls:guided_tour_nav />
-                </Button.Flyout>
-            </Button>
-
-        </Grid>
     </Grid>
+    
 </Page>

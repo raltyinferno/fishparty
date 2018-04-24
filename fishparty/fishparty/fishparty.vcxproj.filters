@@ -88,6 +88,7 @@
     <ClCompile Include="walkthrough_F4L1F6.xaml.cpp" />
     <ClCompile Include="walkthrough_F4L1F7.xaml.cpp" />
     <ClCompile Include="walkthrough_nav.xaml.cpp" />
+    <ClCompile Include="effluent.xaml.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="air.xaml.h" />
@@ -183,6 +184,7 @@
     <ClInclude Include="walkthrough_F4L1F6.xaml.h" />
     <ClInclude Include="walkthrough_F4L1F7.xaml.h" />
     <ClInclude Include="walkthrough_nav.xaml.h" />
+    <ClInclude Include="effluent.xaml.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\down_arrow.png">
@@ -641,6 +643,18 @@
     <None Include="guided_tour_content\gas_conditioning\gas_conditioning_overview.htm">
       <Filter>webpages</Filter>
     </None>
+    <None Include="guided_tour_content\water_intake\carbon.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\water_intake\heat.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\water_intake\heat_gas_overview.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\water_intake\nitro.htm">
+      <Filter>webpages</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Page Include="hatchery_map.xaml" />
@@ -870,6 +884,9 @@
     </Page>
     <Page Include="effluent.xaml">
       <Filter>guided tour pages</Filter>
+    </Page>
+    <Page Include="walkthrough_home_nav.xaml">
+      <Filter>global resources</Filter>
     </Page>
   </ItemGroup>
   <ItemGroup>

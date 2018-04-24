@@ -317,6 +317,9 @@
     <ClInclude Include="walkthrough_F5R1.xaml.h">
       <DependentUpon>walkthrough_F5R1.xaml</DependentUpon>
     </ClInclude>
+    <ClInclude Include="walkthrough_home_nav.xaml.h">
+      <DependentUpon>walkthrough_home_nav.xaml</DependentUpon>
+    </ClInclude>
     <ClInclude Include="walkthrough_L1.xaml.h">
       <DependentUpon>walkthrough_L1.xaml</DependentUpon>
     </ClInclude>
@@ -553,6 +556,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="walkthrough_F5R1.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="walkthrough_home_nav.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Include="walkthrough_L1.xaml" />
@@ -991,6 +997,9 @@
     </ClCompile>
     <ClCompile Include="walkthrough_F5R1.xaml.cpp">
       <DependentUpon>walkthrough_F5R1.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="walkthrough_home_nav.xaml.cpp">
+      <DependentUpon>walkthrough_home_nav.xaml</DependentUpon>
     </ClCompile>
     <ClCompile Include="walkthrough_L1.xaml.cpp">
       <DependentUpon>walkthrough_L1.xaml</DependentUpon>
