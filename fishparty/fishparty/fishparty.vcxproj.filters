@@ -89,6 +89,7 @@
     <ClCompile Include="walkthrough_F4L1F7.xaml.cpp" />
     <ClCompile Include="walkthrough_nav.xaml.cpp" />
     <ClCompile Include="effluent.xaml.cpp" />
+    <ClCompile Include="walkthrough_home_nav.xaml.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="air.xaml.h" />
@@ -185,6 +186,7 @@
     <ClInclude Include="walkthrough_F4L1F7.xaml.h" />
     <ClInclude Include="walkthrough_nav.xaml.h" />
     <ClInclude Include="effluent.xaml.h" />
+    <ClInclude Include="walkthrough_home_nav.xaml.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\down_arrow.png">
@@ -573,6 +575,9 @@
     </Image>
     <Image Include="Assets\Effluent Guided Tour\effluent.jpg">
       <Filter>images\Effluent Guided Tour</Filter>
+    </Image>
+    <Image Include="Assets\fish_icon.scale-200.png">
+      <Filter>images</Filter>
     </Image>
   </ItemGroup>
   <ItemGroup>
