@@ -577,22 +577,13 @@
     <None Include="fishparty_TemporaryKey.pfx">
       <Filter>generated files</Filter>
     </None>
-    <None Include="guided_tour_content\water_intake\first_stage_filter.htm">
-      <Filter>webpages</Filter>
-    </None>
     <None Include="heat_content_display.htm">
       <Filter>webpages</Filter>
     </None>
     <None Include="Iron_content_display.htm">
       <Filter>webpages</Filter>
     </None>
-    <None Include="guided_tour_content\water_intake\second_stage_filter.htm">
-      <Filter>webpages</Filter>
-    </None>
     <None Include="guided_tour_content\incubation\incubation.htm">
-      <Filter>webpages</Filter>
-    </None>
-    <None Include="guided_tour_content\water_intake\wintake_page_overview.htm">
       <Filter>webpages</Filter>
     </None>
     <None Include="egg_receiving_overview.htm">
@@ -626,6 +617,26 @@
     <None Include="guided_tour_content\10ft_tanks\10ft_tanks_overview.htm">
       <Filter>webpages</Filter>
     </None>
+    <None Include="guided_tour_content\water_intake\carbon.htm">
+      <Filter>webpages\water_intake</Filter>
+    </None>
+    <None Include="guided_tour_content\water_intake\heat.htm">
+      <Filter>webpages\water_intake</Filter>
+    </None>
+    <None Include="guided_tour_content\water_intake\heat_gas_overview.htm">
+      <Filter>webpages\water_intake</Filter>
+    </None>
+    <None Include="guided_tour_content\water_intake\first_stage_filter.htm">
+      <Filter>webpages\water_intake</Filter>
+    </None>
+    <None Include="guided_tour_content\water_intake\nitro.htm">
+      <Filter>webpages\water_intake</Filter>
+    </None>
+    <None Include="guided_tour_content\water_intake\second_stage_filter.htm">
+      <Filter>webpages\water_intake</Filter>
+    </None>
+    <None Include="guided_tour_content\water_intake\wintake_page_overview.htm">
+      <Filter>webpages\water_intake</Filter>
     <None Include="guided_tour_content\effluent\effluent.htm">
       <Filter>webpages</Filter>
     </None>
@@ -909,6 +920,8 @@
     <Filter Include="images\10ft Guided Tour">
       <UniqueIdentifier>{31930c9e-fec1-446c-b3c5-dc3e5bae2966}</UniqueIdentifier>
     </Filter>
+    <Filter Include="webpages\water_intake">
+      <UniqueIdentifier>{ae6ed30f-2878-4aea-aa01-d96da92a078d}</UniqueIdentifier>
     <Filter Include="images\Effluent Guided Tour">
       <UniqueIdentifier>{b546c10e-e36f-4b8f-ae44-625dcb1dba7c}</UniqueIdentifier>
     </Filter>

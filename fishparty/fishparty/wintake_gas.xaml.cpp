@@ -49,6 +49,7 @@ void fishparty::wintake_gas::close_Click(Platform::Object^ sender, Windows::UI::
 void fishparty::wintake_gas::oxygen_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
 	timeout.reset_Timer();
+	open_content("ms-appx-web:///guided_tour_content/water_intake/carbon.htm", content_webview, close_button);
 
 }
 
@@ -56,6 +57,7 @@ void fishparty::wintake_gas::oxygen_Click(Platform::Object^ sender, Windows::UI:
 void fishparty::wintake_gas::nitrogen_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
 	timeout.reset_Timer();
+	open_content("ms-appx-web:///guided_tour_content/water_intake/nitro.htm", content_webview, close_button);
 
 }
 
@@ -63,7 +65,7 @@ void fishparty::wintake_gas::nitrogen_Click(Platform::Object^ sender, Windows::U
 void fishparty::wintake_gas::heating_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
 	timeout.reset_Timer();
-
+	open_content("ms-appx-web:///guided_tour_content/water_intake/heat.htm", content_webview, close_button);
 }
 
 

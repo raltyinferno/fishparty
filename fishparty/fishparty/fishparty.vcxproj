@@ -643,7 +643,19 @@
     <None Include="guided_tour_content\oxygen_generation\oxygen_generation_overview.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
+    <None Include="guided_tour_content\water_intake\carbon.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
     <None Include="guided_tour_content\water_intake\first_stage_filter.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="guided_tour_content\water_intake\heat.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="guided_tour_content\water_intake\heat_gas_overview.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="guided_tour_content\water_intake\nitro.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
     <None Include="guided_tour_content\water_intake\second_stage_filter.htm">
