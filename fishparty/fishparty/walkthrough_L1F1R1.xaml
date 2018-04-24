@@ -46,14 +46,6 @@
         </Grid>
 
 
-        <Grid  VerticalAlignment="Bottom" HorizontalAlignment="Left" Grid.Row="2">
-
-            <Button Content="Jump to Section" FontSize="20">
-                <Button.Flyout>
-                    <controls:guided_tour_nav />
-                </Button.Flyout>
-            </Button>
-
-        </Grid>
+        <local:walkthrough_home_nav Grid.ColumnSpan="3" Grid.RowSpan="3"/>
     </Grid>
 </Page>
