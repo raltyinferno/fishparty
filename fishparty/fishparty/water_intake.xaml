@@ -52,7 +52,7 @@
                     Height="50" Width="50">
                 i
             </Button>-->
-            <Button Style="{StaticResource AccentButtonStyle}" Grid.Row="0" Grid.Column="3"
+            <Button Style="{StaticResource AccentButtonStyle}" Grid.Row="0" Grid.Column="3">
             </Button>
             <Button Grid.Row="0" Grid.Column="3"
                     VerticalAlignment="Top" HorizontalAlignment="Right"
