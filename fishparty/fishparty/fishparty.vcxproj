@@ -7,8 +7,8 @@
     <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
     <AppContainerApplication>true</AppContainerApplication>
     <ApplicationType>Windows Store</ApplicationType>
-    <WindowsTargetPlatformVersion Condition=" '$(WindowsTargetPlatformVersion)' == '' ">10.0.15063.0</WindowsTargetPlatformVersion>
-    <WindowsTargetPlatformMinVersion>10.0.15063.0</WindowsTargetPlatformMinVersion>
+    <WindowsTargetPlatformVersion Condition=" '$(WindowsTargetPlatformVersion)' == '' ">10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.16299.0</WindowsTargetPlatformMinVersion>
     <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -311,9 +311,6 @@
     <ClInclude Include="walkthrough_F4R1F1L1F1R1F1.xaml.h">
       <DependentUpon>walkthrough_F4R1F1L1F1R1F1.xaml</DependentUpon>
     </ClInclude>
-    <ClInclude Include="walkthrough_F4R1F1L1F1R1F2.xaml.h">
-      <DependentUpon>walkthrough_F4R1F1L1F1R1F2.xaml</DependentUpon>
-    </ClInclude>
     <ClInclude Include="walkthrough_F5.xaml.h">
       <DependentUpon>walkthrough_F5.xaml</DependentUpon>
     </ClInclude>
@@ -555,9 +552,6 @@
     <Page Include="walkthrough_F4R1F1L1F1R1F1.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="walkthrough_F4R1F1L1F1R1F2.xaml">
-      <SubType>Designer</SubType>
-    </Page>
     <Page Include="walkthrough_F5.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -744,8 +738,12 @@
     <Image Include="Assets\10ft Tank Guided Tour\side_drain.jpg" />
     <Image Include="Assets\25ft Filters\big_close.jpg" />
     <Image Include="Assets\25ft Filters\big_top.jpg" />
+    <Image Include="Assets\25ft Filters\biofilter_sweep.gif" />
     <Image Include="Assets\25ft Filters\drum_close.jpg" />
     <Image Include="Assets\25ft Filters\filter_bg.jpg" />
+    <Image Include="Assets\25ft Filters\header_close.jpg" />
+    <Image Include="Assets\25ft Filters\ozone_close.jpg" />
+    <Image Include="Assets\25ft Filters\tank_close.jpg" />
     <Image Include="Assets\25ft Tank\25ft_close.jpg" />
     <Image Include="Assets\25ft Tank\25ft_food.jpg" />
     <Image Include="Assets\25ft Tank\25ft_grayling.jpg" />
@@ -866,7 +864,6 @@
     <Image Include="Assets\walkthrough\walkthrough_F4R1F1L1F1.jpg" />
     <Image Include="Assets\walkthrough\walkthrough_F4R1F1L1F1R1.jpg" />
     <Image Include="Assets\walkthrough\walkthrough_F4R1F1L1F1R1F1.jpg" />
-    <Image Include="Assets\walkthrough\walkthrough_F4R1F1L1F1R1F2.jpg" />
     <Image Include="Assets\walkthrough\walkthrough_F5.jpg" />
     <Image Include="Assets\walkthrough\walkthrough_F5L1.jpg" />
     <Image Include="Assets\walkthrough\walkthrough_F5R1.jpg" />
@@ -1053,9 +1050,6 @@
     </ClCompile>
     <ClCompile Include="walkthrough_F4R1F1L1F1R1F1.xaml.cpp">
       <DependentUpon>walkthrough_F4R1F1L1F1R1F1.xaml</DependentUpon>
-    </ClCompile>
-    <ClCompile Include="walkthrough_F4R1F1L1F1R1F2.xaml.cpp">
-      <DependentUpon>walkthrough_F4R1F1L1F1R1F2.xaml</DependentUpon>
     </ClCompile>
     <ClCompile Include="walkthrough_F5.xaml.cpp">
       <DependentUpon>walkthrough_F5.xaml</DependentUpon>
