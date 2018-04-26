@@ -614,19 +614,7 @@
     <None Include="guided_tour_content\water_intake\second_stage_filter.htm">
       <Filter>webpages</Filter>
     </None>
-    <None Include="guided_tour_content\incubation\incubation.htm">
-      <Filter>webpages</Filter>
-    </None>
     <None Include="guided_tour_content\water_intake\wintake_page_overview.htm">
-      <Filter>webpages</Filter>
-    </None>
-    <None Include="incubation_info.htm">
-      <Filter>webpages</Filter>
-    </None>
-    <None Include="incubation_header_tanks.htm">
-      <Filter>webpages</Filter>
-    </None>
-    <None Include="incubation_covers.htm">
       <Filter>webpages</Filter>
     </None>
     <None Include="guided_tour_content\css\singlePageTemplate.css" />
@@ -688,6 +676,18 @@
       <Filter>webpages</Filter>
     </None>
     <None Include="guided_tour_content\10ft_tanks\side_drain.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\incubation\incubation_covers.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\incubation\incubation_header_tanks.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\incubation\incubation_info.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\incubation\heathstacks.htm">
       <Filter>webpages</Filter>
     </None>
   </ItemGroup>

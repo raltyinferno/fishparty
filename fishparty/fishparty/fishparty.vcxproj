@@ -664,7 +664,16 @@
     <None Include="guided_tour_content\gas_conditioning\nitro.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="guided_tour_content\incubation\incubation.htm">
+    <None Include="guided_tour_content\incubation\heathstacks.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="guided_tour_content\incubation\incubation_covers.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="guided_tour_content\incubation\incubation_header_tanks.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="guided_tour_content\incubation\incubation_info.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
     <None Include="guided_tour_content\oxygen_generation\oxygen_generation_overview.htm">
@@ -680,15 +689,6 @@
       <DeploymentContent>true</DeploymentContent>
     </None>
     <None Include="guided_tour_content\water_intake\wintake_page_overview.htm">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="incubation_covers.htm">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="incubation_header_tanks.htm">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="incubation_info.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
     <None Include="Iron_content_display.htm">
