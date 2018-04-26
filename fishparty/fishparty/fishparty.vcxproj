@@ -735,8 +735,11 @@
     <Image Include="Assets\10ft Tank Guided Tour\side_drain.jpg" />
     <Image Include="Assets\25ft Filters\big_close.jpg" />
     <Image Include="Assets\25ft Filters\big_top.jpg" />
+    <Image Include="Assets\25ft Filters\biofilter_sweep.gif" />
     <Image Include="Assets\25ft Filters\drum_close.jpg" />
     <Image Include="Assets\25ft Filters\filter_bg.jpg" />
+    <Image Include="Assets\25ft Filters\header_close.jpg" />
+    <Image Include="Assets\25ft Filters\tank_close.jpg" />
     <Image Include="Assets\25ft Tank\25ft_close.jpg" />
     <Image Include="Assets\25ft Tank\25ft_food.jpg" />
     <Image Include="Assets\25ft Tank\25ft_grayling.jpg" />
