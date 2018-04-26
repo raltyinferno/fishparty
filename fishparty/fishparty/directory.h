@@ -91,6 +91,7 @@
 #include "walkthrough_F4R1F1L1F1.xaml.h"
 #include "walkthrough_F4R1F1L1F1R1.xaml.h"
 #include "walkthrough_F4R1F1L1F1R1F1.xaml.h"
+#include "walkthrough_F4R1F1L1F1R1F2.xaml.h"
 
 #include "walkthrough_F5.xaml.h"
 #include "walkthrough_F5L1.xaml.h"
