@@ -81,7 +81,7 @@
 
         <Style x:Key="content_display_style" TargetType="WebView">
             <Setter Property="Height" Value="800"/>
-            <Setter Property="Width" Value="600"/>
+            <Setter Property="Width" Value="800"/>
             <Setter Property="Grid.Row" Value="1"/>
             <Setter Property="Grid.Column" Value="1"/>
             <Setter Property="HorizontalAlignment" Value="Center"/>
