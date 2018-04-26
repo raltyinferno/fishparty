@@ -594,8 +594,11 @@
     <Image Include="Assets\Egg Receiving\egg_001.jpg">
       <Filter>images</Filter>
     </Image>
+    <Image Include="Assets\10ft Tank Guided Tour\10ft_001_old.jpg">
+      <Filter>images\10ft Guided Tour</Filter>
+    </Image>
     <Image Include="Assets\10ft Tank Guided Tour\side_drain.jpg">
-      <Filter>images</Filter>
+      <Filter>images\10ft Guided Tour</Filter>
     </Image>
   </ItemGroup>
   <ItemGroup>
