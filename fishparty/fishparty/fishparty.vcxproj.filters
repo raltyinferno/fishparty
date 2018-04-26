@@ -609,6 +609,9 @@
     <Image Include="Assets\25ft Filters\biofilter_sweep.gif">
       <Filter>images\25ft Filter Guided Tour</Filter>
     </Image>
+    <Image Include="Assets\25ft Filters\ozone_close.jpg">
+      <Filter>images\25ft Filter Guided Tour</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <None Include="fishparty_TemporaryKey.pfx">
