@@ -7,8 +7,8 @@
     <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
     <AppContainerApplication>true</AppContainerApplication>
     <ApplicationType>Windows Store</ApplicationType>
-    <WindowsTargetPlatformVersion Condition=" '$(WindowsTargetPlatformVersion)' == '' ">10.0.15063.0</WindowsTargetPlatformVersion>
-    <WindowsTargetPlatformMinVersion>10.0.15063.0</WindowsTargetPlatformMinVersion>
+    <WindowsTargetPlatformVersion Condition=" '$(WindowsTargetPlatformVersion)' == '' ">10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.16299.0</WindowsTargetPlatformMinVersion>
     <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -634,13 +634,28 @@
     <None Include="guided_tour_content\effluent\effluent.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
+    <None Include="guided_tour_content\egg_receiving_room\egg_receiving_disinfecting.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="guided_tour_content\egg_receiving_room\egg_receiving_overview.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
     <None Include="guided_tour_content\fish_delivery\delivery_process.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
     <None Include="guided_tour_content\fish_delivery\delivery_vehicles.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
+    <None Include="guided_tour_content\gas_conditioning\carbon.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
     <None Include="guided_tour_content\gas_conditioning\gas_conditioning_overview.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="guided_tour_content\gas_conditioning\heat.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="guided_tour_content\gas_conditioning\nitro.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
     <None Include="guided_tour_content\incubation\incubation.htm">
@@ -649,19 +664,10 @@
     <None Include="guided_tour_content\oxygen_generation\oxygen_generation_overview.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="guided_tour_content\water_intake\carbon.htm">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
     <None Include="guided_tour_content\water_intake\first_stage_filter.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="guided_tour_content\water_intake\heat.htm">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
     <None Include="guided_tour_content\water_intake\heat_gas_overview.htm">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="guided_tour_content\water_intake\nitro.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
     <None Include="guided_tour_content\water_intake\second_stage_filter.htm">
@@ -711,6 +717,7 @@
     <Image Include="Assets\delivery_truck3.jpg" />
     <Image Include="Assets\down_arrow.png" />
     <Image Include="Assets\Effluent Guided Tour\effluent.jpg" />
+    <Image Include="Assets\Egg Receiving\egg_001.jpg" />
     <Image Include="Assets\Egg Room Guided Tour\egg_001.jpg" />
     <Image Include="Assets\Egg Room Guided Tour\egg_002.jpg" />
     <Image Include="Assets\Egg Room Guided Tour\egg_002_01.jpg" />
@@ -722,6 +729,9 @@
     <Image Include="Assets\fishparty_splash_background.png" />
     <Image Include="Assets\Front Tanks Guided Tour\arcticchar_largemap.jpg" />
     <Image Include="Assets\Front Tanks Guided Tour\front_001.jpg" />
+    <Image Include="Assets\Gas Conditioning\co2.jpg" />
+    <Image Include="Assets\Gas Conditioning\heat.jpg" />
+    <Image Include="Assets\Gas Conditioning\nitrogen.jpg" />
     <Image Include="Assets\hamburger.png" />
     <Image Include="Assets\hatchery_map.jpg" />
     <Image Include="Assets\heat.jpg" />
@@ -813,6 +823,8 @@
     <Image Include="Assets\walkthrough\walkthrough_L1F2.jpg" />
     <Image Include="Assets\walkthrough\walkthrough_L1F2R1.jpg" />
     <Image Include="Assets\walkthrough\walkthrough_start1.jpg" />
+    <Image Include="Assets\Water Intake\bg_wintake.jpg" />
+    <Image Include="Assets\Water Intake\win_close.jpg" />
     <Image Include="Assets\Wide310x150Logo.scale-200.png" />
     <Image Include="Assets\win_close.jpg" />
   </ItemGroup>

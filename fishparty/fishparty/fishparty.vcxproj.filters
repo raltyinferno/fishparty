@@ -89,6 +89,7 @@
     <ClCompile Include="walkthrough_F4L1F7.xaml.cpp" />
     <ClCompile Include="walkthrough_nav.xaml.cpp" />
     <ClCompile Include="effluent.xaml.cpp" />
+    <ClCompile Include="walkthrough_home_nav.xaml.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="air.xaml.h" />
@@ -185,6 +186,7 @@
     <ClInclude Include="walkthrough_F4L1F7.xaml.h" />
     <ClInclude Include="walkthrough_nav.xaml.h" />
     <ClInclude Include="effluent.xaml.h" />
+    <ClInclude Include="walkthrough_home_nav.xaml.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\down_arrow.png">
@@ -574,6 +576,24 @@
     <Image Include="Assets\Effluent Guided Tour\effluent.jpg">
       <Filter>images\Effluent Guided Tour</Filter>
     </Image>
+    <Image Include="Assets\Water Intake\win_close.jpg">
+      <Filter>images\Water Intake</Filter>
+    </Image>
+    <Image Include="Assets\Water Intake\bg_wintake.jpg">
+      <Filter>images\Water Intake</Filter>
+    </Image>
+    <Image Include="Assets\Gas Conditioning\co2.jpg">
+      <Filter>images\Gas Conditioning</Filter>
+    </Image>
+    <Image Include="Assets\Gas Conditioning\heat.jpg">
+      <Filter>images\Gas Conditioning</Filter>
+    </Image>
+    <Image Include="Assets\Gas Conditioning\nitrogen.jpg">
+      <Filter>images\Gas Conditioning</Filter>
+    </Image>
+    <Image Include="Assets\Egg Receiving\egg_001.jpg">
+      <Filter>images\Egg Receiving</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <None Include="fishparty_TemporaryKey.pfx">
@@ -595,12 +615,6 @@
       <Filter>webpages</Filter>
     </None>
     <None Include="guided_tour_content\water_intake\wintake_page_overview.htm">
-      <Filter>webpages</Filter>
-    </None>
-    <None Include="egg_receiving_overview.htm">
-      <Filter>webpages</Filter>
-    </None>
-    <None Include="egg_receiving_disinfecting.htm">
       <Filter>webpages</Filter>
     </None>
     <None Include="incubation_info.htm">
@@ -643,16 +657,28 @@
     <None Include="guided_tour_content\gas_conditioning\gas_conditioning_overview.htm">
       <Filter>webpages</Filter>
     </None>
-    <None Include="guided_tour_content\water_intake\carbon.htm">
-      <Filter>webpages</Filter>
-    </None>
-    <None Include="guided_tour_content\water_intake\heat.htm">
-      <Filter>webpages</Filter>
-    </None>
     <None Include="guided_tour_content\water_intake\heat_gas_overview.htm">
       <Filter>webpages</Filter>
     </None>
-    <None Include="guided_tour_content\water_intake\nitro.htm">
+    <None Include="guided_tour_content\gas_conditioning\carbon.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\gas_conditioning\heat.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\gas_conditioning\nitro.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\egg_receiving_room\egg_receiving_disinfecting.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\egg_receiving_room\egg_receiving_overview.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="egg_receiving_disinfecting.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="egg_receiving_overview.htm">
       <Filter>webpages</Filter>
     </None>
   </ItemGroup>
@@ -928,6 +954,15 @@
     </Filter>
     <Filter Include="images\Effluent Guided Tour">
       <UniqueIdentifier>{b546c10e-e36f-4b8f-ae44-625dcb1dba7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="images\Water Intake">
+      <UniqueIdentifier>{b3f0522b-6d10-490f-a55d-6dbdce9e80e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="images\Gas Conditioning">
+      <UniqueIdentifier>{4df31759-f72d-4de6-937d-49370233367c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="images\Egg Receiving">
+      <UniqueIdentifier>{078b35c0-9abc-41d7-9f64-c9caf9b35ae5}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
