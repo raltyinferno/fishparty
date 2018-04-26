@@ -705,6 +705,24 @@
     <None Include="guided_tour_content\30ft_tanks\radial_flow.htm">
       <Filter>webpages</Filter>
     </None>
+    <None Include="guided_tour_content\30ft_filters\biofilter.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\30ft_filters\drum_filter.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\30ft_filters\gas_conditioning.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\30ft_filters\header_tank.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\30ft_filters\lho.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\30ft_filters\ozone.htm">
+      <Filter>webpages</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Page Include="hatchery_map.xaml" />

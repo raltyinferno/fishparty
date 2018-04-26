@@ -57,41 +57,41 @@ void fishparty::tf_foot_filters::close_Click(Platform::Object^ sender, Windows::
 
 void fishparty::tf_foot_filters::gas_cond_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	open_content("ms-appx-web:///guided_tour_content/30ft_filters/30ft_filters_overview.htm", content_webview, close_button);
+	open_content("ms-appx-web:///guided_tour_content/30ft_filters/gas_conditioning.htm", content_webview, close_button);
 	new_timer.reset_Timer();
 }
 
 
 void fishparty::tf_foot_filters::bio_filt_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	open_content("ms-appx-web:///guided_tour_content/30ft_filters/30ft_filters_overview.htm", content_webview, close_button);
+	open_content("ms-appx-web:///guided_tour_content/30ft_filters/biofilter.htm", content_webview, close_button);
 	new_timer.reset_Timer();
 }
 
 
 void fishparty::tf_foot_filters::ozone_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	open_content("ms-appx-web:///guided_tour_content/30ft_filters/30ft_filters_overview.htm", content_webview, close_button);
+	open_content("ms-appx-web:///guided_tour_content/30ft_filters/ozone.htm", content_webview, close_button);
 	new_timer.reset_Timer();
 }
 
 
 void fishparty::tf_foot_filters::lho_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	open_content("ms-appx-web:///guided_tour_content/30ft_filters/30ft_filters_overview.htm", content_webview, close_button);
+	open_content("ms-appx-web:///guided_tour_content/30ft_filters/lho.htm", content_webview, close_button);
 	new_timer.reset_Timer();
 }
 
 
 void fishparty::tf_foot_filters::head_tank_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	open_content("ms-appx-web:///guided_tour_content/30ft_filters/30ft_filters_overview.htm", content_webview, close_button);
+	open_content("ms-appx-web:///guided_tour_content/30ft_filters/header_tank.htm", content_webview, close_button);
 	new_timer.reset_Timer();
 }
 
 
 void fishparty::tf_foot_filters::drum_filt_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	open_content("ms-appx-web:///guided_tour_content/30ft_filters/30ft_filters_overview.htm", content_webview, close_button);
+	open_content("ms-appx-web:///guided_tour_content/30ft_filters/drum_filter.htm", content_webview, close_button);
 	new_timer.reset_Timer();
 }

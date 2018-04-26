@@ -627,6 +627,24 @@
     <None Include="guided_tour_content\30ft_filters\30ft_filters_overview.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
+    <None Include="guided_tour_content\30ft_filters\biofilter.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="guided_tour_content\30ft_filters\drum_filter.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="guided_tour_content\30ft_filters\gas_conditioning.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="guided_tour_content\30ft_filters\header_tank.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="guided_tour_content\30ft_filters\lho.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="guided_tour_content\30ft_filters\ozone.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
     <None Include="guided_tour_content\30ft_tanks\30ft_tanks_overview.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
