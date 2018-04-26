@@ -621,6 +621,12 @@
     <None Include="guided_tour_content\10ft_tanks\10ft_tanks_overview.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
+    <None Include="guided_tour_content\10ft_tanks\gas_conditioning_column.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="guided_tour_content\10ft_tanks\side_drain.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
     <None Include="guided_tour_content\30ft_filters\30ft_filters_overview.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
@@ -692,6 +698,7 @@
   <ItemGroup>
     <Image Include="Assets\10ft Tank Guided Tour\10ft_001.jpg" />
     <Image Include="Assets\10ft Tank Guided Tour\10ft_002.jpg" />
+    <Image Include="Assets\10ft Tank Guided Tour\side_drain.jpg" />
     <Image Include="Assets\25ft Filters\big_close.jpg" />
     <Image Include="Assets\25ft Filters\big_top.jpg" />
     <Image Include="Assets\25ft Filters\drum_close.jpg" />

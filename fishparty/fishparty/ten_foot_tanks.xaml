@@ -51,7 +51,7 @@
                     Height="150" Width="150" Content="Side Drainage" Click="side_drain_Click" />
             <Button Grid.Column="0" Grid.Row="0" Style="{StaticResource content_display_open_style}"
                     VerticalAlignment="Center" HorizontalAlignment="Right"
-                    Height="200" Width="200" Content="Conditioning Column" Click="side_drain_Click" />
+                    Height="200" Width="200" Content="Conditioning Column" Click="gas_column_Click" />
         </Grid>
 
         <!--Webview layout structure-->
