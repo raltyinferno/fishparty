@@ -576,6 +576,7 @@
     <Image Include="Assets\Effluent Guided Tour\effluent.jpg">
       <Filter>images\Effluent Guided Tour</Filter>
     </Image>
+<<<<<<< HEAD
     <Image Include="Assets\Water Intake\win_close.jpg">
       <Filter>images\Water Intake</Filter>
     </Image>
@@ -593,6 +594,10 @@
     </Image>
     <Image Include="Assets\Egg Receiving\egg_001.jpg">
       <Filter>images\Egg Receiving</Filter>
+=======
+    <Image Include="Assets\10ft Tank Guided Tour\side_drain.jpg">
+      <Filter>images\10ft Guided Tour</Filter>
+>>>>>>> 7282f443130a56b3a71cc65d0b17c2dbfdc71e82
     </Image>
   </ItemGroup>
   <ItemGroup>
@@ -679,6 +684,12 @@
       <Filter>webpages</Filter>
     </None>
     <None Include="egg_receiving_overview.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\10ft_tanks\gas_conditioning_column.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\10ft_tanks\side_drain.htm">
       <Filter>webpages</Filter>
     </None>
   </ItemGroup>

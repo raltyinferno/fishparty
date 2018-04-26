@@ -25,7 +25,6 @@
         </Grid>
         <!-- End Title -->
 
-        <!--Webview layout structure-->
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="1*"/>
@@ -85,13 +84,24 @@
                     x:Name="drum_filt"
                     HorizontalAlignment="Right" VerticalAlignment="Top" Click="drum_filt_Click"
                     Height="200" Width="200" FontWeight="Bold">
-                    Drum Filter
+                Drum Filter
             </Button>
-            
+        </Grid>
+        <!--Webview layout structure-->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
             <WebView x:Name="content_webview" Style="{StaticResource content_display_style}"/>
             <Button x:Name="close_button" Style="{StaticResource content_display_close_style}" Click="close_Click"/>
         </Grid>
-        
 
 
 
