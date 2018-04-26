@@ -89,6 +89,7 @@
     <ClCompile Include="walkthrough_F4L1F7.xaml.cpp" />
     <ClCompile Include="walkthrough_nav.xaml.cpp" />
     <ClCompile Include="effluent.xaml.cpp" />
+    <ClCompile Include="walkthrough_home_nav.xaml.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="air.xaml.h" />
@@ -185,6 +186,7 @@
     <ClInclude Include="walkthrough_F4L1F7.xaml.h" />
     <ClInclude Include="walkthrough_nav.xaml.h" />
     <ClInclude Include="effluent.xaml.h" />
+    <ClInclude Include="walkthrough_home_nav.xaml.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\down_arrow.png">
@@ -574,6 +576,9 @@
     <Image Include="Assets\Effluent Guided Tour\effluent.jpg">
       <Filter>images\Effluent Guided Tour</Filter>
     </Image>
+    <Image Include="Assets\10ft Tank Guided Tour\side_drain.jpg">
+      <Filter>images\10ft Guided Tour</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <None Include="fishparty_TemporaryKey.pfx">
@@ -653,6 +658,12 @@
       <Filter>webpages</Filter>
     </None>
     <None Include="guided_tour_content\water_intake\nitro.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\10ft_tanks\gas_conditioning_column.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\10ft_tanks\side_drain.htm">
       <Filter>webpages</Filter>
     </None>
   </ItemGroup>

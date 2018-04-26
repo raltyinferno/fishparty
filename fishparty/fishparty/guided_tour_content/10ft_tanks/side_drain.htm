@@ -1,33 +1,145 @@
-<!-- 10ft Tanks -->
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+
+<style type="text/css">
+
+body 
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 92%;
+	max-width: auto;
+	padding-left: 2.275%;
+	padding-right: 2.275%;
+	background-color: rgb(40, 40, 40);
+}	
+
+* 
+{
+    box-sizing: border-box;
 }
+
+header 
+{
+	text-align: center;
+	display: block;
+}
+
+.columnOuter 
+{
+	float: left;
+	width: 10%;
+	padding: 10px;
+	height: auto;
+	background-color: rgb(40, 40, 40);
+}
+
+.columnInner
+{
+	float: left;
+	width: 80%;
+	padding: 10px;
+	height: 100%;
+	background-color: seagreen;
+}
+
+.row:after 
+{
+	content: "";
+	display: table;
+}
+
+header .pageHeader h1 {
+	color: rgba(40,40,40,1.00);
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 24px;
+}
+
+header .pageHeader h3 {
+	color: rgba(40,40,40,1.00);
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+}
+
+hr 
+{
+	background-color: rgba(40,40,40,1.00);
+	height: 10px;
+}
+
+header .pageHeader p 
+{
+	color: rgba(40,40,40,1.00);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.8;
+	overflow-y: auto;
+}
+
+.mainContent .section1 {
+	display: block;
+}
+
+.section1 .sectionTitle, .sectionTitle {
+	color: rgba(40,40,40,1.00);
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.section1 .sectionTitleRule, .sectionTitleRule 
+{
+	margin: 0 3% 0 0;
+	float: left;
+	clear: both;
+}
+img
+{
+	max-width: 100%;
+	max-height: 100%;
+}
+
 </style>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Main Template of CS472 Capstone Fish Hatchery Project</title>
+
+
 </head>
-<body style="background:darkGreen">
 
+<body>
 
-<h1 style="text-align:center">
-<font color="navy">
-Gas Conditioning Column
-</font>
-</h1>
+<div class="row">
+	<div class="columnOuter"></div>
+	<div class="columnInner">
+<header>
 
-<p align="center"> 
-    The gas conditioning column is where the water is aerated,
-removing carbon dioxide produced by the fish and adding oxygen consumed by the fish. Water flows
-from the top of the column across a diffuser plate, through media that breaks the water flow into
-smaller droplets and into the LHO Low Head Oxygenator below. Fans pull air through the column in a
-counter current flow which increases the efficiency of the gas conditioning column.
-</p>
+  <section class="pageHeader">
+    <h1>Side Drain</h1>
+    <!-- <h3>Subtitle For Mulibutton Pages</h3> -->
+    <hr>
+  </section>
 
-<img src="../../Assets/win_close.jpg" height="500" />
+</header>
+
+<section class="mainContent"> 
+  <section class="section1">
+
+    <!-- <h2 class="sectionTitle">Extra Content</h2> -->
+    <img src="../../Assets/10ft Tank Guided Tour/side_drain.jpg" width="500"/>
+	<p>Some percentage of the waste and water drains through here</p>
+    <hr>
+  </section>
+
+</section>
+</div>
+
+<div class="columnOuter"></div>
+
+</div>
 </body>
 </html>
