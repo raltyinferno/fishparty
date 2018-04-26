@@ -1,31 +1,211 @@
-<!-- 5ft Tanks -->
-<!DOCTYPE html>
+<!-- 5ft Tank Overview -->
+<!doctype html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+
+<style type="text/css">
+/*
+This is where you change the backgroung color of the page
+rgba(0-255, 0-255,0-255,0-1.0);
+*/
+body 
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 92%;
+	max-width: auto;
+	padding-left: 2.275%;
+	padding-right: 2.275%;
+	background-color: rgb(40, 40, 40);
+}	
+
+* 
+{
+    box-sizing: border-box;
 }
+
+header 
+{
+	text-align: center;
+	display: block;
+}
+/*
+This is where you change the size/color of the title text
+rgba(0-255, 0-255,0-255,0-1.0);
+font-size: integer#px; 
+*/
+header .pageHeader h1 {
+	color: rgba(40,40,40,1.00);
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 24px;
+}
+/*
+This is where you change the size/color of the sub title text
+rgba(0-255, 0-255,0-255,0-1.0);
+font-size: integer#px; 
+*/
+header .pageHeader h2 
+{
+	color: rgba(40,40,40,1.00);
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 24px;
+}
+
+/*
+This is where you change the size/color of the content text
+rgba(0-255, 0-255,0-255,0-1.0);
+font-size: integer#px; 
+*/
+.section1 .sectionContent, .sectionContent 
+{
+	color: rgba(40,40,40,1.00);
+	font-size: 24px;
+	font-weight: 700;
+}
+
+/*
+This is where you change the color and size of the border bars
+rgba(0-255, 0-255,0-255,0-1.0);
+height: integer#px; 
+*/
+hr 
+{
+	background-color: rgba(40,40,40,1.00);
+	height: 10px;
+	border-style: inset;
+}
+
+/*
+This is where you change the size of the outer background columns where the nothing is located
+0% < width < 100%
+rgba(0-255, 0-255,0-255,0-1.0)
+*/
+.columnOuter 
+{
+	float: left;
+	width: 20%;
+	padding: 10px;
+	height: auto;
+}
+
+/*
+This is where you change the size/color of the center background column where the content is located
+0% < width < 100%
+rgba(0-255, 0-255,0-255,0-1.0)
+*/
+.columnInner
+{
+	float: left;
+	width: 60%;
+	padding: 10px;
+	height: auto;
+	background-color: seagreen;
+}
+
+/*
+This is where you change the size of the columns holding the images
+The rule for the size of the column is width = 100/NUMBER_OF_IMAGES%
+*/
+.columnImage
+{
+	float: left;
+	width: 100.0%;
+	padding: 5px;
+}
+
+
+
+.row:after 
+{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+
+.mainContent .section1 
+{
+	display: block;
+}
+
+
 </style>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- NOT SHOWN -->
+<title>5ft Tank Overview</title>
+
+
 </head>
-<body style="background:darkGreen">
 
+<body>
 
-<h1 style="text-align:center">
-<font color="navy">
-5ft Tanks
-</font>
-</h1>
+<div class="row">
+	<div class="columnOuter"></div>
+	<div class="columnInner">
+<header>
 
-<p align="center"> 
+  <section class="pageHeader">
+  	<!-- 
+  	This is where you change the Titles of the page
+  	h1 - This is the Primary Title for the page, replace if the pages contents change
+  	h3 - This is the Seconday Title for the page, this is describing what aspect of the walkthough is on this page
+  	To change the text change the text between the <h#></h#> sections
+  	-->
+
+    <h1>5ft Tanks</h1>
+    <h2>Overview</h2>
+    <hr>
+  </section>
+
+</header>
+
+<section class="mainContent"> 
+  <section class="section1">
+	<!-- 
+	This is where you change the content of the page
+	h2 - This is where the content for the page is placed
+	To change the text change the text between the <p></p> sections
+	-->
+    <p class="sectionContent">
 After incubation, Arctic grayling and Arctic char are moved into 5’ diameter
 tanks. These tanks are operated as “flow through” where the water flows into the tank and is discharged
 without any reuse. The fish are held here for 1 to 2 months before being transferred to larger tanks.
-</p>
+	</p>
+	<p class="sectionContent">
+ These tanks are 5’ in diameter and are used in two configurations. The first configuration is with a removable insert. This provides a shallower water column where small fry
+can be easily reared. If larger tanks are needed, the insert can be removed and the deeper tank used,
+offering greater rearing space for larger fish. The 5’ tanks are operated only as a flow through system
+due to their lower flow requirements and short duration in which fish occupy the tanks. Fish are typically
+in the tank for 1-2 months before being transferred to the 10’ tanks.
+	</p>
+    
 
-<img src="../../Assets/win_close.jpg" height="500" />
+    <!--
+    This is where you change the image content of the page
+    To change the image change the path destination to the correct location
+    It is highly recommened to place all images for a page inside the same folder so that only the image label has to be changed
+    ../ - Goes one directory higher
+    "Folder Name"/ - Goes into a directory
+    -->
+    <div class="row">
+    	<div class="columnImage">
+    		<img src = "../../Assets/5ft Tank Guided Tour/5ft_001_01.jpg" style="width: 100%">
+    	</div> 	
+    </div>
+
+  <hr>
+  </section>
+
+</section>
+
+</div>
+
+<div class="columnOuter"></div>
+
+</div>
 </body>
 </html>
