@@ -23,5 +23,11 @@ namespace fishparty
 		void prev_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void show_overview(Platform::Object^ sender, Windows::UI::Xaml::Input::TappedRoutedEventArgs^ e);
 		void close_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
+		void gas_cond_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
+		void bio_filt_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
+		void ozone_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
+		void lho_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
+		void head_tank_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
+		void drum_filt_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 	};
 }
