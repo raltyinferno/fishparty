@@ -693,6 +693,18 @@
     <None Include="guided_tour_content\incubation\heathstacks.htm">
       <Filter>webpages</Filter>
     </None>
+    <None Include="guided_tour_content\30ft_tanks\circ_tank.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\30ft_tanks\feeder.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\30ft_tanks\pump_sump.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\30ft_tanks\radial_flow.htm">
+      <Filter>webpages</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Page Include="hatchery_map.xaml" />

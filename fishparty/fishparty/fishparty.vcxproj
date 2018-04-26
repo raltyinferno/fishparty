@@ -630,6 +630,18 @@
     <None Include="guided_tour_content\30ft_tanks\30ft_tanks_overview.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
+    <None Include="guided_tour_content\30ft_tanks\circ_tank.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="guided_tour_content\30ft_tanks\feeder.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="guided_tour_content\30ft_tanks\pump_sump.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="guided_tour_content\30ft_tanks\radial_flow.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
     <None Include="guided_tour_content\5ft_tanks\5ft_tanks_overview.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>

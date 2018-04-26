@@ -71,27 +71,27 @@ void fishparty::tf_foot_tanks::close_Click(Platform::Object^ sender, Windows::UI
 
 void fishparty::tf_foot_tanks::pump_sump_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	open_content("ms-appx-web:///guided_tour_content/10ft_tanks/pump_sump.htm", content_webview, close_button);
+	open_content("ms-appx-web:///guided_tour_content/30ft_tanks/pump_sump.htm", content_webview, close_button);
 	timeout.reset_Timer();
 }
 
 
 void fishparty::tf_foot_tanks::circ_tank_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	open_content("ms-appx-web:///guided_tour_content/10ft_tanks/circ_tank.htm", content_webview, close_button);
+	open_content("ms-appx-web:///guided_tour_content/30ft_tanks/circ_tank.htm", content_webview, close_button);
 	timeout.reset_Timer();
 }
 
 
 void fishparty::tf_foot_tanks::radial_flow_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	open_content("ms-appx-web:///guided_tour_content/10ft_tanks/radial_flow.htm", content_webview, close_button);
+	open_content("ms-appx-web:///guided_tour_content/30ft_tanks/radial_flow.htm", content_webview, close_button);
 	timeout.reset_Timer();
 }
 
 
 void fishparty::tf_foot_tanks::feeder_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	open_content("ms-appx-web:///guided_tour_content/10ft_tanks/feeder.htm", content_webview, close_button);
+	open_content("ms-appx-web:///guided_tour_content/30ft_tanks/feeder.htm", content_webview, close_button);
 	timeout.reset_Timer();
 }
