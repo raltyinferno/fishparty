@@ -72,3 +72,4 @@ void fishparty::ten_foot_tanks::gas_column_Click(Platform::Object^ sender, Windo
 	open_content("ms-appx-web:///guided_tour_content/10ft_tanks/gas_conditioning_column.htm", content_webview, close_button);
 	new_timer.reset_Timer();
 }
+
