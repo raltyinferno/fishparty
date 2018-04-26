@@ -37,7 +37,7 @@
             <Button Style="{StaticResource content_display_open_style}" Grid.Row="1" Grid.Column="1"
                     HorizontalAlignment="Left" VerticalAlignment="Bottom" Click="incubation_trays_Click"
                     Height="150" Width="150">
-                Heat Stacks
+                Heath Stacks
             </Button>
 
             <Button Style="{StaticResource content_display_open_style}" Grid.Row="2" Grid.Column="1"
