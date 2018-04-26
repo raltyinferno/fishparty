@@ -578,6 +578,30 @@
     </Image>
     <Image Include="Assets\fish_icon.scale-200.png">
       <Filter>images</Filter>
+      </Image>
+    <Image Include="Assets\Water Intake\win_close.jpg">
+      <Filter>images\Water Intake</Filter>
+    </Image>
+    <Image Include="Assets\Water Intake\bg_wintake.jpg">
+      <Filter>images\Water Intake</Filter>
+    </Image>
+    <Image Include="Assets\Gas Conditioning\co2.jpg">
+      <Filter>images\Gas Conditioning</Filter>
+    </Image>
+    <Image Include="Assets\Gas Conditioning\heat.jpg">
+      <Filter>images\Gas Conditioning</Filter>
+    </Image>
+    <Image Include="Assets\Gas Conditioning\nitrogen.jpg">
+      <Filter>images\Gas Conditioning</Filter>
+    </Image>
+    <Image Include="Assets\Egg Receiving\egg_001.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\10ft Tank Guided Tour\10ft_001_old.jpg">
+      <Filter>images\10ft Guided Tour</Filter>
+    </Image>
+    <Image Include="Assets\10ft Tank Guided Tour\side_drain.jpg">
+      <Filter>images\10ft Guided Tour</Filter>
     </Image>
   </ItemGroup>
   <ItemGroup>
@@ -596,25 +620,7 @@
     <None Include="guided_tour_content\water_intake\second_stage_filter.htm">
       <Filter>webpages</Filter>
     </None>
-    <None Include="guided_tour_content\incubation\incubation.htm">
-      <Filter>webpages</Filter>
-    </None>
     <None Include="guided_tour_content\water_intake\wintake_page_overview.htm">
-      <Filter>webpages</Filter>
-    </None>
-    <None Include="egg_receiving_overview.htm">
-      <Filter>webpages</Filter>
-    </None>
-    <None Include="egg_receiving_disinfecting.htm">
-      <Filter>webpages</Filter>
-    </None>
-    <None Include="incubation_info.htm">
-      <Filter>webpages</Filter>
-    </None>
-    <None Include="incubation_header_tanks.htm">
-      <Filter>webpages</Filter>
-    </None>
-    <None Include="incubation_covers.htm">
       <Filter>webpages</Filter>
     </None>
     <None Include="guided_tour_content\css\singlePageTemplate.css" />
@@ -648,16 +654,76 @@
     <None Include="guided_tour_content\gas_conditioning\gas_conditioning_overview.htm">
       <Filter>webpages</Filter>
     </None>
-    <None Include="guided_tour_content\water_intake\carbon.htm">
-      <Filter>webpages</Filter>
-    </None>
-    <None Include="guided_tour_content\water_intake\heat.htm">
-      <Filter>webpages</Filter>
-    </None>
     <None Include="guided_tour_content\water_intake\heat_gas_overview.htm">
       <Filter>webpages</Filter>
     </None>
-    <None Include="guided_tour_content\water_intake\nitro.htm">
+    <None Include="guided_tour_content\gas_conditioning\carbon.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\gas_conditioning\heat.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\gas_conditioning\nitro.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\egg_receiving_room\egg_receiving_disinfecting.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\egg_receiving_room\egg_receiving_overview.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="egg_receiving_disinfecting.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="egg_receiving_overview.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\10ft_tanks\gas_conditioning_column.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\10ft_tanks\side_drain.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\incubation\incubation_covers.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\incubation\incubation_header_tanks.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\incubation\incubation_info.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\incubation\heathstacks.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\30ft_tanks\circ_tank.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\30ft_tanks\feeder.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\30ft_tanks\pump_sump.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\30ft_tanks\radial_flow.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\30ft_filters\biofilter.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\30ft_filters\drum_filter.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\30ft_filters\gas_conditioning.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\30ft_filters\header_tank.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\30ft_filters\lho.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\30ft_filters\ozone.htm">
       <Filter>webpages</Filter>
     </None>
   </ItemGroup>
@@ -933,6 +999,12 @@
     </Filter>
     <Filter Include="images\Effluent Guided Tour">
       <UniqueIdentifier>{b546c10e-e36f-4b8f-ae44-625dcb1dba7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="images\Water Intake">
+      <UniqueIdentifier>{b3f0522b-6d10-490f-a55d-6dbdce9e80e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="images\Gas Conditioning">
+      <UniqueIdentifier>{4df31759-f72d-4de6-937d-49370233367c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

@@ -68,33 +68,33 @@ void fishparty::incubation_2::close_Click(Platform::Object^ sender, Windows::UI:
 
 void fishparty::incubation_2::incubation_trays_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	open_content("ms-appx-web:///guided_tour_content/incubation/incubation.htm", content_webview, close_button);
+	open_content("ms-appx-web:///guided_tour_content/incubation/heathstacks.htm", content_webview, close_button);
 	timeout.reset_Timer();
 }
 
 
 void fishparty::incubation_2::incubation_info_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	open_content("ms-appx-web:///incubation_info.htm", content_webview, close_button);
+	open_content("ms-appx-web:///guided_tour_content/incubation/incubation_info.htm", content_webview, close_button);
 	timeout.reset_Timer();
 }
 
 
 void fishparty::incubation_2::page_load_info(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	open_content("ms-appx-web:///incubation_info.htm", content_webview, close_button);
+	open_content("ms-appx-web:///guided_tour_content/incubation/incubation_info.htm", content_webview, close_button);
 }
 
 
 void fishparty::incubation_2::header_tanks_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	open_content("ms-appx-web:///incubation_header_tanks.htm", content_webview, close_button);
+	open_content("ms-appx-web:///guided_tour_content/incubation/incubation_header_tanks.htm", content_webview, close_button);
 	timeout.reset_Timer();
 }
 
 
 void fishparty::incubation_2::covers_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	open_content("ms-appx-web:///incubation_covers.htm", content_webview, close_button);
+	open_content("ms-appx-web:///guided_tour_content/incubation/incubation_covers.htm", content_webview, close_button);
 	timeout.reset_Timer();
 }

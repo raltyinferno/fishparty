@@ -1,33 +1,218 @@
-<!-- 10ft Tanks -->
-<!DOCTYPE html>
+<!-- 10ft Tank Gas Conditioning Column -->
+<!doctype html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+
+<style type="text/css">
+/*
+This is where you change the backgroung color of the page
+rgba(0-255, 0-255,0-255,0-1.0);
+*/
+body 
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 92%;
+	max-width: auto;
+	padding-left: 2.275%;
+	padding-right: 2.275%;
+	background-color: rgb(40, 40, 40);
+}	
+
+* 
+{
+    box-sizing: border-box;
 }
+
+header 
+{
+	text-align: center;
+	display: block;
+}
+/*
+This is where you change the size/color of the title text
+rgba(0-255, 0-255,0-255,0-1.0);
+font-size: integer#px; 
+*/
+header .pageHeader h1 {
+	color: rgba(40,40,40,1.00);
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 24px;
+}
+/*
+This is where you change the size/color of the sub title text
+rgba(0-255, 0-255,0-255,0-1.0);
+font-size: integer#px; 
+*/
+header .pageHeader h2 
+{
+	color: rgba(40,40,40,1.00);
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 24px;
+}
+
+/*
+This is where you change the size/color of the content text
+rgba(0-255, 0-255,0-255,0-1.0);
+font-size: integer#px; 
+*/
+.section1 .sectionContent, .sectionContent 
+{
+	color: rgba(40,40,40,1.00);
+	font-size: 24px;
+	font-weight: 700;
+}
+
+/*
+This is where you change the color and size of the border bars
+rgba(0-255, 0-255,0-255,0-1.0);
+height: integer#px; 
+*/
+hr 
+{
+	background-color: rgba(40,40,40,1.00);
+	height: 10px;
+	border-style: inset;
+}
+
+/*
+This is where you change the size of the outer background columns where the nothing is located
+0% < width < 100%
+rgba(0-255, 0-255,0-255,0-1.0)
+*/
+.columnOuter 
+{
+	float: left;
+	width: 20%;
+	padding: 10px;
+	height: auto;
+}
+
+/*
+This is where you change the size/color of the center background column where the content is located
+0% < width < 100%
+rgba(0-255, 0-255,0-255,0-1.0)
+*/
+.columnInner
+{
+	float: left;
+	width: 60%;
+	padding: 10px;
+	height: auto;
+	background-color: seagreen;
+}
+
+/*
+This is where you change the size of the columns holding the images
+The rule for the size of the column is width = 100/NUMBER_OF_IMAGES%
+*/
+.columnImage
+{
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+}
+
+
+
+.row:after 
+{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+
+.mainContent .section1 
+{
+	display: block;
+}
+
+
 </style>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- NOT SHOWN -->
+<title>10ft Tanks Gas Conditioning Column</title>
+
+
 </head>
-<body style="background:darkGreen">
 
+<body>
 
-<h1 style="text-align:center">
-<font color="navy">
-Gas Conditioning Column
-</font>
-</h1>
+<div class="row">
+	<div class="columnOuter"></div>
+	<div class="columnInner">
+<header>
 
-<p align="center"> 
-    The gas conditioning column is where the water is aerated,
+  <section class="pageHeader">
+  	<!-- 
+  	This is where you change the Titles of the page
+  	h1 - This is the Primary Title for the page, replace if the pages contents change
+  	h3 - This is the Seconday Title for the page, this is describing what aspect of the walkthough is on this page
+  	To change the text change the text between the <h#></h#> sections
+  	-->
+
+    <h1>10ft Tanks</h1>
+    <h2>Gas Conditioning Column</h2>
+    <hr>
+  </section>
+
+</header>
+
+<section class="mainContent"> 
+  <section class="section1">
+	<!-- 
+	This is where you change the content of the page
+	h2 - This is where the content for the page is placed
+	To change the text change the text between the <p></p> sections
+	-->
+    <p class="sectionContent">
+The gas conditioning column is where the water is aerated,
 removing carbon dioxide produced by the fish and adding oxygen consumed by the fish. Water flows
 from the top of the column across a diffuser plate, through media that breaks the water flow into
 smaller droplets and into the LHO Low Head Oxygenator below. Fans pull air through the column in a
 counter current flow which increases the efficiency of the gas conditioning column.
-</p>
+	</p>
+	<p class="sectionContent">
+The LHO is a baffled chamber where oxygen gas and
+ozone gas are dissolved into the water. The chamber is slightly pressurized, allowing the water to
+achieve supersaturation of oxygen before mixing with the water in the tank. Oxygen supersaturation
+allows rearing fish at much higher densities, at lower flow rates, than would be possible by just using
+aeration alone.
+	</p>
 
-<img src="../../Assets/win_close.jpg" height="500" />
+    <!--
+    This is where you change the image content of the page
+    To change the image change the path destination to the correct location
+    It is highly recommened to place all images for a page inside the same folder so that only the image label has to be changed
+    ../ - Goes one directory higher
+    "Folder Name"/ - Goes into a directory
+    -->
+    <div class="row">
+    	<div class="columnImage">
+    		<img src = "../../Assets/10ft Tank Guided Tour/10ft_001.jpg" style="width: 100%">
+    	</div>
+    	<div class="columnImage">
+    		<img src = "../../Assets/10ft Tank Guided Tour/10ft_001_old.jpg" style="width: 100%">
+    	</div>
+    	<div class="columnImage">
+    		<img src = "../../Assets/10ft Tank Guided Tour/10ft_002.jpg" style="width: 100%">
+    	</div>	
+    </div>
+
+  <hr>
+  </section>
+
+</section>
+
+</div>
+
+<div class="columnOuter"></div>
+
+</div>
 </body>
 </html>

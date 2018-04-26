@@ -1,60 +1,210 @@
-﻿<Head>
-</Head>
+<!-- Delivery Process -->
+<!doctype html>
+<html>
+<head>
+
+<style type="text/css">
+/*
+This is where you change the backgroung color of the page
+rgba(0-255, 0-255,0-255,0-1.0);
+*/
+body 
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 92%;
+	max-width: auto;
+	padding-left: 2.275%;
+	padding-right: 2.275%;
+	background-color: rgb(40, 40, 40);
+}	
+
+* 
+{
+    box-sizing: border-box;
+}
+
+header 
+{
+	text-align: center;
+	display: block;
+}
+/*
+This is where you change the size/color of the title text
+rgba(0-255, 0-255,0-255,0-1.0);
+font-size: integer#px; 
+*/
+header .pageHeader h1 {
+	color: rgba(40,40,40,1.00);
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 24px;
+}
+/*
+This is where you change the size/color of the sub title text
+rgba(0-255, 0-255,0-255,0-1.0);
+font-size: integer#px; 
+*/
+header .pageHeader h2 
+{
+	color: rgba(40,40,40,1.00);
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 24px;
+}
+
+/*
+This is where you change the size/color of the content text
+rgba(0-255, 0-255,0-255,0-1.0);
+font-size: integer#px; 
+*/
+.section1 .sectionContent, .sectionContent 
+{
+	color: rgba(40,40,40,1.00);
+	font-size: 24px;
+	font-weight: 700;
+}
+
+/*
+This is where you change the color and size of the border bars
+rgba(0-255, 0-255,0-255,0-1.0);
+height: integer#px; 
+*/
+hr 
+{
+	background-color: rgba(40,40,40,1.00);
+	height: 10px;
+	border-style: inset;
+}
+
+/*
+This is where you change the size of the outer background columns where the nothing is located
+0% < width < 100%
+rgba(0-255, 0-255,0-255,0-1.0)
+*/
+.columnOuter 
+{
+	float: left;
+	width: 20%;
+	padding: 10px;
+	height: auto;
+}
+
+/*
+This is where you change the size/color of the center background column where the content is located
+0% < width < 100%
+rgba(0-255, 0-255,0-255,0-1.0)
+*/
+.columnInner
+{
+	float: left;
+	width: 60%;
+	padding: 10px;
+	height: auto;
+	background-color: seagreen;
+}
+
+/*
+This is where you change the size of the columns holding the images
+The rule for the size of the column is width = 100/NUMBER_OF_IMAGES%
+*/
+.columnImage
+{
+	float: left;
+	width: 50.0%;
+	padding: 5px;
+}
+
+
+
+.row:after 
+{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+
+.mainContent .section1 
+{
+	display: block;
+}
+
+
+</style>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- NOT SHOWN -->
+<title>Delivery Process</title>
+
+
+</head>
+
 <body>
-    <style>
 
-        html,
-        body {
-            background: rgb(40, 40, 40);
-        }
+<div class="row">
+	<div class="columnOuter"></div>
+	<div class="columnInner">
+<header>
 
-        html {
-            display: table;
-            margin: auto;
-        }
+  <section class="pageHeader">
+  	<!-- 
+  	This is where you change the Titles of the page
+  	h1 - This is the Primary Title for the page, replace if the pages contents change
+  	h3 - This is the Seconday Title for the page, this is describing what aspect of the walkthough is on this page
+  	To change the text change the text between the <h#></h#> sections
+  	-->
 
-        body {
-            display: table-cell;
-            vertical-align: top;
-        }
+    <h1>Delivery</h1>
+    <h2>Process</h2>
+    <hr>
+  </section>
 
-        h1 {
-            color: white;
-            font-size: 30px;
-        }
+</header>
 
-        table {
-            width: auto;
-            padding: 20px;
-            color: white;
-            font-size: 22px;
-        }
+<section class="mainContent"> 
+  <section class="section1">
+	<!-- 
+	This is where you change the content of the page
+	h2 - This is where the content for the page is placed
+	To change the text change the text between the <p></p> sections
+	-->
+    <p class="sectionContent">
+In interior Alaska, most of the stocking is done in May and June, with smaller stocking events occurring in August and September.
+	</p>
+    <p class="sectionContent">
+Fish are primarily pumped into the stocking trucks with a specially designed pump but can also be netted into trucks. The truck-mounted fish tanks contain aerators and compressed oxygen. The tanks are continuously monitored by the driver for temperature and dissolved oxygen.
+    </p>
+    <p class="sectionContent">
+Hatchery staff drive approximately 15,000 miles every summer stocking fish in area lakes. Most lakes are located on the road system while others require alternative access methods such as ATV, airplane, helicopter, or hiking.
+    </p>
 
-        td,
-        th {
-            border-radius: 5px;
-        }
-    </style>
-    <h1>Delivery Process</h1>
-    <table>
-        <tr>
-            <td>
-                <p>
-                    In interior Alaska, most of the stocking is done in May and June, with smaller stocking events occurring in August and September.
-                </p>
-                <img src="../../Assets/stocking_1.gif" height="450" />
-                <p>
-                    Fish are primarily pumped into the stocking trucks with a specially designed pump but can also be netted into trucks. The truck-mounted fish tanks contain aerators and compressed oxygen. The tanks are continuously monitored by the driver for temperature and dissolved oxygen.
-                </p>
-                <img src="../../Assets/stocking_2.gif" height="450" />
-                <p>
-                    Hatchery staff drive approximately 15,000 miles every summer stocking fish in area lakes. Most lakes are located on the road system while others require alternative access methods such as ATV, airplane, helicopter, or hiking.
-                </p>
-            </td> 
-        </tr>
-        <tr>
-            <!--<td><img src="" height="500" /></td>-->
-        </tr>
-        
-    </table>
+    <!--
+    This is where you change the image content of the page
+    To change the image change the path destination to the correct location
+    It is highly recommened to place all images for a page inside the same folder so that only the image label has to be changed
+    ../ - Goes one directory higher
+    "Folder Name"/ - Goes into a directory
+    -->
+    <div class="row">
+    	<div class="columnImage">
+    		<img src = "../../Assets/stocking_1.gif" style="width: 100%">
+    	</div>
+    	<div class="columnImage">
+    		<img src = "../../Assets/stocking_2.gif" style="width: 100%">
+    	</div>	
+    </div>
+
+  <hr>
+  </section>
+
+</section>
+
+</div>
+
+<div class="columnOuter"></div>
+
+</div>
 </body>
+</html>

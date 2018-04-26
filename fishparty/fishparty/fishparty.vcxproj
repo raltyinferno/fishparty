@@ -7,8 +7,8 @@
     <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
     <AppContainerApplication>true</AppContainerApplication>
     <ApplicationType>Windows Store</ApplicationType>
-    <WindowsTargetPlatformVersion Condition=" '$(WindowsTargetPlatformVersion)' == '' ">10.0.15063.0</WindowsTargetPlatformVersion>
-    <WindowsTargetPlatformMinVersion>10.0.15063.0</WindowsTargetPlatformMinVersion>
+    <WindowsTargetPlatformVersion Condition=" '$(WindowsTargetPlatformVersion)' == '' ">10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.16299.0</WindowsTargetPlatformMinVersion>
     <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -630,7 +630,37 @@
     <None Include="guided_tour_content\30ft_filters\30ft_filters_overview.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
+    <None Include="guided_tour_content\30ft_filters\biofilter.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="guided_tour_content\30ft_filters\drum_filter.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="guided_tour_content\30ft_filters\gas_conditioning.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="guided_tour_content\30ft_filters\header_tank.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="guided_tour_content\30ft_filters\lho.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="guided_tour_content\30ft_filters\ozone.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
     <None Include="guided_tour_content\30ft_tanks\30ft_tanks_overview.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="guided_tour_content\30ft_tanks\circ_tank.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="guided_tour_content\30ft_tanks\feeder.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="guided_tour_content\30ft_tanks\pump_sump.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="guided_tour_content\30ft_tanks\radial_flow.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
     <None Include="guided_tour_content\5ft_tanks\5ft_tanks_overview.htm">
@@ -643,49 +673,55 @@
     <None Include="guided_tour_content\effluent\effluent.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
+    <None Include="guided_tour_content\egg_receiving_room\egg_receiving_disinfecting.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="guided_tour_content\egg_receiving_room\egg_receiving_overview.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
     <None Include="guided_tour_content\fish_delivery\delivery_process.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
     <None Include="guided_tour_content\fish_delivery\delivery_vehicles.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
+    <None Include="guided_tour_content\gas_conditioning\carbon.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
     <None Include="guided_tour_content\gas_conditioning\gas_conditioning_overview.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="guided_tour_content\incubation\incubation.htm">
+    <None Include="guided_tour_content\gas_conditioning\heat.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="guided_tour_content\gas_conditioning\nitro.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="guided_tour_content\incubation\heathstacks.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="guided_tour_content\incubation\incubation_covers.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="guided_tour_content\incubation\incubation_header_tanks.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="guided_tour_content\incubation\incubation_info.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
     <None Include="guided_tour_content\oxygen_generation\oxygen_generation_overview.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="guided_tour_content\water_intake\carbon.htm">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
     <None Include="guided_tour_content\water_intake\first_stage_filter.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
-    <None Include="guided_tour_content\water_intake\heat.htm">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
     <None Include="guided_tour_content\water_intake\heat_gas_overview.htm">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="guided_tour_content\water_intake\nitro.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
     <None Include="guided_tour_content\water_intake\second_stage_filter.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
     <None Include="guided_tour_content\water_intake\wintake_page_overview.htm">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="incubation_covers.htm">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="incubation_header_tanks.htm">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="incubation_info.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
     <None Include="Iron_content_display.htm">
@@ -697,6 +733,7 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\10ft Tank Guided Tour\10ft_001.jpg" />
+    <Image Include="Assets\10ft Tank Guided Tour\10ft_001_old.jpg" />
     <Image Include="Assets\10ft Tank Guided Tour\10ft_002.jpg" />
     <Image Include="Assets\10ft Tank Guided Tour\side_drain.jpg" />
     <Image Include="Assets\25ft Filters\big_close.jpg" />
@@ -721,6 +758,7 @@
     <Image Include="Assets\delivery_truck3.jpg" />
     <Image Include="Assets\down_arrow.png" />
     <Image Include="Assets\Effluent Guided Tour\effluent.jpg" />
+    <Image Include="Assets\Egg Receiving\egg_001.jpg" />
     <Image Include="Assets\Egg Room Guided Tour\egg_001.jpg" />
     <Image Include="Assets\Egg Room Guided Tour\egg_002.jpg" />
     <Image Include="Assets\Egg Room Guided Tour\egg_002_01.jpg" />
@@ -735,6 +773,9 @@
     </Image>
     <Image Include="Assets\Front Tanks Guided Tour\arcticchar_largemap.jpg" />
     <Image Include="Assets\Front Tanks Guided Tour\front_001.jpg" />
+    <Image Include="Assets\Gas Conditioning\co2.jpg" />
+    <Image Include="Assets\Gas Conditioning\heat.jpg" />
+    <Image Include="Assets\Gas Conditioning\nitrogen.jpg" />
     <Image Include="Assets\hamburger.png" />
     <Image Include="Assets\hatchery_map.jpg" />
     <Image Include="Assets\heat.jpg" />
@@ -828,6 +869,8 @@
     <Image Include="Assets\walkthrough\walkthrough_L1F2.jpg" />
     <Image Include="Assets\walkthrough\walkthrough_L1F2R1.jpg" />
     <Image Include="Assets\walkthrough\walkthrough_start1.jpg" />
+    <Image Include="Assets\Water Intake\bg_wintake.jpg" />
+    <Image Include="Assets\Water Intake\win_close.jpg" />
     <Image Include="Assets\Wide310x150Logo.scale-200.png" />
     <Image Include="Assets\win_close.jpg" />
   </ItemGroup>
