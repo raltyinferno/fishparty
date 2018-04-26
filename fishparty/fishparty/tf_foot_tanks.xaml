@@ -12,13 +12,13 @@
     <Page.Resources>
         <ImageBrush x:Key="thirtybgGrid" ImageSource="/Assets/25ft Tank/25ft_oh.jpg" Opacity=".85" Stretch="UniformToFill" />
     </Page.Resources>
-        
+
     <Grid Background="{ThemeResource thirtybgGrid}" x:Name="bg_grid">
         <!-- navigation/home buttons -->
         <local:navigation_button/>
         <local:home_button/>
         <!-- end navigation/home buttons -->
-        
+
         <!-- Title -->
         <Grid Style="{StaticResource title_grid_style}">
             <Rectangle Style="{StaticResource title_box_style}" Width="850"/>
@@ -26,14 +26,40 @@
             <local:overview_button Tapped="show_overview"/>
         </Grid>
         <!-- End Title -->
-        
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="4*"/>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="0.2*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="3.25*"/>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="2*"/>
+            </Grid.RowDefinitions>
+            <Button Grid.Column="3" Grid.Row="1" Style="{StaticResource content_display_open_style}"
+                    VerticalAlignment="Bottom" HorizontalAlignment="Right"
+                    Height="200" Width="200" Content="Radial Flow" Click="radial_flow_Click" />
+            <Button Grid.Column="0" Grid.Row="0" Style="{StaticResource content_display_open_style}"
+                    VerticalAlignment="Bottom" HorizontalAlignment="Center"
+                    Height="150" Width="150" Content="Feeder" Click="feeder_Click" />
+            <Button Grid.Column="1" Grid.Row="1" Style="{StaticResource content_display_open_style}"
+                    VerticalAlignment="Bottom" HorizontalAlignment="Right"
+                    Height="200" Width="200" Content="Circular Tanks" Click="circ_tank_Click" />
+            <Button Grid.Column="0" Grid.Row="1" Style="{StaticResource content_display_open_style}"
+                    VerticalAlignment="Top" HorizontalAlignment="Left"
+                    Height="200" Width="200" Content="Pump Sump" Click="pump_sump_Click"  />
+        </Grid>
+
         <!-- FEEDER BUTTON -->
         <Button Height="100" 
                 Width="100" 
-                Margin="411,414,0,566"
+                Margin="411,430,0,550"
                 Background="{ StaticResource round_icon }"
                 x:Name="food_butt"
-                Click="food_butt_Click">
+                Click="food_butt_Click" Foreground="Black">
             <Image Source="{StaticResource magnify_icon}" Width="50" Height="50"/>
             <Button.Flyout>
                 <Flyout Placement="Right">
@@ -49,15 +75,16 @@
             </Button.Flyout>
         </Button>
         <!-- END FEEDER BUTTON -->
-        
+
         <!-- GRAYLING CLOSE UP BUTTON -->
         <Button Height="100" 
                 Width="100" 
-                Margin="1536,641,0,339"
+                Margin="750,488,0,492"
                 Background="{ StaticResource round_icon }"
                 x:Name="g_close_butt"
                 Click="g_close_butt_Click">
             <Image Source="{StaticResource magnify_icon}" Width="50" Height="50"/>
+
             <Button.Flyout>
                 <Flyout>
                     <Flyout.FlyoutPresenterStyle>
@@ -68,7 +95,7 @@
                     <Grid>
                         <Image Source="Assets/25ft Tank/25ft_grayling.jpg" Height="600" Width="600"/>
                     </Grid>
-                        
+
                 </Flyout>
             </Button.Flyout>
         </Button>
@@ -125,7 +152,7 @@
             </StackPanel>
         </Button>
 
-        
+
         <Button Style="{StaticResource guided_back_button}" Click="prev_page_Click">
             <StackPanel Orientation="Horizontal">
                 <!--<Image Source="{StaticResource back_icon}" Height="50" Width="50"/>-->
