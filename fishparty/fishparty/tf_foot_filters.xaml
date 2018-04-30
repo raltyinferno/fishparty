@@ -31,7 +31,6 @@
                 <ColumnDefinition Width="1*"/>
                 <ColumnDefinition Width="1*"/>
                 <ColumnDefinition Width="1*"/>
-                <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="1*"/>
                 <ColumnDefinition Width="1*"/>
             </Grid.ColumnDefinitions>
@@ -45,51 +44,47 @@
             </Grid.RowDefinitions>
 
             <!-- Info Buttons -->
-            <Button Style="{StaticResource content_display_open_style}" Grid.Row="1" Grid.Column="3"
+            <Button Style="{StaticResource content_display_open_style}" Grid.Row="1" Grid.Column="0"
                     x:Name="gas_cond"
                     HorizontalAlignment="Right" VerticalAlignment="Center" Click="gas_cond_Click"
-                    Height="164" Width="164" FontWeight="Bold" Margin="0,78,0,190" Grid.RowSpan="3">
-                Gas Conditioning
+                    Height="200" Width="200" FontWeight="Bold">
+                    Gas Conditioning
             </Button>
 
             <Button Style="{StaticResource content_display_open_style}" Grid.Row="3" Grid.Column="2"
                     x:Name="bio_filt"
                     HorizontalAlignment="Right" VerticalAlignment="Center" Click="bio_filt_Click"
                     Height="200" Width="200" FontWeight="Bold">
-                Sand Bed Biofilter
+                    Sand Bed Biofilter
             </Button>
 
-            <Button Style="{StaticResource content_display_open_style}" Grid.Row="3" Grid.Column="5"
+            <Button Style="{StaticResource content_display_open_style}" Grid.Row="1" Grid.Column="3"
                     x:Name="ozone"
                     HorizontalAlignment="Right" VerticalAlignment="Center" Click="ozone_Click"
-                    Height="164" Width="172" FontWeight="Bold" Margin="0,8,28,44">
-                Ozone Generation
+                    Height="200" Width="200" FontWeight="Bold">
+                    Ozone Generation
             </Button>
 
-            <Button Style="{StaticResource content_display_open_style}" Grid.Row="1" Grid.Column="1"
+            <Button Style="{StaticResource content_display_open_style}" Grid.Row="4" Grid.Column="1"
                     x:Name="lho"
                     HorizontalAlignment="Center" VerticalAlignment="Center" Click="lho_Click"
-                    Height="206" Width="211" FontWeight="Bold" Margin="10,0,99,10">
-                Low Head Oxygenator
+                    Height="200" Width="200" FontWeight="Bold">
+                    Low Head Oxygenator
             </Button>
-
-            <Button Style="{StaticResource content_display_open_style}" Grid.Row="1"
+            
+            <Button Style="{StaticResource content_display_open_style}" Grid.Row="4" Grid.Column="5"
                     x:Name="head_tank"
                     HorizontalAlignment="Right" VerticalAlignment="Center" Click="head_tank_Click"
-                    Height="200" Width="200" FontWeight="Bold" Margin="0,208,94,24" Grid.RowSpan="3">
-                Header Tank
+                    Height="200" Width="200" FontWeight="Bold">
+                    Header Tank
             </Button>
 
             <Button Style="{StaticResource content_display_open_style}" Grid.Row="4" Grid.Column="3"
                     x:Name="drum_filt"
                     HorizontalAlignment="Right" VerticalAlignment="Top" Click="drum_filt_Click"
-                    Height="127" Width="134" FontWeight="Bold" Margin="0,0,66,0">
+                    Height="130" Width="130" FontWeight="Bold">
                 Drum Filter
             </Button>
-            <Button Style="{StaticResource content_display_open_style}" Grid.Row="4" Grid.Column="6"
-                x:Name="bio_filt_Copy"
-                HorizontalAlignment="Right" VerticalAlignment="Center" Click="bio_filt_Click"
-                Height="200" Width="200" FontWeight="Bold" Content="Pump Sump" Margin="0,151,85,81" Grid.RowSpan="2"/>
         </Grid>
         <!--Webview layout structure-->
         <Grid>
@@ -118,8 +113,8 @@
             <TextBlock VerticalAlignment="Center">30ft Tanks</TextBlock>
         </Button>
 
-
-
+        
+        
         <!-- End Page Buttons -->
     </Grid>
 </Page>

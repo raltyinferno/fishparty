@@ -86,7 +86,13 @@
 
             </TextBlock>
 
-            <Grid>
+        <StackPanel Orientation="Horizontal">
+            <Image Source="{StaticResource fandg_logo}" HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="200" Width="200"/>
+            <TextBlock HorizontalAlignment="Left" VerticalAlignment="Bottom" FontSize="48" >
+                <Span>Alaska Department</Span> <LineBreak/><Span>of Fish and Game</Span>
+                </TextBlock>
+        </StackPanel>
+        <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="4*"/>
                     <RowDefinition Height="1*"/>

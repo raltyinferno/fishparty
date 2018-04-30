@@ -98,9 +98,6 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <PackageCertificateKeyFile>fishparty_TemporaryKey.pfx</PackageCertificateKeyFile>
-    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
-    <AppxBundle>Always</AppxBundle>
-    <AppxBundlePlatforms>x64</AppxBundlePlatforms>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
     <ClCompile>
@@ -310,6 +307,9 @@
     </ClInclude>
     <ClInclude Include="walkthrough_F4R1F1L1F1R1F1.xaml.h">
       <DependentUpon>walkthrough_F4R1F1L1F1R1F1.xaml</DependentUpon>
+    </ClInclude>
+    <ClInclude Include="walkthrough_F4R1F1L1F1R1F2.xaml.h">
+      <DependentUpon>walkthrough_F4R1F1L1F1R1F2.xaml</DependentUpon>
     </ClInclude>
     <ClInclude Include="walkthrough_F5.xaml.h">
       <DependentUpon>walkthrough_F5.xaml</DependentUpon>
@@ -552,6 +552,7 @@
     <Page Include="walkthrough_F4R1F1L1F1R1F1.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="walkthrough_F4R1F1L1F1R1F2.xaml" />
     <Page Include="walkthrough_F5.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -750,6 +751,7 @@
     <Image Include="Assets\25ft Tank\25ft_oh.jpg" />
     <Image Include="Assets\5ft Tank Guided Tour\5ft_001.jpg" />
     <Image Include="Assets\5ft Tank Guided Tour\5ft_001_01.jpg" />
+    <Image Include="Assets\ADFG_trans_logo.gif" />
     <Image Include="Assets\advance_icon.png" />
     <Image Include="Assets\air_background.jpg" />
     <Image Include="Assets\back_icon.png" />
@@ -772,9 +774,6 @@
     <Image Include="Assets\filter.gif" />
     <Image Include="Assets\fishparty_bubble.png" />
     <Image Include="Assets\fishparty_splash_background.png" />
-    <Image Include="Assets\fish_icon.scale-200.png">
-      <DeploymentContent>true</DeploymentContent>
-    </Image>
     <Image Include="Assets\Front Tanks Guided Tour\arcticchar_largemap.jpg" />
     <Image Include="Assets\Front Tanks Guided Tour\front_001.jpg" />
     <Image Include="Assets\Gas Conditioning\co2.jpg" />
@@ -794,9 +793,7 @@
     <Image Include="Assets\right_arrow.png" />
     <Image Include="Assets\Round_Icon.png" />
     <Image Include="Assets\salmon.gif" />
-    <Image Include="Assets\SplashScreen.scale-200.png">
-      <DeploymentContent>true</DeploymentContent>
-    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png" />
     <Image Include="Assets\splash_image.jpg" />
     <Image Include="Assets\Square150x150Logo.scale-200.png" />
     <Image Include="Assets\Square44x44Logo.scale-200.png" />
@@ -864,6 +861,7 @@
     <Image Include="Assets\walkthrough\walkthrough_F4R1F1L1F1.jpg" />
     <Image Include="Assets\walkthrough\walkthrough_F4R1F1L1F1R1.jpg" />
     <Image Include="Assets\walkthrough\walkthrough_F4R1F1L1F1R1F1.jpg" />
+    <Image Include="Assets\walkthrough\walkthrough_F4R1F1L1F1R1F2.jpg" />
     <Image Include="Assets\walkthrough\walkthrough_F5.jpg" />
     <Image Include="Assets\walkthrough\walkthrough_F5L1.jpg" />
     <Image Include="Assets\walkthrough\walkthrough_F5R1.jpg" />
@@ -1050,6 +1048,9 @@
     </ClCompile>
     <ClCompile Include="walkthrough_F4R1F1L1F1R1F1.xaml.cpp">
       <DependentUpon>walkthrough_F4R1F1L1F1R1F1.xaml</DependentUpon>
+    </ClCompile>
+    <ClCompile Include="walkthrough_F4R1F1L1F1R1F2.xaml.cpp">
+      <DependentUpon>walkthrough_F4R1F1L1F1R1F2.xaml</DependentUpon>
     </ClCompile>
     <ClCompile Include="walkthrough_F5.xaml.cpp">
       <DependentUpon>walkthrough_F5.xaml</DependentUpon>

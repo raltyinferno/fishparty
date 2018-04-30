@@ -32,6 +32,7 @@
         <BitmapImage x:Key="back_icon" UriSource="Assets/back_icon.png"/>
         <ImageBrush x:Key="round_icon" ImageSource="/Assets/Round_Icon.png" Opacity="1" />
         <BitmapImage x:Key="magnify_icon" UriSource="Assets/magnify.png" />
+        <BitmapImage x:Key="fandg_logo" UriSource="Assets/ADFG_trans_logo.gif"/>
         <!--  -->
 
 
@@ -80,14 +81,13 @@
         </Style>
 
         <Style x:Key="content_display_style" TargetType="WebView">
-            <Setter Property="Height" Value="750"/>
-            <Setter Property="Width" Value="1100"/>
+            <Setter Property="Height" Value="800"/>
+            <Setter Property="Width" Value="800"/>
             <Setter Property="Grid.Row" Value="1"/>
             <Setter Property="Grid.Column" Value="1"/>
             <Setter Property="HorizontalAlignment" Value="Center"/>
             <Setter Property="VerticalAlignment" Value="Center"/>
             <Setter Property="Visibility" Value="Collapsed"/>
-            <!--<Setter Property="ScrollViewer.Visibility" Value="Visible"/>-->
         </Style>
 
         <Style x:Key="content_display_close_style" TargetType="Button">
@@ -107,6 +107,7 @@
             <Setter Property="Background" Value="{StaticResource round_icon}"/>
             <Setter Property="Foreground" Value="Black"/>
             <Setter Property="FontSize" Value="18"/>
+            <Setter Property="FontWeight" Value="Bold"/>
         </Style>
     </Application.Resources>
 

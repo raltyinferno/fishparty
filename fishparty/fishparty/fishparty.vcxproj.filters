@@ -90,6 +90,7 @@
     <ClCompile Include="walkthrough_nav.xaml.cpp" />
     <ClCompile Include="effluent.xaml.cpp" />
     <ClCompile Include="walkthrough_home_nav.xaml.cpp" />
+    <ClCompile Include="walkthrough_F4R1F1L1F1R1F2.xaml.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="air.xaml.h" />
@@ -187,6 +188,7 @@
     <ClInclude Include="walkthrough_nav.xaml.h" />
     <ClInclude Include="effluent.xaml.h" />
     <ClInclude Include="walkthrough_home_nav.xaml.h" />
+    <ClInclude Include="walkthrough_F4R1F1L1F1R1F2.xaml.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\down_arrow.png">
@@ -576,9 +578,6 @@
     <Image Include="Assets\Effluent Guided Tour\effluent.jpg">
       <Filter>images\Effluent Guided Tour</Filter>
     </Image>
-    <Image Include="Assets\fish_icon.scale-200.png">
-      <Filter>images</Filter>
-      </Image>
     <Image Include="Assets\Water Intake\win_close.jpg">
       <Filter>images\Water Intake</Filter>
     </Image>
@@ -614,6 +613,12 @@
     </Image>
     <Image Include="Assets\25ft Filters\ozone_close.jpg">
       <Filter>images\25ft Filter Guided Tour</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough\walkthrough_F4R1F1L1F1R1F2.jpg">
+      <Filter>images\Walkthrough Images</Filter>
+    </Image>
+    <Image Include="Assets\ADFG_trans_logo.gif">
+      <Filter>images</Filter>
     </Image>
   </ItemGroup>
   <ItemGroup>
@@ -970,6 +975,9 @@
     </Page>
     <Page Include="walkthrough_home_nav.xaml">
       <Filter>global resources</Filter>
+    </Page>
+    <Page Include="walkthrough_F4R1F1L1F1R1F2.xaml">
+      <Filter>Walkthrough Pages</Filter>
     </Page>
   </ItemGroup>
   <ItemGroup>
