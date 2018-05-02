@@ -620,6 +620,9 @@
     <Image Include="Assets\ADFG_trans_logo.gif">
       <Filter>images</Filter>
     </Image>
+    <Image Include="Assets\walkthrough_maps\fishparty_map_start.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <None Include="fishparty_TemporaryKey.pfx">
@@ -979,6 +982,9 @@
     <Page Include="walkthrough_F4R1F1L1F1R1F2.xaml">
       <Filter>Walkthrough Pages</Filter>
     </Page>
+    <Page Include="walkthrough_minimap.xaml">
+      <Filter>global resources</Filter>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="images">
@@ -1025,6 +1031,9 @@
     </Filter>
     <Filter Include="images\Gas Conditioning">
       <UniqueIdentifier>{4df31759-f72d-4de6-937d-49370233367c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="images\Walkthrough Maps">
+      <UniqueIdentifier>{2d83918c-e318-4590-94f9-669f706f1cc4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
