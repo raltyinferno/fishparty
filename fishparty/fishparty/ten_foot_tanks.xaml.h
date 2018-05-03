@@ -28,5 +28,6 @@ namespace fishparty
 		void side_drain_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void gas_column_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void ten_loaded(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
+		void tank_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 	};
 }

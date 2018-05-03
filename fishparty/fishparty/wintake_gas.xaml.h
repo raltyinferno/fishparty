@@ -30,5 +30,6 @@ namespace fishparty
 		void back_to_wintake_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void show_overview(Platform::Object^ sender, Windows::UI::Xaml::Input::TappedRoutedEventArgs^ e);
 		void gas_cond_loaded(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
+		void overview_button_Loaded(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 	};
 }

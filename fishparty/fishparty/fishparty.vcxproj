@@ -621,6 +621,9 @@
     <None Include="guided_tour_content\10ft_tanks\10ft_tanks_overview.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
+    <None Include="guided_tour_content\10ft_tanks\10ft_tanks_tank.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
     <None Include="guided_tour_content\10ft_tanks\gas_conditioning_column.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
@@ -741,10 +744,12 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Image Include="Assets\10ft Tank Guided Tour\10food.gif" />
     <Image Include="Assets\10ft Tank Guided Tour\10ft_001.jpg" />
     <Image Include="Assets\10ft Tank Guided Tour\10ft_001_old.jpg" />
     <Image Include="Assets\10ft Tank Guided Tour\10ft_002.jpg" />
     <Image Include="Assets\10ft Tank Guided Tour\side_drain.jpg" />
+    <Image Include="Assets\10ft Tank Guided Tour\tank_release.gif" />
     <Image Include="Assets\25ft Filters\big_close.jpg" />
     <Image Include="Assets\25ft Filters\big_top.jpg" />
     <Image Include="Assets\25ft Filters\biofilter_sweep.gif" />
@@ -757,8 +762,10 @@
     <Image Include="Assets\25ft Tank\25ft_food.jpg" />
     <Image Include="Assets\25ft Tank\25ft_grayling.jpg" />
     <Image Include="Assets\25ft Tank\25ft_oh.jpg" />
+    <Image Include="Assets\25ft Tank\30food.gif" />
     <Image Include="Assets\5ft Tank Guided Tour\5ft_001.jpg" />
     <Image Include="Assets\5ft Tank Guided Tour\5ft_001_01.jpg" />
+    <Image Include="Assets\5ft Tank Guided Tour\fish_close.gif" />
     <Image Include="Assets\ADFG_trans_logo.gif" />
     <Image Include="Assets\advance_icon.png" />
     <Image Include="Assets\air_background.jpg" />
@@ -1208,6 +1215,7 @@
     <ResourceCompile Include="fishparty.rc" />
   </ItemGroup>
   <ItemGroup>
+    <Media Include="Assets\10ft Tank Guided Tour\fishparty_06.mp4" />
     <Media Include="Assets\25ft Filters\30ft_filters.mp4" />
     <Media Include="Assets\Egg Receiving\disinfecting.mp4" />
     <Media Include="Assets\Egg Room Guided Tour\alevin.mp4" />
