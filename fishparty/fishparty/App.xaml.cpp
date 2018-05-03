@@ -32,6 +32,7 @@ App::App()
     InitializeComponent();
 	Windows::UI::ViewManagement::ApplicationView::PreferredLaunchWindowingMode = Windows::UI::ViewManagement::ApplicationViewWindowingMode::FullScreen;
     Suspending += ref new SuspendingEventHandler(this, &App::OnSuspending);
+	page_view = view_manager(1);
 }
 
 /// <summary>
@@ -41,6 +42,10 @@ App::App()
 /// <param name="e">Details about the launch request and process.</param>
 void App::OnLaunched(Windows::ApplicationModel::Activation::LaunchActivatedEventArgs^ e)
 {
+	/*for (auto i = 0; i < 11; ++i)
+	{
+		viewed->Append(0);
+	}*/
     auto rootFrame = dynamic_cast<Frame^>(Window::Current->Content);
 
     // Do not repeat app initialization when the Window already has content,
@@ -92,6 +97,8 @@ void App::OnLaunched(Windows::ApplicationModel::Activation::LaunchActivatedEvent
     }
 }
 
+
+
 /// <summary>
 /// Invoked when application execution is being suspended.  Application state is saved
 /// without knowing whether the application will be terminated or resumed with the contents
@@ -116,4 +123,14 @@ void App::OnNavigationFailed(Platform::Object ^sender, Windows::UI::Xaml::Naviga
 {
     throw ref new FailureException("Failed to load Page " + e->SourcePageType.Name);
 }
+
+//bool fishparty::App::get_view_status(int page_index)
+//{
+//	return (0||viewed->GetAt(page_index));
+//}
+//
+//void fishparty::App::set_view_status(int page_index, int view_status)
+//{
+//	viewed->SetAt(page_index, view_status);
+//}
 

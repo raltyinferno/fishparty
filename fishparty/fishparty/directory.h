@@ -31,6 +31,14 @@
 #include "effluent.xaml.h"
 //
 
+// Oxygen Generation Pages
+#include "air.xaml.h"
+//
+
+//Fish Stocking Pages
+#include "fish_delivery.xaml.h"
+//
+
 // Walkthrough Pages
 #include "walkthrough_start1.xaml.h"
 
@@ -101,11 +109,12 @@
 
 
 
-#include "air.xaml.h"
 
-#include "fish_delivery.xaml.h"
-
+// Utility Pages
 #include "Hometimer.h"
 
 #include "open_webpage.h"
+
+#include "view_manager.h"
+//
 

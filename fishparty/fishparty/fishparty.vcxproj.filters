@@ -91,6 +91,7 @@
     <ClCompile Include="effluent.xaml.cpp" />
     <ClCompile Include="walkthrough_home_nav.xaml.cpp" />
     <ClCompile Include="walkthrough_F4R1F1L1F1R1F2.xaml.cpp" />
+    <ClCompile Include="view_manager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="air.xaml.h" />
@@ -189,6 +190,7 @@
     <ClInclude Include="effluent.xaml.h" />
     <ClInclude Include="walkthrough_home_nav.xaml.h" />
     <ClInclude Include="walkthrough_F4R1F1L1F1R1F2.xaml.h" />
+    <ClInclude Include="view_manager.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\down_arrow.png">

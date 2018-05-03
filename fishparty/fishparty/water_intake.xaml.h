@@ -7,11 +7,12 @@
 
 #include "water_intake.g.h"
 #include "directory.h"
+#include "view_manager.h"
 
 namespace fishparty
 {
 	/// <summary>
-	/// An empty page that can be used on its own or navigated to within a Frame.
+	/// Page to display information about the water intake and treatment
 	/// </summary>
 	[Windows::Foundation::Metadata::WebHostHidden]
 	public ref class water_intake sealed
@@ -28,5 +29,7 @@ namespace fishparty
 		void page_load_wintake(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void fishparty::water_intake::wintake_info_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void wintake_gas_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
+		view_manager page_view;
+		void view_overview(Platform::Object^ sender, Windows::UI::Xaml::Input::TappedRoutedEventArgs^ e);
 	};
 }

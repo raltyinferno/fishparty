@@ -5,6 +5,8 @@
 
 #include "pch.h"
 #include "water_intake.xaml.h"
+#include <iostream>
+using std::cout;
 
 using namespace fishparty;
 
@@ -25,6 +27,7 @@ water_intake::water_intake()
 {
 	InitializeComponent();
 }
+
 
 void fishparty::water_intake::next_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
@@ -67,6 +70,9 @@ void fishparty::water_intake::wintake_info_Click(Platform::Object^ sender, Windo
 
 void fishparty::water_intake::page_load_wintake(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
+	if (page_view.check_page("water intake")) return;
+	page_view.mark_page("water intake");
+
 	open_content("ms-appx-web:///guided_tour_content/water_intake/wintake_page_overview.htm", content_webview, close_button);
 }
 
@@ -75,4 +81,10 @@ void fishparty::water_intake::wintake_gas_Click(Platform::Object^ sender, Window
 {
 	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(wintake_gas::typeid));
 
+}
+
+
+void fishparty::water_intake::view_overview(Platform::Object^ sender, Windows::UI::Xaml::Input::TappedRoutedEventArgs^ e)
+{
+	open_content("ms-appx-web:///guided_tour_content/water_intake/wintake_page_overview.htm", content_webview, close_button);
 }
