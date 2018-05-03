@@ -768,6 +768,7 @@
     <Image Include="Assets\Egg Room Guided Tour\egg_002_01.jpg" />
     <Image Include="Assets\Egg Room Guided Tour\egg_002_02.jpg" />
     <Image Include="Assets\Egg Room Guided Tour\egg_002_03.jpg" />
+    <Image Include="Assets\Egg Room Guided Tour\header_tanks.jpg" />
     <Image Include="Assets\egg_intake.jpg" />
     <Image Include="Assets\filter.gif" />
     <Image Include="Assets\fishparty_bubble.png" />
@@ -930,6 +931,7 @@
     <Image Include="Assets\walkthrough_maps\map_L1F2R1.png" />
     <Image Include="Assets\walkthrough_maps\map_start.png" />
     <Image Include="Assets\Water Intake\bg_wintake.jpg" />
+    <Image Include="Assets\Water Intake\wintrains_sweep.gif" />
     <Image Include="Assets\Water Intake\win_close.jpg" />
     <Image Include="Assets\Wide310x150Logo.scale-200.png" />
     <Image Include="Assets\win_close.jpg" />
@@ -1192,6 +1194,11 @@
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="fishparty.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Assets\25ft Filters\30ft_filters.mp4" />
+    <Media Include="Assets\Egg Room Guided Tour\alevin.mp4" />
+    <Media Include="Assets\Egg Room Guided Tour\egg_trays.mp4" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -200,21 +200,6 @@
     <Image Include="Assets\down_arrow.png">
       <Filter>images</Filter>
     </Image>
-    <Image Include="Assets\Egg Room Guided Tour\egg_001.jpg">
-      <Filter>images</Filter>
-    </Image>
-    <Image Include="Assets\Egg Room Guided Tour\egg_002.jpg">
-      <Filter>images</Filter>
-    </Image>
-    <Image Include="Assets\Egg Room Guided Tour\egg_002_01.jpg">
-      <Filter>images</Filter>
-    </Image>
-    <Image Include="Assets\Egg Room Guided Tour\egg_002_02.jpg">
-      <Filter>images</Filter>
-    </Image>
-    <Image Include="Assets\Egg Room Guided Tour\egg_002_03.jpg">
-      <Filter>images</Filter>
-    </Image>
     <Image Include="Assets\egg_intake.jpg">
       <Filter>images</Filter>
     </Image>
@@ -599,9 +584,6 @@
     <Image Include="Assets\Gas Conditioning\nitrogen.jpg">
       <Filter>images\Gas Conditioning</Filter>
     </Image>
-    <Image Include="Assets\Egg Receiving\egg_001.jpg">
-      <Filter>images</Filter>
-    </Image>
     <Image Include="Assets\10ft Tank Guided Tour\10ft_001_old.jpg">
       <Filter>images\10ft Guided Tour</Filter>
     </Image>
@@ -805,6 +787,30 @@
     </Image>
     <Image Include="Assets\walkthrough_maps\map_start.png">
       <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\Water Intake\wintrains_sweep.gif">
+      <Filter>images\Water Intake</Filter>
+    </Image>
+    <Image Include="Assets\Egg Room Guided Tour\header_tanks.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\Egg Room Guided Tour\egg_001.jpg">
+      <Filter>images\incubation</Filter>
+    </Image>
+    <Image Include="Assets\Egg Room Guided Tour\egg_002.jpg">
+      <Filter>images\incubation</Filter>
+    </Image>
+    <Image Include="Assets\Egg Room Guided Tour\egg_002_01.jpg">
+      <Filter>images\incubation</Filter>
+    </Image>
+    <Image Include="Assets\Egg Room Guided Tour\egg_002_02.jpg">
+      <Filter>images\incubation</Filter>
+    </Image>
+    <Image Include="Assets\Egg Room Guided Tour\egg_002_03.jpg">
+      <Filter>images\incubation</Filter>
+    </Image>
+    <Image Include="Assets\Egg Receiving\egg_001.jpg">
+      <Filter>images\Egg Receiving</Filter>
     </Image>
   </ItemGroup>
   <ItemGroup>
@@ -1212,6 +1218,12 @@
     <Filter Include="images\Walkthrough Maps">
       <UniqueIdentifier>{2d83918c-e318-4590-94f9-669f706f1cc4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="images\incubation">
+      <UniqueIdentifier>{a9742a7e-42b6-4ec5-ac90-80faf2570480}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="images\Egg Receiving">
+      <UniqueIdentifier>{54cd927e-247d-46f2-96c7-019f89b24797}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -1230,5 +1242,16 @@
     <AppxManifest Include="Package.appxmanifest">
       <Filter>generated files</Filter>
     </AppxManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Assets\Egg Room Guided Tour\egg_trays.mp4">
+      <Filter>images\incubation</Filter>
+    </Media>
+    <Media Include="Assets\25ft Filters\30ft_filters.mp4">
+      <Filter>images</Filter>
+    </Media>
+    <Media Include="Assets\Egg Room Guided Tour\alevin.mp4">
+      <Filter>images\incubation</Filter>
+    </Media>
   </ItemGroup>
 </Project>

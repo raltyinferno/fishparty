@@ -23,28 +23,8 @@ using namespace Windows::UI::Xaml::Navigation;
 
 incubation_2::incubation_2()
 {
-	InitializeComponent();
+	InitializeComponent();	
 }
-
-
-void fishparty::incubation_2::forward_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
-{
-}
-
-void fishparty::incubation_2::backward_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
-{
-	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(incubation::typeid));
-}
-
-
-void fishparty::incubation_2::show_Flyout(Platform::Object^ sender, Windows::UI::Xaml::Input::TappedRoutedEventArgs^ e)
-{
-	timeout.reset_Timer();
-	this->Frame->ContextFlyout->ShowAttachedFlyout((FrameworkElement^)sender);
-}
-
-
-
 
 void fishparty::incubation_2::next_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
@@ -69,13 +49,6 @@ void fishparty::incubation_2::close_Click(Platform::Object^ sender, Windows::UI:
 void fishparty::incubation_2::incubation_trays_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
 	open_content("ms-appx-web:///guided_tour_content/incubation/heathstacks.htm", content_webview, close_button);
-	timeout.reset_Timer();
-}
-
-
-void fishparty::incubation_2::incubation_info_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
-{
-	open_content("ms-appx-web:///guided_tour_content/incubation/incubation_info.htm", content_webview, close_button);
 	timeout.reset_Timer();
 }
 
@@ -106,3 +79,10 @@ void fishparty::incubation_2::show_overview(Platform::Object^ sender, Windows::U
 {
 	open_content("ms-appx-web:///guided_tour_content/incubation/incubation_info.htm", content_webview, close_button);
 }
+
+
+//void fishparty::incubation_2::alevin_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+//{
+//	player->Source = Windows::Media::Core::MediaSource::CreateFromUri(ref new Uri("ms-appx:///Assets/Egg Room Guided Tour/alevin.mp4"));
+//	player->MediaPlayer->Play;
+//}
