@@ -85,6 +85,13 @@
                     Height="130" Width="130" FontWeight="Bold">
                 Drum Filter
             </Button>
+
+            <Button Style="{StaticResource content_display_open_style}" Grid.Row="4" Grid.Column="3"
+                    x:Name="sump_pump"
+                    HorizontalAlignment="Right" VerticalAlignment="Top" Click="drum_filt_Click"
+                    Height="130" Width="130" FontWeight="Bold">
+                Sump Pump
+            </Button>
         </Grid>
         <!--Webview layout structure-->
         <Grid>
