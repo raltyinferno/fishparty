@@ -55,9 +55,3 @@ void fishparty::MainPage::Page_Loaded(Platform::Object^ sender, Windows::UI::Xam
 	bubble_Animation_3->Begin();
 	bubble_Animation_4->Begin();
 }
-
-
-void fishparty::MainPage::test_button_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
-{
-	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(water_treatment::typeid));
-}
