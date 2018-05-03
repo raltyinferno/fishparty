@@ -18,7 +18,7 @@
         <Grid Style="{StaticResource title_grid_style}">
             <Rectangle Style="{StaticResource title_box_style}" Width="890"/>
             <TextBlock Style="{StaticResource title_text_style}">Egg Receiving</TextBlock>
-            <local:overview_button Tapped="page_load_info"/>
+            <local:overview_button Tapped="show_overview"/>
         </Grid>
 
         <local:navigation_button/>

@@ -32,7 +32,7 @@ App::App()
     InitializeComponent();
 	Windows::UI::ViewManagement::ApplicationView::PreferredLaunchWindowingMode = Windows::UI::ViewManagement::ApplicationViewWindowingMode::FullScreen;
     Suspending += ref new SuspendingEventHandler(this, &App::OnSuspending);
-	page_view = view_manager(1);
+	page_view.reset_page_views();
 }
 
 /// <summary>

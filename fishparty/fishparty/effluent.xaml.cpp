@@ -26,13 +26,6 @@ effluent::effluent()
 	InitializeComponent();
 }
 
-
-void fishparty::effluent::show_overview(Platform::Object^ sender, Windows::UI::Xaml::Input::TappedRoutedEventArgs^ e)
-{
-	open_content("ms-appx-web:///guided_tour_content/effluent/effluent.htm", content_webview, close_button);
-}
-
-
 void fishparty::effluent::close_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
 	content_webview->Visibility = Windows::UI::Xaml::Visibility::Collapsed;
@@ -40,14 +33,25 @@ void fishparty::effluent::close_Click(Platform::Object^ sender, Windows::UI::Xam
 	new_timer.reset_Timer();
 }
 
-
 void fishparty::effluent::prev_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
 	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(tf_foot_filters::typeid));
 }
 
-
 void fishparty::effluent::next_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
 	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(air::typeid));
+}
+
+void fishparty::effluent::show_overview(Platform::Object^ sender, Windows::UI::Xaml::Input::TappedRoutedEventArgs^ e)
+{
+	open_content("ms-appx-web:///guided_tour_content/effluent/effluent.htm", content_webview, close_button);
+	new_timer.reset_Timer();
+}
+
+void fishparty::effluent::effluent_loaded(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	if (page_view.check_page("oxy gen")) return;
+	page_view.mark_page("oxy gen");
+	open_content("ms-appx-web:///guided_tour_content/effluent/effluent.htm", content_webview, close_button);
 }

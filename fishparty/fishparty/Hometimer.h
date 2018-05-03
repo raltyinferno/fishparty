@@ -1,4 +1,5 @@
 #pragma once
+#include "view_manager.h"
 using namespace fishparty;
 
 using namespace Platform;

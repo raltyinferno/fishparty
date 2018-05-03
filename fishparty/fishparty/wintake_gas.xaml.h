@@ -20,6 +20,7 @@ namespace fishparty
 		wintake_gas();
 	private:
 		Hometimer timeout;
+		view_manager page_view;
 		void next_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void prev_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void close_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
@@ -28,5 +29,6 @@ namespace fishparty
 		void heating_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void back_to_wintake_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void show_overview(Platform::Object^ sender, Windows::UI::Xaml::Input::TappedRoutedEventArgs^ e);
+		void gas_cond_loaded(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 	};
 }

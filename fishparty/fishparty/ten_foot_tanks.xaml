@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:controls="using:fishparty"
     mc:Ignorable="d"
-    Loaded="show_overview">
+    Loaded="ten_loaded">
 
     <Page.Resources>
         <ImageBrush ImageSource="Assets/10ft Tank Guided Tour/10ft_001.jpg" x:Key="walk1" Opacity="1" Stretch="UniformToFill"/>

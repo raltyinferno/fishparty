@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:controls="using:fishparty"
     mc:Ignorable="d"
-    Loaded="show_overview">
+    Loaded="stocking_loaded">
     <Page.Resources>
         <ImageBrush x:Key="delivery_truck" ImageSource="/Assets/delivery_truck3.jpg" Opacity="1" Stretch="UniformToFill"/>
     </Page.Resources>

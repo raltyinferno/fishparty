@@ -19,6 +19,7 @@ namespace fishparty
 		tf_foot_filters();
 	private:
 		Hometimer new_timer;
+		view_manager page_view;
 		void next_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void prev_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void show_overview(Platform::Object^ sender, Windows::UI::Xaml::Input::TappedRoutedEventArgs^ e);
@@ -29,5 +30,6 @@ namespace fishparty
 		void lho_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void head_tank_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void drum_filt_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
+		void tf_filters_loaded(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 	};
 }

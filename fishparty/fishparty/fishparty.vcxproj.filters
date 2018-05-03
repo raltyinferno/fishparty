@@ -91,7 +91,9 @@
     <ClCompile Include="effluent.xaml.cpp" />
     <ClCompile Include="walkthrough_home_nav.xaml.cpp" />
     <ClCompile Include="walkthrough_F4R1F1L1F1R1F2.xaml.cpp" />
-    <ClCompile Include="view_manager.cpp" />
+    <ClCompile Include="view_manager.cpp">
+      <Filter>global resources</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="air.xaml.h" />
@@ -190,7 +192,9 @@
     <ClInclude Include="effluent.xaml.h" />
     <ClInclude Include="walkthrough_home_nav.xaml.h" />
     <ClInclude Include="walkthrough_F4R1F1L1F1R1F2.xaml.h" />
-    <ClInclude Include="view_manager.h" />
+    <ClInclude Include="view_manager.h">
+      <Filter>global resources</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\down_arrow.png">
@@ -1098,9 +1102,6 @@
     <Page Include="overview_button.xaml">
       <Filter>global resources</Filter>
     </Page>
-    <Page Include="wintake_gas.xaml">
-      <Filter>guided tour pages</Filter>
-    </Page>
     <Page Include="walkthrough_F4L1F3.xaml">
       <Filter>Walkthrough Pages</Filter>
     </Page>
@@ -1157,6 +1158,9 @@
     </Page>
     <Page Include="walkthrough_F4R1F1L1F1R1F2.xaml">
       <Filter>Walkthrough Pages</Filter>
+    </Page>
+    <Page Include="wintake_gas.xaml">
+      <Filter>guided tour pages</Filter>
     </Page>
   </ItemGroup>
   <ItemGroup>

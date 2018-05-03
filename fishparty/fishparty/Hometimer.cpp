@@ -51,7 +51,6 @@ void fishparty::Hometimer::start_Timer()
 				{
 					auto frame = dynamic_cast<Frame^>(Window::Current->Content);
 					frame->Navigate(Windows::UI::Xaml::Interop::TypeName(MainPage::typeid));
-					//this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(MainPage::typeid));
 				}
 				else
 				{

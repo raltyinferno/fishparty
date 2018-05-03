@@ -77,6 +77,16 @@ void fishparty::wintake_gas::back_to_wintake_Click(Platform::Object^ sender, Win
 
 void fishparty::wintake_gas::show_overview(Platform::Object^ sender, Windows::UI::Xaml::Input::TappedRoutedEventArgs^ e)
 {
+
 	open_content("ms-appx-web:///guided_tour_content/gas_conditioning/gas_conditioning_overview.htm", content_webview, close_button);
 	timeout.reset_Timer();
+}
+
+
+void fishparty::wintake_gas::gas_cond_loaded(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	if (page_view.check_page("gas conditioning")) return;
+	page_view.mark_page("gas conditioning");
+	open_content("ms-appx-web:///guided_tour_content/gas_conditioning/gas_conditioning_overview.htm", content_webview, close_button);
+
 }

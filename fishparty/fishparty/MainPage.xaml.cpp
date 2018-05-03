@@ -37,6 +37,7 @@ void fishparty::MainPage::anim_Completed(Platform::Object ^ sender, Windows::UI:
 
 void fishparty::MainPage::start_tour_button_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
+	page_view.reset_page_views();
 	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(water_intake::typeid));
 }
 

@@ -73,3 +73,11 @@ void fishparty::ten_foot_tanks::gas_column_Click(Platform::Object^ sender, Windo
 	new_timer.reset_Timer();
 }
 
+
+
+void fishparty::ten_foot_tanks::ten_loaded(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	if (page_view.check_page("10ft")) return;
+	page_view.mark_page("10ft");
+	open_content("ms-appx-web:///guided_tour_content/10ft_tanks/10ft_tanks_overview.htm", content_webview, close_button);
+}

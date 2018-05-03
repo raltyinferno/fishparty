@@ -7,7 +7,6 @@
 
 #include "water_intake.g.h"
 #include "directory.h"
-#include "view_manager.h"
 
 namespace fishparty
 {
@@ -21,6 +20,7 @@ namespace fishparty
 		water_intake();
 	private:
 		Hometimer timeout;
+		view_manager page_view;
 		void next_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void prev_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void close_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
@@ -29,7 +29,6 @@ namespace fishparty
 		void page_load_wintake(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void fishparty::water_intake::wintake_info_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void wintake_gas_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
-		view_manager page_view;
 		void view_overview(Platform::Object^ sender, Windows::UI::Xaml::Input::TappedRoutedEventArgs^ e);
 	};
 }

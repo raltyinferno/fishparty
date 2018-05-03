@@ -51,3 +51,11 @@ void fishparty::air::show_overview(Platform::Object^ sender, Windows::UI::Xaml::
 	open_content("ms-appx-web:///guided_tour_content/oxygen_generation/oxygen_generation_overview.htm", content_webview, close_button);
 	timeout.reset_Timer();
 }
+
+
+void fishparty::air::oxy_gen_loaded(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	if (page_view.check_page("oxy gen")) return;
+	page_view.mark_page("oxy gen");
+	open_content("ms-appx-web:///guided_tour_content/oxygen_generation/oxygen_generation_overview.htm", content_webview, close_button);
+}

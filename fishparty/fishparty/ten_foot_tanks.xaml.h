@@ -19,7 +19,7 @@ namespace fishparty
 		ten_foot_tanks();
 	private:
 		Hometimer new_timer;
-
+		view_manager page_view;
 		void next_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void overhead_button_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void prev_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
@@ -27,5 +27,6 @@ namespace fishparty
 		void close_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void side_drain_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void gas_column_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
+		void ten_loaded(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 	};
 }

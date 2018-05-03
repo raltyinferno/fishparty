@@ -95,3 +95,11 @@ void fishparty::tf_foot_filters::drum_filt_Click(Platform::Object^ sender, Windo
 	open_content("ms-appx-web:///guided_tour_content/30ft_filters/drum_filter.htm", content_webview, close_button);
 	new_timer.reset_Timer();
 }
+
+
+void fishparty::tf_foot_filters::tf_filters_loaded(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	if (page_view.check_page("30ft filters")) return;
+	page_view.mark_page("30ft filters");
+	open_content("ms-appx-web:///guided_tour_content/30ft_filters/30ft_filters_overview.htm", content_webview, close_button);
+}

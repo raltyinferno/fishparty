@@ -82,6 +82,8 @@ void fishparty::incubation_2::incubation_info_Click(Platform::Object^ sender, Wi
 
 void fishparty::incubation_2::page_load_info(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
+	if (page_view.check_page("incubation")) return;
+	page_view.mark_page("incubation");
 	open_content("ms-appx-web:///guided_tour_content/incubation/incubation_info.htm", content_webview, close_button);
 }
 
@@ -97,4 +99,10 @@ void fishparty::incubation_2::covers_Click(Platform::Object^ sender, Windows::UI
 {
 	open_content("ms-appx-web:///guided_tour_content/incubation/incubation_covers.htm", content_webview, close_button);
 	timeout.reset_Timer();
+}
+
+
+void fishparty::incubation_2::show_overview(Platform::Object^ sender, Windows::UI::Xaml::Input::TappedRoutedEventArgs^ e)
+{
+	open_content("ms-appx-web:///guided_tour_content/incubation/incubation_info.htm", content_webview, close_button);
 }

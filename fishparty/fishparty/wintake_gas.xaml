@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     xmlns:controls="using:fishparty"
-    Loaded="show_overview">
+    Loaded="gas_cond_loaded">
 
     <Page.Resources>
         <ImageBrush x:Key="nostreat" ImageSource="/Assets/nitrogen.jpg" Opacity=".85" Stretch="UniformToFill" />

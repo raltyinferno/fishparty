@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:controls="using:fishparty"
     mc:Ignorable="d"
-    Loaded="show_overview">
+    Loaded="tf_tanks_loaded">
 
     <Page.Resources>
         <ImageBrush x:Key="thirtybgGrid" ImageSource="/Assets/25ft Tank/25ft_oh.jpg" Opacity=".85" Stretch="UniformToFill" />

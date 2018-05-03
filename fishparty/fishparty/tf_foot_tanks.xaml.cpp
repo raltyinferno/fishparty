@@ -102,3 +102,11 @@ void fishparty::tf_foot_tanks::counter_Click(Platform::Object^ sender, Windows::
 	open_content("ms-appx-web:///guided_tour_content/30ft_tanks/counter.htm", content_webview, close_button);
 	timeout.reset_Timer();
 }
+
+
+void fishparty::tf_foot_tanks::tf_tanks_loaded(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	if (page_view.check_page("30ft")) return;
+	page_view.mark_page("30ft");
+	open_content("ms-appx-web:///guided_tour_content/30ft_tanks/30ft_tanks_overview.htm", content_webview, close_button);
+}

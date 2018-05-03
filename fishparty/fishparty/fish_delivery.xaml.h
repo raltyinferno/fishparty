@@ -20,13 +20,13 @@ namespace fishparty
 		fish_delivery();
 	private:
 		Hometimer timeout;
+		view_manager page_view;
 		void next_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void prev_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void close_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void vehicles_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void process_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
-		void home_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
-		void home_button_Loaded(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void show_overview(Platform::Object^ sender, Windows::UI::Xaml::Input::TappedRoutedEventArgs^ e);
+		void stocking_loaded(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 	};
 }

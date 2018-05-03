@@ -21,7 +21,7 @@ namespace fishparty
 		MainPage();
 
 	private:
-
+		view_manager page_view;
 		void anim_Completed(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void start_tour_button_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void explore_button_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);

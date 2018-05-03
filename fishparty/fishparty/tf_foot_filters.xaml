@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:controls="using:fishparty"
     mc:Ignorable="d"
-    Loaded="show_overview">
+    Loaded="tf_filters_loaded">
 
     <Page.Resources>
         <ImageBrush x:Key="tfFbgGrid" ImageSource="/Assets/25ft Filters/filter_bg.jpg" Opacity=".85" Stretch="UniformToFill" />
