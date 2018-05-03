@@ -106,8 +106,6 @@
                 <Button x:Name="explore_button" Style="{StaticResource button_style}" Content="Walkthrough" Click="explore_button_Click" VerticalAlignment="Top" Grid.Row="2"/>
             </Grid>
 
-        <Button x:Name="test_page_button" Content="testing page" HorizontalAlignment="Left" Margin="1815,993,0,0" VerticalAlignment="Top" Click="test_button_Click"/>
-
         <Image x:Name="bubble_1" Width="100" Height="100" Source="Assets/fishparty_bubble.png" HorizontalAlignment="Left" Margin="167,1041,0,-61" RenderTransformOrigin="0.5,0.5"  >
             <Image.RenderTransform>
                 <CompositeTransform/>
