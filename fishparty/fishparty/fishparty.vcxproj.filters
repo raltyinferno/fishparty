@@ -623,6 +623,183 @@
     <Image Include="Assets\walkthrough_maps\fishparty_map_start.png">
       <Filter>images\Walkthrough Maps</Filter>
     </Image>
+    <Image Include="Assets\walkthrough_maps\fishparty_map_start_alt.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F1.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F1R1.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F1R1F1.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F1R1F2.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F1R1F3.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F1R1F4.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F1R1F4L1.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F1R1F4L1F1.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F1R1F4L1F1R1.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F1R1F4L1F1R1F1.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F1R1F4L1F1R2.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F1R1F4L1R1.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F1R1F4R1.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F1R1F4R1F1.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F1R1F4R1F2.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F1R1F4R1F3.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F1R1F4R1F4.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F1R1F4R1F5.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F1R1F4R1F6.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F1R1F4R1F7.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F2.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F3.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F3R1.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F3R1F1.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F3R1F2.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F3R1F3.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F3R1F3R1.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F3R1F3R1F1.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F3R1F3R1F2.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F3R1F3R1F2L1.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F3R1F3R1F2L1F1.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F3R1F3R1F2L1F2.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F3R1F3R1F2L1F3.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F4.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F4L1.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F4L1F1.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F4L1F2.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F4L1F3.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F4L1F4.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F4L1F5.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F4L1F6.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F4L1F7.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F4R1.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F4R1F1.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F4R1F1L1.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F4R1F1L1F1.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F4R1F1L1F1R1.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F4R1F1L1F1R1F1.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F4R1F1L1F1R1F2.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F5.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F5L1.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_F5R1.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_L1.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_L1F1.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_L1F1R1.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_L1F2.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_L1F2R1.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
+    <Image Include="Assets\walkthrough_maps\map_start.png">
+      <Filter>images\Walkthrough Maps</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <None Include="fishparty_TemporaryKey.pfx">
@@ -981,9 +1158,6 @@
     </Page>
     <Page Include="walkthrough_F4R1F1L1F1R1F2.xaml">
       <Filter>Walkthrough Pages</Filter>
-    </Page>
-    <Page Include="walkthrough_minimap.xaml">
-      <Filter>global resources</Filter>
     </Page>
   </ItemGroup>
   <ItemGroup>
