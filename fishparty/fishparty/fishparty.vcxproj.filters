@@ -948,6 +948,9 @@
     <None Include="guided_tour_content\fish_delivery\remote_stocking.htm">
       <Filter>webpages</Filter>
     </None>
+    <None Include="guided_tour_content\10ft_tanks\10ft_tanks_tank.htm">
+      <Filter>webpages</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Page Include="hatchery_map.xaml" />

@@ -31,7 +31,7 @@ water_intake::water_intake()
 
 void fishparty::water_intake::next_page_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(incubation::typeid));
+	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(wintake_gas::typeid));
 }
 
 

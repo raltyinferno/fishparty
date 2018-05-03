@@ -621,6 +621,9 @@
     <None Include="guided_tour_content\10ft_tanks\10ft_tanks_overview.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
+    <None Include="guided_tour_content\10ft_tanks\10ft_tanks_tank.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
     <None Include="guided_tour_content\10ft_tanks\gas_conditioning_column.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>

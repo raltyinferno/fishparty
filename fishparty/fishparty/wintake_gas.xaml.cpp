@@ -90,3 +90,9 @@ void fishparty::wintake_gas::gas_cond_loaded(Platform::Object^ sender, Windows::
 	open_content("ms-appx-web:///guided_tour_content/gas_conditioning/gas_conditioning_overview.htm", content_webview, close_button);
 
 }
+
+
+void fishparty::wintake_gas::overview_button_Loaded(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+
+}

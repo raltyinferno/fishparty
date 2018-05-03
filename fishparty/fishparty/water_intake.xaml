@@ -45,14 +45,7 @@
                     Height="220" Width="220">
                 Second Stage Filtering
             </Button>
-            
-            <Button Grid.Row="0" Grid.Column="3"
-                    VerticalAlignment="Top" HorizontalAlignment="Right"
-                    Click="wintake_gas_Click"
-                    UseLayoutRounding="False" d:LayoutRounding="Auto" FontWeight="Bold" 
-                    Foreground="Black" Background="LightGreen">
-                <TextBlock TextWrapping="WrapWholeWords" FontSize="32">Learn about heating and gas</TextBlock>
-            </Button>
+           
 
         </Grid>
 
@@ -75,7 +68,7 @@
         
         <Button Style="{StaticResource guided_forward_button}" Click="next_page_Click">
             <StackPanel Orientation="Horizontal">
-                <TextBlock VerticalAlignment="Center">Egg Receiving</TextBlock>
+                <TextBlock VerticalAlignment="Center">Gas Treatment</TextBlock>
                 <!--<Image Source="{StaticResource advance_icon}" Height="50" Width="50"/>-->
             </StackPanel>
         </Button>
