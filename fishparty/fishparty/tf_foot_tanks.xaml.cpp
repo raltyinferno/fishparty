@@ -95,3 +95,10 @@ void fishparty::tf_foot_tanks::feeder_Click(Platform::Object^ sender, Windows::U
 	open_content("ms-appx-web:///guided_tour_content/30ft_tanks/feeder.htm", content_webview, close_button);
 	timeout.reset_Timer();
 }
+
+
+void fishparty::tf_foot_tanks::counter_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	open_content("ms-appx-web:///guided_tour_content/30ft_tanks/counter.htm", content_webview, close_button);
+	timeout.reset_Timer();
+}

@@ -869,12 +869,6 @@
     <None Include="guided_tour_content\egg_receiving_room\egg_receiving_overview.htm">
       <Filter>webpages</Filter>
     </None>
-    <None Include="egg_receiving_disinfecting.htm">
-      <Filter>webpages</Filter>
-    </None>
-    <None Include="egg_receiving_overview.htm">
-      <Filter>webpages</Filter>
-    </None>
     <None Include="guided_tour_content\10ft_tanks\gas_conditioning_column.htm">
       <Filter>webpages</Filter>
     </None>
@@ -921,6 +915,9 @@
       <Filter>webpages</Filter>
     </None>
     <None Include="guided_tour_content\30ft_filters\ozone.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\30ft_tanks\counter.htm">
       <Filter>webpages</Filter>
     </None>
   </ItemGroup>

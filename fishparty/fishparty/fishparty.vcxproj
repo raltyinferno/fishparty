@@ -612,12 +612,6 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
-    <None Include="egg_receiving_disinfecting.htm">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="egg_receiving_overview.htm">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
     <None Include="fishparty_TemporaryKey.pfx" />
     <None Include="guided_tour_content\10ft_tanks\10ft_tanks_overview.htm">
       <DeploymentContent>true</DeploymentContent>
@@ -653,6 +647,9 @@
       <DeploymentContent>true</DeploymentContent>
     </None>
     <None Include="guided_tour_content\30ft_tanks\circ_tank.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="guided_tour_content\30ft_tanks\counter.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
     <None Include="guided_tour_content\30ft_tanks\feeder.htm">
