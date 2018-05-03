@@ -51,7 +51,7 @@
                     Click="wintake_gas_Click"
                     UseLayoutRounding="False" d:LayoutRounding="Auto" FontWeight="Bold" 
                     Foreground="Black" Background="LightGreen">
-                <TextBlock TextWrapping="WrapWholeWords" FontSize="32">Learn about heating and gas</TextBlock>
+                <TextBlock TextWrapping="WrapWholeWords" FontSize="32">Gas Conditioning</TextBlock>
             </Button>
 
         </Grid>
