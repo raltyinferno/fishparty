@@ -284,9 +284,6 @@
     <Image Include="Assets\delivery_truck2.png">
       <Filter>images</Filter>
     </Image>
-    <Image Include="Assets\Egg Room Guided Tour\egg_001.jpg">
-      <Filter>images\Egg Room Guided Tour</Filter>
-    </Image>
     <Image Include="Assets\test walkthrough\walkthrough5.jpg">
       <Filter>images</Filter>
     </Image>
@@ -493,9 +490,6 @@
     </Image>
     <Image Include="Assets\walkthrough\walkthrough_F5R1.jpg">
       <Filter>images\Walkthrough Images</Filter>
-    </Image>
-    <Image Include="Assets\heli.gif">
-      <Filter>images</Filter>
     </Image>
     <Image Include="Assets\stocking_truck.gif">
       <Filter>images</Filter>
@@ -812,6 +806,7 @@
     <Image Include="Assets\Egg Receiving\egg_001.jpg">
       <Filter>images\Egg Receiving</Filter>
     </Image>
+    <Image Include="Assets\Egg Room Guided Tour\egg_001.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="fishparty_TemporaryKey.pfx">
@@ -930,6 +925,12 @@
       <Filter>webpages</Filter>
     </None>
     <None Include="guided_tour_content\fish_delivery\delivery_overview.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\fish_delivery\oxygenation.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\fish_delivery\remote_stocking.htm">
       <Filter>webpages</Filter>
     </None>
   </ItemGroup>
@@ -1252,6 +1253,18 @@
     </Media>
     <Media Include="Assets\Egg Room Guided Tour\alevin.mp4">
       <Filter>images\incubation</Filter>
+    </Media>
+    <Media Include="Assets\oxygenation.mp4">
+      <Filter>images</Filter>
+    </Media>
+    <Media Include="Assets\helicopter_stocking.mp4">
+      <Filter>images</Filter>
+    </Media>
+    <Media Include="Assets\stocking_process.mp4">
+      <Filter>images</Filter>
+    </Media>
+    <Media Include="Assets\Egg Receiving\disinfecting.mp4">
+      <Filter>images\Egg Receiving</Filter>
     </Media>
   </ItemGroup>
 </Project>

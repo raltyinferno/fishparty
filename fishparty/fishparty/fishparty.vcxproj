@@ -687,6 +687,12 @@
     <None Include="guided_tour_content\fish_delivery\delivery_vehicles.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
+    <None Include="guided_tour_content\fish_delivery\oxygenation.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="guided_tour_content\fish_delivery\remote_stocking.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
     <None Include="guided_tour_content\gas_conditioning\carbon.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
@@ -781,7 +787,6 @@
     <Image Include="Assets\hamburger.png" />
     <Image Include="Assets\hatchery_map.jpg" />
     <Image Include="Assets\heat.jpg" />
-    <Image Include="Assets\heli.gif" />
     <Image Include="Assets\home_icon.png" />
     <Image Include="Assets\last_icon.png" />
     <Image Include="Assets\left_arrow.png" />
@@ -1197,8 +1202,12 @@
   </ItemGroup>
   <ItemGroup>
     <Media Include="Assets\25ft Filters\30ft_filters.mp4" />
+    <Media Include="Assets\Egg Receiving\disinfecting.mp4" />
     <Media Include="Assets\Egg Room Guided Tour\alevin.mp4" />
     <Media Include="Assets\Egg Room Guided Tour\egg_trays.mp4" />
+    <Media Include="Assets\helicopter_stocking.mp4" />
+    <Media Include="Assets\oxygenation.mp4" />
+    <Media Include="Assets\stocking_process.mp4" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
