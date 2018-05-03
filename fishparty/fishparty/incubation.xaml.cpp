@@ -44,14 +44,14 @@ void fishparty::incubation::prev_page_Click(Platform::Object^ sender, Windows::U
 
 void fishparty::incubation::disinfecting_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	open_content("ms-appx-web:///egg_receiving_disinfecting.htm", content_webview, close_button);
+	open_content("ms-appx-web:///guided_tour_content/egg_receiving_room/egg_receiving_disinfecting.htm", content_webview, close_button);
 	new_timer.reset_Timer();
 }
 
 
 void fishparty::incubation::egg_receiving_info_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	open_content("ms-appx-web:///egg_receiving_overview.htm", content_webview, close_button);
+	open_content("ms-appx-web:///guided_tour_content/egg_receiving_room/egg_receiving_overview.htm", content_webview, close_button);
 	new_timer.reset_Timer();
 }
 
@@ -66,5 +66,5 @@ void fishparty::incubation::close_Click(Platform::Object^ sender, Windows::UI::X
 
 void fishparty::incubation::page_load_info(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	open_content("ms-appx-web:///egg_receiving_overview.htm", content_webview, close_button);
+	open_content("ms-appx-web:///guided_tour_content/egg_receiving_room/egg_receiving_overview.htm", content_webview, close_button);
 }

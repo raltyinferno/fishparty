@@ -41,22 +41,35 @@
                 <Image Source="Assets/up_arrow.png" HorizontalAlignment="Center"/>
             </Button>
 
-            <Button Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" Background="{x:Null}" Click="back_Click" >
+            <Button Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" Background="{x:Null}" Click="back_Click">
                 <Image Source="Assets/down_arrow.png" HorizontalAlignment="Center"/>
             </Button>
 
-
         </Grid>
 
+        <Button Grid.Column="2" Grid.Row="0" HorizontalAlignment="Right" Background="{x:Null}" >
+            <Image Source="Assets/walkthrough_maps/map_F4L1F1.png" HorizontalAlignment="Center">
+                <Image.Clip>
+                    <RectangleGeometry Rect="0,0,800,255"></RectangleGeometry>
+                </Image.Clip>
+            </Image>
 
-        <Grid  VerticalAlignment="Bottom" HorizontalAlignment="Left" Grid.Row="2">
+            <Button.Flyout>
+                <Flyout Placement="Full">
+                    <Flyout.FlyoutPresenterStyle>
+                        <Style TargetType="FlyoutPresenter">
+                            <Setter Property="MinWidth" Value="700"/>
+                            <Setter Property="MinHeight" Value="820"/>
+                        </Style>
+                    </Flyout.FlyoutPresenterStyle>
+                    <Grid>
+                        <Image Source="Assets/walkthrough_maps/map_F4L1F1.png" Height="800" Width="650"/>
+                    </Grid>
+                </Flyout>
+            </Button.Flyout>
+        </Button>
 
-            <Button Content="Jump to Section" FontSize="20">
-                <Button.Flyout>
-                    <controls:guided_tour_nav />
-                </Button.Flyout>
-            </Button>
 
-        </Grid>
+        <local:walkthrough_home_nav Grid.ColumnSpan="3" Grid.RowSpan="3"/>
     </Grid>
 </Page>

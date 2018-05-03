@@ -45,6 +45,9 @@
             <Button Grid.Column="2" Grid.Row="1" Style="{StaticResource content_display_open_style}"
                     VerticalAlignment="Top" HorizontalAlignment="Center"
                     Height="150" Width="150" Content="Feeder" Click="feeder_Click" />
+            <Button Grid.Column="2" Grid.Row="1" Style="{StaticResource content_display_open_style}"
+                    VerticalAlignment="Bottom" HorizontalAlignment="Center"
+                    Height="150" Width="150" Content="Optical Counter" Click="counter_Click" />
             <Button Grid.Column="3" Grid.Row="1" Style="{StaticResource content_display_open_style}"
                     VerticalAlignment="Bottom" HorizontalAlignment="Left"
                     Height="200" Width="200" Content="Circular Tanks" Click="circ_tank_Click" />

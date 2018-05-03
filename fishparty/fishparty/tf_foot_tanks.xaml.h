@@ -31,5 +31,6 @@ namespace fishparty
 		void circ_tank_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void radial_flow_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void feeder_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
+		void counter_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 	};
 }

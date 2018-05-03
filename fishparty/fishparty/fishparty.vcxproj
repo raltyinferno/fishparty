@@ -7,8 +7,8 @@
     <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
     <AppContainerApplication>true</AppContainerApplication>
     <ApplicationType>Windows Store</ApplicationType>
-    <WindowsTargetPlatformVersion Condition=" '$(WindowsTargetPlatformVersion)' == '' ">10.0.16299.0</WindowsTargetPlatformVersion>
-    <WindowsTargetPlatformMinVersion>10.0.16299.0</WindowsTargetPlatformMinVersion>
+    <WindowsTargetPlatformVersion Condition=" '$(WindowsTargetPlatformVersion)' == '' ">10.0.15063.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.15063.0</WindowsTargetPlatformMinVersion>
     <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -613,12 +613,6 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
-    <None Include="egg_receiving_disinfecting.htm">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
-    <None Include="egg_receiving_overview.htm">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
     <None Include="fishparty_TemporaryKey.pfx" />
     <None Include="guided_tour_content\10ft_tanks\10ft_tanks_overview.htm">
       <DeploymentContent>true</DeploymentContent>
@@ -654,6 +648,9 @@
       <DeploymentContent>true</DeploymentContent>
     </None>
     <None Include="guided_tour_content\30ft_tanks\circ_tank.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="guided_tour_content\30ft_tanks\counter.htm">
       <DeploymentContent>true</DeploymentContent>
     </None>
     <None Include="guided_tour_content\30ft_tanks\feeder.htm">
@@ -872,6 +869,66 @@
     <Image Include="Assets\walkthrough\walkthrough_L1F2.jpg" />
     <Image Include="Assets\walkthrough\walkthrough_L1F2R1.jpg" />
     <Image Include="Assets\walkthrough\walkthrough_start1.jpg" />
+    <Image Include="Assets\walkthrough_maps\fishparty_map_start.png" />
+    <Image Include="Assets\walkthrough_maps\fishparty_map_start_alt.png" />
+    <Image Include="Assets\walkthrough_maps\map_F1.png" />
+    <Image Include="Assets\walkthrough_maps\map_F1R1.png" />
+    <Image Include="Assets\walkthrough_maps\map_F1R1F1.png" />
+    <Image Include="Assets\walkthrough_maps\map_F1R1F2.png" />
+    <Image Include="Assets\walkthrough_maps\map_F1R1F3.png" />
+    <Image Include="Assets\walkthrough_maps\map_F1R1F4.png" />
+    <Image Include="Assets\walkthrough_maps\map_F1R1F4L1.png" />
+    <Image Include="Assets\walkthrough_maps\map_F1R1F4L1F1.png" />
+    <Image Include="Assets\walkthrough_maps\map_F1R1F4L1F1R1.png" />
+    <Image Include="Assets\walkthrough_maps\map_F1R1F4L1F1R1F1.png" />
+    <Image Include="Assets\walkthrough_maps\map_F1R1F4L1F1R2.png" />
+    <Image Include="Assets\walkthrough_maps\map_F1R1F4L1R1.png" />
+    <Image Include="Assets\walkthrough_maps\map_F1R1F4R1.png" />
+    <Image Include="Assets\walkthrough_maps\map_F1R1F4R1F1.png" />
+    <Image Include="Assets\walkthrough_maps\map_F1R1F4R1F2.png" />
+    <Image Include="Assets\walkthrough_maps\map_F1R1F4R1F3.png" />
+    <Image Include="Assets\walkthrough_maps\map_F1R1F4R1F4.png" />
+    <Image Include="Assets\walkthrough_maps\map_F1R1F4R1F5.png" />
+    <Image Include="Assets\walkthrough_maps\map_F1R1F4R1F6.png" />
+    <Image Include="Assets\walkthrough_maps\map_F1R1F4R1F7.png" />
+    <Image Include="Assets\walkthrough_maps\map_F2.png" />
+    <Image Include="Assets\walkthrough_maps\map_F3.png" />
+    <Image Include="Assets\walkthrough_maps\map_F3R1.png" />
+    <Image Include="Assets\walkthrough_maps\map_F3R1F1.png" />
+    <Image Include="Assets\walkthrough_maps\map_F3R1F2.png" />
+    <Image Include="Assets\walkthrough_maps\map_F3R1F3.png" />
+    <Image Include="Assets\walkthrough_maps\map_F3R1F3R1.png" />
+    <Image Include="Assets\walkthrough_maps\map_F3R1F3R1F1.png" />
+    <Image Include="Assets\walkthrough_maps\map_F3R1F3R1F2.png" />
+    <Image Include="Assets\walkthrough_maps\map_F3R1F3R1F2L1.png" />
+    <Image Include="Assets\walkthrough_maps\map_F3R1F3R1F2L1F1.png" />
+    <Image Include="Assets\walkthrough_maps\map_F3R1F3R1F2L1F2.png" />
+    <Image Include="Assets\walkthrough_maps\map_F3R1F3R1F2L1F3.png" />
+    <Image Include="Assets\walkthrough_maps\map_F4.png" />
+    <Image Include="Assets\walkthrough_maps\map_F4L1.png" />
+    <Image Include="Assets\walkthrough_maps\map_F4L1F1.png" />
+    <Image Include="Assets\walkthrough_maps\map_F4L1F2.png" />
+    <Image Include="Assets\walkthrough_maps\map_F4L1F3.png" />
+    <Image Include="Assets\walkthrough_maps\map_F4L1F4.png" />
+    <Image Include="Assets\walkthrough_maps\map_F4L1F5.png" />
+    <Image Include="Assets\walkthrough_maps\map_F4L1F6.png" />
+    <Image Include="Assets\walkthrough_maps\map_F4L1F7.png" />
+    <Image Include="Assets\walkthrough_maps\map_F4R1.png" />
+    <Image Include="Assets\walkthrough_maps\map_F4R1F1.png" />
+    <Image Include="Assets\walkthrough_maps\map_F4R1F1L1.png" />
+    <Image Include="Assets\walkthrough_maps\map_F4R1F1L1F1.png" />
+    <Image Include="Assets\walkthrough_maps\map_F4R1F1L1F1R1.png" />
+    <Image Include="Assets\walkthrough_maps\map_F4R1F1L1F1R1F1.png" />
+    <Image Include="Assets\walkthrough_maps\map_F4R1F1L1F1R1F2.png" />
+    <Image Include="Assets\walkthrough_maps\map_F5.png" />
+    <Image Include="Assets\walkthrough_maps\map_F5L1.png" />
+    <Image Include="Assets\walkthrough_maps\map_F5R1.png" />
+    <Image Include="Assets\walkthrough_maps\map_L1.png" />
+    <Image Include="Assets\walkthrough_maps\map_L1F1.png" />
+    <Image Include="Assets\walkthrough_maps\map_L1F1R1.png" />
+    <Image Include="Assets\walkthrough_maps\map_L1F2.png" />
+    <Image Include="Assets\walkthrough_maps\map_L1F2R1.png" />
+    <Image Include="Assets\walkthrough_maps\map_start.png" />
     <Image Include="Assets\Water Intake\bg_wintake.jpg" />
     <Image Include="Assets\Water Intake\win_close.jpg" />
     <Image Include="Assets\Wide310x150Logo.scale-200.png" />

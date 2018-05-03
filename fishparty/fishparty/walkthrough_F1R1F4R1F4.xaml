@@ -48,6 +48,27 @@
 
         </Grid>
 
+        <Button Grid.Column="2" Grid.Row="0" HorizontalAlignment="Right" Background="{x:Null}" >
+            <Image Source="Assets/walkthrough_maps/map_F1R1F4R1F4.png" HorizontalAlignment="Center">
+                <Image.Clip>
+                    <RectangleGeometry Rect="0,0,800,255"></RectangleGeometry>
+                </Image.Clip>
+            </Image>
+
+            <Button.Flyout>
+                <Flyout Placement="Full">
+                    <Flyout.FlyoutPresenterStyle>
+                        <Style TargetType="FlyoutPresenter">
+                            <Setter Property="MinWidth" Value="700"/>
+                            <Setter Property="MinHeight" Value="820"/>
+                        </Style>
+                    </Flyout.FlyoutPresenterStyle>
+                    <Grid>
+                        <Image Source="Assets/walkthrough_maps/map_F1R1F4R1F4.png" Height="800" Width="650"/>
+                    </Grid>
+                </Flyout>
+            </Button.Flyout>
+        </Button>
 
         <local:walkthrough_home_nav Grid.ColumnSpan="3" Grid.RowSpan="3"/>
     </Grid>
