@@ -45,8 +45,15 @@
                     Grid.Column="2" Grid.Row="2">
                 <Image Source="{StaticResource magnify_icon}" Width="50" Height="50"/>
                 <Button.Flyout>
-                    <Flyout>
-                        <Image Source="Assets/"/>
+                    <Flyout Placement="Right">
+                        <Flyout.FlyoutPresenterStyle>
+                            <Style TargetType="FlyoutPresenter">
+                                <Setter Property="MinWidth" Value="1050"/>
+                            </Style>
+                        </Flyout.FlyoutPresenterStyle>
+                        <Grid>
+                            <Image Source="Assets/5ft Tank Guided Tour/fish_close.gif" Height="550" />
+                        </Grid>
                     </Flyout>
                 </Button.Flyout>
             </Button>
