@@ -857,9 +857,6 @@
     <None Include="guided_tour_content\gas_conditioning\gas_conditioning_overview.htm">
       <Filter>webpages</Filter>
     </None>
-    <None Include="guided_tour_content\water_intake\heat_gas_overview.htm">
-      <Filter>webpages</Filter>
-    </None>
     <None Include="guided_tour_content\gas_conditioning\carbon.htm">
       <Filter>webpages</Filter>
     </None>
@@ -899,9 +896,6 @@
     <None Include="guided_tour_content\30ft_tanks\feeder.htm">
       <Filter>webpages</Filter>
     </None>
-    <None Include="guided_tour_content\30ft_tanks\pump_sump.htm">
-      <Filter>webpages</Filter>
-    </None>
     <None Include="guided_tour_content\30ft_tanks\radial_flow.htm">
       <Filter>webpages</Filter>
     </None>
@@ -924,6 +918,12 @@
       <Filter>webpages</Filter>
     </None>
     <None Include="guided_tour_content\30ft_tanks\counter.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\30ft_filters\pump_sump.htm">
+      <Filter>webpages</Filter>
+    </None>
+    <None Include="guided_tour_content\fish_delivery\delivery_overview.htm">
       <Filter>webpages</Filter>
     </None>
   </ItemGroup>

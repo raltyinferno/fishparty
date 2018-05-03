@@ -33,7 +33,7 @@ namespace fishparty
 		ThreadPoolTimer ^ home_timer;
 		bool canceled;
 		bool reset;
-		int num_minutes = 10; // Pull from file for adjustable timeout
+		int num_minutes = 5; // Pull from file for adjustable timeout
 		int minutes_passed;
 
 	};

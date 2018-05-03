@@ -72,7 +72,6 @@ void fishparty::water_intake::page_load_wintake(Platform::Object^ sender, Window
 {
 	if (page_view.check_page("water intake")) return;
 	page_view.mark_page("water intake");
-
 	open_content("ms-appx-web:///guided_tour_content/water_intake/wintake_page_overview.htm", content_webview, close_button);
 }
 

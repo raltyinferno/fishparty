@@ -28,7 +28,6 @@ namespace fishparty
 		void t_close_butt_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void show_overview(Platform::Object^ sender, Windows::UI::Xaml::Input::TappedRoutedEventArgs^ e);
 		void close_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
-		void pump_sump_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void circ_tank_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void radial_flow_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void feeder_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);

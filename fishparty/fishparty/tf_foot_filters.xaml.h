@@ -31,5 +31,6 @@ namespace fishparty
 		void head_tank_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void drum_filt_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 		void tf_filters_loaded(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
+		void sump_pump_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 	};
 }
