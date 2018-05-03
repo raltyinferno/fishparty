@@ -20,7 +20,7 @@
         <Grid Style="{StaticResource title_grid_style}">
             <Rectangle Style="{StaticResource title_box_style}" Width="768"/>
             <TextBlock Style="{StaticResource title_text_style}">Water Intake</TextBlock>
-            <local:overview_button Tapped="page_load_wintake"/>
+            <local:overview_button Tapped="view_overview"/>
         </Grid>
 
         <Grid>

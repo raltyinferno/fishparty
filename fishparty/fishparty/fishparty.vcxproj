@@ -164,6 +164,7 @@
     <ClInclude Include="tf_foot_tanks.xaml.h">
       <DependentUpon>tf_foot_tanks.xaml</DependentUpon>
     </ClInclude>
+    <ClInclude Include="view_manager.h" />
     <ClInclude Include="walkthrough_F1.xaml.h">
       <DependentUpon>walkthrough_F1.xaml</DependentUpon>
     </ClInclude>
@@ -962,6 +963,7 @@
     <ClCompile Include="tf_foot_tanks.xaml.cpp">
       <DependentUpon>tf_foot_tanks.xaml</DependentUpon>
     </ClCompile>
+    <ClCompile Include="view_manager.cpp" />
     <ClCompile Include="walkthrough_F1.xaml.cpp">
       <DependentUpon>walkthrough_F1.xaml</DependentUpon>
     </ClCompile>
