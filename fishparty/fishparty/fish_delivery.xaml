@@ -31,61 +31,54 @@
         
         <Grid>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="147*"/>
-                <ColumnDefinition Width="172*"/>
-                <ColumnDefinition Width="181*"/>
-                <ColumnDefinition Width="0*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
-                <RowDefinition Height="19*"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="0"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="54*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
             </Grid.RowDefinitions>
+            <Button Style="{StaticResource content_display_open_style}"
+                    HorizontalAlignment="Center" VerticalAlignment="Center" 
+                    Width="200" Height="200"
+                    Grid.Row="2" Grid.Column="1"
+                    Click="vehicles_Click">
+                    Delivery Vehicles
+            </Button>
+
+            <Button Style="{StaticResource content_display_open_style}"
+                    HorizontalAlignment="Center" VerticalAlignment="Bottom" 
+                    Width="200" Height="200"
+                    Grid.Row="0" Grid.Column="4"
+                    Click="process_Click">
+                    Delivery Process
+            </Button>
+
+            <Button Style="{StaticResource content_display_open_style}"
+                    HorizontalAlignment="Center" VerticalAlignment="Bottom" 
+                    Width="200" Height="200"
+                    Grid.Row="0" Grid.Column="3"
+                    Click="process_Click">
+                    Oxygenation
+            </Button>
         </Grid>
 
 
         <RelativePanel x:Name="furtherInfo">
 
             <!-- Vehicles button, shows information about the different delivery methods -->
-            <Button 
-                    x:Name="vehicles_button" 
-                    Background="{StaticResource round_icon}"
-                    HorizontalAlignment="Center"
-                    VerticalAlignment="Center" 
-                    BorderThickness="0" 
-                    Padding="0"
-                    Margin="538,354,-650,-174" 
-                    Width="568"
-                    Height="568"
-                    Click="vehicles_Click">
-                <StackPanel>
-                    <TextBlock
-                    FontSize="25"
-                    HorizontalAlignment="Center"><Run Text="Delivery Vehicles"/></TextBlock>
-                </StackPanel>
-            </Button>
+            
 
 
             <!-- Process button, shows information about the process of delivering the fish, (maybe stuff about the chutes?) -->
-            <Button
-                    x:Name="process_button" 
-                    Background="{StaticResource round_icon}"
-                    HorizontalAlignment="Center"
-                    VerticalAlignment="Bottom" 
-                    BorderThickness="0" 
-                    Padding="0"
-                    Margin="1221,0,-1709,-561" 
-                    Width="488"
-                    Height="488"
-                    Click="process_Click">
-                <StackPanel>
-                    <TextBlock
-                    FontSize="28"
-                    HorizontalAlignment="Center"><Run Text="Delivery Process"/></TextBlock>
-                </StackPanel>
-            </Button>
+            
 
         </RelativePanel>
 

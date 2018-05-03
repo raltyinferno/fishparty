@@ -58,10 +58,10 @@
                     Sand Bed Biofilter
             </Button>
 
-            <Button Style="{StaticResource content_display_open_style}" Grid.Row="1" Grid.Column="3"
+            <Button Style="{StaticResource content_display_open_style}" Grid.Row="0" Grid.Column="4"
                     x:Name="ozone"
-                    HorizontalAlignment="Right" VerticalAlignment="Center" Click="ozone_Click"
-                    Height="200" Width="200" FontWeight="Bold">
+                    HorizontalAlignment="Left" VerticalAlignment="Bottom" Click="ozone_Click"
+                    Height="180" Width="180" FontWeight="Bold">
                     Ozone Generation
             </Button>
 

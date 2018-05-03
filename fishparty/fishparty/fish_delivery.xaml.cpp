@@ -68,3 +68,17 @@ void fishparty::fish_delivery::stocking_loaded(Platform::Object^ sender, Windows
 	page_view.mark_page("stocking");
 	open_content("ms-appx-web:///guided_tour_content/fish_delivery/delivery_overview.htm", content_webview, close_button);
 }
+
+
+void fishparty::fish_delivery::oxygenation_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	open_content("ms-appx-web:///guided_tour_content/fish_delivery/oxygenation.htm", content_webview, close_button);
+	timeout.reset_Timer();
+}
+
+
+void fishparty::fish_delivery::remote_stocking_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	open_content("ms-appx-web:///guided_tour_content/fish_delivery/remote_stocking.htm", content_webview, close_button);
+	timeout.reset_Timer();
+}
