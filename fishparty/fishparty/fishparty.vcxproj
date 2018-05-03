@@ -769,6 +769,7 @@
     <Image Include="Assets\down_arrow.png" />
     <Image Include="Assets\Effluent Guided Tour\effluent.jpg" />
     <Image Include="Assets\Egg Receiving\egg_001.jpg" />
+    <Image Include="Assets\Egg Receiving\egg_pour.gif" />
     <Image Include="Assets\Egg Room Guided Tour\egg_001.jpg" />
     <Image Include="Assets\Egg Room Guided Tour\egg_002.jpg" />
     <Image Include="Assets\Egg Room Guided Tour\egg_002_01.jpg" />
