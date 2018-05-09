@@ -30,7 +30,7 @@ namespace fishparty
 		Windows::UI::Xaml::DispatcherTimer^ timer;
 		void OnTick(Object^ sender, Object^ e);
 		int min_counter = 0;
-		int timeout_minutes = 1; //Set this to how long you want the timeout delay to be
+		int timeout_minutes = 10; //Set this to how long you want the timeout delay to be
 
 	};
 }
