@@ -20,17 +20,21 @@ using namespace Windows::UI::Core;
 namespace fishparty
 {
 	
-	ref class Hometimer sealed
+	class Hometimer
 	{
 	public:
+		void start_Timer();
 		void reset_Timer();
+		void cancel_Timer();
 		Hometimer();
-	private:
 		~Hometimer();
-		Windows::UI::Xaml::DispatcherTimer^ timer;
-		void OnTick(Object^ sender, Object^ e);
-		int min_counter = 0;
-		int timeout_minutes = 1; //Set this to how long you want the timeout delay to be
+		//virtual ~Hometimer();
+	private:
+		ThreadPoolTimer ^ home_timer;
+		bool canceled;
+		bool reset;
+		int num_minutes = 5; // Pull from file for adjustable timeout
+		int minutes_passed;
 
 	};
 }

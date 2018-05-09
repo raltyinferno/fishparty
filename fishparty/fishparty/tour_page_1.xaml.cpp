@@ -35,14 +35,12 @@ tour_page_1::tour_page_1()
 
 void fishparty::tour_page_1::home_button_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	new_timer.cancel_Timer();
 	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(MainPage::typeid));
 }
 
 
 void fishparty::tour_page_1::Page_Loaded(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	new_timer.start_Timer();
 }
 
 
