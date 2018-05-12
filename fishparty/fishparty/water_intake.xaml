@@ -10,7 +10,7 @@
     Loaded="page_load_wintake">
 
     <Page.Resources>
-        <ImageBrush x:Key="water_intake" ImageSource="/Assets/bg_wintake.jpg" Opacity="1" Stretch="UniformToFill"/>
+        <ImageBrush x:Key="water_intake" ImageSource="/Assets/Water Intake/bg_wintake.jpg" Opacity="1" Stretch="UniformToFill"/>
     </Page.Resources>
         
         

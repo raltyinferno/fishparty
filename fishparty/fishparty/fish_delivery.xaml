@@ -21,8 +21,8 @@
             <TextBlock Style="{StaticResource title_text_style}"><Run Text="Fish Stocking"/></TextBlock>
             <local:overview_button Tapped="show_overview"/>
         </Grid>
-        <Button Style="{StaticResource guided_back_button}" Click="prev_page_Click" >
-            <TextBlock VerticalAlignment="Center"><Run Text="Oxygen Gen"/></TextBlock>
+        <Button Style="{StaticResource guided_back_button}" Click="prev_page_Click" Width="415" >
+            <TextBlock VerticalAlignment="Center"><Run Text="Oxygen Generation"/></TextBlock>
         </Button>
         <Button Style="{StaticResource guided_forward_button}" Click="next_page_Click">
             <TextBlock VerticalAlignment="Center">Finish Tour</TextBlock>

@@ -51,7 +51,7 @@ void fishparty::effluent::show_overview(Platform::Object^ sender, Windows::UI::X
 
 void fishparty::effluent::effluent_loaded(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
-	if (page_view.check_page("oxy gen")) return;
-	page_view.mark_page("oxy gen");
+	if (page_view.check_page("effluent")) return;
+	page_view.mark_page("effluent");
 	open_content("ms-appx-web:///guided_tour_content/effluent/effluent.htm", content_webview, close_button);
 }

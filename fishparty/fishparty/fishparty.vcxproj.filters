@@ -272,9 +272,6 @@
     <Image Include="Assets\test walkthrough\walkthrough4.jpg">
       <Filter>images</Filter>
     </Image>
-    <Image Include="Assets\bg_wintake.jpg">
-      <Filter>images</Filter>
-    </Image>
     <Image Include="Assets\win_close.jpg">
       <Filter>images</Filter>
     </Image>
@@ -782,9 +779,6 @@
     <Image Include="Assets\walkthrough_maps\map_start.png">
       <Filter>images\Walkthrough Maps</Filter>
     </Image>
-    <Image Include="Assets\Water Intake\wintrains_sweep.gif">
-      <Filter>images\Water Intake</Filter>
-    </Image>
     <Image Include="Assets\Egg Room Guided Tour\header_tanks.jpg">
       <Filter>images</Filter>
     </Image>
@@ -821,6 +815,9 @@
     </Image>
     <Image Include="Assets\25ft Tank\30food.gif">
       <Filter>images\25ft Guided Tour</Filter>
+    </Image>
+    <Image Include="Assets\map_icon.png">
+      <Filter>images</Filter>
     </Image>
   </ItemGroup>
   <ItemGroup>
@@ -1286,6 +1283,15 @@
     </Media>
     <Media Include="Assets\10ft Tank Guided Tour\fishparty_06.mp4">
       <Filter>images\10ft Guided Tour</Filter>
+    </Media>
+    <Media Include="Assets\rigid_stocking.mp4">
+      <Filter>images</Filter>
+    </Media>
+    <Media Include="Assets\truck_backing.mp4">
+      <Filter>images</Filter>
+    </Media>
+    <Media Include="Assets\Water Intake\water_intake.mp4">
+      <Filter>images\Water Intake</Filter>
     </Media>
   </ItemGroup>
 </Project>

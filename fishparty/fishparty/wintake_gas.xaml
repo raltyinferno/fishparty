@@ -17,8 +17,7 @@
 
 
     <Grid Background="{StaticResource splash_background}" x:Name="page_grid">
-        <local:navigation_button/>
-        <local:home_button/>
+        
 
         <Grid>
             <Grid.ColumnDefinitions>
@@ -34,6 +33,7 @@
 
             <Button x:Name="heating"
                     Background="{StaticResource heat}"
+                    Click="heating_Click"
                     Grid.Column="0" Grid.Row="0" 
                     HorizontalAlignment="Stretch" 
                     VerticalAlignment="Stretch" />
@@ -50,6 +50,8 @@
                     Grid.Column="0" Grid.Row="2" 
                     HorizontalAlignment="Stretch" 
                     VerticalAlignment="Stretch" />
+            
+            
            
 
 
@@ -77,8 +79,8 @@
                     Height="50" Width="50">
                 i
             </Button> -->
-            
 
+           
         </Grid>
 
         <!--Webview layout structure-->
@@ -97,7 +99,8 @@
             <Button x:Name="close_button" Style="{StaticResource content_display_close_style}" Click="close_Click"/>
         </Grid>
 
-        
 
+        <local:navigation_button/>
+        <local:home_button/>
     </Grid>
 </Page>

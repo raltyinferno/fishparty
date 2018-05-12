@@ -44,10 +44,10 @@
             </Grid.RowDefinitions>
 
             <!-- Info Buttons -->
-            <Button Style="{StaticResource content_display_open_style}" Grid.Row="1" Grid.Column="0"
+            <Button Style="{StaticResource content_display_open_style}" Grid.Row="1" Grid.Column="4"
                     x:Name="gas_cond"
-                    HorizontalAlignment="Right" VerticalAlignment="Center" Click="gas_cond_Click"
-                    Height="200" Width="200" FontWeight="Bold">
+                    HorizontalAlignment="Left" VerticalAlignment="Bottom" Click="gas_cond_Click"
+                    Height="180" Width="180" FontWeight="Bold">
                     Gas Conditioning
             </Button>
 
@@ -65,14 +65,14 @@
                     Ozone Generation
             </Button>
 
-            <Button Style="{StaticResource content_display_open_style}" Grid.Row="4" Grid.Column="1"
+            <Button Style="{StaticResource content_display_open_style}" Grid.Row="1" Grid.Column="1"
                     x:Name="lho"
                     HorizontalAlignment="Center" VerticalAlignment="Center" Click="lho_Click"
                     Height="200" Width="200" FontWeight="Bold">
                     Low Head Oxygenator
             </Button>
             
-            <Button Style="{StaticResource content_display_open_style}" Grid.Row="4" Grid.Column="5"
+            <Button Style="{StaticResource content_display_open_style}" Grid.Row="3" Grid.Column="0"
                     x:Name="head_tank"
                     HorizontalAlignment="Right" VerticalAlignment="Center" Click="head_tank_Click"
                     Height="200" Width="200" FontWeight="Bold">

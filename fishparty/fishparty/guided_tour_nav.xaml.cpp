@@ -37,6 +37,10 @@ void fishparty::guided_tour_nav::water_Click(Platform::Object^ sender, Windows::
 	nav_to_page(Windows::UI::Xaml::Interop::TypeName(water_intake::typeid));
 }
 
+void fishparty::guided_tour_nav::gas_cond_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	nav_to_page(Windows::UI::Xaml::Interop::TypeName(wintake_gas::typeid));
+}
 
 void fishparty::guided_tour_nav::eggs_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
 {
@@ -96,5 +100,67 @@ void fishparty::nav_to_page(Windows::UI::Xaml::Interop::TypeName sourcePageType)
 
 
 
+void fishparty::guided_tour_nav::tf_tanks_walkthrough_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	nav_to_page(Windows::UI::Xaml::Interop::TypeName(walkthrough_F1R1::typeid));
+}
 
 
+void fishparty::guided_tour_nav::walkthrough_start_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	nav_to_page(Windows::UI::Xaml::Interop::TypeName(walkthrough_start1::typeid));
+}
+
+
+void fishparty::guided_tour_nav::tf_filts_walkthrough_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	nav_to_page(Windows::UI::Xaml::Interop::TypeName(walkthrough_F1R1F4::typeid));
+}
+
+
+void fishparty::guided_tour_nav::tf_tower_walkthrough_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	nav_to_page(Windows::UI::Xaml::Interop::TypeName(walkthrough_F1R1F4L1F1R1::typeid));
+}
+
+
+void fishparty::guided_tour_nav::water_intake_walktrhough_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	nav_to_page(Windows::UI::Xaml::Interop::TypeName(walkthrough_F4L1F1::typeid));
+}
+
+
+void fishparty::guided_tour_nav::egg_intake_walkthrough_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	nav_to_page(Windows::UI::Xaml::Interop::TypeName(walkthrough_F4L1F3::typeid));
+}
+
+
+void fishparty::guided_tour_nav::incubation_walkthrough_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	nav_to_page(Windows::UI::Xaml::Interop::TypeName(walkthrough_F4L1F5::typeid));
+}
+
+
+void fishparty::guided_tour_nav::effluent_walkthrough_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	nav_to_page(Windows::UI::Xaml::Interop::TypeName(walkthrough_F4R1F1L1F1R1F2::typeid));
+}
+
+
+void fishparty::guided_tour_nav::stocking_bay_walkthrough_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	nav_to_page(Windows::UI::Xaml::Interop::TypeName(walkthrough_F5R1::typeid));
+}
+
+
+void fishparty::guided_tour_nav::ten_ft_walkthrough_click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	nav_to_page(Windows::UI::Xaml::Interop::TypeName(walkthrough_L1F1::typeid));
+}
+
+
+void fishparty::guided_tour_nav::oxy_gen_walkthrough_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	nav_to_page(Windows::UI::Xaml::Interop::TypeName(walkthrough_F3R1F3R1F2L1F2::typeid));
+}

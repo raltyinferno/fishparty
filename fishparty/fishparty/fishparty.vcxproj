@@ -770,7 +770,6 @@
     <Image Include="Assets\advance_icon.png" />
     <Image Include="Assets\air_background.jpg" />
     <Image Include="Assets\back_icon.png" />
-    <Image Include="Assets\bg_wintake.jpg" />
     <Image Include="Assets\boiler_room.jpg" />
     <Image Include="Assets\boiler_room2.jpg" />
     <Image Include="Assets\co2.jpg" />
@@ -804,6 +803,7 @@
     <Image Include="Assets\left_arrow.png" />
     <Image Include="Assets\LockScreenLogo.scale-200.png" />
     <Image Include="Assets\magnify.png" />
+    <Image Include="Assets\map_icon.png" />
     <Image Include="Assets\next_icon.png" />
     <Image Include="Assets\nitrogen.jpg" />
     <Image Include="Assets\right_arrow.png" />
@@ -950,7 +950,6 @@
     <Image Include="Assets\walkthrough_maps\map_L1F2R1.png" />
     <Image Include="Assets\walkthrough_maps\map_start.png" />
     <Image Include="Assets\Water Intake\bg_wintake.jpg" />
-    <Image Include="Assets\Water Intake\wintrains_sweep.gif" />
     <Image Include="Assets\Water Intake\win_close.jpg" />
     <Image Include="Assets\Wide310x150Logo.scale-200.png" />
     <Image Include="Assets\win_close.jpg" />
@@ -1222,7 +1221,10 @@
     <Media Include="Assets\Egg Room Guided Tour\egg_trays.mp4" />
     <Media Include="Assets\helicopter_stocking.mp4" />
     <Media Include="Assets\oxygenation.mp4" />
+    <Media Include="Assets\rigid_stocking.mp4" />
     <Media Include="Assets\stocking_process.mp4" />
+    <Media Include="Assets\truck_backing.mp4" />
+    <Media Include="Assets\Water Intake\water_intake.mp4" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

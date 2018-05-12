@@ -41,8 +41,8 @@
         <Button Style="{StaticResource guided_back_button}" Click="prev_page_Click">
             <TextBlock VerticalAlignment="Center">30ft Filters</TextBlock>
         </Button>
-        <Button Style="{StaticResource guided_forward_button}" Click="next_page_Click">
-            <TextBlock VerticalAlignment="Center">Oxygen Gen</TextBlock>
+        <Button Style="{StaticResource guided_forward_button}" Click="next_page_Click" Width="410">
+            <TextBlock VerticalAlignment="Center">Oxygen Generation</TextBlock>
         </Button>
     </Grid>
 </Page>
