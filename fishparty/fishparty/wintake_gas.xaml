@@ -33,26 +33,52 @@
 
             <Button x:Name="heating"
                     Background="{StaticResource heat}"
-                    Click="heating_Click"
                     Grid.Column="0" Grid.Row="0" 
                     HorizontalAlignment="Stretch" 
                     VerticalAlignment="Stretch" />
+            <Button Style="{StaticResource content_display_open_style}"
+                    HorizontalAlignment="Left" VerticalAlignment="Bottom"
+                    Click="heating_Click"
+                    Grid.Column="0" Grid.Row="0" 
+                    Height="200" Width="200">
+                Water Heating
+            </Button>
             
             <Button x:Name="carbondiox"
-                    Background="{StaticResource co2treat}"
-                    Click="oxygen_Click"                    
+                    Background="{StaticResource co2treat}"                  
                     Grid.Column="2" Grid.Row="0" 
                     HorizontalAlignment="Stretch" 
                     VerticalAlignment="Stretch" />
+            <Button Style="{StaticResource content_display_open_style}"
+                    HorizontalAlignment="Right" VerticalAlignment="Bottom"
+                    Click="oxygen_Click"                    
+                    Grid.Column="2" Grid.Row="0" 
+                    Height="200" Width="200">
+                <TextBlock>
+                    <Run>CO</Run>
+                    <Run Typography.Variants="Subscript">2</Run>
+                    <Run> Removal</Run>
+                </TextBlock>
+            </Button>
             <Button x:Name="nitrogen"
                     Background="{StaticResource nostreat}"
-                    Click="nitrogen_Click"
                     Grid.Column="0" Grid.Row="2" 
                     HorizontalAlignment="Stretch" 
                     VerticalAlignment="Stretch" />
-            
-            
-           
+            <Button Style="{StaticResource content_display_open_style}"
+                    HorizontalAlignment="Right" VerticalAlignment="Top"
+                    Click="nitrogen_Click"                    
+                    Grid.Column="0" Grid.Row="2" 
+                    Height="200" Width="200">
+                <TextBlock>
+                    <Run>N</Run>
+                    <Run Typography.Variants="Subscript">2</Run>
+                    <Run> Removal</Run>
+                </TextBlock>
+            </Button>
+
+
+
 
 
             <Button Style="{StaticResource guided_forward_button}" Click="next_page_Click" Grid.Column="3" Grid.Row="3">

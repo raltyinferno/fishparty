@@ -7,8 +7,8 @@
     <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
     <AppContainerApplication>true</AppContainerApplication>
     <ApplicationType>Windows Store</ApplicationType>
-    <WindowsTargetPlatformVersion Condition=" '$(WindowsTargetPlatformVersion)' == '' ">10.0.15063.0</WindowsTargetPlatformVersion>
-    <WindowsTargetPlatformMinVersion>10.0.15063.0</WindowsTargetPlatformMinVersion>
+    <WindowsTargetPlatformVersion Condition=" '$(WindowsTargetPlatformVersion)' == '' ">10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.16299.0</WindowsTargetPlatformMinVersion>
     <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -744,28 +744,31 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="Assets\10ft Tank Guided Tour\10food.gif" />
     <Image Include="Assets\10ft Tank Guided Tour\10ft_001.jpg" />
     <Image Include="Assets\10ft Tank Guided Tour\10ft_001_old.jpg" />
     <Image Include="Assets\10ft Tank Guided Tour\10ft_002.jpg" />
+    <Image Include="Assets\10ft Tank Guided Tour\cond_column.jpg" />
     <Image Include="Assets\10ft Tank Guided Tour\side_drain.jpg" />
-    <Image Include="Assets\10ft Tank Guided Tour\tank_release.gif" />
     <Image Include="Assets\25ft Filters\big_close.jpg" />
     <Image Include="Assets\25ft Filters\big_top.jpg" />
     <Image Include="Assets\25ft Filters\biofilter_sweep.gif" />
+    <Image Include="Assets\25ft Filters\bio_alt.jpg" />
     <Image Include="Assets\25ft Filters\drum_close.jpg" />
     <Image Include="Assets\25ft Filters\filter_bg.jpg" />
     <Image Include="Assets\25ft Filters\header_close.jpg" />
+    <Image Include="Assets\25ft Filters\header_tank.jpg" />
     <Image Include="Assets\25ft Filters\ozone_close.jpg" />
     <Image Include="Assets\25ft Filters\tank_close.jpg" />
     <Image Include="Assets\25ft Tank\25ft_close.jpg" />
     <Image Include="Assets\25ft Tank\25ft_food.jpg" />
     <Image Include="Assets\25ft Tank\25ft_grayling.jpg" />
     <Image Include="Assets\25ft Tank\25ft_oh.jpg" />
-    <Image Include="Assets\25ft Tank\30food.gif" />
+    <Image Include="Assets\25ft Tank\30_oh_bw.jpg" />
+    <Image Include="Assets\25ft Tank\radial_close.jpg" />
+    <Image Include="Assets\25ft Tank\tank_close.jpg" />
     <Image Include="Assets\5ft Tank Guided Tour\5ft_001.jpg" />
-    <Image Include="Assets\5ft Tank Guided Tour\5ft_001_01.jpg" />
     <Image Include="Assets\5ft Tank Guided Tour\fish_close.gif" />
+    <Image Include="Assets\5ft Tank Guided Tour\header_tank.jpg" />
     <Image Include="Assets\ADFG_trans_logo.gif" />
     <Image Include="Assets\advance_icon.png" />
     <Image Include="Assets\air_background.jpg" />
@@ -778,6 +781,7 @@
     <Image Include="Assets\delivery_truck3.jpg" />
     <Image Include="Assets\down_arrow.png" />
     <Image Include="Assets\Effluent Guided Tour\effluent.jpg" />
+    <Image Include="Assets\Effluent Guided Tour\eff_close.jpg" />
     <Image Include="Assets\Egg Receiving\egg_001.jpg" />
     <Image Include="Assets\Egg Receiving\egg_pour.gif" />
     <Image Include="Assets\Egg Room Guided Tour\egg_001.jpg" />
@@ -795,6 +799,7 @@
     <Image Include="Assets\Gas Conditioning\co2.jpg" />
     <Image Include="Assets\Gas Conditioning\heat.jpg" />
     <Image Include="Assets\Gas Conditioning\nitrogen.jpg" />
+    <Image Include="Assets\Gas Conditioning\nitro_close.jpg" />
     <Image Include="Assets\hamburger.png" />
     <Image Include="Assets\hatchery_map.jpg" />
     <Image Include="Assets\heat.jpg" />
@@ -1216,6 +1221,8 @@
   <ItemGroup>
     <Media Include="Assets\10ft Tank Guided Tour\fishparty_06.mp4" />
     <Media Include="Assets\25ft Filters\30ft_filters.mp4" />
+    <Media Include="Assets\25ft Tank\30food.mp4" />
+    <Media Include="Assets\5ft Tank Guided Tour\fish_uw.mp4" />
     <Media Include="Assets\Egg Receiving\disinfecting.mp4" />
     <Media Include="Assets\Egg Room Guided Tour\alevin.mp4" />
     <Media Include="Assets\Egg Room Guided Tour\egg_trays.mp4" />

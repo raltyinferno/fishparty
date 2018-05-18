@@ -46,13 +46,6 @@
                 Second Stage Filtering
             </Button>
             
-            <Button Grid.Row="0" Grid.Column="3"
-                    VerticalAlignment="Top" HorizontalAlignment="Right"
-                    Click="wintake_gas_Click"
-                    UseLayoutRounding="False" d:LayoutRounding="Auto" FontWeight="Bold" 
-                    Foreground="Black" Background="LightGreen">
-                <TextBlock TextWrapping="WrapWholeWords" FontSize="32">Gas Conditioning</TextBlock>
-            </Button>
 
         </Grid>
 

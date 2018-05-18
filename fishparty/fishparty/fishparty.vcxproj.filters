@@ -302,9 +302,6 @@
     <Image Include="Assets\5ft Tank Guided Tour\5ft_001.jpg">
       <Filter>images\5ft Guided Tour</Filter>
     </Image>
-    <Image Include="Assets\5ft Tank Guided Tour\5ft_001_01.jpg">
-      <Filter>images\5ft Guided Tour</Filter>
-    </Image>
     <Image Include="Assets\Front Tanks Guided Tour\front_001.jpg">
       <Filter>images\Front Tanks Guided Tour</Filter>
     </Image>
@@ -807,17 +804,35 @@
     <Image Include="Assets\5ft Tank Guided Tour\fish_close.gif">
       <Filter>images\5ft Guided Tour</Filter>
     </Image>
-    <Image Include="Assets\10ft Tank Guided Tour\10food.gif">
-      <Filter>images\10ft Guided Tour</Filter>
-    </Image>
-    <Image Include="Assets\10ft Tank Guided Tour\tank_release.gif">
-      <Filter>images\10ft Guided Tour</Filter>
-    </Image>
-    <Image Include="Assets\25ft Tank\30food.gif">
-      <Filter>images\25ft Guided Tour</Filter>
-    </Image>
     <Image Include="Assets\map_icon.png">
       <Filter>images</Filter>
+    </Image>
+    <Image Include="Assets\Gas Conditioning\nitro_close.jpg">
+      <Filter>images\Gas Conditioning</Filter>
+    </Image>
+    <Image Include="Assets\5ft Tank Guided Tour\header_tank.jpg">
+      <Filter>images\5ft Guided Tour</Filter>
+    </Image>
+    <Image Include="Assets\10ft Tank Guided Tour\cond_column.jpg">
+      <Filter>images\10ft Guided Tour</Filter>
+    </Image>
+    <Image Include="Assets\25ft Tank\tank_close.jpg">
+      <Filter>images\25ft Guided Tour</Filter>
+    </Image>
+    <Image Include="Assets\25ft Tank\radial_close.jpg">
+      <Filter>images\25ft Guided Tour</Filter>
+    </Image>
+    <Image Include="Assets\25ft Tank\30_oh_bw.jpg">
+      <Filter>images\25ft Guided Tour</Filter>
+    </Image>
+    <Image Include="Assets\25ft Filters\bio_alt.jpg">
+      <Filter>images\25ft Filter Guided Tour</Filter>
+    </Image>
+    <Image Include="Assets\25ft Filters\header_tank.jpg">
+      <Filter>images\25ft Filter Guided Tour</Filter>
+    </Image>
+    <Image Include="Assets\Effluent Guided Tour\eff_close.jpg">
+      <Filter>images\Effluent Guided Tour</Filter>
     </Image>
   </ItemGroup>
   <ItemGroup>
@@ -1292,6 +1307,12 @@
     </Media>
     <Media Include="Assets\Water Intake\water_intake.mp4">
       <Filter>images\Water Intake</Filter>
+    </Media>
+    <Media Include="Assets\5ft Tank Guided Tour\fish_uw.mp4">
+      <Filter>images\5ft Guided Tour</Filter>
+    </Media>
+    <Media Include="Assets\25ft Tank\30food.mp4">
+      <Filter>images\25ft Guided Tour</Filter>
     </Media>
   </ItemGroup>
 </Project>
