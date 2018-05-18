@@ -5,7 +5,7 @@ void fishparty::open_content(Platform::String ^ content, Windows::UI::Xaml::Cont
 {
 	auto source = ref new Windows::Foundation::Uri(content);
 	content_webview->Navigate(source);
-
+	
 	if (content_webview->Visibility == Windows::UI::Xaml::Visibility::Collapsed)
 	{
 		content_webview->Visibility = Windows::UI::Xaml::Visibility::Visible;
