@@ -29,7 +29,7 @@
             <Button x:Name="eggs"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Egg Intake" Click="eggs_Click"/>
             <Button x:Name="eggs2"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="Incubation" Click="eggs2_Click"/>
             <Button x:Name="fivetanks"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="5 Foot Tanks" Click="five_tanks_Click"/>
-            <Button x:Name="tentanks"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="10 Foot Tanks)" Click="siz_tanks_Click"/>
+            <Button x:Name="tentanks"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="10 Foot Tanks" Click="siz_tanks_Click"/>
             <Button x:Name="life_support"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="30 Foot Tanks" Click="tf_tanks_Click"/>
             <Button x:Name="life_sup_filt" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Content="30 Foot Tank Filters" Click="tf_filts_Click"/>
             <Rectangle/>
