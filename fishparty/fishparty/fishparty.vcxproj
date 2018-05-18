@@ -772,8 +772,6 @@
     <Image Include="Assets\advance_icon.png" />
     <Image Include="Assets\air_background.jpg" />
     <Image Include="Assets\back_icon.png" />
-    <Image Include="Assets\boiler_room.jpg" />
-    <Image Include="Assets\boiler_room2.jpg" />
     <Image Include="Assets\co2.jpg" />
     <Image Include="Assets\compass.png" />
     <Image Include="Assets\delivery_truck2.png" />
@@ -790,7 +788,6 @@
     <Image Include="Assets\Egg Room Guided Tour\egg_002_03.jpg" />
     <Image Include="Assets\Egg Room Guided Tour\header_tanks.jpg" />
     <Image Include="Assets\egg_intake.jpg" />
-    <Image Include="Assets\filter.gif" />
     <Image Include="Assets\fishparty_bubble.png" />
     <Image Include="Assets\fishparty_splash_background.png" />
     <Image Include="Assets\Front Tanks Guided Tour\arcticchar_largemap.jpg" />
@@ -810,6 +807,7 @@
     <Image Include="Assets\map_icon.png" />
     <Image Include="Assets\next_icon.png" />
     <Image Include="Assets\nitrogen.jpg" />
+    <Image Include="Assets\oxy_tank.jpg" />
     <Image Include="Assets\right_arrow.png" />
     <Image Include="Assets\Round_Icon.png" />
     <Image Include="Assets\salmon.gif" />
