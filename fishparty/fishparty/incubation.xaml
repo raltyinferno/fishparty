@@ -21,8 +21,7 @@
             <local:overview_button Tapped="show_overview"/>
         </Grid>
 
-        <local:navigation_button/>
-        <local:home_button/>
+        <local:guided_home_nav/>
         <Button Style="{StaticResource guided_forward_button}" Click="next_page_Click">
             <StackPanel Orientation="Horizontal">
                 <TextBlock VerticalAlignment="Center">Incubation</TextBlock>

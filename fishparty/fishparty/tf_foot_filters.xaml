@@ -15,8 +15,7 @@
     </Page.Resources>
 
     <Grid Background="{ThemeResource tfFbgGrid}">
-        <local:navigation_button/>
-        <local:home_button/>
+        <local:guided_home_nav/>
         <!-- Title -->
         <Grid Style="{StaticResource title_grid_style}">
             <Rectangle Style="{StaticResource title_box_style}" Width="1180"/>

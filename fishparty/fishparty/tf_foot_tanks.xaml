@@ -15,8 +15,7 @@
 
     <Grid Background="{ThemeResource thirtybgGrid}" x:Name="bg_grid">
         <!-- navigation/home buttons -->
-        <local:navigation_button/>
-        <local:home_button/>
+        <local:guided_home_nav/>
         <!-- end navigation/home buttons -->
 
         <!-- Title -->

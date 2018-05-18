@@ -15,8 +15,7 @@
         
         
     <Grid Background="{StaticResource water_intake}" x:Name="page_grid">
-        <local:navigation_button/>
-        <local:home_button/>
+        <local:guided_home_nav/>
         <Grid Style="{StaticResource title_grid_style}">
             <Rectangle Style="{StaticResource title_box_style}" Width="768"/>
             <TextBlock Style="{StaticResource title_text_style}">Water Intake</TextBlock>

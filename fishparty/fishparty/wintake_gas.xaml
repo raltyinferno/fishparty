@@ -126,7 +126,6 @@
         </Grid>
 
 
-        <local:navigation_button/>
-        <local:home_button/>
+        <local:guided_home_nav/>
     </Grid>
 </Page>

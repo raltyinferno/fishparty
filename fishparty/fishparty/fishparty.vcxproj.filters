@@ -1190,6 +1190,9 @@
     <Page Include="wintake_gas.xaml">
       <Filter>guided tour pages</Filter>
     </Page>
+    <Page Include="guided_home_nav.xaml">
+      <Filter>global resources</Filter>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="images">

@@ -14,8 +14,7 @@
     </Page.Resources>
 
     <Grid Background="{StaticResource walk1}" x:Name="page_grid">
-        <local:home_button/>
-        <local:navigation_button/>
+        <local:guided_home_nav/>
         <Grid Style="{StaticResource title_grid_style}">
             <Rectangle Style="{StaticResource title_box_style}" Width="680"/>
             <TextBlock Style="{StaticResource title_text_style}">Incubation</TextBlock>

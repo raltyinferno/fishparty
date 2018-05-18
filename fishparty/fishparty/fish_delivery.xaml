@@ -13,8 +13,7 @@
     </Page.Resources>
 
     <Grid Background="{StaticResource delivery_truck}" x:Name="page_grid">
-        <controls:home_button/>
-        <controls:navigation_button/>
+        <controls:guided_home_nav/>
 
         <Grid Style="{StaticResource title_grid_style}">
             <Rectangle Style="{StaticResource title_box_style}" Width="840"/>
