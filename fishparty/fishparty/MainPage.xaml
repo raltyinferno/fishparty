@@ -69,8 +69,10 @@
         <Style x:Name="button_style" TargetType="Button">
             <Setter Property="HorizontalAlignment" Value="Center"/>
             <Setter Property="FontSize" Value="28"/>
-            <Setter Property="Height" Value="80"/>
-            <Setter Property="Width" Value="180"/>
+            <Setter Property="Height" Value="150"/>
+            <Setter Property="Width" Value="300"/>
+            <Setter Property="FontSize" Value="32"/>
+            <Setter Property="FontWeight" Value="Bold"/>
             <Setter Property="Background" Value="LightGreen"/>
             <Setter Property="Foreground" Value="Black"/>
         </Style>
@@ -95,15 +97,19 @@
         <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="4*"/>
-                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height=".7*"/>
                     <RowDefinition Height="3*"/>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
 
                 </Grid.ColumnDefinitions>
-                <Button x:Name="tour_button" Style="{StaticResource button_style}" Content="Start Tour" Click="start_tour_button_Click" VerticalAlignment="Bottom" Grid.Row="0"/>
+                <Button x:Name="tour_button" Style="{StaticResource button_style}" Content="Start Tour" 
+                        Click="start_tour_button_Click" VerticalAlignment="Bottom"
+                        Width="400" Height="160" Grid.Row="0"/>
 
-                <Button x:Name="explore_button" Style="{StaticResource button_style}" Content="Walkthrough" Click="explore_button_Click" VerticalAlignment="Top" Grid.Row="2"/>
+                <Button x:Name="explore_button" Style="{StaticResource button_style}" Content="Walkthrough"
+                        Click="explore_button_Click" VerticalAlignment="Top"
+                        Height="130" Grid.Row="2"/>
             </Grid>
 
         <Image x:Name="bubble_1" Width="100" Height="100" Source="Assets/fishparty_bubble.png" HorizontalAlignment="Left" Margin="167,1041,0,-61" RenderTransformOrigin="0.5,0.5"  >
