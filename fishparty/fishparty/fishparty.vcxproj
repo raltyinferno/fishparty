@@ -762,6 +762,7 @@
     <Image Include="Assets\25ft Filters\filter_bg.jpg" />
     <Image Include="Assets\25ft Filters\header_close.jpg" />
     <Image Include="Assets\25ft Filters\header_tank.jpg" />
+    <Image Include="Assets\25ft Filters\lho.jpg" />
     <Image Include="Assets\25ft Filters\ozone_close.jpg" />
     <Image Include="Assets\25ft Filters\tank_close.jpg" />
     <Image Include="Assets\25ft Tank\25ft_close.jpg" />
